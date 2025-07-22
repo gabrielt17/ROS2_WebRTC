@@ -1,0 +1,39 @@
+# .devcontainer/docker-compose.yml
+# VERSÃO COMPLETA E CORRIGIDA (VÍDEO + ÁUDIO)
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: ./.devcontainer
+      dockerfile: Dockerfile 
+    
+    # Remove o isolamento de rede e IPC (essencial para vídeo e áudio)
+    network_mode: host
+    ipc: host
+    privileged: true
+    
+    volumes:
+      - .:/home/devuser/Workspaces:cached
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ${HOME}/.Xauthority:/home/devuser/.Xauthority:ro
+      # NOVO: Monta o diretório de runtime do host, que contém o socket do PipeWire.
+      # Esta é a forma mais robusta de garantir o acesso.
+      - ${XDG_RUNTIME_DIR}:${XDG_RUNTIME_DIR}
+
+    environment:
+      # Força o uso do display REAL do host
+      - DISPLAY=${DISPLAY}
+      - WAYLAND_DISPLAY=${WAYLAND_DISPLAY}
+      # NOVO: Passa as variáveis para o PipeWire saber onde se conectar
+      # Diz a todas as aplicações onde encontrar os sockets (PipeWire, PulseAudio, etc.)
+      - XDG_RUNTIME_DIR=${XDG_RUNTIME_DIR}
+      # Especifica o diretório para o PipeWire explicitamente
+      - PIPEWIRE_RUNTIME_DIR=${XDG_RUNTIME_DIR}
+
+    devices:
+      - /dev/dri:/dev/dri
+      # NOVO: Garante acesso aos dispositivos de som (placa de som)
+      - /dev/snd
+
+    command: sleep infinity

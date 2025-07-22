@@ -1,0 +1,33 @@
+// .devcontainer/devcontainer.json
+{
+    "name": "ROS2 Humble WebRTC (Ubuntu 22.04)",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/home/devuser/Workspaces",
+
+    
+
+    // Define o usuário que o VSCode usará para se conectar ao contêiner
+    "remoteUser": "devuser",
+
+    // Recomenda extensões úteis do VSCode para serem instaladas no contêiner
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "ms-vscode.cpptools-extension-pack",
+                "ms-vscode.cmake-tools",
+                "ms-azuretools.vscode-docker",
+                "mutantdino.resourcemonitor",
+                "ms-python.python",
+                "KevinRose.vsc-python-indent"
+            ]
+        }
+    },
+
+    
+
+    // Executa um comando após a criação do contêiner.
+    // Útil para configurar permissões ou outras tarefas iniciais.
+    "postCreateCommand": "sudo chown -R $(whoami) /home/devuser/Workspaces"
+}
