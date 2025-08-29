@@ -47,6 +47,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     python3-rosdep \
     python3-rosinstall-generator \
     python3-vcstool \
+    ros-humble-ros-core \
+    ros-humble-gazebo-msgs \
+    ros-humble-gazebo-plugins \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Inicializa rosdep
