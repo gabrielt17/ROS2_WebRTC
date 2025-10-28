@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-769a9305b4ff7d58d00f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gst_bridge",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gst_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gst_bridge-RelWithDebInfo-4b965cf6a70f8254a84a.json",
+					"name" : "gst_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gst_bridge_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gst_bridge_uninstall-RelWithDebInfo-41b4f16f9d699393800b.json",
+					"name" : "gst_bridge_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rosgstbridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rosgstbridge-RelWithDebInfo-6c6bf7d9ee4bbcd65672.json",
+					"name" : "rosgstbridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-RelWithDebInfo-0641ab06ec525b84f3f7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/devuser/Workspaces/ros2gstHumble_ws/build/gst_bridge",
+		"source" : "/home/devuser/Workspaces/ros2gstHumble_ws/src/ros-gst-bridge/gst_bridge"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

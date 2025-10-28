@@ -52,8 +52,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ros-humble-gazebo-plugins \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Inicializa rosdep
-RUN rosdep update
 
 # Script para criar usuário com UID/GID igual ao host
 RUN set -x && \
@@ -71,6 +69,9 @@ RUN groupadd --gid 985 dri && groupadd --gid 989 render && \
 WORKDIR ${HOME}/${USERNAME}/Workspaces
 
 USER ${USERNAME}
+
+# Inicializa rosdep
+RUN rosdep update
 
 # Garante o ambiente ROS em shells interativos
 RUN echo "source /opt/ros/humble/setup.bash" \

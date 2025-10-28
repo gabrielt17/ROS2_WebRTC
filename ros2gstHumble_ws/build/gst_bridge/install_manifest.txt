@@ -1,0 +1,1 @@
+/home/devuser/Workspaces/ros2gstHumble_ws/install/gst_bridge/lib/libgst_bridge.so

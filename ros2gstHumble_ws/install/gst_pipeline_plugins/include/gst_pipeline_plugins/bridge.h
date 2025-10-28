@@ -1,0 +1,1 @@
+/home/devuser/Workspaces/ros2gstHumble_ws/src/ros-gst-bridge/gst_pipeline_plugins/include/gst_pipeline_plugins/bridge.h
