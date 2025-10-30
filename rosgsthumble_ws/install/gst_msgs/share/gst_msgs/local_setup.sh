@@ -1,0 +1,1 @@
+/home/devuser/Workspaces/rosgsthumble_ws/build/gst_msgs/ament_cmake_environment_hooks/local_setup.sh

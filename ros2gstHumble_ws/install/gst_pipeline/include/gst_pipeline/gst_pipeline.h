@@ -1,1 +1,0 @@
-/home/devuser/Workspaces/ros2gstHumble_ws/src/ros-gst-bridge/gst_pipeline/include/gst_pipeline/gst_pipeline.h

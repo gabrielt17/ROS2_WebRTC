@@ -1,1 +1,0 @@
-/home/devuser/Workspaces/ros2gstHumble_ws/build/gst_msgs/rosidl_generator_c/gst_msgs/msg/detail/clock_observation__struct.h

@@ -1,0 +1,12 @@
+{
+  "package_name": "gst_msgs",
+  "non_idl_tuples": [
+    "/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs:msg/FrameGate.msg",
+    "/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs:msg/WebrtcIce.msg",
+    "/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs:msg/BufferEvent.msg",
+    "/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs:msg/ClockObservation.msg",
+    "/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs:msg/MultifilesinkEvent.msg",
+    "/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs:msg/MetaMark.msg",
+    "/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs:srv/Seek.srv"
+  ]
+}

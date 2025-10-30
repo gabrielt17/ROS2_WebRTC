@@ -1,6 +1,0 @@
-Invoking command in '/home/devuser/Workspaces/ros2gstHumble_ws/build/cpp_campub': /usr/bin/cmake /home/devuser/Workspaces/ros2gstHumble_ws/src/cpp_campub -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/ros2gstHumble_ws/install/cpp_campub
-Invoked command in '/home/devuser/Workspaces/ros2gstHumble_ws/build/cpp_campub' returned '0': /usr/bin/cmake /home/devuser/Workspaces/ros2gstHumble_ws/src/cpp_campub -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/ros2gstHumble_ws/install/cpp_campub
-Invoking command in '/home/devuser/Workspaces/ros2gstHumble_ws/build/cpp_campub': /usr/bin/cmake --build /home/devuser/Workspaces/ros2gstHumble_ws/build/cpp_campub -- -j16 -l16
-Invoked command in '/home/devuser/Workspaces/ros2gstHumble_ws/build/cpp_campub' returned '0': /usr/bin/cmake --build /home/devuser/Workspaces/ros2gstHumble_ws/build/cpp_campub -- -j16 -l16
-Invoking command in '/home/devuser/Workspaces/ros2gstHumble_ws/build/cpp_campub': /usr/bin/cmake --install /home/devuser/Workspaces/ros2gstHumble_ws/build/cpp_campub
-Invoked command in '/home/devuser/Workspaces/ros2gstHumble_ws/build/cpp_campub' returned '0': /usr/bin/cmake --install /home/devuser/Workspaces/ros2gstHumble_ws/build/cpp_campub

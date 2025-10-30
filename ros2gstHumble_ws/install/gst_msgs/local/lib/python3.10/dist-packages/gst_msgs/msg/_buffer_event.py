@@ -1,1 +1,0 @@
-/home/devuser/Workspaces/ros2gstHumble_ws/build/gst_msgs/rosidl_generator_py/gst_msgs/msg/_buffer_event.py

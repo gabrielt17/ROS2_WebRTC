@@ -1,1 +1,0 @@
-/home/devuser/Workspaces/ros2gstHumble_ws/build/gst_msgs/rosidl_generator_cpp/gst_msgs/msg/detail/buffer_event__type_support.hpp

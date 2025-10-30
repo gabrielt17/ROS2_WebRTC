@@ -1,7 +1,0 @@
-/home/devuser/Workspaces/ros2gstHumble_ws/build/gst_msgs/rosidl_adapter/gst_msgs:msg/FrameGate.idl
-/home/devuser/Workspaces/ros2gstHumble_ws/build/gst_msgs/rosidl_adapter/gst_msgs:msg/WebrtcIce.idl
-/home/devuser/Workspaces/ros2gstHumble_ws/build/gst_msgs/rosidl_adapter/gst_msgs:msg/BufferEvent.idl
-/home/devuser/Workspaces/ros2gstHumble_ws/build/gst_msgs/rosidl_adapter/gst_msgs:msg/ClockObservation.idl
-/home/devuser/Workspaces/ros2gstHumble_ws/build/gst_msgs/rosidl_adapter/gst_msgs:msg/MultifilesinkEvent.idl
-/home/devuser/Workspaces/ros2gstHumble_ws/build/gst_msgs/rosidl_adapter/gst_msgs:msg/MetaMark.idl
-/home/devuser/Workspaces/ros2gstHumble_ws/build/gst_msgs/rosidl_adapter/gst_msgs:srv/Seek.idl

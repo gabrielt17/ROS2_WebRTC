@@ -1,0 +1,1 @@
+/home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs/rosidl_generator_py/audio_msgs/_audio_msgs_s.ep.rosidl_typesupport_c.c

@@ -1,1 +1,0 @@
-/home/devuser/Workspaces/ros2gstHumble_ws/build/gst_msgs/rosidl_typesupport_fastrtps_c/gst_msgs/msg/detail/meta_mark__rosidl_typesupport_fastrtps_c.h

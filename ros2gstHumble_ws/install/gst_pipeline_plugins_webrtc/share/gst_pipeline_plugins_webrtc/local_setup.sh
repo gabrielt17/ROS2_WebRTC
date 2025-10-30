@@ -1,1 +1,0 @@
-/home/devuser/Workspaces/ros2gstHumble_ws/build/gst_pipeline_plugins_webrtc/ament_cmake_environment_hooks/local_setup.sh

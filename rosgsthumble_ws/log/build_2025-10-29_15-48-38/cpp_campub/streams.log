@@ -1,0 +1,26 @@
+[0.012s] Invoking command in '/home/devuser/Workspaces/rosgsthumble_ws/build/cpp_campub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/devuser/Workspaces/rosgsthumble_ws/build/cpp_campub -- -j16 -l16
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target camera_publisher[0m
+[0.072s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o[0m
+[4.488s] [100%] [32m[1mLinking CXX executable camera_publisher[0m
+[4.943s] [100%] Built target camera_publisher
+[4.952s] Invoked command in '/home/devuser/Workspaces/rosgsthumble_ws/build/cpp_campub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/devuser/Workspaces/rosgsthumble_ws/build/cpp_campub -- -j16 -l16
+[4.953s] Invoking command in '/home/devuser/Workspaces/rosgsthumble_ws/build/cpp_campub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/devuser/Workspaces/rosgsthumble_ws/build/cpp_campub
+[4.959s] -- Install configuration: ""
+[4.960s] -- Execute custom install script
+[4.960s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub/lib/cpp_campub/camera_publisher
+[4.960s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub/share/ament_index/resource_index/package_run_dependencies/cpp_campub
+[4.960s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub/share/ament_index/resource_index/parent_prefix_path/cpp_campub
+[4.960s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/environment/ament_prefix_path.sh
+[4.961s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/environment/ament_prefix_path.dsv
+[4.961s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/environment/path.sh
+[4.961s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/environment/path.dsv
+[4.961s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/local_setup.bash
+[4.961s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/local_setup.sh
+[4.961s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/local_setup.zsh
+[4.961s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/local_setup.dsv
+[4.961s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/package.dsv
+[4.970s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub/share/ament_index/resource_index/packages/cpp_campub
+[4.970s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/cmake/cpp_campubConfig.cmake
+[4.970s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/cmake/cpp_campubConfig-version.cmake
+[4.970s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/package.xml
+[4.972s] Invoked command in '/home/devuser/Workspaces/rosgsthumble_ws/build/cpp_campub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/devuser/Workspaces/rosgsthumble_ws/build/cpp_campub

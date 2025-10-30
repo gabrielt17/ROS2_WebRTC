@@ -1,3 +1,0 @@
-/home/devuser/Workspaces/ros2gstHumble_ws/install/gst_pipeline/lib/libgst_pipeline.so
-/home/devuser/Workspaces/ros2gstHumble_ws/install/gst_pipeline/share/gst_pipeline/cmake/export_gst_pipelineExport.cmake
-/home/devuser/Workspaces/ros2gstHumble_ws/install/gst_pipeline/share/gst_pipeline/cmake/export_gst_pipelineExport-noconfig.cmake

@@ -1,1 +1,0 @@
-/home/devuser/Workspaces/ros2gstHumble_ws/build/audio_msgs/rosidl_generator_cpp/audio_msgs/msg/detail/audio__builder.hpp

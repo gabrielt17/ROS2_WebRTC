@@ -1,0 +1,15 @@
+setup.py
+gst_msgs/__init__.py
+gst_msgs.egg-info/PKG-INFO
+gst_msgs.egg-info/SOURCES.txt
+gst_msgs.egg-info/dependency_links.txt
+gst_msgs.egg-info/top_level.txt
+gst_msgs/msg/__init__.py
+gst_msgs/msg/_buffer_event.py
+gst_msgs/msg/_clock_observation.py
+gst_msgs/msg/_frame_gate.py
+gst_msgs/msg/_meta_mark.py
+gst_msgs/msg/_multifilesink_event.py
+gst_msgs/msg/_webrtc_ice.py
+gst_msgs/srv/__init__.py
+gst_msgs/srv/_seek.py
