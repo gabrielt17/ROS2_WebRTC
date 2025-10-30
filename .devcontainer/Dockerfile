@@ -46,6 +46,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ros-humble-ros-core \
     ros-humble-gazebo-msgs \
     ros-humble-gazebo-plugins \
+    ros-humble-ament-cmake-clang-format \
+    ros-humble-osrf-testing-tools-cpp \
+    libjson-glib-dev \
     \
     # NVIDIA
     libglx-mesa0 \
