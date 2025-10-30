@@ -60,9 +60,6 @@ private:
 
     cv_bridge::CvImage cv_image(header, "bgr8", frame);
     publisher_->publish(*cv_image.toImageMsg());
-    
-    cv::imshow("Camera View", frame);
-    cv::waitKey(1);
   }
 
   std::string device_;

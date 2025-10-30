@@ -22,14 +22,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libssl-dev \
     \
     # GStreamer + Plugins
-    gstreamer1.0-tools libgstreamer1.0-dev \
-    libgstreamer-plugins-base1.0-dev \
-    gstreamer1.0-plugins-good \
-    gstreamer1.0-plugins-bad \
-    gstreamer1.0-plugins-ugly \
-    gstreamer1.0-libav \
-    gstreamer1.0-nice \
-    gstreamer1.0-gl \
+    gstreamer1.0-* \ 
+    libgstreamer1.0-dev \
+    libgstreamer-plugins-* \
+    gstreamer1.0-plugins-* \
     gstreamer1.0-vaapi mesa-va-drivers \
     libgtk-3-dev libx11-dev libwayland-dev x11-apps \
     \
@@ -50,6 +46,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ros-humble-ros-core \
     ros-humble-gazebo-msgs \
     ros-humble-gazebo-plugins \
+    \
+    # NVIDIA
+    libglx-mesa0 \
+    mesa-utils \
+    \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 
@@ -76,7 +77,7 @@ RUN rosdep update
 # Garante o ambiente ROS em shells interativos
 RUN echo "source /opt/ros/humble/setup.bash" \
     >> /home/${USERNAME}/.bashrc \
-    && echo "source /home/${USERNAME}/Workspaces/ros2_ws/install/setup.bash" \
+    && echo "source /home/${USERNAME}/Workspaces/rosgsthumble_ws/install/setup.bash" \
     >> /home/${USERNAME}/.bashrc
 
 
