@@ -24,19 +24,24 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     # GStreamer + Plugins
     gstreamer1.0-* \ 
     libgstreamer1.0-dev \
-    libgstreamer-plugins-* \
-    gstreamer1.0-plugins-* \
-    gstreamer1.0-vaapi mesa-va-drivers \
-    libgtk-3-dev libx11-dev libwayland-dev x11-apps \
+    libgstreamer-plugins-base1.0-dev \
+    libgstreamer-plugins-bad1.0-dev \
+    libgstreamer-plugins-good1.0-dev \
+    libglib2.0-dev \
+    mesa-va-drivers \
+    libgtk-3-dev \ 
+    libx11-dev \ 
+    libwayland-dev \ 
+    x11-apps \
     \
     # PipeWire (áudio)
-    pipewire libspa-0.2-modules gstreamer1.0-pipewire \
+    pipewire libspa-0.2-modules \
+    gstreamer1.0-pipewire \
     \
     # WebRTC
     libgstreamer-plugins-bad1.0-dev \
     libnice-dev \
     libsrtp2-dev \
-    libglib2.0-dev \
     \
     # Ferramentas ROS2
     python3-colcon-common-extensions \
@@ -83,5 +88,6 @@ RUN echo "source /opt/ros/humble/setup.bash" \
     && echo "source /home/${USERNAME}/Workspaces/rosgsthumble_ws/install/setup.bash" \
     >> /home/${USERNAME}/.bashrc
 
+ENV PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig:$PKG_CONFIG_PATH
 
 CMD ["/bin/bash"]

@@ -1,0 +1,10 @@
+/home/devuser/Workspaces/build/gst_pipeline_plugins_webrtc/CMakeFiles/uninstall.dir
+/home/devuser/Workspaces/build/gst_pipeline_plugins_webrtc/CMakeFiles/gst_pipeline_plugins_webrtc_uninstall.dir
+/home/devuser/Workspaces/build/gst_pipeline_plugins_webrtc/CMakeFiles/gst_pipeline_plugins_webrtc.dir
+/home/devuser/Workspaces/build/gst_pipeline_plugins_webrtc/CMakeFiles/test.dir
+/home/devuser/Workspaces/build/gst_pipeline_plugins_webrtc/CMakeFiles/edit_cache.dir
+/home/devuser/Workspaces/build/gst_pipeline_plugins_webrtc/CMakeFiles/rebuild_cache.dir
+/home/devuser/Workspaces/build/gst_pipeline_plugins_webrtc/CMakeFiles/list_install_components.dir
+/home/devuser/Workspaces/build/gst_pipeline_plugins_webrtc/CMakeFiles/install.dir
+/home/devuser/Workspaces/build/gst_pipeline_plugins_webrtc/CMakeFiles/install/local.dir
+/home/devuser/Workspaces/build/gst_pipeline_plugins_webrtc/CMakeFiles/install/strip.dir

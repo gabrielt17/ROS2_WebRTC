@@ -1,0 +1,112 @@
+[0.014s] Invoking command in '/home/devuser/Workspaces/build/gst_pipeline_plugins': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_pipeline/lib:/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/gst_msgs/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/install/gst_pipeline_plugins
+[0.062s] -- The C compiler identification is GNU 11.4.0
+[0.107s] -- The CXX compiler identification is GNU 11.4.0
+[0.114s] -- Detecting C compiler ABI info
+[0.173s] -- Detecting C compiler ABI info - done
+[0.179s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.179s] -- Detecting C compile features
+[0.179s] -- Detecting C compile features - done
+[0.182s] -- Detecting CXX compiler ABI info
+[0.252s] -- Detecting CXX compiler ABI info - done
+[0.257s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.257s] -- Detecting CXX compile features
+[0.258s] -- Detecting CXX compile features - done
+[0.261s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.379s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.429s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.463s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.508s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.514s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.522s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.533s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.549s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.591s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.594s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.687s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.720s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.769s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.779s] -- Looking for pthread.h
+[0.844s] -- Looking for pthread.h - found
+[0.844s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.910s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.910s] -- Found Threads: TRUE  
+[0.959s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.985s] -- Found gst_pipeline: 0.0.0 (/home/devuser/Workspaces/install/gst_pipeline/share/gst_pipeline/cmake)
+[1.052s] -- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+[1.060s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[1.069s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.074s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.074s] -- Checking for module 'gstreamer-1.0'
+[1.089s] --   Found gstreamer-1.0, version 1.20.3
+[1.128s] -- Checking for module 'gstreamer-rtp-1.0'
+[1.142s] --   Found gstreamer-rtp-1.0, version 1.20.1
+[1.188s] -- Checking for modules 'gstreamer-1.0;gstreamer-app-1.0;gstreamer-plugins-base-1.0;gstreamer-pbutils-1.0'
+[1.212s] --   Found gstreamer-1.0, version 1.20.3
+[1.222s] --   Found gstreamer-app-1.0, version 1.20.1
+[1.233s] --   Found gstreamer-plugins-base-1.0, version 1.20.1
+[1.243s] --   Found gstreamer-pbutils-1.0, version 1.20.1
+[1.289s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.296s] -- Found gst_msgs: 0.0.0 (/home/devuser/Workspaces/install/gst_msgs/share/gst_msgs/cmake)
+[1.368s] -- Configuring done
+[1.393s] -- Generating done
+[1.398s] -- Build files have been written to: /home/devuser/Workspaces/build/gst_pipeline_plugins
+[1.407s] Invoked command in '/home/devuser/Workspaces/build/gst_pipeline_plugins' returned '0': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_pipeline/lib:/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/gst_msgs/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/install/gst_pipeline_plugins
+[1.409s] Invoking command in '/home/devuser/Workspaces/build/gst_pipeline_plugins': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_pipeline/lib:/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/gst_msgs/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/devuser/Workspaces/build/gst_pipeline_plugins -- -j16 -l16
+[1.461s] [ 50%] [32mBuilding CXX object CMakeFiles/gst_pipeline_plugins.dir/src/bridge.cpp.o[0m
+[1.461s] [ 50%] [32mBuilding CXX object CMakeFiles/gst_pipeline_plugins.dir/src/framegate.cpp.o[0m
+[1.461s] [ 50%] [32mBuilding CXX object CMakeFiles/gst_pipeline_plugins.dir/src/parameters/parameter_conversions.cpp.o[0m
+[1.461s] [ 50%] [32mBuilding CXX object CMakeFiles/gst_pipeline_plugins.dir/src/pause_srv.cpp.o[0m
+[1.461s] [ 50%] [32mBuilding CXX object CMakeFiles/gst_pipeline_plugins.dir/src/clock_observer.cpp.o[0m
+[1.461s] [ 50%] [32mBuilding CXX object CMakeFiles/gst_pipeline_plugins.dir/src/multifilesink_observer.cpp.o[0m
+[1.462s] [ 58%] [32mBuilding CXX object CMakeFiles/gst_pipeline_plugins.dir/src/buffer_observer.cpp.o[0m
+[1.462s] [ 66%] [32mBuilding CXX object CMakeFiles/gst_pipeline_plugins.dir/src/metadata_hook.cpp.o[0m
+[1.462s] [ 75%] [32mBuilding C object CMakeFiles/gst_pipeline_plugins.dir/src/meta/gstmark.c.o[0m
+[1.462s] [ 83%] [32mBuilding CXX object CMakeFiles/gst_pipeline_plugins.dir/src/parameters.cpp.o[0m
+[1.463s] [ 91%] [32mBuilding CXX object CMakeFiles/gst_pipeline_plugins.dir/src/rtp_header_hook.cpp.o[0m
+[10.188s] [100%] [32m[1mLinking CXX shared library libgst_pipeline_plugins.so[0m
+[11.102s] [100%] Built target gst_pipeline_plugins
+[11.114s] Invoked command in '/home/devuser/Workspaces/build/gst_pipeline_plugins' returned '0': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_pipeline/lib:/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/gst_msgs/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/devuser/Workspaces/build/gst_pipeline_plugins -- -j16 -l16
+[11.115s] Invoking command in '/home/devuser/Workspaces/build/gst_pipeline_plugins': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_pipeline/lib:/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/gst_msgs/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/devuser/Workspaces/build/gst_pipeline_plugins
+[11.123s] -- Install configuration: ""
+[11.123s] -- Execute custom install script
+[11.123s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins//plugins.xml
+[11.133s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/include/gst_pipeline_plugins/bridge.h
+[11.142s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/include/gst_pipeline_plugins/buffer_observer.h
+[11.151s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/include/gst_pipeline_plugins/clock_observer.h
+[11.160s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/include/gst_pipeline_plugins/framegate.h
+[11.169s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/include/gst_pipeline_plugins/meta/gstmark.h
+[11.178s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/include/gst_pipeline_plugins/metadata_hook.h
+[11.187s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/include/gst_pipeline_plugins/multifilesink_observer.h
+[11.196s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/include/gst_pipeline_plugins/net_clock.h
+[11.205s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/include/gst_pipeline_plugins/parameters.h
+[11.213s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/include/gst_pipeline_plugins/pause_srv.h
+[11.222s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/include/gst_pipeline_plugins/rtp_header_hook.h
+[11.230s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/config/parameters_example.config.yaml
+[11.239s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/launch/parameters_example.launch.py
+[11.249s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/environment/library_path.sh
+[11.258s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/environment/library_path.dsv
+[11.266s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/ament_index/resource_index/package_run_dependencies/gst_pipeline_plugins
+[11.275s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/ament_index/resource_index/parent_prefix_path/gst_pipeline_plugins
+[11.283s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/environment/ament_prefix_path.sh
+[11.292s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/environment/ament_prefix_path.dsv
+[11.302s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/environment/path.sh
+[11.311s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/environment/path.dsv
+[11.320s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/local_setup.bash
+[11.328s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/local_setup.sh
+[11.337s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/local_setup.zsh
+[11.346s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/local_setup.dsv
+[11.355s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/package.dsv
+[11.364s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/ament_index/resource_index/packages/gst_pipeline_plugins
+[11.372s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/ament_index/resource_index/gst_pipeline__pluginlib__plugin/gst_pipeline_plugins
+[11.381s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.389s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[11.397s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[11.406s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.414s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/cmake/gst_pipeline_pluginsConfig.cmake
+[11.421s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/cmake/gst_pipeline_pluginsConfig-version.cmake
+[11.428s] -- Symlinking: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/package.xml
+[11.435s] -- Installing: /home/devuser/Workspaces/install/gst_pipeline_plugins/lib/libgst_pipeline_plugins.so
+[11.449s] -- Set runtime path of "/home/devuser/Workspaces/install/gst_pipeline_plugins/lib/libgst_pipeline_plugins.so" to ""
+[11.449s] -- Installing: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/cmake/export_gst_pipeline_pluginsExport.cmake
+[11.449s] -- Installing: /home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/cmake/export_gst_pipeline_pluginsExport-noconfig.cmake
+[11.451s] Invoked command in '/home/devuser/Workspaces/build/gst_pipeline_plugins' returned '0': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_pipeline/lib:/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/gst_msgs/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/devuser/Workspaces/build/gst_pipeline_plugins

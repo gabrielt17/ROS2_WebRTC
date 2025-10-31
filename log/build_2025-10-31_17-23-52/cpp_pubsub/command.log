@@ -1,0 +1,6 @@
+Invoking command in '/home/devuser/Workspaces/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/devuser/Workspaces/ros2learn_ws/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/install/cpp_pubsub
+Invoked command in '/home/devuser/Workspaces/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/devuser/Workspaces/ros2learn_ws/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/install/cpp_pubsub
+Invoking command in '/home/devuser/Workspaces/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/devuser/Workspaces/build/cpp_pubsub -- -j16 -l16
+Invoked command in '/home/devuser/Workspaces/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/devuser/Workspaces/build/cpp_pubsub -- -j16 -l16
+Invoking command in '/home/devuser/Workspaces/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/devuser/Workspaces/build/cpp_pubsub
+Invoked command in '/home/devuser/Workspaces/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/devuser/Workspaces/build/cpp_pubsub

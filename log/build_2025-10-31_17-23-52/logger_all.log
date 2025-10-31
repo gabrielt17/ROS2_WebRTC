@@ -1,0 +1,899 @@
+[0.075s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.076s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7c9108b9f940>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7c9108d553f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7c9108d553f0>>, mixin_verb=('build',))
+[0.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.183s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/devuser/Workspaces'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws) by extension 'python_setup_py'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws/src) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws/src) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws/src) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws/src) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws/src) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws/src) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws/src) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws/src) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws/src) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws/src) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws/src) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws/src) by extensions ['python_setup_py']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws/src) by extension 'python_setup_py'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws/src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws/src/cpp_pubsub) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws/src/cpp_pubsub) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws/src/cpp_pubsub) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws/src/cpp_pubsub) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws/src/cpp_pubsub) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws/src/cpp_pubsub) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws/src/cpp_pubsub) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(ros2learn_ws/src/cpp_pubsub) by extension 'ros'
+[0.194s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2learn_ws/src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws) by extension 'ros'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws) by extensions ['cmake', 'python']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws) by extension 'cmake'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws) by extension 'python'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws) by extensions ['python_setup_py']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws) by extension 'python_setup_py'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/build) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/build) ignored
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/install) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/install) ignored
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/log) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/log) ignored
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src) by extension 'ros'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src) by extensions ['cmake', 'python']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src) by extension 'cmake'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src) by extension 'python'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src) by extensions ['python_setup_py']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src) by extension 'python_setup_py'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/cpp_campub) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/cpp_campub) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/cpp_campub) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/cpp_campub) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/cpp_campub) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/cpp_campub) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/cpp_campub) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/cpp_campub) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/cpp_campub) by extension 'ros'
+[0.197s] DEBUG:colcon.colcon_core.package_identification:Package 'rosgsthumble_ws/src/cpp_campub' with type 'ros.ament_cmake' and name 'cpp_campub'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge) by extension 'ros'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge) by extensions ['cmake', 'python']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge) by extension 'cmake'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge) by extension 'python'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge) by extensions ['python_setup_py']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge) by extension 'python_setup_py'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/audio_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/audio_msgs) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/audio_msgs) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/audio_msgs) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/audio_msgs) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/audio_msgs) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/audio_msgs) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/audio_msgs) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/audio_msgs) by extension 'ros'
+[0.198s] DEBUG:colcon.colcon_core.package_identification:Package 'rosgsthumble_ws/src/ros-gst-bridge/audio_msgs' with type 'ros.ament_cmake' and name 'audio_msgs'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-long) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-long) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-long) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-long) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-long) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-long) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-long) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-long) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-long) by extension 'ros'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-long) by extensions ['cmake', 'python']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-long) by extension 'cmake'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-long) by extension 'python'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-long) by extensions ['python_setup_py']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-long) by extension 'python_setup_py'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-short) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-short) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-short) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-short) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-short) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-short) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-short) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-short) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-short) by extension 'ros'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-short) by extensions ['cmake', 'python']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-short) by extension 'cmake'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-short) by extension 'python'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-short) by extensions ['python_setup_py']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/docker-short) by extension 'python_setup_py'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_bridge) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_bridge) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_bridge) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_bridge) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_bridge) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_bridge) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_bridge) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_bridge) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package 'rosgsthumble_ws/src/ros-gst-bridge/gst_bridge' with type 'ros.ament_cmake' and name 'gst_bridge'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_msgs) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_msgs) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_msgs) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_msgs) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_msgs) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_msgs) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_msgs) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_msgs) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'rosgsthumble_ws/src/ros-gst-bridge/gst_msgs' with type 'ros.ament_cmake' and name 'gst_msgs'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline' with type 'ros.ament_cmake' and name 'gst_pipeline'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package 'rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins' with type 'ros.ament_cmake' and name 'gst_pipeline_plugins'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package 'rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc' with type 'ros.ament_cmake' and name 'gst_pipeline_plugins_webrtc'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/webrtc_camera_node) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/webrtc_camera_node) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/webrtc_camera_node) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/webrtc_camera_node) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/webrtc_camera_node) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/webrtc_camera_node) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/webrtc_camera_node) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/webrtc_camera_node) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(rosgsthumble_ws/src/webrtc_camera_node) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'rosgsthumble_ws/src/webrtc_camera_node' with type 'ros.ament_cmake' and name 'webrtc_camera_node'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile) by extension 'ros'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile) by extensions ['cmake', 'python']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile) by extension 'cmake'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile) by extension 'python'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile) by extensions ['python_setup_py']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile) by extension 'python_setup_py'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/build) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/build) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/build) ignored
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/install) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/install) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/install) ignored
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/log) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/log) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/log) ignored
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/src) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/src) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/src) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/src) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/src) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/src) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/src) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/src) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/src) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/src) by extensions ['cmake', 'python']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/src) by extension 'cmake'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/src) by extension 'python'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/src) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/src) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/src/mobile_dd_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/src/mobile_dd_robot) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/src/mobile_dd_robot) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/src/mobile_dd_robot) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/src/mobile_dd_robot) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/src/mobile_dd_robot) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/src/mobile_dd_robot) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/src/mobile_dd_robot) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(ws_ddmobile/src/mobile_dd_robot) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package 'ws_ddmobile/src/mobile_dd_robot' with type 'ros.ament_cmake' and name 'mobile_dd_robot'
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.206s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'cmake_target' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.221s] DEBUG:colcon.colcon_core.verb:Building package 'audio_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/devuser/Workspaces/build/audio_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/devuser/Workspaces/install/audio_msgs', 'merge_install': False, 'path': '/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'cpp_campub' build argument 'cmake_args' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'cpp_campub' build argument 'cmake_target' from command line to 'None'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'cpp_campub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'cpp_campub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.221s] Level 5:colcon.colcon_core.verb:set package 'cpp_campub' build argument 'cmake_clean_first' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'cpp_campub' build argument 'cmake_force_configure' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'cpp_campub' build argument 'ament_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'cpp_campub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'cpp_campub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.222s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_campub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/devuser/Workspaces/build/cpp_campub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/devuser/Workspaces/install/cpp_campub', 'merge_install': False, 'path': '/home/devuser/Workspaces/rosgsthumble_ws/src/cpp_campub', 'symlink_install': True, 'test_result_base': None}
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.222s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/devuser/Workspaces/build/cpp_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/devuser/Workspaces/install/cpp_pubsub', 'merge_install': False, 'path': '/home/devuser/Workspaces/ros2learn_ws/src/cpp_pubsub', 'symlink_install': True, 'test_result_base': None}
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'cmake_target' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.222s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.222s] DEBUG:colcon.colcon_core.verb:Building package 'gst_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/devuser/Workspaces/build/gst_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/devuser/Workspaces/install/gst_msgs', 'merge_install': False, 'path': '/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'mobile_dd_robot' build argument 'cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'mobile_dd_robot' build argument 'cmake_target' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'mobile_dd_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'mobile_dd_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'mobile_dd_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'mobile_dd_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'mobile_dd_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'mobile_dd_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'mobile_dd_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.223s] DEBUG:colcon.colcon_core.verb:Building package 'mobile_dd_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/devuser/Workspaces/build/mobile_dd_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/devuser/Workspaces/install/mobile_dd_robot', 'merge_install': False, 'path': '/home/devuser/Workspaces/ws_ddmobile/src/mobile_dd_robot', 'symlink_install': True, 'test_result_base': None}
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'cmake_target' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.223s] DEBUG:colcon.colcon_core.verb:Building package 'gst_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/devuser/Workspaces/build/gst_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/devuser/Workspaces/install/gst_bridge', 'merge_install': False, 'path': '/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge', 'symlink_install': True, 'test_result_base': None}
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'cmake_target' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'cmake_clean_cache' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'cmake_clean_first' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'cmake_force_configure' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'ament_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'catkin_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.223s] DEBUG:colcon.colcon_core.verb:Building package 'gst_pipeline' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/devuser/Workspaces/build/gst_pipeline', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/devuser/Workspaces/install/gst_pipeline', 'merge_install': False, 'path': '/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline', 'symlink_install': True, 'test_result_base': None}
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'cmake_target' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.224s] DEBUG:colcon.colcon_core.verb:Building package 'webrtc_camera_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/devuser/Workspaces/build/webrtc_camera_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/devuser/Workspaces/install/webrtc_camera_node', 'merge_install': False, 'path': '/home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node', 'symlink_install': True, 'test_result_base': None}
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'cmake_target' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.224s] DEBUG:colcon.colcon_core.verb:Building package 'gst_pipeline_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/devuser/Workspaces/build/gst_pipeline_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/devuser/Workspaces/install/gst_pipeline_plugins', 'merge_install': False, 'path': '/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins', 'symlink_install': True, 'test_result_base': None}
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins_webrtc' build argument 'cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins_webrtc' build argument 'cmake_target' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins_webrtc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins_webrtc' build argument 'cmake_clean_cache' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins_webrtc' build argument 'cmake_clean_first' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins_webrtc' build argument 'cmake_force_configure' from command line to 'False'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins_webrtc' build argument 'ament_cmake_args' from command line to 'None'
+[0.224s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins_webrtc' build argument 'catkin_cmake_args' from command line to 'None'
+[0.225s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins_webrtc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.225s] DEBUG:colcon.colcon_core.verb:Building package 'gst_pipeline_plugins_webrtc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/devuser/Workspaces/build/gst_pipeline_plugins_webrtc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc', 'merge_install': False, 'path': '/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc', 'symlink_install': True, 'test_result_base': None}
+[0.225s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.225s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.226s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs' with build type 'ament_cmake'
+[0.226s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs'
+[0.227s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.227s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.227s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.231s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs' with build type 'ament_cmake'
+[0.231s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs'
+[0.231s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.231s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.234s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/devuser/Workspaces/rosgsthumble_ws/src/cpp_campub' with build type 'ament_cmake'
+[0.234s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/devuser/Workspaces/rosgsthumble_ws/src/cpp_campub'
+[0.235s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.235s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.238s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/devuser/Workspaces/ros2learn_ws/src/cpp_pubsub' with build type 'ament_cmake'
+[0.238s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/devuser/Workspaces/ros2learn_ws/src/cpp_pubsub'
+[0.238s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.238s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.241s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/devuser/Workspaces/ws_ddmobile/src/mobile_dd_robot' with build type 'ament_cmake'
+[0.241s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/devuser/Workspaces/ws_ddmobile/src/mobile_dd_robot'
+[0.241s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.241s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/audio_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/install/audio_msgs
+[0.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/gst_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/install/gst_msgs
+[0.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/cpp_campub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/devuser/Workspaces/rosgsthumble_ws/src/cpp_campub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/install/cpp_campub
+[0.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/devuser/Workspaces/ros2learn_ws/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/install/cpp_pubsub
+[0.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/mobile_dd_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/devuser/Workspaces/ws_ddmobile/src/mobile_dd_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/install/mobile_dd_robot
+[0.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/devuser/Workspaces/ros2learn_ws/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/install/cpp_pubsub
+[0.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/devuser/Workspaces/build/cpp_pubsub -- -j16 -l16
+[0.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/mobile_dd_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/devuser/Workspaces/ws_ddmobile/src/mobile_dd_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/install/mobile_dd_robot
+[0.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/mobile_dd_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/devuser/Workspaces/build/mobile_dd_robot -- -j16 -l16
+[0.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/devuser/Workspaces/build/cpp_pubsub -- -j16 -l16
+[0.819s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/devuser/Workspaces/build/cpp_pubsub
+[0.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/mobile_dd_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/devuser/Workspaces/build/mobile_dd_robot -- -j16 -l16
+[0.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/mobile_dd_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/devuser/Workspaces/build/mobile_dd_robot
+[0.948s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[0.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/devuser/Workspaces/build/cpp_pubsub
+[0.950s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/cpp_pubsub' for CMake module files
+[0.951s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/cpp_pubsub' for CMake config files
+[0.951s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[0.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[0.952s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[0.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[0.953s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/cpp_pubsub/bin'
+[0.953s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[0.954s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/cpp_pubsub/lib/python3.10/site-packages'
+[0.954s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/cpp_pubsub/bin'
+[0.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[0.955s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devuser/Workspaces/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[0.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[0.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[0.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[0.957s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devuser/Workspaces/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[0.958s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/cpp_pubsub' for CMake module files
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/cpp_pubsub' for CMake config files
+[0.958s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[0.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[0.959s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[0.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[0.959s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/cpp_pubsub/bin'
+[0.959s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[0.960s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/cpp_pubsub/lib/python3.10/site-packages'
+[0.960s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/cpp_pubsub/bin'
+[0.960s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[0.960s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devuser/Workspaces/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[0.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[0.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[0.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[0.961s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devuser/Workspaces/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[0.981s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mobile_dd_robot)
+[0.982s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/mobile_dd_robot' for CMake module files
+[0.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/mobile_dd_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/devuser/Workspaces/build/mobile_dd_robot
+[0.982s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/mobile_dd_robot' for CMake config files
+[0.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_dd_robot', 'cmake_prefix_path')
+[0.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/mobile_dd_robot/share/mobile_dd_robot/hook/cmake_prefix_path.ps1'
+[0.983s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/mobile_dd_robot/share/mobile_dd_robot/hook/cmake_prefix_path.dsv'
+[0.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/mobile_dd_robot/share/mobile_dd_robot/hook/cmake_prefix_path.sh'
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/mobile_dd_robot/bin'
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/mobile_dd_robot/lib/pkgconfig/mobile_dd_robot.pc'
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/mobile_dd_robot/lib/python3.10/site-packages'
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/mobile_dd_robot/bin'
+[0.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/mobile_dd_robot/share/mobile_dd_robot/package.ps1'
+[0.985s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devuser/Workspaces/install/mobile_dd_robot/share/mobile_dd_robot/package.dsv'
+[0.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/mobile_dd_robot/share/mobile_dd_robot/package.sh'
+[0.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/mobile_dd_robot/share/mobile_dd_robot/package.bash'
+[0.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/mobile_dd_robot/share/mobile_dd_robot/package.zsh'
+[0.986s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devuser/Workspaces/install/mobile_dd_robot/share/colcon-core/packages/mobile_dd_robot)
+[0.986s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mobile_dd_robot)
+[0.986s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/mobile_dd_robot' for CMake module files
+[0.987s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/mobile_dd_robot' for CMake config files
+[0.987s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_dd_robot', 'cmake_prefix_path')
+[0.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/mobile_dd_robot/share/mobile_dd_robot/hook/cmake_prefix_path.ps1'
+[0.987s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/mobile_dd_robot/share/mobile_dd_robot/hook/cmake_prefix_path.dsv'
+[0.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/mobile_dd_robot/share/mobile_dd_robot/hook/cmake_prefix_path.sh'
+[0.988s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/mobile_dd_robot/bin'
+[0.988s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/mobile_dd_robot/lib/pkgconfig/mobile_dd_robot.pc'
+[0.988s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/mobile_dd_robot/lib/python3.10/site-packages'
+[0.988s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/mobile_dd_robot/bin'
+[0.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/mobile_dd_robot/share/mobile_dd_robot/package.ps1'
+[0.989s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devuser/Workspaces/install/mobile_dd_robot/share/mobile_dd_robot/package.dsv'
+[0.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/mobile_dd_robot/share/mobile_dd_robot/package.sh'
+[0.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/mobile_dd_robot/share/mobile_dd_robot/package.bash'
+[0.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/mobile_dd_robot/share/mobile_dd_robot/package.zsh'
+[0.990s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devuser/Workspaces/install/mobile_dd_robot/share/colcon-core/packages/mobile_dd_robot)
+[1.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/cpp_campub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/devuser/Workspaces/rosgsthumble_ws/src/cpp_campub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/install/cpp_campub
+[1.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/cpp_campub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/devuser/Workspaces/build/cpp_campub -- -j16 -l16
+[1.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/audio_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/install/audio_msgs
+[1.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/audio_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/devuser/Workspaces/build/audio_msgs -- -j16 -l16
+[1.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/gst_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/install/gst_msgs
+[1.598s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/gst_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/devuser/Workspaces/build/gst_msgs -- -j16 -l16
+[4.088s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/audio_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/devuser/Workspaces/build/audio_msgs -- -j16 -l16
+[4.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/audio_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/devuser/Workspaces/build/audio_msgs
+[4.641s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(audio_msgs)
+[4.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/audio_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/devuser/Workspaces/build/audio_msgs
+[4.642s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/audio_msgs' for CMake module files
+[4.643s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/audio_msgs' for CMake config files
+[4.643s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_msgs', 'cmake_prefix_path')
+[4.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/audio_msgs/share/audio_msgs/hook/cmake_prefix_path.ps1'
+[4.644s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/audio_msgs/share/audio_msgs/hook/cmake_prefix_path.dsv'
+[4.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/audio_msgs/share/audio_msgs/hook/cmake_prefix_path.sh'
+[4.644s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/audio_msgs/lib'
+[4.644s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_msgs', 'ld_library_path_lib')
+[4.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/audio_msgs/share/audio_msgs/hook/ld_library_path_lib.ps1'
+[4.645s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/audio_msgs/share/audio_msgs/hook/ld_library_path_lib.dsv'
+[4.645s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/audio_msgs/share/audio_msgs/hook/ld_library_path_lib.sh'
+[4.645s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/audio_msgs/bin'
+[4.645s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/audio_msgs/lib/pkgconfig/audio_msgs.pc'
+[4.646s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/audio_msgs/lib/python3.10/site-packages'
+[4.646s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/audio_msgs/bin'
+[4.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/audio_msgs/share/audio_msgs/package.ps1'
+[4.646s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devuser/Workspaces/install/audio_msgs/share/audio_msgs/package.dsv'
+[4.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/audio_msgs/share/audio_msgs/package.sh'
+[4.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/audio_msgs/share/audio_msgs/package.bash'
+[4.647s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/audio_msgs/share/audio_msgs/package.zsh'
+[4.647s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devuser/Workspaces/install/audio_msgs/share/colcon-core/packages/audio_msgs)
+[4.648s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(audio_msgs)
+[4.648s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/audio_msgs' for CMake module files
+[4.648s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/audio_msgs' for CMake config files
+[4.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_msgs', 'cmake_prefix_path')
+[4.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/audio_msgs/share/audio_msgs/hook/cmake_prefix_path.ps1'
+[4.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/audio_msgs/share/audio_msgs/hook/cmake_prefix_path.dsv'
+[4.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/audio_msgs/share/audio_msgs/hook/cmake_prefix_path.sh'
+[4.650s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/audio_msgs/lib'
+[4.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_msgs', 'ld_library_path_lib')
+[4.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/audio_msgs/share/audio_msgs/hook/ld_library_path_lib.ps1'
+[4.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/audio_msgs/share/audio_msgs/hook/ld_library_path_lib.dsv'
+[4.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/audio_msgs/share/audio_msgs/hook/ld_library_path_lib.sh'
+[4.651s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/audio_msgs/bin'
+[4.651s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/audio_msgs/lib/pkgconfig/audio_msgs.pc'
+[4.651s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/audio_msgs/lib/python3.10/site-packages'
+[4.651s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/audio_msgs/bin'
+[4.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/audio_msgs/share/audio_msgs/package.ps1'
+[4.652s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devuser/Workspaces/install/audio_msgs/share/audio_msgs/package.dsv'
+[4.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/audio_msgs/share/audio_msgs/package.sh'
+[4.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/audio_msgs/share/audio_msgs/package.bash'
+[4.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/audio_msgs/share/audio_msgs/package.zsh'
+[4.653s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devuser/Workspaces/install/audio_msgs/share/colcon-core/packages/audio_msgs)
+[4.654s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge' with build type 'ament_cmake'
+[4.654s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge'
+[4.654s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.654s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/gst_bridge': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/install/gst_bridge
+[5.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/gst_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/devuser/Workspaces/build/gst_msgs -- -j16 -l16
+[5.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/gst_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/devuser/Workspaces/build/gst_msgs
+[6.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/gst_bridge' returned '0': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/install/gst_bridge
+[6.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/gst_bridge': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/devuser/Workspaces/build/gst_bridge -- -j16 -l16
+[6.794s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gst_msgs)
+[6.794s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_msgs' for CMake module files
+[6.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/gst_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/devuser/Workspaces/build/gst_msgs
+[6.795s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_msgs' for CMake config files
+[6.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_msgs', 'cmake_prefix_path')
+[6.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_msgs/share/gst_msgs/hook/cmake_prefix_path.ps1'
+[6.796s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/gst_msgs/share/gst_msgs/hook/cmake_prefix_path.dsv'
+[6.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_msgs/share/gst_msgs/hook/cmake_prefix_path.sh'
+[6.797s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_msgs/lib'
+[6.797s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_msgs', 'ld_library_path_lib')
+[6.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_msgs/share/gst_msgs/hook/ld_library_path_lib.ps1'
+[6.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/gst_msgs/share/gst_msgs/hook/ld_library_path_lib.dsv'
+[6.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_msgs/share/gst_msgs/hook/ld_library_path_lib.sh'
+[6.798s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_msgs/bin'
+[6.798s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_msgs/lib/pkgconfig/gst_msgs.pc'
+[6.798s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_msgs/lib/python3.10/site-packages'
+[6.798s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_msgs/bin'
+[6.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_msgs/share/gst_msgs/package.ps1'
+[6.799s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devuser/Workspaces/install/gst_msgs/share/gst_msgs/package.dsv'
+[6.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_msgs/share/gst_msgs/package.sh'
+[6.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_msgs/share/gst_msgs/package.bash'
+[6.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_msgs/share/gst_msgs/package.zsh'
+[6.800s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devuser/Workspaces/install/gst_msgs/share/colcon-core/packages/gst_msgs)
+[6.801s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gst_msgs)
+[6.801s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_msgs' for CMake module files
+[6.801s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_msgs' for CMake config files
+[6.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_msgs', 'cmake_prefix_path')
+[6.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_msgs/share/gst_msgs/hook/cmake_prefix_path.ps1'
+[6.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/gst_msgs/share/gst_msgs/hook/cmake_prefix_path.dsv'
+[6.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_msgs/share/gst_msgs/hook/cmake_prefix_path.sh'
+[6.803s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_msgs/lib'
+[6.803s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_msgs', 'ld_library_path_lib')
+[6.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_msgs/share/gst_msgs/hook/ld_library_path_lib.ps1'
+[6.803s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/gst_msgs/share/gst_msgs/hook/ld_library_path_lib.dsv'
+[6.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_msgs/share/gst_msgs/hook/ld_library_path_lib.sh'
+[6.804s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_msgs/bin'
+[6.804s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_msgs/lib/pkgconfig/gst_msgs.pc'
+[6.804s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_msgs/lib/python3.10/site-packages'
+[6.804s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_msgs/bin'
+[6.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_msgs/share/gst_msgs/package.ps1'
+[6.805s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devuser/Workspaces/install/gst_msgs/share/gst_msgs/package.dsv'
+[6.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_msgs/share/gst_msgs/package.sh'
+[6.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_msgs/share/gst_msgs/package.bash'
+[6.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_msgs/share/gst_msgs/package.zsh'
+[6.806s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devuser/Workspaces/install/gst_msgs/share/colcon-core/packages/gst_msgs)
+[7.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/cpp_campub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/devuser/Workspaces/build/cpp_campub -- -j16 -l16
+[7.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/cpp_campub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/devuser/Workspaces/build/cpp_campub
+[7.173s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_campub)
+[7.174s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/cpp_campub' for CMake module files
+[7.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/cpp_campub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/devuser/Workspaces/build/cpp_campub
+[7.174s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/cpp_campub' for CMake config files
+[7.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_campub', 'cmake_prefix_path')
+[7.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/cpp_campub/share/cpp_campub/hook/cmake_prefix_path.ps1'
+[7.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/cpp_campub/share/cpp_campub/hook/cmake_prefix_path.dsv'
+[7.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/cpp_campub/share/cpp_campub/hook/cmake_prefix_path.sh'
+[7.176s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/cpp_campub/lib'
+[7.176s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/cpp_campub/bin'
+[7.176s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/cpp_campub/lib/pkgconfig/cpp_campub.pc'
+[7.176s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/cpp_campub/lib/python3.10/site-packages'
+[7.176s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/cpp_campub/bin'
+[7.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/cpp_campub/share/cpp_campub/package.ps1'
+[7.177s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devuser/Workspaces/install/cpp_campub/share/cpp_campub/package.dsv'
+[7.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/cpp_campub/share/cpp_campub/package.sh'
+[7.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/cpp_campub/share/cpp_campub/package.bash'
+[7.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/cpp_campub/share/cpp_campub/package.zsh'
+[7.178s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devuser/Workspaces/install/cpp_campub/share/colcon-core/packages/cpp_campub)
+[7.178s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_campub)
+[7.178s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/cpp_campub' for CMake module files
+[7.179s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/cpp_campub' for CMake config files
+[7.179s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_campub', 'cmake_prefix_path')
+[7.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/cpp_campub/share/cpp_campub/hook/cmake_prefix_path.ps1'
+[7.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/cpp_campub/share/cpp_campub/hook/cmake_prefix_path.dsv'
+[7.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/cpp_campub/share/cpp_campub/hook/cmake_prefix_path.sh'
+[7.180s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/cpp_campub/lib'
+[7.180s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/cpp_campub/bin'
+[7.180s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/cpp_campub/lib/pkgconfig/cpp_campub.pc'
+[7.180s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/cpp_campub/lib/python3.10/site-packages'
+[7.180s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/cpp_campub/bin'
+[7.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/cpp_campub/share/cpp_campub/package.ps1'
+[7.181s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devuser/Workspaces/install/cpp_campub/share/cpp_campub/package.dsv'
+[7.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/cpp_campub/share/cpp_campub/package.sh'
+[7.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/cpp_campub/share/cpp_campub/package.bash'
+[7.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/cpp_campub/share/cpp_campub/package.zsh'
+[7.182s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devuser/Workspaces/install/cpp_campub/share/colcon-core/packages/cpp_campub)
+[23.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/gst_bridge' returned '0': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/devuser/Workspaces/build/gst_bridge -- -j16 -l16
+[23.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/gst_bridge': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/devuser/Workspaces/build/gst_bridge
+[23.996s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gst_bridge)
+[23.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/gst_bridge' returned '0': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/devuser/Workspaces/build/gst_bridge
+[23.996s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_bridge' for CMake module files
+[23.996s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_bridge' for CMake config files
+[23.997s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_bridge', 'cmake_prefix_path')
+[23.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_bridge/share/gst_bridge/hook/cmake_prefix_path.ps1'
+[23.997s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/gst_bridge/share/gst_bridge/hook/cmake_prefix_path.dsv'
+[23.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_bridge/share/gst_bridge/hook/cmake_prefix_path.sh'
+[23.998s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_bridge/lib'
+[23.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_bridge', 'ld_library_path_lib')
+[23.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_bridge/share/gst_bridge/hook/ld_library_path_lib.ps1'
+[23.998s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/gst_bridge/share/gst_bridge/hook/ld_library_path_lib.dsv'
+[23.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_bridge/share/gst_bridge/hook/ld_library_path_lib.sh'
+[23.999s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_bridge/bin'
+[23.999s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_bridge/lib/pkgconfig/gst_bridge.pc'
+[23.999s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_bridge/lib/python3.10/site-packages'
+[23.999s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_bridge/bin'
+[24.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_bridge/share/gst_bridge/package.ps1'
+[24.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devuser/Workspaces/install/gst_bridge/share/gst_bridge/package.dsv'
+[24.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_bridge/share/gst_bridge/package.sh'
+[24.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_bridge/share/gst_bridge/package.bash'
+[24.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_bridge/share/gst_bridge/package.zsh'
+[24.001s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devuser/Workspaces/install/gst_bridge/share/colcon-core/packages/gst_bridge)
+[24.001s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gst_bridge)
+[24.001s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_bridge' for CMake module files
+[24.002s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_bridge' for CMake config files
+[24.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_bridge', 'cmake_prefix_path')
+[24.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_bridge/share/gst_bridge/hook/cmake_prefix_path.ps1'
+[24.002s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/gst_bridge/share/gst_bridge/hook/cmake_prefix_path.dsv'
+[24.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_bridge/share/gst_bridge/hook/cmake_prefix_path.sh'
+[24.003s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_bridge/lib'
+[24.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_bridge', 'ld_library_path_lib')
+[24.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_bridge/share/gst_bridge/hook/ld_library_path_lib.ps1'
+[24.003s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/gst_bridge/share/gst_bridge/hook/ld_library_path_lib.dsv'
+[24.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_bridge/share/gst_bridge/hook/ld_library_path_lib.sh'
+[24.004s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_bridge/bin'
+[24.004s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_bridge/lib/pkgconfig/gst_bridge.pc'
+[24.004s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_bridge/lib/python3.10/site-packages'
+[24.004s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_bridge/bin'
+[24.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_bridge/share/gst_bridge/package.ps1'
+[24.005s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devuser/Workspaces/install/gst_bridge/share/gst_bridge/package.dsv'
+[24.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_bridge/share/gst_bridge/package.sh'
+[24.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_bridge/share/gst_bridge/package.bash'
+[24.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_bridge/share/gst_bridge/package.zsh'
+[24.006s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devuser/Workspaces/install/gst_bridge/share/colcon-core/packages/gst_bridge)
+[24.006s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline' with build type 'ament_cmake'
+[24.006s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline'
+[24.006s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[24.006s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[24.009s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node' with build type 'ament_cmake'
+[24.010s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node'
+[24.010s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[24.010s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[24.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/gst_pipeline': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/gst_msgs/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/install/gst_pipeline
+[24.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/webrtc_camera_node': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/install/webrtc_camera_node
+[25.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/webrtc_camera_node' returned '0': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/install/webrtc_camera_node
+[25.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/webrtc_camera_node': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/devuser/Workspaces/build/webrtc_camera_node -- -j16 -l16
+[25.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/gst_pipeline' returned '0': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/gst_msgs/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/install/gst_pipeline
+[25.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/gst_pipeline': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/gst_msgs/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/devuser/Workspaces/build/gst_pipeline -- -j16 -l16
+[27.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/webrtc_camera_node' returned '0': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/devuser/Workspaces/build/webrtc_camera_node -- -j16 -l16
+[27.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/webrtc_camera_node': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/devuser/Workspaces/build/webrtc_camera_node
+[27.926s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(webrtc_camera_node)
+[27.927s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/webrtc_camera_node' for CMake module files
+[27.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/webrtc_camera_node' returned '0': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/devuser/Workspaces/build/webrtc_camera_node
+[27.927s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/webrtc_camera_node' for CMake config files
+[27.927s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/webrtc_camera_node/lib'
+[27.927s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/webrtc_camera_node/bin'
+[27.927s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/webrtc_camera_node/lib/pkgconfig/webrtc_camera_node.pc'
+[27.928s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/webrtc_camera_node/lib/python3.10/site-packages'
+[27.928s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/webrtc_camera_node/bin'
+[27.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/webrtc_camera_node/share/webrtc_camera_node/package.ps1'
+[27.928s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devuser/Workspaces/install/webrtc_camera_node/share/webrtc_camera_node/package.dsv'
+[27.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/webrtc_camera_node/share/webrtc_camera_node/package.sh'
+[27.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/webrtc_camera_node/share/webrtc_camera_node/package.bash'
+[27.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/webrtc_camera_node/share/webrtc_camera_node/package.zsh'
+[27.929s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devuser/Workspaces/install/webrtc_camera_node/share/colcon-core/packages/webrtc_camera_node)
+[27.930s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(webrtc_camera_node)
+[27.930s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/webrtc_camera_node' for CMake module files
+[27.930s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/webrtc_camera_node' for CMake config files
+[27.930s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/webrtc_camera_node/lib'
+[27.930s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/webrtc_camera_node/bin'
+[27.930s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/webrtc_camera_node/lib/pkgconfig/webrtc_camera_node.pc'
+[27.930s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/webrtc_camera_node/lib/python3.10/site-packages'
+[27.931s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/webrtc_camera_node/bin'
+[27.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/webrtc_camera_node/share/webrtc_camera_node/package.ps1'
+[27.931s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devuser/Workspaces/install/webrtc_camera_node/share/webrtc_camera_node/package.dsv'
+[27.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/webrtc_camera_node/share/webrtc_camera_node/package.sh'
+[27.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/webrtc_camera_node/share/webrtc_camera_node/package.bash'
+[27.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/webrtc_camera_node/share/webrtc_camera_node/package.zsh'
+[27.932s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devuser/Workspaces/install/webrtc_camera_node/share/colcon-core/packages/webrtc_camera_node)
+[35.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/gst_pipeline' returned '0': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/gst_msgs/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/devuser/Workspaces/build/gst_pipeline -- -j16 -l16
+[35.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/gst_pipeline': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/gst_msgs/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/devuser/Workspaces/build/gst_pipeline
+[35.513s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gst_pipeline)
+[35.513s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline' for CMake module files
+[35.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/gst_pipeline' returned '0': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/gst_msgs/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/devuser/Workspaces/build/gst_pipeline
+[35.514s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline' for CMake config files
+[35.514s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_pipeline', 'cmake_prefix_path')
+[35.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_pipeline/share/gst_pipeline/hook/cmake_prefix_path.ps1'
+[35.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/gst_pipeline/share/gst_pipeline/hook/cmake_prefix_path.dsv'
+[35.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_pipeline/share/gst_pipeline/hook/cmake_prefix_path.sh'
+[35.515s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline/lib'
+[35.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_pipeline', 'ld_library_path_lib')
+[35.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_pipeline/share/gst_pipeline/hook/ld_library_path_lib.ps1'
+[35.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/gst_pipeline/share/gst_pipeline/hook/ld_library_path_lib.dsv'
+[35.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_pipeline/share/gst_pipeline/hook/ld_library_path_lib.sh'
+[35.516s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline/bin'
+[35.516s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline/lib/pkgconfig/gst_pipeline.pc'
+[35.516s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline/lib/python3.10/site-packages'
+[35.516s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline/bin'
+[35.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_pipeline/share/gst_pipeline/package.ps1'
+[35.517s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devuser/Workspaces/install/gst_pipeline/share/gst_pipeline/package.dsv'
+[35.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_pipeline/share/gst_pipeline/package.sh'
+[35.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_pipeline/share/gst_pipeline/package.bash'
+[35.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_pipeline/share/gst_pipeline/package.zsh'
+[35.518s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devuser/Workspaces/install/gst_pipeline/share/colcon-core/packages/gst_pipeline)
+[35.518s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gst_pipeline)
+[35.519s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline' for CMake module files
+[35.519s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline' for CMake config files
+[35.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_pipeline', 'cmake_prefix_path')
+[35.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_pipeline/share/gst_pipeline/hook/cmake_prefix_path.ps1'
+[35.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/gst_pipeline/share/gst_pipeline/hook/cmake_prefix_path.dsv'
+[35.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_pipeline/share/gst_pipeline/hook/cmake_prefix_path.sh'
+[35.520s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline/lib'
+[35.520s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_pipeline', 'ld_library_path_lib')
+[35.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_pipeline/share/gst_pipeline/hook/ld_library_path_lib.ps1'
+[35.521s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/gst_pipeline/share/gst_pipeline/hook/ld_library_path_lib.dsv'
+[35.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_pipeline/share/gst_pipeline/hook/ld_library_path_lib.sh'
+[35.521s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline/bin'
+[35.521s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline/lib/pkgconfig/gst_pipeline.pc'
+[35.521s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline/lib/python3.10/site-packages'
+[35.521s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline/bin'
+[35.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_pipeline/share/gst_pipeline/package.ps1'
+[35.522s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devuser/Workspaces/install/gst_pipeline/share/gst_pipeline/package.dsv'
+[35.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_pipeline/share/gst_pipeline/package.sh'
+[35.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_pipeline/share/gst_pipeline/package.bash'
+[35.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_pipeline/share/gst_pipeline/package.zsh'
+[35.523s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devuser/Workspaces/install/gst_pipeline/share/colcon-core/packages/gst_pipeline)
+[35.523s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins' with build type 'ament_cmake'
+[35.524s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins'
+[35.524s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[35.524s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[35.527s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc' with build type 'ament_cmake'
+[35.527s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc'
+[35.527s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[35.527s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[35.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/gst_pipeline_plugins': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_pipeline/lib:/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/gst_msgs/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/install/gst_pipeline_plugins
+[35.541s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/gst_pipeline_plugins_webrtc': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_pipeline/lib:/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/gst_msgs/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc
+[36.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/gst_pipeline_plugins' returned '0': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_pipeline/lib:/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/gst_msgs/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/install/gst_pipeline_plugins
+[36.933s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/gst_pipeline_plugins': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_pipeline/lib:/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/gst_msgs/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/devuser/Workspaces/build/gst_pipeline_plugins -- -j16 -l16
+[36.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/gst_pipeline_plugins_webrtc' returned '0': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_pipeline/lib:/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/gst_msgs/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc
+[36.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/gst_pipeline_plugins_webrtc': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_pipeline/lib:/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/gst_msgs/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/devuser/Workspaces/build/gst_pipeline_plugins_webrtc -- -j16 -l16
+[46.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/gst_pipeline_plugins' returned '0': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_pipeline/lib:/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/gst_msgs/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/devuser/Workspaces/build/gst_pipeline_plugins -- -j16 -l16
+[46.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/gst_pipeline_plugins': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_pipeline/lib:/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/gst_msgs/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/devuser/Workspaces/build/gst_pipeline_plugins
+[46.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/gst_pipeline_plugins_webrtc' returned '0': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_pipeline/lib:/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/gst_msgs/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/devuser/Workspaces/build/gst_pipeline_plugins_webrtc -- -j16 -l16
+[46.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/devuser/Workspaces/build/gst_pipeline_plugins_webrtc': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_pipeline/lib:/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/gst_msgs/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/devuser/Workspaces/build/gst_pipeline_plugins_webrtc
+[46.975s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gst_pipeline_plugins)
+[46.975s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins' for CMake module files
+[46.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/gst_pipeline_plugins' returned '0': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_pipeline/lib:/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/gst_msgs/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/devuser/Workspaces/build/gst_pipeline_plugins
+[46.976s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins' for CMake config files
+[46.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_pipeline_plugins', 'cmake_prefix_path')
+[46.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/hook/cmake_prefix_path.ps1'
+[46.977s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/hook/cmake_prefix_path.dsv'
+[46.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/hook/cmake_prefix_path.sh'
+[46.978s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins/lib'
+[46.978s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_pipeline_plugins', 'ld_library_path_lib')
+[46.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/hook/ld_library_path_lib.ps1'
+[46.978s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/hook/ld_library_path_lib.dsv'
+[46.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/hook/ld_library_path_lib.sh'
+[46.978s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins/bin'
+[46.979s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins/lib/pkgconfig/gst_pipeline_plugins.pc'
+[46.979s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins/lib/python3.10/site-packages'
+[46.979s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins/bin'
+[46.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/package.ps1'
+[46.980s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/package.dsv'
+[46.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/package.sh'
+[46.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/package.bash'
+[46.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/package.zsh'
+[46.981s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devuser/Workspaces/install/gst_pipeline_plugins/share/colcon-core/packages/gst_pipeline_plugins)
+[46.981s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gst_pipeline_plugins)
+[46.981s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins' for CMake module files
+[46.981s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins' for CMake config files
+[46.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_pipeline_plugins', 'cmake_prefix_path')
+[46.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/hook/cmake_prefix_path.ps1'
+[46.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/hook/cmake_prefix_path.dsv'
+[46.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/hook/cmake_prefix_path.sh'
+[46.983s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins/lib'
+[46.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_pipeline_plugins', 'ld_library_path_lib')
+[46.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/hook/ld_library_path_lib.ps1'
+[46.984s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/hook/ld_library_path_lib.dsv'
+[46.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/hook/ld_library_path_lib.sh'
+[46.984s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins/bin'
+[46.984s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins/lib/pkgconfig/gst_pipeline_plugins.pc'
+[46.984s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins/lib/python3.10/site-packages'
+[46.984s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins/bin'
+[46.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/package.ps1'
+[46.985s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/package.dsv'
+[46.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/package.sh'
+[46.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/package.bash'
+[46.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_pipeline_plugins/share/gst_pipeline_plugins/package.zsh'
+[46.986s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devuser/Workspaces/install/gst_pipeline_plugins/share/colcon-core/packages/gst_pipeline_plugins)
+[47.253s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gst_pipeline_plugins_webrtc)
+[47.254s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc' for CMake module files
+[47.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/devuser/Workspaces/build/gst_pipeline_plugins_webrtc' returned '0': AMENT_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/devuser/Workspaces/install/gst_pipeline:/home/devuser/Workspaces/install/gst_bridge:/home/devuser/Workspaces/install/gst_msgs:/home/devuser/Workspaces/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/install/gst_pipeline/lib:/home/devuser/Workspaces/install/gst_bridge/lib:/home/devuser/Workspaces/install/gst_msgs/lib:/home/devuser/Workspaces/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/devuser/Workspaces/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/devuser/Workspaces/build/gst_pipeline_plugins_webrtc
+[47.254s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc' for CMake config files
+[47.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_pipeline_plugins_webrtc', 'cmake_prefix_path')
+[47.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/hook/cmake_prefix_path.ps1'
+[47.255s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/hook/cmake_prefix_path.dsv'
+[47.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/hook/cmake_prefix_path.sh'
+[47.256s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/lib'
+[47.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_pipeline_plugins_webrtc', 'ld_library_path_lib')
+[47.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/hook/ld_library_path_lib.ps1'
+[47.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/hook/ld_library_path_lib.dsv'
+[47.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/hook/ld_library_path_lib.sh'
+[47.257s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/bin'
+[47.257s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/lib/pkgconfig/gst_pipeline_plugins_webrtc.pc'
+[47.257s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/lib/python3.10/site-packages'
+[47.257s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/bin'
+[47.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/package.ps1'
+[47.258s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/package.dsv'
+[47.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/package.sh'
+[47.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/package.bash'
+[47.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/package.zsh'
+[47.259s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/share/colcon-core/packages/gst_pipeline_plugins_webrtc)
+[47.259s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gst_pipeline_plugins_webrtc)
+[47.260s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc' for CMake module files
+[47.260s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc' for CMake config files
+[47.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_pipeline_plugins_webrtc', 'cmake_prefix_path')
+[47.260s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/hook/cmake_prefix_path.ps1'
+[47.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/hook/cmake_prefix_path.dsv'
+[47.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/hook/cmake_prefix_path.sh'
+[47.261s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/lib'
+[47.261s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_pipeline_plugins_webrtc', 'ld_library_path_lib')
+[47.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/hook/ld_library_path_lib.ps1'
+[47.262s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/hook/ld_library_path_lib.dsv'
+[47.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/hook/ld_library_path_lib.sh'
+[47.262s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/bin'
+[47.262s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/lib/pkgconfig/gst_pipeline_plugins_webrtc.pc'
+[47.263s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/lib/python3.10/site-packages'
+[47.263s] Level 1:colcon.colcon_core.environment:checking '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/bin'
+[47.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/package.ps1'
+[47.263s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/package.dsv'
+[47.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/package.sh'
+[47.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/package.bash'
+[47.264s] INFO:colcon.colcon_core.shell:Creating package script '/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/package.zsh'
+[47.264s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/share/colcon-core/packages/gst_pipeline_plugins_webrtc)
+[47.265s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[47.265s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[47.265s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[47.265s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[47.269s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[47.269s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[47.269s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[47.269s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[47.287s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[47.287s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/devuser/Workspaces/install/local_setup.ps1'
+[47.288s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/devuser/Workspaces/install/_local_setup_util_ps1.py'
+[47.289s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/devuser/Workspaces/install/setup.ps1'
+[47.289s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/devuser/Workspaces/install/local_setup.sh'
+[47.290s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/devuser/Workspaces/install/_local_setup_util_sh.py'
+[47.290s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/devuser/Workspaces/install/setup.sh'
+[47.291s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/devuser/Workspaces/install/local_setup.bash'
+[47.291s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/devuser/Workspaces/install/setup.bash'
+[47.292s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/devuser/Workspaces/install/local_setup.zsh'
+[47.292s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/devuser/Workspaces/install/setup.zsh'

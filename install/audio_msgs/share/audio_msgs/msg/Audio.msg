@@ -1,0 +1,1 @@
+/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs/msg/Audio.msg

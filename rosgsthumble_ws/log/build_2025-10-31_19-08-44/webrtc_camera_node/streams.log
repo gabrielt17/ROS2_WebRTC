@@ -1,0 +1,82 @@
+[0.014s] Invoking command in '/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node': CMAKE_PREFIX_PATH=/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge:/home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs:/home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_msgs:/home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node -- -j16 -l16
+[0.077s] [ 94%] Built target ixwebsocket
+[0.092s] [35m[1mConsolidate compiler generated dependencies of target camera_webrtc_node[0m
+[0.114s] [ 97%] [32mBuilding CXX object CMakeFiles/camera_webrtc_node.dir/src/camera_webrtc_node.cpp.o[0m
+[4.571s] [100%] [32m[1mLinking CXX executable camera_webrtc_node[0m
+[4.904s] [100%] Built target camera_webrtc_node
+[4.915s] Invoked command in '/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node' returned '0': CMAKE_PREFIX_PATH=/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge:/home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs:/home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_msgs:/home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node -- -j16 -l16
+[4.917s] Invoking command in '/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node': CMAKE_PREFIX_PATH=/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge:/home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs:/home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_msgs:/home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node
+[4.924s] -- Install configuration: ""
+[4.924s] -- Execute custom install script
+[4.925s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/lib/cmake/ixwebsocket/ixwebsocket-config.cmake
+[4.925s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/lib/pkgconfig/ixwebsocket.pc
+[4.925s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/lib/webrtc_camera_node/camera_webrtc_node
+[4.925s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/ament_index/resource_index/package_run_dependencies/webrtc_camera_node
+[4.926s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/ament_index/resource_index/parent_prefix_path/webrtc_camera_node
+[4.926s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/environment/ament_prefix_path.sh
+[4.926s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/environment/ament_prefix_path.dsv
+[4.926s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/environment/path.sh
+[4.926s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/environment/path.dsv
+[4.926s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/local_setup.bash
+[4.927s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/local_setup.sh
+[4.927s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/local_setup.zsh
+[4.927s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/local_setup.dsv
+[4.927s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/package.dsv
+[4.936s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/ament_index/resource_index/packages/webrtc_camera_node
+[4.937s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/cmake/webrtc_camera_nodeConfig.cmake
+[4.937s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/cmake/webrtc_camera_nodeConfig-version.cmake
+[4.937s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/package.xml
+[4.938s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/lib/libixwebsocket.a
+[4.938s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXBase64.h
+[4.938s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXBench.h
+[4.938s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXCancellationRequest.h
+[4.938s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXConnectionState.h
+[4.938s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXDNSLookup.h
+[4.938s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXExponentialBackoff.h
+[4.938s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXGetFreePort.h
+[4.938s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXGzipCodec.h
+[4.938s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXHttp.h
+[4.939s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXHttpClient.h
+[4.939s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXHttpServer.h
+[4.939s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXNetSystem.h
+[4.939s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXProgressCallback.h
+[4.939s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSelectInterrupt.h
+[4.939s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSelectInterruptFactory.h
+[4.939s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSelectInterruptPipe.h
+[4.939s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSelectInterruptEvent.h
+[4.939s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSetThreadName.h
+[4.939s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSocket.h
+[4.939s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSocketConnect.h
+[4.939s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSocketFactory.h
+[4.939s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSocketServer.h
+[4.940s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSocketTLSOptions.h
+[4.940s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXStrCaseCompare.h
+[4.940s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXUdpSocket.h
+[4.940s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXUniquePtr.h
+[4.940s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXUrlParser.h
+[4.940s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXUuid.h
+[4.940s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXUtf8Validator.h
+[4.940s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXUserAgent.h
+[4.940s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocket.h
+[4.940s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketCloseConstants.h
+[4.940s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketCloseInfo.h
+[4.940s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketErrorInfo.h
+[4.940s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketHandshake.h
+[4.940s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketHandshakeKeyGen.h
+[4.940s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketHttpHeaders.h
+[4.940s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketInitResult.h
+[4.940s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketMessage.h
+[4.940s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketMessageType.h
+[4.940s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketOpenInfo.h
+[4.940s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketPerMessageDeflate.h
+[4.941s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketPerMessageDeflateCodec.h
+[4.941s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketPerMessageDeflateOptions.h
+[4.941s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketProxyServer.h
+[4.941s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketSendData.h
+[4.941s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketSendInfo.h
+[4.941s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketServer.h
+[4.941s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketTransport.h
+[4.941s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketVersion.h
+[4.941s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/lib/cmake/ixwebsocket/ixwebsocket-targets.cmake
+[4.941s] -- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/lib/cmake/ixwebsocket/ixwebsocket-targets-noconfig.cmake
+[4.942s] Invoked command in '/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node' returned '0': CMAKE_PREFIX_PATH=/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge:/home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs:/home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_msgs:/home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub:/opt/ros/humble LD_LIBRARY_PATH=/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node

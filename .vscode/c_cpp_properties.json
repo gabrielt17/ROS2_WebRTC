@@ -6,7 +6,11 @@
                 "${workspaceFolder}/**",
                 "/opt/ros/humble/include/**",
                 "${workspaceFolder}/install/**/include/**",
-                "/usr/include/opencv4"
+                "/usr/include/opencv4",
+                "/usr/include/gstreamer-1.0",
+                "/usr/include/glib-2.0",
+                "/usr/lib/x86_64-linux-gnu/glib-2.0/include",
+                "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include"
             ],
             "defines": [],
             "cStandard": "c17",

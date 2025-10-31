@@ -1,0 +1,5 @@
+source;share/webrtc_camera_node/local_setup.bash
+source;share/webrtc_camera_node/local_setup.dsv
+source;share/webrtc_camera_node/local_setup.ps1
+source;share/webrtc_camera_node/local_setup.sh
+source;share/webrtc_camera_node/local_setup.zsh

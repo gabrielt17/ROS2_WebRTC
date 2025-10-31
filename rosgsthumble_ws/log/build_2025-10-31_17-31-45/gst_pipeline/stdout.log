@@ -1,0 +1,99 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found gst_bridge: 0.0.0 (/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/cmake)
+-- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'gstreamer-1.0'
+--   Found gstreamer-1.0, version 1.20.3
+-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found gst_msgs: 0.0.0 (/home/devuser/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake)
+-- Found ament_cmake_clang_format: 0.12.14 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)
+-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline
+[ 36%] [32mBuilding CXX object CMakeFiles/gst_pipeline_node.dir/rclcpp_components/node_main_gst_pipeline_node.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/gst_pipeline.dir/src/gst_pipeline.cpp.o[0m
+[ 36%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 45%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 54%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 54%] Built target gtest_main
+[ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 63%] Built target gtest
+[ 72%] [32m[1mLinking CXX executable gst_pipeline_node[0m
+[ 72%] Built target gst_pipeline_node
+[ 81%] [32m[1mLinking CXX shared library libgst_pipeline.so[0m
+[ 81%] Built target gst_pipeline
+[ 90%] [32mBuilding CXX object CMakeFiles/gst_pipeline_test.dir/test/gst_pipeline/test_loader.cpp.o[0m
+[100%] [32m[1mLinking CXX executable gst_pipeline_test[0m
+[100%] Built target gst_pipeline_test
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib/gst_pipeline/gst_pipeline_node
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/include/gst_pipeline/gst_pipeline.h
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/include/gst_pipeline/plugin_base.h
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/include/gst_pipeline/syntax_sugar.h
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/config/example.config.yaml
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/config/example_rx.config.yaml
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/launch/example.launch.py
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/launch/example_rx.launch.py
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/environment/library_path.sh
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/environment/library_path.dsv
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/ament_index/resource_index/package_run_dependencies/gst_pipeline
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/ament_index/resource_index/parent_prefix_path/gst_pipeline
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/environment/ament_prefix_path.sh
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/environment/ament_prefix_path.dsv
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/environment/path.sh
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/environment/path.dsv
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/local_setup.bash
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/local_setup.sh
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/local_setup.zsh
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/local_setup.dsv
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/package.dsv
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/ament_index/resource_index/packages/gst_pipeline
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/ament_index/resource_index/rclcpp_components/gst_pipeline
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/cmake/gst_pipelineConfig.cmake
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/cmake/gst_pipelineConfig-version.cmake
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/package.xml
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib/libgst_pipeline.so
+-- Set runtime path of "/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib/libgst_pipeline.so" to ""
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/cmake/export_gst_pipelineExport.cmake
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/cmake/export_gst_pipelineExport-noconfig.cmake
