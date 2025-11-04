@@ -316,7 +316,7 @@ ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/buil
 # install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-build/ixwebsocket.pc" "DESTINATION" "lib/pkgconfig")
 ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-build/ixwebsocket.pc" "DESTINATION" "lib/pkgconfig")
 
-# install("TARGETS" "camera_webrtc_node" "DESTINATION" "lib/webrtc_camera_node")
+# install("TARGETS" "send_camera_node" "receive_camera_node" "DESTINATION" "lib/webrtc_camera_node")
 include("/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/webrtc_camera_node" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

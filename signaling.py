@@ -1,5 +1,6 @@
+# signaling.py
+
 import sys
-import ssl
 import json
 import asyncio
 import logging
@@ -55,7 +56,7 @@ async def handle_websocket(websocket):
 async def main():
     endpoint = "127.0.0.1"
     port = 8000
-    print(f"Listening on {endpoint}:{port}")
+    # print(f"Listening on {endpoint}:{port}")
     server = await websockets.serve(handle_websocket, endpoint, port)
     await server.wait_closed()
 

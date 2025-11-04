@@ -1,6 +1,7 @@
 /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/CMakeFiles/uninstall.dir
 /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/CMakeFiles/webrtc_camera_node_uninstall.dir
-/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/CMakeFiles/camera_webrtc_node.dir
+/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/CMakeFiles/send_camera_node.dir
+/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/CMakeFiles/receive_camera_node.dir
 /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/CMakeFiles/test.dir
 /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/CMakeFiles/edit_cache.dir
 /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/CMakeFiles/rebuild_cache.dir

@@ -198,17 +198,30 @@ webrtc_camera_node_uninstall/fast:
 .PHONY : webrtc_camera_node_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named camera_webrtc_node
+# Target rules for targets named send_camera_node
 
 # Build rule for target.
-camera_webrtc_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 camera_webrtc_node
-.PHONY : camera_webrtc_node
+send_camera_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 send_camera_node
+.PHONY : send_camera_node
 
 # fast build rule for target.
-camera_webrtc_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/camera_webrtc_node.dir/build.make CMakeFiles/camera_webrtc_node.dir/build
-.PHONY : camera_webrtc_node/fast
+send_camera_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/send_camera_node.dir/build.make CMakeFiles/send_camera_node.dir/build
+.PHONY : send_camera_node/fast
+
+#=============================================================================
+# Target rules for targets named receive_camera_node
+
+# Build rule for target.
+receive_camera_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 receive_camera_node
+.PHONY : receive_camera_node
+
+# fast build rule for target.
+receive_camera_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/receive_camera_node.dir/build.make CMakeFiles/receive_camera_node.dir/build
+.PHONY : receive_camera_node/fast
 
 #=============================================================================
 # Target rules for targets named ixwebsocket
@@ -223,29 +236,53 @@ ixwebsocket/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build.make _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/build
 .PHONY : ixwebsocket/fast
 
-src/camera_webrtc_node.o: src/camera_webrtc_node.cpp.o
-.PHONY : src/camera_webrtc_node.o
+src/receive_camera_node.o: src/receive_camera_node.cpp.o
+.PHONY : src/receive_camera_node.o
 
 # target to build an object file
-src/camera_webrtc_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/camera_webrtc_node.dir/build.make CMakeFiles/camera_webrtc_node.dir/src/camera_webrtc_node.cpp.o
-.PHONY : src/camera_webrtc_node.cpp.o
+src/receive_camera_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/receive_camera_node.dir/build.make CMakeFiles/receive_camera_node.dir/src/receive_camera_node.cpp.o
+.PHONY : src/receive_camera_node.cpp.o
 
-src/camera_webrtc_node.i: src/camera_webrtc_node.cpp.i
-.PHONY : src/camera_webrtc_node.i
+src/receive_camera_node.i: src/receive_camera_node.cpp.i
+.PHONY : src/receive_camera_node.i
 
 # target to preprocess a source file
-src/camera_webrtc_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/camera_webrtc_node.dir/build.make CMakeFiles/camera_webrtc_node.dir/src/camera_webrtc_node.cpp.i
-.PHONY : src/camera_webrtc_node.cpp.i
+src/receive_camera_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/receive_camera_node.dir/build.make CMakeFiles/receive_camera_node.dir/src/receive_camera_node.cpp.i
+.PHONY : src/receive_camera_node.cpp.i
 
-src/camera_webrtc_node.s: src/camera_webrtc_node.cpp.s
-.PHONY : src/camera_webrtc_node.s
+src/receive_camera_node.s: src/receive_camera_node.cpp.s
+.PHONY : src/receive_camera_node.s
 
 # target to generate assembly for a file
-src/camera_webrtc_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/camera_webrtc_node.dir/build.make CMakeFiles/camera_webrtc_node.dir/src/camera_webrtc_node.cpp.s
-.PHONY : src/camera_webrtc_node.cpp.s
+src/receive_camera_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/receive_camera_node.dir/build.make CMakeFiles/receive_camera_node.dir/src/receive_camera_node.cpp.s
+.PHONY : src/receive_camera_node.cpp.s
+
+src/send_camera_node.o: src/send_camera_node.cpp.o
+.PHONY : src/send_camera_node.o
+
+# target to build an object file
+src/send_camera_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/send_camera_node.dir/build.make CMakeFiles/send_camera_node.dir/src/send_camera_node.cpp.o
+.PHONY : src/send_camera_node.cpp.o
+
+src/send_camera_node.i: src/send_camera_node.cpp.i
+.PHONY : src/send_camera_node.i
+
+# target to preprocess a source file
+src/send_camera_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/send_camera_node.dir/build.make CMakeFiles/send_camera_node.dir/src/send_camera_node.cpp.i
+.PHONY : src/send_camera_node.cpp.i
+
+src/send_camera_node.s: src/send_camera_node.cpp.s
+.PHONY : src/send_camera_node.s
+
+# target to generate assembly for a file
+src/send_camera_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/send_camera_node.dir/build.make CMakeFiles/send_camera_node.dir/src/send_camera_node.cpp.s
+.PHONY : src/send_camera_node.cpp.s
 
 # Help Target
 help:
@@ -262,11 +299,15 @@ help:
 	@echo "... test"
 	@echo "... uninstall"
 	@echo "... webrtc_camera_node_uninstall"
-	@echo "... camera_webrtc_node"
 	@echo "... ixwebsocket"
-	@echo "... src/camera_webrtc_node.o"
-	@echo "... src/camera_webrtc_node.i"
-	@echo "... src/camera_webrtc_node.s"
+	@echo "... receive_camera_node"
+	@echo "... send_camera_node"
+	@echo "... src/receive_camera_node.o"
+	@echo "... src/receive_camera_node.i"
+	@echo "... src/receive_camera_node.s"
+	@echo "... src/send_camera_node.o"
+	@echo "... src/send_camera_node.i"
+	@echo "... src/send_camera_node.s"
 .PHONY : help
 
 

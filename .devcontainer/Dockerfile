@@ -14,8 +14,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     sudo git wget curl nano bash-completion build-essential cmake pkg-config gdb \
     cppcheck valgrind \
     \
-    # Python + WebSockets para sinalização
-    python3 python3-pip python3-websockets \
+    # Python + pip (removido python3-websockets do apt)
+    python3 python3-pip \
     \
     # SSL
     ca-certificates \
@@ -61,6 +61,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
+# Instala a versão 10.4 do websockets via pip
+RUN python3 -m pip install --no-cache-dir websockets==10.4
 
 # Script para criar usuário com UID/GID igual ao host
 RUN set -x && \
@@ -74,8 +76,8 @@ RUN set -x && \
 RUN groupadd --gid 985 dri && groupadd --gid 989 render && \
     usermod -aG dri,render,video ${USERNAME}
 
-# Volta ao seu workspace original
-WORKDIR ${HOME}/${USERNAME}/Workspaces
+# Volta ao workspace
+WORKDIR /home/${USERNAME}/Workspaces
 
 USER ${USERNAME}
 

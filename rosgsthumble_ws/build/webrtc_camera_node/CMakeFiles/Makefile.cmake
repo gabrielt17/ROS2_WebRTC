@@ -724,6 +724,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/webrtc_camera_node_uninstall.dir/DependInfo.cmake"
-  "CMakeFiles/camera_webrtc_node.dir/DependInfo.cmake"
+  "CMakeFiles/send_camera_node.dir/DependInfo.cmake"
+  "CMakeFiles/receive_camera_node.dir/DependInfo.cmake"
   "_deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/DependInfo.cmake"
   )
