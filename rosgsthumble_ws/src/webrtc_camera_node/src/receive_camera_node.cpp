@@ -14,7 +14,7 @@
 using json = nlohmann::json;
 
 // Variáveis globais
-std::string ipAddress = "localhost";
+std::string ipAddress = "192.168.0.134";
 std::string port = "8000";
 std::string localId = "alice"; // ID local do remetente
 std::string remoteId = "gabrielt"; // ID remoto do destinatário

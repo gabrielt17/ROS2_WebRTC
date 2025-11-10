@@ -1,4 +1,0 @@
-Invoking command in '/home/devuser/Workspaces/rosgsthumble_ws/build/cpp_campub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/Workspaces/rosgsthumble_ws/build/cpp_campub -- -j16 -l16
-Invoked command in '/home/devuser/Workspaces/rosgsthumble_ws/build/cpp_campub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/Workspaces/rosgsthumble_ws/build/cpp_campub -- -j16 -l16
-Invoking command in '/home/devuser/Workspaces/rosgsthumble_ws/build/cpp_campub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devuser/Workspaces/rosgsthumble_ws/build/cpp_campub
-Invoked command in '/home/devuser/Workspaces/rosgsthumble_ws/build/cpp_campub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devuser/Workspaces/rosgsthumble_ws/build/cpp_campub
