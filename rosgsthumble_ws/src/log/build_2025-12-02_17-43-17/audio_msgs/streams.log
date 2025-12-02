@@ -1,0 +1,206 @@
+[0.126s] Invoking command in '/home/devuser/Workspaces/rosgsthumble_ws/src/build/audio_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs
+[1.362s] -- The C compiler identification is GNU 11.4.0
+[2.050s] -- The CXX compiler identification is GNU 11.4.0
+[2.105s] -- Detecting C compiler ABI info
+[2.729s] -- Detecting C compiler ABI info - done
+[2.808s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.809s] -- Detecting C compile features
+[2.813s] -- Detecting C compile features - done
+[2.846s] -- Detecting CXX compiler ABI info
+[3.512s] -- Detecting CXX compiler ABI info - done
+[3.548s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.551s] -- Detecting CXX compile features
+[3.554s] -- Detecting CXX compile features - done
+[3.585s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.464s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.079s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.535s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[5.952s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.017s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.103s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.184s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.323s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.616s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.923s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[8.567s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[11.609s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.756s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.889s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[12.913s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[13.088s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[13.090s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[13.091s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[13.092s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[13.171s] -- Found PythonExtra: .so  
+[13.807s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.504s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.536s] -- Added test 'lint_cmake' to check CMake code style
+[14.552s] -- Added test 'xmllint' to check XML markup files
+[14.621s] -- Configuring done
+[15.143s] -- Generating done
+[15.405s] -- Build files have been written to: /home/devuser/Workspaces/rosgsthumble_ws/src/build/audio_msgs
+[15.579s] Invoked command in '/home/devuser/Workspaces/rosgsthumble_ws/src/build/audio_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs
+[15.581s] Invoking command in '/home/devuser/Workspaces/rosgsthumble_ws/src/build/audio_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/Workspaces/rosgsthumble_ws/src/build/audio_msgs -- -j4 -l4
+[16.265s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[16.416s] [  3%] Built target ament_cmake_python_symlink_audio_msgs
+[16.472s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[21.776s] running egg_info
+[21.796s] creating audio_msgs.egg-info
+[21.797s] writing audio_msgs.egg-info/PKG-INFO
+[21.798s] writing dependency_links to audio_msgs.egg-info/dependency_links.txt
+[21.798s] writing top-level names to audio_msgs.egg-info/top_level.txt
+[21.799s] writing manifest file 'audio_msgs.egg-info/SOURCES.txt'
+[21.852s] reading manifest file 'audio_msgs.egg-info/SOURCES.txt'
+[21.867s] writing manifest file 'audio_msgs.egg-info/SOURCES.txt'
+[22.504s] [  6%] Built target ament_cmake_python_build_audio_msgs_egg
+[24.734s] [  9%] [32mBuilding C object CMakeFiles/audio_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_msgs/msg/detail/audio__functions.c.o[0m
+[25.737s] [  9%] Built target audio_msgs__cpp
+[25.847s] [ 12%] [32m[1mLinking C shared library libaudio_msgs__rosidl_generator_c.so[0m
+[26.427s] [ 12%] Built target audio_msgs__rosidl_generator_c
+[26.680s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[35.235s] [ 19%] [32mBuilding CXX object CMakeFiles/audio_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_msgs/msg/detail/audio__type_support.cpp.o[0m
+[45.975s] [ 22%] [32m[1mLinking CXX shared library libaudio_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[47.194s] [ 22%] Built target audio_msgs__rosidl_typesupport_introspection_cpp
+[65.201s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[68.380s] [ 29%] [32mBuilding CXX object CMakeFiles/audio_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_msgs/msg/detail/audio__type_support_c.cpp.o[0m
+[72.411s] [ 32%] [32m[1mLinking CXX shared library libaudio_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[73.070s] [ 32%] Built target audio_msgs__rosidl_typesupport_fastrtps_c
+[73.264s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[77.851s] [ 38%] [32mBuilding C object CMakeFiles/audio_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_msgs/msg/detail/audio__type_support.c.o[0m
+[78.869s] [ 41%] [32m[1mLinking C shared library libaudio_msgs__rosidl_typesupport_introspection_c.so[0m
+[79.591s] [ 41%] Built target audio_msgs__rosidl_typesupport_introspection_c
+[79.724s] [ 45%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[83.921s] [ 48%] [32mBuilding CXX object CMakeFiles/audio_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_msgs/msg/audio__type_support.cpp.o[0m
+[84.402s] [ 51%] [32m[1mLinking CXX shared library libaudio_msgs__rosidl_typesupport_c.so[0m
+[85.268s] [ 51%] Built target audio_msgs__rosidl_typesupport_c
+[85.497s] [ 54%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[88.837s] [ 58%] [32mBuilding CXX object CMakeFiles/audio_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_msgs/msg/detail/dds_fastrtps/audio__type_support.cpp.o[0m
+[93.525s] [ 61%] [32m[1mLinking CXX shared library libaudio_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[95.113s] [ 61%] Built target audio_msgs__rosidl_typesupport_fastrtps_cpp
+[95.220s] [ 64%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[99.027s] [ 67%] [32mBuilding CXX object CMakeFiles/audio_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_msgs/msg/audio__type_support.cpp.o[0m
+[100.857s] [ 70%] [32m[1mLinking CXX shared library libaudio_msgs__rosidl_typesupport_cpp.so[0m
+[101.204s] [ 70%] Built target audio_msgs__rosidl_typesupport_cpp
+[101.481s] [ 70%] Built target audio_msgs
+[101.632s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[106.935s] [ 74%] Built target audio_msgs__py
+[107.186s] [ 77%] [32mBuilding C object CMakeFiles/audio_msgs__rosidl_generator_py.dir/rosidl_generator_py/audio_msgs/msg/_audio_s.c.o[0m
+[109.232s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/audio_msgs/libaudio_msgs__rosidl_generator_py.so[0m
+[109.763s] [ 80%] Built target audio_msgs__rosidl_generator_py
+[110.094s] [ 83%] [32mBuilding C object CMakeFiles/audio_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/audio_msgs/_audio_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[111.572s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/audio_msgs/audio_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[113.120s] [ 87%] Built target audio_msgs__rosidl_typesupport_fastrtps_c__pyext
+[113.395s] [ 90%] [32mBuilding C object CMakeFiles/audio_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/audio_msgs/_audio_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[116.256s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/audio_msgs/audio_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[116.440s] [ 93%] Built target audio_msgs__rosidl_typesupport_c__pyext
+[116.829s] [ 96%] [32mBuilding C object CMakeFiles/audio_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/audio_msgs/_audio_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[117.540s] [100%] [32m[1mLinking C shared library rosidl_generator_py/audio_msgs/audio_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[118.288s] [100%] Built target audio_msgs__rosidl_typesupport_introspection_c__pyext
+[118.335s] Invoked command in '/home/devuser/Workspaces/rosgsthumble_ws/src/build/audio_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/Workspaces/rosgsthumble_ws/src/build/audio_msgs -- -j4 -l4
+[118.355s] Invoking command in '/home/devuser/Workspaces/rosgsthumble_ws/src/build/audio_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devuser/Workspaces/rosgsthumble_ws/src/build/audio_msgs
+[118.572s] -- Install configuration: ""
+[118.579s] -- Execute custom install script
+[118.612s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/ament_index/resource_index/rosidl_interfaces/audio_msgs
+[118.647s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/include/audio_msgs/audio_msgs/msg/audio.h
+[118.680s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__functions.h
+[118.712s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__struct.h
+[118.747s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__type_support.h
+[118.779s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/include/audio_msgs/audio_msgs/msg/rosidl_generator_c__visibility_control.h
+[118.813s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/environment/library_path.sh
+[118.851s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/environment/library_path.dsv
+[118.895s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__rosidl_typesupport_fastrtps_c.h
+[118.939s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/include/audio_msgs/audio_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[118.982s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/include/audio_msgs/audio_msgs/msg/audio.hpp
+[119.014s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__builder.hpp
+[119.047s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__struct.hpp
+[119.083s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__traits.hpp
+[119.126s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__type_support.hpp
+[119.162s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/include/audio_msgs/audio_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[119.199s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__rosidl_typesupport_fastrtps_cpp.hpp
+[119.231s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/include/audio_msgs/audio_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[119.264s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__rosidl_typesupport_introspection_c.h
+[119.381s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/include/audio_msgs/audio_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[119.454s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__rosidl_typesupport_introspection_cpp.hpp
+[119.495s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/environment/pythonpath.sh
+[119.560s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/environment/pythonpath.dsv
+[119.622s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[119.657s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[119.697s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[119.732s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[119.778s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/__init__.py
+[119.839s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/_audio_msgs_s.ep.rosidl_typesupport_c.c
+[119.902s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/_audio_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[119.940s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/_audio_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[119.976s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/audio_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[120.106s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/audio_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[120.161s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/audio_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[120.207s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/libaudio_msgs__rosidl_generator_py.so
+[120.246s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/msg/__init__.py
+[120.277s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/msg/_audio.py
+[120.311s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/msg/_audio_s.c
+[120.348s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/audio_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[120.457s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/audio_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[120.459s] -- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/audio_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[120.460s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/msg/Audio.idl
+[120.496s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/msg/Audio.msg
+[120.529s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/ament_index/resource_index/package_run_dependencies/audio_msgs
+[120.563s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/ament_index/resource_index/parent_prefix_path/audio_msgs
+[120.593s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/environment/ament_prefix_path.sh
+[120.783s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/environment/ament_prefix_path.dsv
+[120.814s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/environment/path.sh
+[120.844s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/environment/path.dsv
+[120.877s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/local_setup.bash
+[120.906s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/local_setup.sh
+[120.938s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/local_setup.zsh
+[120.967s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/local_setup.dsv
+[121.001s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/package.dsv
+[121.032s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/ament_index/resource_index/packages/audio_msgs
+[121.063s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/cmake/rosidl_cmake-extras.cmake
+[121.093s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[121.124s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[121.154s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[121.185s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[121.216s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[121.247s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[121.284s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/cmake/audio_msgsConfig.cmake
+[121.319s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/cmake/audio_msgsConfig-version.cmake
+[121.382s] -- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/package.xml
+[121.463s] -- Installing: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/lib/libaudio_msgs__rosidl_generator_c.so
+[121.470s] -- Set runtime path of "/home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/lib/libaudio_msgs__rosidl_generator_c.so" to ""
+[121.470s] -- Installing: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_fastrtps_c.so
+[121.484s] -- Set runtime path of "/home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[121.488s] -- Installing: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_fastrtps_cpp.so
+[121.497s] -- Set runtime path of "/home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[121.513s] -- Installing: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_introspection_c.so
+[121.523s] -- Set runtime path of "/home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_introspection_c.so" to ""
+[121.524s] -- Installing: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_c.so
+[121.533s] -- Set runtime path of "/home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_c.so" to ""
+[121.535s] -- Installing: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_introspection_cpp.so
+[121.558s] -- Set runtime path of "/home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[121.559s] -- Installing: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_cpp.so
+[121.565s] -- Set runtime path of "/home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_cpp.so" to ""
+[122.588s] Listing '/home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs'...
+[122.589s] Compiling '/home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/__init__.py'...
+[122.589s] Listing '/home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/msg'...
+[122.590s] Compiling '/home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/msg/__init__.py'...
+[122.590s] Compiling '/home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/msg/_audio.py'...
+[122.660s] -- Installing: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/lib/libaudio_msgs__rosidl_generator_py.so
+[122.660s] -- Set runtime path of "/home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/lib/libaudio_msgs__rosidl_generator_py.so" to ""
+[122.661s] -- Installing: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_generator_cExport.cmake
+[122.664s] -- Installing: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_generator_cExport-noconfig.cmake
+[122.675s] -- Installing: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[122.701s] -- Installing: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[122.718s] -- Installing: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_generator_cppExport.cmake
+[122.768s] -- Installing: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[122.820s] -- Installing: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[122.827s] -- Installing: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/cmake/audio_msgs__rosidl_typesupport_introspection_cExport.cmake
+[122.838s] -- Installing: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/cmake/audio_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[122.844s] -- Installing: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/cmake/audio_msgs__rosidl_typesupport_cExport.cmake
+[122.909s] -- Installing: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/cmake/audio_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[122.959s] -- Installing: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/cmake/audio_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[122.993s] -- Installing: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/cmake/audio_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[123.043s] -- Installing: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/cmake/audio_msgs__rosidl_typesupport_cppExport.cmake
+[123.129s] -- Installing: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/cmake/audio_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[123.167s] -- Installing: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_generator_pyExport.cmake
+[123.202s] -- Installing: /home/devuser/Workspaces/rosgsthumble_ws/src/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_generator_pyExport-noconfig.cmake
+[123.229s] Invoked command in '/home/devuser/Workspaces/rosgsthumble_ws/src/build/audio_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devuser/Workspaces/rosgsthumble_ws/src/build/audio_msgs

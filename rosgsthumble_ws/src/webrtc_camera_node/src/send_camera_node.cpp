@@ -17,7 +17,7 @@
 using namespace nlohmann;
 
 // Variáveis globais
-std::string ipAddress = "localhost";
+std::string ipAddress = "192.168.0.131";
 std::string port = "8000";
 std::string localId = "gabrielt";
 std::string remoteId = "alice";
@@ -115,7 +115,7 @@ int main(int argc, char* argv[]) {
 
     auto node = rclcpp::Node::make_shared("send_camera_node");
 
-    node->declare_parameter<std::string>("camera_topic", "/camera/image_raw");
+    node->declare_parameter<std::string>("camera_topic", "/camera/camera/color/image_raw");
     std::string camera_topic;
     node->get_parameter("camera_topic", camera_topic);
     RCLCPP_INFO(node->get_logger(), "Transmitindo vídeo do tópico: %s", camera_topic.c_str());

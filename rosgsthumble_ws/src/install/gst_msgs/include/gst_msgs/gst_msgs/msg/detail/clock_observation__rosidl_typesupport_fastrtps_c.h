@@ -1,0 +1,1 @@
+/home/devuser/Workspaces/rosgsthumble_ws/src/build/gst_msgs/rosidl_typesupport_fastrtps_c/gst_msgs/msg/detail/clock_observation__rosidl_typesupport_fastrtps_c.h

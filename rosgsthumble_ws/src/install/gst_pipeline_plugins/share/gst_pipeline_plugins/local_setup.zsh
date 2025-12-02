@@ -1,0 +1,1 @@
+/home/devuser/Workspaces/rosgsthumble_ws/src/build/gst_pipeline_plugins/ament_cmake_environment_hooks/local_setup.zsh

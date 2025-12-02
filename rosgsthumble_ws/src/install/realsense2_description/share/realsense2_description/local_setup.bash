@@ -1,0 +1,1 @@
+/home/devuser/Workspaces/rosgsthumble_ws/src/build/realsense2_description/ament_cmake_environment_hooks/local_setup.bash

@@ -44,6 +44,5 @@
     "postCreateCommand": "sudo chown -R $(whoami) /home/devuser/Workspaces",
 
     // Mantém o contêiner em execução (como `command: sleep infinity`)
-    "overrideCommand": true,
-    "postStartCommand": "sleep infinity"
+    "overrideCommand": true
 }

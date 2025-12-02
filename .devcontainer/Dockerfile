@@ -49,6 +49,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     python3-rosinstall-generator \
     python3-vcstool \
     ros-humble-ros-core \
+    ros-humble-librealsense2* \
     # ros-humble-gazebo-msgs \
     # ros-humble-gazebo-plugins \
     ros-humble-ament-cmake-clang-format \
