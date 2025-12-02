@@ -1,5 +1,5 @@
 # Dockerfile (Baseado na imagem oficial ROS2 Humble + dependências)
-FROM osrf/ros:humble-desktop-full
+FROM arm64v8/ros:humble-perception-jammy
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -49,8 +49,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     python3-rosinstall-generator \
     python3-vcstool \
     ros-humble-ros-core \
-    ros-humble-gazebo-msgs \
-    ros-humble-gazebo-plugins \
+    # ros-humble-gazebo-msgs \
+    # ros-humble-gazebo-plugins \
     ros-humble-ament-cmake-clang-format \
     ros-humble-osrf-testing-tools-cpp \
     libjson-glib-dev \

@@ -162,13 +162,13 @@ gst_pipeline_test: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_intr
 gst_pipeline_test: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 gst_pipeline_test: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 gst_pipeline_test: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
-gst_pipeline_test: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+gst_pipeline_test: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 gst_pipeline_test: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
 gst_pipeline_test: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 gst_pipeline_test: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 gst_pipeline_test: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
-gst_pipeline_test: /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so
-gst_pipeline_test: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+gst_pipeline_test: /usr/lib/aarch64-linux-gnu/libgstreamer-1.0.so
+gst_pipeline_test: /usr/lib/aarch64-linux-gnu/libtinyxml2.so
 gst_pipeline_test: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 gst_pipeline_test: /home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_generator_c.so
 gst_pipeline_test: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
@@ -205,7 +205,7 @@ gst_pipeline_test: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
 gst_pipeline_test: /opt/ros/humble/lib/libtracetools.so
 gst_pipeline_test: /opt/ros/humble/lib/libament_index_cpp.so
 gst_pipeline_test: /opt/ros/humble/lib/libclass_loader.so
-gst_pipeline_test: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+gst_pipeline_test: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
 gst_pipeline_test: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so
 gst_pipeline_test: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
 gst_pipeline_test: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
@@ -231,7 +231,7 @@ gst_pipeline_test: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 gst_pipeline_test: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_generator_py.so
 gst_pipeline_test: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
 gst_pipeline_test: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
-gst_pipeline_test: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+gst_pipeline_test: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 gst_pipeline_test: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_c.so
 gst_pipeline_test: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so
 gst_pipeline_test: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so

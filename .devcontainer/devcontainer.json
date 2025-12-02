@@ -1,16 +1,31 @@
 // .devcontainer/devcontainer.json
 {
     "name": "ROS2 Humble WebRTC (Ubuntu 22.04)",
-    "dockerComposeFile": "../docker-compose.yml",
-    "service": "app",
+    "build": {
+        "context": ".",
+        "dockerfile": "Dockerfile"
+    },
     "workspaceFolder": "/home/devuser/Workspaces",
-
-    
-
-    // Define o usuário que o VSCode usará para se conectar ao contêiner
     "remoteUser": "devuser",
 
-    // Recomenda extensões úteis do VSCode para serem instaladas no contêiner
+    // Permite passar argumentos de execução adicionais para o contêiner
+    "runArgs": [
+        "--network=host",
+        "--ipc=host",
+        "--privileged",
+        "-e", "DISPLAY=${env:DISPLAY}",
+        "-e", "WAYLAND_DISPLAY=${env:WAYLAND_DISPLAY}",
+        "-e", "XDG_RUNTIME_DIR=${env:XDG_RUNTIME_DIR}",
+        "-e", "PIPEWIRE_RUNTIME_DIR=${env:XDG_RUNTIME_DIR}",
+        "--device", "/dev/dri:/dev/dri",
+        "--device", "/dev/snd",
+        "-v", ".:/home/devuser/Workspaces:cached",
+        "-v", "/tmp/.X11-unix:/tmp/.X11-unix",
+        "-v", "${env:HOME}/.Xauthority:/home/devuser/.Xauthority:ro",
+        "-v", "${env:XDG_RUNTIME_DIR}:${env:XDG_RUNTIME_DIR}"
+    ],
+
+    // Extensões recomendadas do VSCode
     "customizations": {
         "vscode": {
             "extensions": [
@@ -25,9 +40,10 @@
         }
     },
 
-    
+    // Comando padrão após criar o contêiner
+    "postCreateCommand": "sudo chown -R $(whoami) /home/devuser/Workspaces",
 
-    // Executa um comando após a criação do contêiner.
-    // Útil para configurar permissões ou outras tarefas iniciais.
-    "postCreateCommand": "sudo chown -R $(whoami) /home/devuser/Workspaces"
+    // Mantém o contêiner em execução (como `command: sleep infinity`)
+    "overrideCommand": true,
+    "postStartCommand": "sleep infinity"
 }

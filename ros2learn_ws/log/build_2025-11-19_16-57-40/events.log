@@ -1,0 +1,156 @@
+[0.000000] (-) TimerEvent: {}
+[0.008204] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.008447] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.102387] (-) TimerEvent: {}
+[0.142502] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.155710] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/devuser/Workspaces/ros2learn_ws/src/cpp_pubsub', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub'], 'cwd': '/home/devuser/Workspaces/ros2learn_ws/build/cpp_pubsub', 'env': OrderedDict([('HOSTNAME', 'nano'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/17baf841131aa23349f217ca7c570c76ee87b957/bin/helpers/browser.sh'), ('HOME', '/home/devuser'), ('OLDPWD', '/home/devuser/Workspaces'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('PIPEWIRE_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-33a9d95b-71c8-4838-a358-b5112a3146ff.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/17baf841131aa23349f217ca7c570c76ee87b957/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', ''), ('COLCON_PREFIX_PATH', '/home/devuser/Workspaces/rosgsthumble_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-84340ac4-646e-4aea-97bd-173ac478c5aa.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/lib/x86_64-linux-gnu/pkgconfig:'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-arm64/17baf841131aa23349f217ca7c570c76ee87b957/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-84340ac4-646e-4aea-97bd-173ac478c5aa.sock","/run/user/1000/gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bde4d95b3f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-84340ac4-646e-4aea-97bd-173ac478c5aa.sock'), ('AMENT_PREFIX_PATH', '/home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_msgs:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge:/home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub:/home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('GST_PLUGIN_PATH', '/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/gst_bridge/'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/devuser/Workspaces/ros2learn_ws/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/devuser/Workspaces/rosgsthumble_ws/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_msgs:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge:/home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub:/home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble')]), 'shell': False}
+[0.215788] (-) TimerEvent: {}
+[0.316505] (-) TimerEvent: {}
+[0.417282] (-) TimerEvent: {}
+[0.518102] (-) TimerEvent: {}
+[0.620175] (-) TimerEvent: {}
+[0.721393] (-) TimerEvent: {}
+[0.822243] (-) TimerEvent: {}
+[0.923915] (-) TimerEvent: {}
+[1.024601] (-) TimerEvent: {}
+[1.125838] (-) TimerEvent: {}
+[1.226827] (-) TimerEvent: {}
+[1.328908] (-) TimerEvent: {}
+[1.429623] (-) TimerEvent: {}
+[1.531053] (-) TimerEvent: {}
+[1.577640] (cpp_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.631264] (-) TimerEvent: {}
+[1.732023] (-) TimerEvent: {}
+[1.833192] (-) TimerEvent: {}
+[1.934106] (-) TimerEvent: {}
+[2.034872] (-) TimerEvent: {}
+[2.135624] (-) TimerEvent: {}
+[2.236516] (-) TimerEvent: {}
+[2.337958] (-) TimerEvent: {}
+[2.438692] (-) TimerEvent: {}
+[2.539741] (-) TimerEvent: {}
+[2.640649] (-) TimerEvent: {}
+[2.741977] (-) TimerEvent: {}
+[2.842652] (-) TimerEvent: {}
+[2.885295] (cpp_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.947330] (-) TimerEvent: {}
+[3.019774] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.047637] (-) TimerEvent: {}
+[3.149239] (-) TimerEvent: {}
+[3.256938] (-) TimerEvent: {}
+[3.358518] (-) TimerEvent: {}
+[3.460250] (-) TimerEvent: {}
+[3.565097] (-) TimerEvent: {}
+[3.666097] (-) TimerEvent: {}
+[3.766928] (-) TimerEvent: {}
+[3.868298] (-) TimerEvent: {}
+[3.969074] (-) TimerEvent: {}
+[4.069817] (-) TimerEvent: {}
+[4.154434] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.170128] (-) TimerEvent: {}
+[4.217583] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.221175] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.227477] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.251448] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.270495] (-) TimerEvent: {}
+[4.371628] (-) TimerEvent: {}
+[4.473461] (-) TimerEvent: {}
+[4.574889] (-) TimerEvent: {}
+[4.677018] (-) TimerEvent: {}
+[4.778880] (-) TimerEvent: {}
+[4.847686] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.879040] (-) TimerEvent: {}
+[4.902751] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.903876] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.906130] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.979485] (-) TimerEvent: {}
+[5.007729] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.079683] (-) TimerEvent: {}
+[5.180402] (-) TimerEvent: {}
+[5.281111] (-) TimerEvent: {}
+[5.384490] (-) TimerEvent: {}
+[5.485552] (-) TimerEvent: {}
+[5.586282] (-) TimerEvent: {}
+[5.687386] (-) TimerEvent: {}
+[5.788265] (-) TimerEvent: {}
+[5.890295] (-) TimerEvent: {}
+[5.991216] (-) TimerEvent: {}
+[6.091967] (-) TimerEvent: {}
+[6.193423] (-) TimerEvent: {}
+[6.294886] (-) TimerEvent: {}
+[6.396525] (-) TimerEvent: {}
+[6.434439] (cpp_pubsub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.497055] (-) TimerEvent: {}
+[6.597778] (-) TimerEvent: {}
+[6.698843] (-) TimerEvent: {}
+[6.799864] (-) TimerEvent: {}
+[6.900702] (-) TimerEvent: {}
+[7.003788] (-) TimerEvent: {}
+[7.104473] (-) TimerEvent: {}
+[7.209031] (-) TimerEvent: {}
+[7.308446] (cpp_pubsub) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.309522] (-) TimerEvent: {}
+[7.411527] (-) TimerEvent: {}
+[7.512988] (-) TimerEvent: {}
+[7.613715] (-) TimerEvent: {}
+[7.714481] (-) TimerEvent: {}
+[7.741238] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.814662] (-) TimerEvent: {}
+[7.916671] (-) TimerEvent: {}
+[8.019908] (-) TimerEvent: {}
+[8.120701] (-) TimerEvent: {}
+[8.223320] (-) TimerEvent: {}
+[8.324127] (-) TimerEvent: {}
+[8.424871] (-) TimerEvent: {}
+[8.525798] (-) TimerEvent: {}
+[8.602647] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.603617] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[8.604176] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.615471] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.618745] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.619506] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.623393] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.626213] (-) TimerEvent: {}
+[8.641996] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.659124] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[8.665947] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/devuser/Workspaces/ros2learn_ws/build/cpp_pubsub\n'}
+[8.694007] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[8.695685] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[8.701270] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/devuser/Workspaces/ros2learn_ws/build/cpp_pubsub', '--', '-j4', '-l4'], 'cwd': '/home/devuser/Workspaces/ros2learn_ws/build/cpp_pubsub', 'env': OrderedDict([('HOSTNAME', 'nano'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/17baf841131aa23349f217ca7c570c76ee87b957/bin/helpers/browser.sh'), ('HOME', '/home/devuser'), ('OLDPWD', '/home/devuser/Workspaces'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('PIPEWIRE_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-33a9d95b-71c8-4838-a358-b5112a3146ff.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/17baf841131aa23349f217ca7c570c76ee87b957/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', ''), ('COLCON_PREFIX_PATH', '/home/devuser/Workspaces/rosgsthumble_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-84340ac4-646e-4aea-97bd-173ac478c5aa.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/lib/x86_64-linux-gnu/pkgconfig:'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-arm64/17baf841131aa23349f217ca7c570c76ee87b957/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-84340ac4-646e-4aea-97bd-173ac478c5aa.sock","/run/user/1000/gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bde4d95b3f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-84340ac4-646e-4aea-97bd-173ac478c5aa.sock'), ('AMENT_PREFIX_PATH', '/home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_msgs:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge:/home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub:/home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('GST_PLUGIN_PATH', '/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/gst_bridge/'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/devuser/Workspaces/ros2learn_ws/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/devuser/Workspaces/rosgsthumble_ws/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_msgs:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge:/home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub:/home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble')]), 'shell': False}
+[8.728421] (-) TimerEvent: {}
+[8.831345] (-) TimerEvent: {}
+[8.934577] (-) TimerEvent: {}
+[8.953711] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[8.966208] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[9.023453] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/devuser/Workspaces/ros2learn_ws/build/cpp_pubsub'], 'cwd': '/home/devuser/Workspaces/ros2learn_ws/build/cpp_pubsub', 'env': OrderedDict([('HOSTNAME', 'nano'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/17baf841131aa23349f217ca7c570c76ee87b957/bin/helpers/browser.sh'), ('HOME', '/home/devuser'), ('OLDPWD', '/home/devuser/Workspaces'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('PIPEWIRE_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-33a9d95b-71c8-4838-a358-b5112a3146ff.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/17baf841131aa23349f217ca7c570c76ee87b957/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', ''), ('COLCON_PREFIX_PATH', '/home/devuser/Workspaces/rosgsthumble_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-84340ac4-646e-4aea-97bd-173ac478c5aa.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/lib/x86_64-linux-gnu/pkgconfig:'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-arm64/17baf841131aa23349f217ca7c570c76ee87b957/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-84340ac4-646e-4aea-97bd-173ac478c5aa.sock","/run/user/1000/gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bde4d95b3f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-84340ac4-646e-4aea-97bd-173ac478c5aa.sock'), ('AMENT_PREFIX_PATH', '/home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_msgs:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge:/home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub:/home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('GST_PLUGIN_PATH', '/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/gst_bridge/'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/devuser/Workspaces/ros2learn_ws/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/devuser/Workspaces/rosgsthumble_ws/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_msgs:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge:/home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub:/home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble')]), 'shell': False}
+[9.035434] (-) TimerEvent: {}
+[9.057260] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.059546] (cpp_pubsub) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.060727] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[9.111333] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[9.135615] (-) TimerEvent: {}
+[9.163096] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[9.216949] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[9.236646] (-) TimerEvent: {}
+[9.258399] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[9.310641] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[9.337193] (-) TimerEvent: {}
+[9.347406] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[9.391671] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[9.437769] (-) TimerEvent: {}
+[9.460482] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[9.511400] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[9.537967] (-) TimerEvent: {}
+[9.562032] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[9.623685] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[9.638169] (-) TimerEvent: {}
+[9.711365] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[9.741727] (-) TimerEvent: {}
+[9.770923] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[9.824692] (cpp_pubsub) StdoutLine: {'line': b'-- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[9.842101] (-) TimerEvent: {}
+[9.885672] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[9.943310] (-) TimerEvent: {}
+[10.047368] (-) TimerEvent: {}
+[10.064823] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[10.069711] (-) EventReactorShutdown: {}

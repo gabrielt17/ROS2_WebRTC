@@ -93,8 +93,8 @@ receive_camera_node_EXTERNAL_OBJECTS =
 receive_camera_node: CMakeFiles/receive_camera_node.dir/src/receive_camera_node.cpp.o
 receive_camera_node: CMakeFiles/receive_camera_node.dir/build.make
 receive_camera_node: _deps/ixwebsocket-build/libixwebsocket.a
-receive_camera_node: /usr/lib/x86_64-linux-gnu/libssl.so
-receive_camera_node: /usr/lib/x86_64-linux-gnu/libcrypto.so
+receive_camera_node: /usr/lib/aarch64-linux-gnu/libssl.so
+receive_camera_node: /usr/lib/aarch64-linux-gnu/libcrypto.so
 receive_camera_node: /opt/ros/humble/lib/librclcpp.so
 receive_camera_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 receive_camera_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -173,12 +173,12 @@ receive_camera_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_in
 receive_camera_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 receive_camera_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 receive_camera_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
-receive_camera_node: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+receive_camera_node: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 receive_camera_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
 receive_camera_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 receive_camera_node: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 receive_camera_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
-receive_camera_node: /usr/lib/x86_64-linux-gnu/libz.so
+receive_camera_node: /usr/lib/aarch64-linux-gnu/libz.so
 receive_camera_node: /opt/ros/humble/lib/librmw_implementation.so
 receive_camera_node: /opt/ros/humble/lib/libament_index_cpp.so
 receive_camera_node: /opt/ros/humble/lib/librcl_logging_spdlog.so
@@ -204,7 +204,7 @@ receive_camera_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 receive_camera_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
 receive_camera_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
 receive_camera_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
-receive_camera_node: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+receive_camera_node: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 receive_camera_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 receive_camera_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 receive_camera_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so

@@ -93,8 +93,8 @@ send_camera_node_EXTERNAL_OBJECTS =
 send_camera_node: CMakeFiles/send_camera_node.dir/src/send_camera_node.cpp.o
 send_camera_node: CMakeFiles/send_camera_node.dir/build.make
 send_camera_node: _deps/ixwebsocket-build/libixwebsocket.a
-send_camera_node: /usr/lib/x86_64-linux-gnu/libssl.so
-send_camera_node: /usr/lib/x86_64-linux-gnu/libcrypto.so
+send_camera_node: /usr/lib/aarch64-linux-gnu/libssl.so
+send_camera_node: /usr/lib/aarch64-linux-gnu/libcrypto.so
 send_camera_node: /opt/ros/humble/lib/librclcpp.so
 send_camera_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
 send_camera_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -173,12 +173,12 @@ send_camera_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_intro
 send_camera_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 send_camera_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 send_camera_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
-send_camera_node: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+send_camera_node: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 send_camera_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
 send_camera_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 send_camera_node: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 send_camera_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
-send_camera_node: /usr/lib/x86_64-linux-gnu/libz.so
+send_camera_node: /usr/lib/aarch64-linux-gnu/libz.so
 send_camera_node: /opt/ros/humble/lib/librmw_implementation.so
 send_camera_node: /opt/ros/humble/lib/libament_index_cpp.so
 send_camera_node: /opt/ros/humble/lib/librcl_logging_spdlog.so
@@ -204,7 +204,7 @@ send_camera_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 send_camera_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
 send_camera_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
 send_camera_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
-send_camera_node: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+send_camera_node: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 send_camera_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 send_camera_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 send_camera_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so

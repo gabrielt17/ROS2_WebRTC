@@ -188,12 +188,12 @@ rosidl_generator_py/gst_msgs/libgst_msgs__rosidl_generator_py.so: CMakeFiles/gst
 rosidl_generator_py/gst_msgs/libgst_msgs__rosidl_generator_py.so: CMakeFiles/gst_msgs__rosidl_generator_py.dir/rosidl_generator_py/gst_msgs/msg/_meta_mark_s.c.o
 rosidl_generator_py/gst_msgs/libgst_msgs__rosidl_generator_py.so: CMakeFiles/gst_msgs__rosidl_generator_py.dir/rosidl_generator_py/gst_msgs/srv/_seek_s.c.o
 rosidl_generator_py/gst_msgs/libgst_msgs__rosidl_generator_py.so: CMakeFiles/gst_msgs__rosidl_generator_py.dir/build.make
-rosidl_generator_py/gst_msgs/libgst_msgs__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+rosidl_generator_py/gst_msgs/libgst_msgs__rosidl_generator_py.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 rosidl_generator_py/gst_msgs/libgst_msgs__rosidl_generator_py.so: libgst_msgs__rosidl_typesupport_c.so
 rosidl_generator_py/gst_msgs/libgst_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 rosidl_generator_py/gst_msgs/libgst_msgs__rosidl_generator_py.so: libgst_msgs__rosidl_generator_c.so
 rosidl_generator_py/gst_msgs/libgst_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
-rosidl_generator_py/gst_msgs/libgst_msgs__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+rosidl_generator_py/gst_msgs/libgst_msgs__rosidl_generator_py.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 rosidl_generator_py/gst_msgs/libgst_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
 rosidl_generator_py/gst_msgs/libgst_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 rosidl_generator_py/gst_msgs/libgst_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so

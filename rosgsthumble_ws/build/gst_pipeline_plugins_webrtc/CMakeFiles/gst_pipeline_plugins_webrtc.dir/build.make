@@ -203,13 +203,13 @@ libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_
 libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
-libgst_pipeline_plugins_webrtc.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+libgst_pipeline_plugins_webrtc.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
 libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
-libgst_pipeline_plugins_webrtc.so: /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so
-libgst_pipeline_plugins_webrtc.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+libgst_pipeline_plugins_webrtc.so: /usr/lib/aarch64-linux-gnu/libgstreamer-1.0.so
+libgst_pipeline_plugins_webrtc.so: /usr/lib/aarch64-linux-gnu/libtinyxml2.so
 libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 libgst_pipeline_plugins_webrtc.so: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/libgst_bridge.so
 libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/librclcpp.so
@@ -267,7 +267,7 @@ libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_
 libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
 libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
 libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
-libgst_pipeline_plugins_webrtc.so: /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so
+libgst_pipeline_plugins_webrtc.so: /usr/lib/aarch64-linux-gnu/libgstreamer-1.0.so
 libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/libcomponent_manager.so
 libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/librclcpp.so
 libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/liblibstatistics_collector.so
@@ -296,7 +296,7 @@ libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/libstatistics_msgs__rosid
 libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/libtracetools.so
 libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/libament_index_cpp.so
 libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/libclass_loader.so
-libgst_pipeline_plugins_webrtc.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+libgst_pipeline_plugins_webrtc.so: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
 libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so
 libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
 libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so
@@ -339,7 +339,7 @@ libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/librcpputils.so
 libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libgst_pipeline_plugins_webrtc.so: /opt/ros/humble/lib/librcutils.so
-libgst_pipeline_plugins_webrtc.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+libgst_pipeline_plugins_webrtc.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 libgst_pipeline_plugins_webrtc.so: CMakeFiles/gst_pipeline_plugins_webrtc.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins_webrtc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libgst_pipeline_plugins_webrtc.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gst_pipeline_plugins_webrtc.dir/link.txt --verbose=$(VERBOSE)

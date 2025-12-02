@@ -248,13 +248,13 @@ FastRTPS_LIBRARY_DEBUG:FILEPATH=FastRTPS_LIBRARY_DEBUG-NOTFOUND
 FastRTPS_LIBRARY_RELEASE:FILEPATH=/opt/ros/humble/lib/libfastrtps.so
 
 //Path to a library.
-OPENSSL_CRYPTO_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
+OPENSSL_CRYPTO_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/libcrypto.so
 
 //Path to a file.
 OPENSSL_INCLUDE_DIR:PATH=/usr/include
 
 //Path to a library.
-OPENSSL_SSL_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
+OPENSSL_SSL_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/libssl.so
 
 //Arguments to supply to pkg-config
 PKG_CONFIG_ARGN:STRING=
@@ -266,13 +266,13 @@ PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
 Python3_EXECUTABLE:FILEPATH=/usr/bin/python3
 
 //Name of the computer/site where compile is being run
-SITE:STRING=nero-XPS-8920
+SITE:STRING=nano
 
 //Path to a file.
 TINYXML2_INCLUDE_DIR:PATH=/usr/include
 
 //Path to a library.
-TINYXML2_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libtinyxml2.so
+TINYXML2_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/libtinyxml2.so
 
 //The directory containing a CMake configuration file for TinyXML2.
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
@@ -344,7 +344,7 @@ class_loader_DIR:PATH=/opt/ros/humble/share/class_loader/cmake
 composition_interfaces_DIR:PATH=/opt/ros/humble/share/composition_interfaces/cmake
 
 //The directory containing a CMake configuration file for console_bridge.
-console_bridge_DIR:PATH=/usr/lib/x86_64-linux-gnu/console_bridge/cmake
+console_bridge_DIR:PATH=/usr/lib/aarch64-linux-gnu/console_bridge/cmake
 
 //The directory containing a CMake configuration file for fastcdr.
 fastcdr_DIR:PATH=/opt/ros/humble/lib/cmake/fastcdr
@@ -356,7 +356,7 @@ fastrtps_DIR:PATH=/opt/ros/humble/share/fastrtps/cmake
 fastrtps_cmake_module_DIR:PATH=/opt/ros/humble/share/fastrtps_cmake_module/cmake
 
 //The directory containing a CMake configuration file for fmt.
-fmt_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/fmt
+fmt_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/fmt
 
 //The directory containing a CMake configuration file for foonathan_memory.
 foonathan_memory_DIR:PATH=/opt/ros/humble/lib/foonathan_memory/cmake
@@ -383,7 +383,7 @@ gst_pipeline_plugins_webrtc_IS_TOP_LEVEL:STATIC=ON
 gst_pipeline_plugins_webrtc_SOURCE_DIR:STATIC=/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc
 
 //Path to a library.
-lib:FILEPATH=/usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so
+lib:FILEPATH=/usr/lib/aarch64-linux-gnu/libgstreamer-1.0.so
 
 //The directory containing a CMake configuration file for libstatistics_collector.
 libstatistics_collector_DIR:PATH=/opt/ros/humble/share/libstatistics_collector/cmake
@@ -392,70 +392,70 @@ libstatistics_collector_DIR:PATH=/opt/ros/humble/share/libstatistics_collector/c
 libyaml_vendor_DIR:PATH=/opt/ros/humble/share/libyaml_vendor/cmake
 
 //Path to a library.
-pkgcfg_lib_GSTREAMER_glib-2.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libglib-2.0.so
+pkgcfg_lib_GSTREAMER_glib-2.0:FILEPATH=/usr/lib/aarch64-linux-gnu/libglib-2.0.so
 
 //Path to a library.
-pkgcfg_lib_GSTREAMER_gobject-2.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libgobject-2.0.so
+pkgcfg_lib_GSTREAMER_gobject-2.0:FILEPATH=/usr/lib/aarch64-linux-gnu/libgobject-2.0.so
 
 //Path to a library.
-pkgcfg_lib_GSTREAMER_gstreamer-1.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so
+pkgcfg_lib_GSTREAMER_gstreamer-1.0:FILEPATH=/usr/lib/aarch64-linux-gnu/libgstreamer-1.0.so
 
 //Path to a library.
-pkgcfg_lib_GST_SDP_glib-2.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libglib-2.0.so
+pkgcfg_lib_GST_SDP_glib-2.0:FILEPATH=/usr/lib/aarch64-linux-gnu/libglib-2.0.so
 
 //Path to a library.
-pkgcfg_lib_GST_SDP_gobject-2.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libgobject-2.0.so
+pkgcfg_lib_GST_SDP_gobject-2.0:FILEPATH=/usr/lib/aarch64-linux-gnu/libgobject-2.0.so
 
 //Path to a library.
-pkgcfg_lib_GST_SDP_gstsdp-1.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libgstsdp-1.0.so
+pkgcfg_lib_GST_SDP_gstsdp-1.0:FILEPATH=/usr/lib/aarch64-linux-gnu/libgstsdp-1.0.so
 
 //Path to a library.
-pkgcfg_lib_GST_WEBRTC_glib-2.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libglib-2.0.so
+pkgcfg_lib_GST_WEBRTC_glib-2.0:FILEPATH=/usr/lib/aarch64-linux-gnu/libglib-2.0.so
 
 //Path to a library.
-pkgcfg_lib_GST_WEBRTC_gobject-2.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libgobject-2.0.so
+pkgcfg_lib_GST_WEBRTC_gobject-2.0:FILEPATH=/usr/lib/aarch64-linux-gnu/libgobject-2.0.so
 
 //Path to a library.
-pkgcfg_lib_GST_WEBRTC_gstbase-1.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libgstbase-1.0.so
+pkgcfg_lib_GST_WEBRTC_gstbase-1.0:FILEPATH=/usr/lib/aarch64-linux-gnu/libgstbase-1.0.so
 
 //Path to a library.
-pkgcfg_lib_GST_WEBRTC_gstreamer-1.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so
+pkgcfg_lib_GST_WEBRTC_gstreamer-1.0:FILEPATH=/usr/lib/aarch64-linux-gnu/libgstreamer-1.0.so
 
 //Path to a library.
-pkgcfg_lib_GST_WEBRTC_gstwebrtc-1.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libgstwebrtc-1.0.so
+pkgcfg_lib_GST_WEBRTC_gstwebrtc-1.0:FILEPATH=/usr/lib/aarch64-linux-gnu/libgstwebrtc-1.0.so
 
 //Path to a library.
-pkgcfg_lib_JSONGLIB_gio-2.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libgio-2.0.so
+pkgcfg_lib_JSONGLIB_gio-2.0:FILEPATH=/usr/lib/aarch64-linux-gnu/libgio-2.0.so
 
 //Path to a library.
-pkgcfg_lib_JSONGLIB_glib-2.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libglib-2.0.so
+pkgcfg_lib_JSONGLIB_glib-2.0:FILEPATH=/usr/lib/aarch64-linux-gnu/libglib-2.0.so
 
 //Path to a library.
-pkgcfg_lib_JSONGLIB_gobject-2.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libgobject-2.0.so
+pkgcfg_lib_JSONGLIB_gobject-2.0:FILEPATH=/usr/lib/aarch64-linux-gnu/libgobject-2.0.so
 
 //Path to a library.
-pkgcfg_lib_JSONGLIB_json-glib-1.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libjson-glib-1.0.so
+pkgcfg_lib_JSONGLIB_json-glib-1.0:FILEPATH=/usr/lib/aarch64-linux-gnu/libjson-glib-1.0.so
 
 //Path to a library.
-pkgcfg_lib_SOUP_gio-2.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libgio-2.0.so
+pkgcfg_lib_SOUP_gio-2.0:FILEPATH=/usr/lib/aarch64-linux-gnu/libgio-2.0.so
 
 //Path to a library.
-pkgcfg_lib_SOUP_glib-2.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libglib-2.0.so
+pkgcfg_lib_SOUP_glib-2.0:FILEPATH=/usr/lib/aarch64-linux-gnu/libglib-2.0.so
 
 //Path to a library.
-pkgcfg_lib_SOUP_gmodule-2.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libgmodule-2.0.so
+pkgcfg_lib_SOUP_gmodule-2.0:FILEPATH=/usr/lib/aarch64-linux-gnu/libgmodule-2.0.so
 
 //Path to a library.
-pkgcfg_lib_SOUP_gobject-2.0:FILEPATH=/usr/lib/x86_64-linux-gnu/libgobject-2.0.so
+pkgcfg_lib_SOUP_gobject-2.0:FILEPATH=/usr/lib/aarch64-linux-gnu/libgobject-2.0.so
 
 //Path to a library.
-pkgcfg_lib_SOUP_soup-2.4:FILEPATH=/usr/lib/x86_64-linux-gnu/libsoup-2.4.so
+pkgcfg_lib_SOUP_soup-2.4:FILEPATH=/usr/lib/aarch64-linux-gnu/libsoup-2.4.so
 
 //Path to a library.
-pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
+pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/aarch64-linux-gnu/libcrypto.so
 
 //Path to a library.
-pkgcfg_lib__OPENSSL_ssl:FILEPATH=/usr/lib/x86_64-linux-gnu/libssl.so
+pkgcfg_lib__OPENSSL_ssl:FILEPATH=/usr/lib/aarch64-linux-gnu/libssl.so
 
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/humble/share/pluginlib/cmake
@@ -554,7 +554,7 @@ rosidl_typesupport_introspection_cpp_DIR:PATH=/opt/ros/humble/share/rosidl_types
 sensor_msgs_DIR:PATH=/opt/ros/humble/share/sensor_msgs/cmake
 
 //The directory containing a CMake configuration file for spdlog.
-spdlog_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/spdlog
+spdlog_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/spdlog
 
 //The directory containing a CMake configuration file for spdlog_vendor.
 spdlog_vendor_DIR:PATH=/opt/ros/humble/share/spdlog_vendor/cmake
@@ -732,39 +732,39 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding FastRTPS
 FIND_PACKAGE_MESSAGE_DETAILS_FastRTPS:INTERNAL=[/opt/ros/humble/include][/opt/ros/humble/lib/libfastrtps.so;/opt/ros/humble/lib/libfastcdr.so][v()]
 //Details about finding OpenSSL
-FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcrypto.so][/usr/include][c ][v3.0.2()]
+FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL:INTERNAL=[/usr/lib/aarch64-linux-gnu/libcrypto.so][/usr/include][c ][v3.0.2()]
 //Details about finding PkgConfig
 FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.29.2()]
 //Details about finding Python3
 FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3][cfound components: Interpreter ][v3.10.12()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
-GSTREAMER_CFLAGS:INTERNAL=-pthread;-I/usr/include/gstreamer-1.0;-I/usr/include/x86_64-linux-gnu;-I/usr/include/glib-2.0;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+GSTREAMER_CFLAGS:INTERNAL=-pthread;-I/usr/include/gstreamer-1.0;-I/usr/include/aarch64-linux-gnu;-I/usr/include/glib-2.0;-I/usr/lib/aarch64-linux-gnu/glib-2.0/include
 GSTREAMER_CFLAGS_I:INTERNAL=
 GSTREAMER_CFLAGS_OTHER:INTERNAL=-pthread
 GSTREAMER_FOUND:INTERNAL=1
 GSTREAMER_INCLUDEDIR:INTERNAL=/usr/include
-GSTREAMER_INCLUDE_DIRS:INTERNAL=/usr/include/gstreamer-1.0;/usr/include/x86_64-linux-gnu;/usr/include/glib-2.0;/usr/lib/x86_64-linux-gnu/glib-2.0/include
-GSTREAMER_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lgstreamer-1.0;-lgobject-2.0;-lglib-2.0
+GSTREAMER_INCLUDE_DIRS:INTERNAL=/usr/include/gstreamer-1.0;/usr/include/aarch64-linux-gnu;/usr/include/glib-2.0;/usr/lib/aarch64-linux-gnu/glib-2.0/include
+GSTREAMER_LDFLAGS:INTERNAL=-L/usr/lib/aarch64-linux-gnu;-lgstreamer-1.0;-lgobject-2.0;-lglib-2.0
 GSTREAMER_LDFLAGS_OTHER:INTERNAL=
-GSTREAMER_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+GSTREAMER_LIBDIR:INTERNAL=/usr/lib/aarch64-linux-gnu
 GSTREAMER_LIBRARIES:INTERNAL=gstreamer-1.0;gobject-2.0;glib-2.0
-GSTREAMER_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+GSTREAMER_LIBRARY_DIRS:INTERNAL=/usr/lib/aarch64-linux-gnu
 GSTREAMER_LIBS:INTERNAL=
 GSTREAMER_LIBS_L:INTERNAL=
 GSTREAMER_LIBS_OTHER:INTERNAL=
 GSTREAMER_LIBS_PATHS:INTERNAL=
 GSTREAMER_MODULE_NAME:INTERNAL=gstreamer-1.0
 GSTREAMER_PREFIX:INTERNAL=/usr
-GSTREAMER_STATIC_CFLAGS:INTERNAL=-pthread;-I/usr/include/gstreamer-1.0;-I/usr/include/x86_64-linux-gnu;-I/usr/include/glib-2.0;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+GSTREAMER_STATIC_CFLAGS:INTERNAL=-pthread;-I/usr/include/gstreamer-1.0;-I/usr/include/aarch64-linux-gnu;-I/usr/include/glib-2.0;-I/usr/lib/aarch64-linux-gnu/glib-2.0/include
 GSTREAMER_STATIC_CFLAGS_I:INTERNAL=
 GSTREAMER_STATIC_CFLAGS_OTHER:INTERNAL=-pthread
-GSTREAMER_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/gstreamer-1.0;/usr/include/x86_64-linux-gnu;/usr/include/glib-2.0;/usr/lib/x86_64-linux-gnu/glib-2.0/include
-GSTREAMER_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lgstreamer-1.0;-lm;-ldl;-Wl,--export-dynamic;-lgmodule-2.0;-pthread;-lunwind;-llzma;-ldw;-lbz2;-llzma;-pthread;-lpthread;-lelf;-lz;-lgobject-2.0;-lffi;-lglib-2.0;-pthread;-lm;-lpcre
+GSTREAMER_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/gstreamer-1.0;/usr/include/aarch64-linux-gnu;/usr/include/glib-2.0;/usr/lib/aarch64-linux-gnu/glib-2.0/include
+GSTREAMER_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/aarch64-linux-gnu;-lgstreamer-1.0;-lm;-ldl;-Wl,--export-dynamic;-lgmodule-2.0;-pthread;-lunwind;-llzma;-ldw;-lbz2;-llzma;-pthread;-lpthread;-lelf;-lz;-lgobject-2.0;-lffi;-lglib-2.0;-pthread;-lm;-lpcre
 GSTREAMER_STATIC_LDFLAGS_OTHER:INTERNAL=-Wl,--export-dynamic;-pthread
 GSTREAMER_STATIC_LIBDIR:INTERNAL=
 GSTREAMER_STATIC_LIBRARIES:INTERNAL=gstreamer-1.0;m;dl;gmodule-2.0;unwind;lzma;dw;bz2;lzma;pthread;elf;z;gobject-2.0;ffi;glib-2.0;m;pcre
-GSTREAMER_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+GSTREAMER_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/aarch64-linux-gnu
 GSTREAMER_STATIC_LIBS:INTERNAL=
 GSTREAMER_STATIC_LIBS_L:INTERNAL=
 GSTREAMER_STATIC_LIBS_OTHER:INTERNAL=
@@ -774,32 +774,32 @@ GSTREAMER_gstreamer-1.0_INCLUDEDIR:INTERNAL=
 GSTREAMER_gstreamer-1.0_LIBDIR:INTERNAL=
 GSTREAMER_gstreamer-1.0_PREFIX:INTERNAL=
 GSTREAMER_gstreamer-1.0_VERSION:INTERNAL=
-GST_SDP_CFLAGS:INTERNAL=-pthread;-I/usr/include/gstreamer-1.0;-I/usr/include/orc-0.4;-I/usr/include/gstreamer-1.0;-I/usr/include/x86_64-linux-gnu;-I/usr/include/libmount;-I/usr/include/blkid;-I/usr/include/glib-2.0;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+GST_SDP_CFLAGS:INTERNAL=-pthread;-I/usr/include/gstreamer-1.0;-I/usr/include/orc-0.4;-I/usr/include/gstreamer-1.0;-I/usr/include/aarch64-linux-gnu;-I/usr/include/libmount;-I/usr/include/blkid;-I/usr/include/glib-2.0;-I/usr/lib/aarch64-linux-gnu/glib-2.0/include
 GST_SDP_CFLAGS_I:INTERNAL=
 GST_SDP_CFLAGS_OTHER:INTERNAL=-pthread
 GST_SDP_FOUND:INTERNAL=1
 GST_SDP_INCLUDEDIR:INTERNAL=/usr/include
-GST_SDP_INCLUDE_DIRS:INTERNAL=/usr/include/gstreamer-1.0;/usr/include/orc-0.4;/usr/include/gstreamer-1.0;/usr/include/x86_64-linux-gnu;/usr/include/libmount;/usr/include/blkid;/usr/include/glib-2.0;/usr/lib/x86_64-linux-gnu/glib-2.0/include
-GST_SDP_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lgstsdp-1.0;-lgobject-2.0;-lglib-2.0
+GST_SDP_INCLUDE_DIRS:INTERNAL=/usr/include/gstreamer-1.0;/usr/include/orc-0.4;/usr/include/gstreamer-1.0;/usr/include/aarch64-linux-gnu;/usr/include/libmount;/usr/include/blkid;/usr/include/glib-2.0;/usr/lib/aarch64-linux-gnu/glib-2.0/include
+GST_SDP_LDFLAGS:INTERNAL=-L/usr/lib/aarch64-linux-gnu;-lgstsdp-1.0;-lgobject-2.0;-lglib-2.0
 GST_SDP_LDFLAGS_OTHER:INTERNAL=
-GST_SDP_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+GST_SDP_LIBDIR:INTERNAL=/usr/lib/aarch64-linux-gnu
 GST_SDP_LIBRARIES:INTERNAL=gstsdp-1.0;gobject-2.0;glib-2.0
-GST_SDP_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+GST_SDP_LIBRARY_DIRS:INTERNAL=/usr/lib/aarch64-linux-gnu
 GST_SDP_LIBS:INTERNAL=
 GST_SDP_LIBS_L:INTERNAL=
 GST_SDP_LIBS_OTHER:INTERNAL=
 GST_SDP_LIBS_PATHS:INTERNAL=
 GST_SDP_MODULE_NAME:INTERNAL=gstreamer-sdp-1.0
 GST_SDP_PREFIX:INTERNAL=/usr
-GST_SDP_STATIC_CFLAGS:INTERNAL=-pthread;-I/usr/include/gstreamer-1.0;-I/usr/include/orc-0.4;-I/usr/include/gstreamer-1.0;-I/usr/include/x86_64-linux-gnu;-I/usr/include/libmount;-I/usr/include/blkid;-I/usr/include/glib-2.0;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+GST_SDP_STATIC_CFLAGS:INTERNAL=-pthread;-I/usr/include/gstreamer-1.0;-I/usr/include/orc-0.4;-I/usr/include/gstreamer-1.0;-I/usr/include/aarch64-linux-gnu;-I/usr/include/libmount;-I/usr/include/blkid;-I/usr/include/glib-2.0;-I/usr/lib/aarch64-linux-gnu/glib-2.0/include
 GST_SDP_STATIC_CFLAGS_I:INTERNAL=
 GST_SDP_STATIC_CFLAGS_OTHER:INTERNAL=-pthread
-GST_SDP_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/gstreamer-1.0;/usr/include/orc-0.4;/usr/include/gstreamer-1.0;/usr/include/x86_64-linux-gnu;/usr/include/libmount;/usr/include/blkid;/usr/include/glib-2.0;/usr/lib/x86_64-linux-gnu/glib-2.0/include
-GST_SDP_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-L/usr/lib;-L/usr/lib/x86_64-linux-gnu;-lgstsdp-1.0;-lm;-lgstrtp-1.0;-lm;-lgstpbutils-1.0;-lm;-lgstaudio-1.0;-lm;-lgsttag-1.0;-lm;-lgstvideo-1.0;-lm;-lgstbase-1.0;-lorc-0.4;-lm;-pthread;-lgstreamer-1.0;-lm;-ldl;-Wl,--export-dynamic;-lunwind;-llzma;-ldw;-lbz2;-llzma;-pthread;-lpthread;-lelf;-lgio-2.0;-lgmodule-2.0;-pthread;-lz;-lmount;-ldl;-lblkid;-lselinux;-lsepol;-lpcre2-8;-lgobject-2.0;-lffi;-lglib-2.0;-pthread;-lm;-lpcre
+GST_SDP_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/gstreamer-1.0;/usr/include/orc-0.4;/usr/include/gstreamer-1.0;/usr/include/aarch64-linux-gnu;/usr/include/libmount;/usr/include/blkid;/usr/include/glib-2.0;/usr/lib/aarch64-linux-gnu/glib-2.0/include
+GST_SDP_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/aarch64-linux-gnu;-L/usr/lib;-L/usr/lib/aarch64-linux-gnu;-lgstsdp-1.0;-lm;-lgstrtp-1.0;-lm;-lgstpbutils-1.0;-lm;-lgstaudio-1.0;-lm;-lgsttag-1.0;-lm;-lgstvideo-1.0;-lm;-lgstbase-1.0;-lorc-0.4;-lm;-pthread;-lgstreamer-1.0;-lm;-ldl;-Wl,--export-dynamic;-lunwind;-llzma;-ldw;-lbz2;-llzma;-pthread;-lpthread;-lelf;-lgio-2.0;-lgmodule-2.0;-pthread;-lz;-lmount;-ldl;-lblkid;-lselinux;-lsepol;-lpcre2-8;-lgobject-2.0;-lffi;-lglib-2.0;-pthread;-lm;-lpcre
 GST_SDP_STATIC_LDFLAGS_OTHER:INTERNAL=-pthread;-Wl,--export-dynamic;-pthread
 GST_SDP_STATIC_LIBDIR:INTERNAL=
 GST_SDP_STATIC_LIBRARIES:INTERNAL=gstsdp-1.0;m;gstrtp-1.0;m;gstpbutils-1.0;m;gstaudio-1.0;m;gsttag-1.0;m;gstvideo-1.0;m;gstbase-1.0;orc-0.4;m;gstreamer-1.0;m;dl;unwind;lzma;dw;bz2;lzma;pthread;elf;gio-2.0;gmodule-2.0;z;mount;dl;blkid;selinux;sepol;pcre2-8;gobject-2.0;ffi;glib-2.0;m;pcre
-GST_SDP_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu;/usr/lib;/usr/lib/x86_64-linux-gnu
+GST_SDP_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/aarch64-linux-gnu;/usr/lib;/usr/lib/aarch64-linux-gnu
 GST_SDP_STATIC_LIBS:INTERNAL=
 GST_SDP_STATIC_LIBS_L:INTERNAL=
 GST_SDP_STATIC_LIBS_OTHER:INTERNAL=
@@ -809,32 +809,32 @@ GST_SDP_gstreamer-sdp-1.0_INCLUDEDIR:INTERNAL=
 GST_SDP_gstreamer-sdp-1.0_LIBDIR:INTERNAL=
 GST_SDP_gstreamer-sdp-1.0_PREFIX:INTERNAL=
 GST_SDP_gstreamer-sdp-1.0_VERSION:INTERNAL=
-GST_WEBRTC_CFLAGS:INTERNAL=-pthread;-I/usr/include/gstreamer-1.0;-I/usr/include/orc-0.4;-I/usr/include/libmount;-I/usr/include/blkid;-I/usr/include/gstreamer-1.0;-I/usr/include/x86_64-linux-gnu;-I/usr/include/glib-2.0;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+GST_WEBRTC_CFLAGS:INTERNAL=-pthread;-I/usr/include/gstreamer-1.0;-I/usr/include/orc-0.4;-I/usr/include/libmount;-I/usr/include/blkid;-I/usr/include/gstreamer-1.0;-I/usr/include/aarch64-linux-gnu;-I/usr/include/glib-2.0;-I/usr/lib/aarch64-linux-gnu/glib-2.0/include
 GST_WEBRTC_CFLAGS_I:INTERNAL=
 GST_WEBRTC_CFLAGS_OTHER:INTERNAL=-pthread
 GST_WEBRTC_FOUND:INTERNAL=1
 GST_WEBRTC_INCLUDEDIR:INTERNAL=/usr/include
-GST_WEBRTC_INCLUDE_DIRS:INTERNAL=/usr/include/gstreamer-1.0;/usr/include/orc-0.4;/usr/include/libmount;/usr/include/blkid;/usr/include/gstreamer-1.0;/usr/include/x86_64-linux-gnu;/usr/include/glib-2.0;/usr/lib/x86_64-linux-gnu/glib-2.0/include
-GST_WEBRTC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lgstwebrtc-1.0;-lgstbase-1.0;-lgstreamer-1.0;-lgobject-2.0;-lglib-2.0
+GST_WEBRTC_INCLUDE_DIRS:INTERNAL=/usr/include/gstreamer-1.0;/usr/include/orc-0.4;/usr/include/libmount;/usr/include/blkid;/usr/include/gstreamer-1.0;/usr/include/aarch64-linux-gnu;/usr/include/glib-2.0;/usr/lib/aarch64-linux-gnu/glib-2.0/include
+GST_WEBRTC_LDFLAGS:INTERNAL=-L/usr/lib/aarch64-linux-gnu;-lgstwebrtc-1.0;-lgstbase-1.0;-lgstreamer-1.0;-lgobject-2.0;-lglib-2.0
 GST_WEBRTC_LDFLAGS_OTHER:INTERNAL=
-GST_WEBRTC_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+GST_WEBRTC_LIBDIR:INTERNAL=/usr/lib/aarch64-linux-gnu
 GST_WEBRTC_LIBRARIES:INTERNAL=gstwebrtc-1.0;gstbase-1.0;gstreamer-1.0;gobject-2.0;glib-2.0
-GST_WEBRTC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+GST_WEBRTC_LIBRARY_DIRS:INTERNAL=/usr/lib/aarch64-linux-gnu
 GST_WEBRTC_LIBS:INTERNAL=
 GST_WEBRTC_LIBS_L:INTERNAL=
 GST_WEBRTC_LIBS_OTHER:INTERNAL=
 GST_WEBRTC_LIBS_PATHS:INTERNAL=
 GST_WEBRTC_MODULE_NAME:INTERNAL=gstreamer-webrtc-1.0
 GST_WEBRTC_PREFIX:INTERNAL=/usr
-GST_WEBRTC_STATIC_CFLAGS:INTERNAL=-pthread;-I/usr/include/gstreamer-1.0;-I/usr/include/orc-0.4;-I/usr/include/libmount;-I/usr/include/blkid;-I/usr/include/gstreamer-1.0;-I/usr/include/x86_64-linux-gnu;-I/usr/include/glib-2.0;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+GST_WEBRTC_STATIC_CFLAGS:INTERNAL=-pthread;-I/usr/include/gstreamer-1.0;-I/usr/include/orc-0.4;-I/usr/include/libmount;-I/usr/include/blkid;-I/usr/include/gstreamer-1.0;-I/usr/include/aarch64-linux-gnu;-I/usr/include/glib-2.0;-I/usr/lib/aarch64-linux-gnu/glib-2.0/include
 GST_WEBRTC_STATIC_CFLAGS_I:INTERNAL=
 GST_WEBRTC_STATIC_CFLAGS_OTHER:INTERNAL=-pthread
-GST_WEBRTC_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/gstreamer-1.0;/usr/include/orc-0.4;/usr/include/libmount;/usr/include/blkid;/usr/include/gstreamer-1.0;/usr/include/x86_64-linux-gnu;/usr/include/glib-2.0;/usr/lib/x86_64-linux-gnu/glib-2.0/include
-GST_WEBRTC_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-L/usr/lib;-L/usr/lib/x86_64-linux-gnu;-lgstwebrtc-1.0;-lgstsdp-1.0;-lm;-lgstrtp-1.0;-lm;-lgstpbutils-1.0;-lm;-lgstaudio-1.0;-lm;-lgsttag-1.0;-lm;-lgstvideo-1.0;-lm;-lorc-0.4;-lm;-pthread;-lgio-2.0;-lmount;-ldl;-lblkid;-lselinux;-lsepol;-lpcre2-8;-lgstbase-1.0;-lgstreamer-1.0;-lm;-ldl;-Wl,--export-dynamic;-lgmodule-2.0;-pthread;-lunwind;-llzma;-ldw;-lbz2;-llzma;-pthread;-lpthread;-lelf;-lz;-lgobject-2.0;-lffi;-lglib-2.0;-pthread;-lm;-lpcre
+GST_WEBRTC_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/gstreamer-1.0;/usr/include/orc-0.4;/usr/include/libmount;/usr/include/blkid;/usr/include/gstreamer-1.0;/usr/include/aarch64-linux-gnu;/usr/include/glib-2.0;/usr/lib/aarch64-linux-gnu/glib-2.0/include
+GST_WEBRTC_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/aarch64-linux-gnu;-L/usr/lib;-L/usr/lib/aarch64-linux-gnu;-lgstwebrtc-1.0;-lgstsdp-1.0;-lm;-lgstrtp-1.0;-lm;-lgstpbutils-1.0;-lm;-lgstaudio-1.0;-lm;-lgsttag-1.0;-lm;-lgstvideo-1.0;-lm;-lorc-0.4;-lm;-pthread;-lgio-2.0;-lmount;-ldl;-lblkid;-lselinux;-lsepol;-lpcre2-8;-lgstbase-1.0;-lgstreamer-1.0;-lm;-ldl;-Wl,--export-dynamic;-lgmodule-2.0;-pthread;-lunwind;-llzma;-ldw;-lbz2;-llzma;-pthread;-lpthread;-lelf;-lz;-lgobject-2.0;-lffi;-lglib-2.0;-pthread;-lm;-lpcre
 GST_WEBRTC_STATIC_LDFLAGS_OTHER:INTERNAL=-pthread;-Wl,--export-dynamic;-pthread
 GST_WEBRTC_STATIC_LIBDIR:INTERNAL=
 GST_WEBRTC_STATIC_LIBRARIES:INTERNAL=gstwebrtc-1.0;gstsdp-1.0;m;gstrtp-1.0;m;gstpbutils-1.0;m;gstaudio-1.0;m;gsttag-1.0;m;gstvideo-1.0;m;orc-0.4;m;gio-2.0;mount;dl;blkid;selinux;sepol;pcre2-8;gstbase-1.0;gstreamer-1.0;m;dl;gmodule-2.0;unwind;lzma;dw;bz2;lzma;pthread;elf;z;gobject-2.0;ffi;glib-2.0;m;pcre
-GST_WEBRTC_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu;/usr/lib;/usr/lib/x86_64-linux-gnu
+GST_WEBRTC_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/aarch64-linux-gnu;/usr/lib;/usr/lib/aarch64-linux-gnu
 GST_WEBRTC_STATIC_LIBS:INTERNAL=
 GST_WEBRTC_STATIC_LIBS_L:INTERNAL=
 GST_WEBRTC_STATIC_LIBS_OTHER:INTERNAL=
@@ -844,32 +844,32 @@ GST_WEBRTC_gstreamer-webrtc-1.0_INCLUDEDIR:INTERNAL=
 GST_WEBRTC_gstreamer-webrtc-1.0_LIBDIR:INTERNAL=
 GST_WEBRTC_gstreamer-webrtc-1.0_PREFIX:INTERNAL=
 GST_WEBRTC_gstreamer-webrtc-1.0_VERSION:INTERNAL=
-JSONGLIB_CFLAGS:INTERNAL=-pthread;-I/usr/include/json-glib-1.0;-I/usr/include/libmount;-I/usr/include/blkid;-I/usr/include/glib-2.0;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+JSONGLIB_CFLAGS:INTERNAL=-pthread;-I/usr/include/json-glib-1.0;-I/usr/include/libmount;-I/usr/include/blkid;-I/usr/include/glib-2.0;-I/usr/lib/aarch64-linux-gnu/glib-2.0/include
 JSONGLIB_CFLAGS_I:INTERNAL=
 JSONGLIB_CFLAGS_OTHER:INTERNAL=-pthread
 JSONGLIB_FOUND:INTERNAL=1
 JSONGLIB_INCLUDEDIR:INTERNAL=/usr/include
-JSONGLIB_INCLUDE_DIRS:INTERNAL=/usr/include/json-glib-1.0;/usr/include/libmount;/usr/include/blkid;/usr/include/glib-2.0;/usr/lib/x86_64-linux-gnu/glib-2.0/include
-JSONGLIB_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-ljson-glib-1.0;-lgio-2.0;-lgobject-2.0;-lglib-2.0
+JSONGLIB_INCLUDE_DIRS:INTERNAL=/usr/include/json-glib-1.0;/usr/include/libmount;/usr/include/blkid;/usr/include/glib-2.0;/usr/lib/aarch64-linux-gnu/glib-2.0/include
+JSONGLIB_LDFLAGS:INTERNAL=-L/usr/lib/aarch64-linux-gnu;-ljson-glib-1.0;-lgio-2.0;-lgobject-2.0;-lglib-2.0
 JSONGLIB_LDFLAGS_OTHER:INTERNAL=
-JSONGLIB_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+JSONGLIB_LIBDIR:INTERNAL=/usr/lib/aarch64-linux-gnu
 JSONGLIB_LIBRARIES:INTERNAL=json-glib-1.0;gio-2.0;gobject-2.0;glib-2.0
-JSONGLIB_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+JSONGLIB_LIBRARY_DIRS:INTERNAL=/usr/lib/aarch64-linux-gnu
 JSONGLIB_LIBS:INTERNAL=
 JSONGLIB_LIBS_L:INTERNAL=
 JSONGLIB_LIBS_OTHER:INTERNAL=
 JSONGLIB_LIBS_PATHS:INTERNAL=
 JSONGLIB_MODULE_NAME:INTERNAL=json-glib-1.0
 JSONGLIB_PREFIX:INTERNAL=/usr
-JSONGLIB_STATIC_CFLAGS:INTERNAL=-pthread;-I/usr/include/json-glib-1.0;-I/usr/include/libmount;-I/usr/include/blkid;-I/usr/include/glib-2.0;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+JSONGLIB_STATIC_CFLAGS:INTERNAL=-pthread;-I/usr/include/json-glib-1.0;-I/usr/include/libmount;-I/usr/include/blkid;-I/usr/include/glib-2.0;-I/usr/lib/aarch64-linux-gnu/glib-2.0/include
 JSONGLIB_STATIC_CFLAGS_I:INTERNAL=
 JSONGLIB_STATIC_CFLAGS_OTHER:INTERNAL=-pthread
-JSONGLIB_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/json-glib-1.0;/usr/include/libmount;/usr/include/blkid;/usr/include/glib-2.0;/usr/lib/x86_64-linux-gnu/glib-2.0/include
-JSONGLIB_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-L/usr/lib;-L/usr/lib/x86_64-linux-gnu;-ljson-glib-1.0;-lgio-2.0;-lgmodule-2.0;-pthread;-lz;-lmount;-ldl;-lblkid;-lselinux;-lsepol;-lpcre2-8;-lgobject-2.0;-lffi;-lglib-2.0;-pthread;-lm;-lpcre
+JSONGLIB_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/json-glib-1.0;/usr/include/libmount;/usr/include/blkid;/usr/include/glib-2.0;/usr/lib/aarch64-linux-gnu/glib-2.0/include
+JSONGLIB_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/aarch64-linux-gnu;-L/usr/lib;-L/usr/lib/aarch64-linux-gnu;-ljson-glib-1.0;-lgio-2.0;-lgmodule-2.0;-pthread;-lz;-lmount;-ldl;-lblkid;-lselinux;-lsepol;-lpcre2-8;-lgobject-2.0;-lffi;-lglib-2.0;-pthread;-lm;-lpcre
 JSONGLIB_STATIC_LDFLAGS_OTHER:INTERNAL=-pthread
 JSONGLIB_STATIC_LIBDIR:INTERNAL=
 JSONGLIB_STATIC_LIBRARIES:INTERNAL=json-glib-1.0;gio-2.0;gmodule-2.0;z;mount;dl;blkid;selinux;sepol;pcre2-8;gobject-2.0;ffi;glib-2.0;m;pcre
-JSONGLIB_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu;/usr/lib;/usr/lib/x86_64-linux-gnu
+JSONGLIB_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/aarch64-linux-gnu;/usr/lib;/usr/lib/aarch64-linux-gnu
 JSONGLIB_STATIC_LIBS:INTERNAL=
 JSONGLIB_STATIC_LIBS_L:INTERNAL=
 JSONGLIB_STATIC_LIBS_OTHER:INTERNAL=
@@ -889,32 +889,32 @@ OPENSSL_SSL_LIBRARY-ADVANCED:INTERNAL=1
 PKG_CONFIG_ARGN-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
 PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
-SOUP_CFLAGS:INTERNAL=-pthread;-I/usr/include/libsoup-2.4;-I/usr/include/libxml2;-I/usr/include/libmount;-I/usr/include/blkid;-I/usr/include/glib-2.0;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+SOUP_CFLAGS:INTERNAL=-pthread;-I/usr/include/libsoup-2.4;-I/usr/include/libxml2;-I/usr/include/libmount;-I/usr/include/blkid;-I/usr/include/glib-2.0;-I/usr/lib/aarch64-linux-gnu/glib-2.0/include
 SOUP_CFLAGS_I:INTERNAL=
 SOUP_CFLAGS_OTHER:INTERNAL=-pthread
 SOUP_FOUND:INTERNAL=1
 SOUP_INCLUDEDIR:INTERNAL=/usr/include
-SOUP_INCLUDE_DIRS:INTERNAL=/usr/include/libsoup-2.4;/usr/include/libxml2;/usr/include/libmount;/usr/include/blkid;/usr/include/glib-2.0;/usr/lib/x86_64-linux-gnu/glib-2.0/include
-SOUP_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lsoup-2.4;-Wl,--export-dynamic;-lgmodule-2.0;-pthread;-lgio-2.0;-lgobject-2.0;-lglib-2.0
+SOUP_INCLUDE_DIRS:INTERNAL=/usr/include/libsoup-2.4;/usr/include/libxml2;/usr/include/libmount;/usr/include/blkid;/usr/include/glib-2.0;/usr/lib/aarch64-linux-gnu/glib-2.0/include
+SOUP_LDFLAGS:INTERNAL=-L/usr/lib/aarch64-linux-gnu;-lsoup-2.4;-Wl,--export-dynamic;-lgmodule-2.0;-pthread;-lgio-2.0;-lgobject-2.0;-lglib-2.0
 SOUP_LDFLAGS_OTHER:INTERNAL=-Wl,--export-dynamic;-pthread
-SOUP_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+SOUP_LIBDIR:INTERNAL=/usr/lib/aarch64-linux-gnu
 SOUP_LIBRARIES:INTERNAL=soup-2.4;gmodule-2.0;gio-2.0;gobject-2.0;glib-2.0
-SOUP_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+SOUP_LIBRARY_DIRS:INTERNAL=/usr/lib/aarch64-linux-gnu
 SOUP_LIBS:INTERNAL=
 SOUP_LIBS_L:INTERNAL=
 SOUP_LIBS_OTHER:INTERNAL=
 SOUP_LIBS_PATHS:INTERNAL=
 SOUP_MODULE_NAME:INTERNAL=libsoup-2.4
 SOUP_PREFIX:INTERNAL=/usr
-SOUP_STATIC_CFLAGS:INTERNAL=-pthread;-I/usr/include/libsoup-2.4;-I/usr/include/libxml2;-I/usr/include/libmount;-I/usr/include/blkid;-I/usr/include/glib-2.0;-I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+SOUP_STATIC_CFLAGS:INTERNAL=-pthread;-I/usr/include/libsoup-2.4;-I/usr/include/libxml2;-I/usr/include/libmount;-I/usr/include/blkid;-I/usr/include/glib-2.0;-I/usr/lib/aarch64-linux-gnu/glib-2.0/include
 SOUP_STATIC_CFLAGS_I:INTERNAL=
 SOUP_STATIC_CFLAGS_OTHER:INTERNAL=-pthread
-SOUP_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/libsoup-2.4;/usr/include/libxml2;/usr/include/libmount;/usr/include/blkid;/usr/include/glib-2.0;/usr/lib/x86_64-linux-gnu/glib-2.0/include
-SOUP_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-L/usr/lib/x86_64-linux-gnu/mit-krb5;-L/usr/lib/x86_64-linux-gnu;-L/usr/lib;-L/usr/lib/x86_64-linux-gnu;-lsoup-2.4;-Wl,-Bsymbolic-functions;-flto=auto;-ffat-lto-objects;-flto=auto;-Wl,-z,relro;-lgssapi_krb5;-lkrb5;-lk5crypto;-lcom_err;-lxml2;-licui18n;-licuuc;-licudata;-lz;-llzma;-lm;-lsqlite3;-lm;-lz;-lpsl;-lbrotlidec;-lbrotlicommon;-Wl,--export-dynamic;-lgio-2.0;-lgmodule-2.0;-pthread;-lz;-lmount;-ldl;-lblkid;-lselinux;-lsepol;-lpcre2-8;-lgobject-2.0;-lffi;-lglib-2.0;-pthread;-lm;-lpcre
+SOUP_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include/libsoup-2.4;/usr/include/libxml2;/usr/include/libmount;/usr/include/blkid;/usr/include/glib-2.0;/usr/lib/aarch64-linux-gnu/glib-2.0/include
+SOUP_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/aarch64-linux-gnu;-L/usr/lib/aarch64-linux-gnu/mit-krb5;-L/usr/lib/aarch64-linux-gnu;-L/usr/lib;-L/usr/lib/aarch64-linux-gnu;-lsoup-2.4;-Wl,-Bsymbolic-functions;-flto=auto;-ffat-lto-objects;-flto=auto;-Wl,-z,relro;-lgssapi_krb5;-lkrb5;-lk5crypto;-lcom_err;-lxml2;-licui18n;-licuuc;-licudata;-lz;-llzma;-lm;-lsqlite3;-lm;-lz;-lpsl;-lbrotlidec;-lbrotlicommon;-Wl,--export-dynamic;-lgio-2.0;-lgmodule-2.0;-pthread;-lz;-lmount;-ldl;-lblkid;-lselinux;-lsepol;-lpcre2-8;-lgobject-2.0;-lffi;-lglib-2.0;-pthread;-lm;-lpcre
 SOUP_STATIC_LDFLAGS_OTHER:INTERNAL=-Wl,-Bsymbolic-functions;-flto=auto;-ffat-lto-objects;-flto=auto;-Wl,-z,relro;-Wl,--export-dynamic;-pthread
 SOUP_STATIC_LIBDIR:INTERNAL=
 SOUP_STATIC_LIBRARIES:INTERNAL=soup-2.4;gssapi_krb5;krb5;k5crypto;com_err;xml2;icui18n;icuuc;icudata;z;lzma;m;sqlite3;m;z;psl;brotlidec;brotlicommon;gio-2.0;gmodule-2.0;z;mount;dl;blkid;selinux;sepol;pcre2-8;gobject-2.0;ffi;glib-2.0;m;pcre
-SOUP_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu;/usr/lib/x86_64-linux-gnu/mit-krb5;/usr/lib/x86_64-linux-gnu;/usr/lib;/usr/lib/x86_64-linux-gnu
+SOUP_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/aarch64-linux-gnu;/usr/lib/aarch64-linux-gnu/mit-krb5;/usr/lib/aarch64-linux-gnu;/usr/lib;/usr/lib/aarch64-linux-gnu
 SOUP_STATIC_LIBS:INTERNAL=
 SOUP_STATIC_LIBS_L:INTERNAL=
 SOUP_STATIC_LIBS_OTHER:INTERNAL=
@@ -934,11 +934,11 @@ _OPENSSL_CFLAGS_OTHER:INTERNAL=
 _OPENSSL_FOUND:INTERNAL=1
 _OPENSSL_INCLUDEDIR:INTERNAL=/usr/include
 _OPENSSL_INCLUDE_DIRS:INTERNAL=
-_OPENSSL_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lssl;-lcrypto
+_OPENSSL_LDFLAGS:INTERNAL=-L/usr/lib/aarch64-linux-gnu;-lssl;-lcrypto
 _OPENSSL_LDFLAGS_OTHER:INTERNAL=
-_OPENSSL_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+_OPENSSL_LIBDIR:INTERNAL=/usr/lib/aarch64-linux-gnu
 _OPENSSL_LIBRARIES:INTERNAL=ssl;crypto
-_OPENSSL_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+_OPENSSL_LIBRARY_DIRS:INTERNAL=/usr/lib/aarch64-linux-gnu
 _OPENSSL_LIBS:INTERNAL=
 _OPENSSL_LIBS_L:INTERNAL=
 _OPENSSL_LIBS_OTHER:INTERNAL=
@@ -949,11 +949,11 @@ _OPENSSL_STATIC_CFLAGS:INTERNAL=
 _OPENSSL_STATIC_CFLAGS_I:INTERNAL=
 _OPENSSL_STATIC_CFLAGS_OTHER:INTERNAL=
 _OPENSSL_STATIC_INCLUDE_DIRS:INTERNAL=
-_OPENSSL_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lssl;-lcrypto;-ldl;-pthread
+_OPENSSL_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/aarch64-linux-gnu;-lssl;-lcrypto;-ldl;-pthread
 _OPENSSL_STATIC_LDFLAGS_OTHER:INTERNAL=-pthread
 _OPENSSL_STATIC_LIBDIR:INTERNAL=
 _OPENSSL_STATIC_LIBRARIES:INTERNAL=ssl;crypto;dl
-_OPENSSL_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+_OPENSSL_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/aarch64-linux-gnu
 _OPENSSL_STATIC_LIBS:INTERNAL=
 _OPENSSL_STATIC_LIBS_L:INTERNAL=
 _OPENSSL_STATIC_LIBS_OTHER:INTERNAL=
@@ -965,7 +965,7 @@ _OPENSSL_openssl_PREFIX:INTERNAL=
 _OPENSSL_openssl_VERSION:INTERNAL=
 _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3
 //Python3 Properties
-_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
+_Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-aarch64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=0f3e53742e142b1d9e50e4ca5b901dd8
 //Index for unique symlink install targets
 __AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=0
@@ -1025,5 +1025,5 @@ pkgcfg_lib_SOUP_soup-2.4-ADVANCED:INTERNAL=1
 pkgcfg_lib__OPENSSL_crypto-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_ssl
 pkgcfg_lib__OPENSSL_ssl-ADVANCED:INTERNAL=1
-prefix_result:INTERNAL=/usr/lib/x86_64-linux-gnu
+prefix_result:INTERNAL=/usr/lib/aarch64-linux-gnu
 

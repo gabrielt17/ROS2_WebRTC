@@ -331,13 +331,13 @@ libgst_pipeline_plugins.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesup
 libgst_pipeline_plugins.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 libgst_pipeline_plugins.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 libgst_pipeline_plugins.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
-libgst_pipeline_plugins.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+libgst_pipeline_plugins.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 libgst_pipeline_plugins.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
 libgst_pipeline_plugins.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 libgst_pipeline_plugins.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 libgst_pipeline_plugins.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
-libgst_pipeline_plugins.so: /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so
-libgst_pipeline_plugins.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+libgst_pipeline_plugins.so: /usr/lib/aarch64-linux-gnu/libgstreamer-1.0.so
+libgst_pipeline_plugins.so: /usr/lib/aarch64-linux-gnu/libtinyxml2.so
 libgst_pipeline_plugins.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 libgst_pipeline_plugins.so: /home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_generator_c.so
 libgst_pipeline_plugins.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
@@ -371,7 +371,7 @@ libgst_pipeline_plugins.so: /opt/ros/humble/lib/libstatistics_msgs__rosidl_gener
 libgst_pipeline_plugins.so: /opt/ros/humble/lib/libtracetools.so
 libgst_pipeline_plugins.so: /opt/ros/humble/lib/libament_index_cpp.so
 libgst_pipeline_plugins.so: /opt/ros/humble/lib/libclass_loader.so
-libgst_pipeline_plugins.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+libgst_pipeline_plugins.so: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
 libgst_pipeline_plugins.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so
 libgst_pipeline_plugins.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
 libgst_pipeline_plugins.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so
@@ -414,7 +414,7 @@ libgst_pipeline_plugins.so: /opt/ros/humble/lib/librcpputils.so
 libgst_pipeline_plugins.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libgst_pipeline_plugins.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libgst_pipeline_plugins.so: /opt/ros/humble/lib/librcutils.so
-libgst_pipeline_plugins.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+libgst_pipeline_plugins.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 libgst_pipeline_plugins.so: CMakeFiles/gst_pipeline_plugins.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX shared library libgst_pipeline_plugins.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gst_pipeline_plugins.dir/link.txt --verbose=$(VERBOSE)

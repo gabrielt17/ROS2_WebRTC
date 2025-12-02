@@ -175,13 +175,13 @@ libgst_pipeline.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_int
 libgst_pipeline.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 libgst_pipeline.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 libgst_pipeline.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
-libgst_pipeline.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+libgst_pipeline.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 libgst_pipeline.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
 libgst_pipeline.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 libgst_pipeline.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 libgst_pipeline.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
-libgst_pipeline.so: /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so
-libgst_pipeline.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+libgst_pipeline.so: /usr/lib/aarch64-linux-gnu/libgstreamer-1.0.so
+libgst_pipeline.so: /usr/lib/aarch64-linux-gnu/libtinyxml2.so
 libgst_pipeline.so: /opt/ros/humble/lib/librclcpp.so
 libgst_pipeline.so: /opt/ros/humble/lib/liblibstatistics_collector.so
 libgst_pipeline.so: /opt/ros/humble/lib/librcl.so
@@ -209,7 +209,7 @@ libgst_pipeline.so: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.s
 libgst_pipeline.so: /opt/ros/humble/lib/libtracetools.so
 libgst_pipeline.so: /opt/ros/humble/lib/libament_index_cpp.so
 libgst_pipeline.so: /opt/ros/humble/lib/libclass_loader.so
-libgst_pipeline.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+libgst_pipeline.so: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
 libgst_pipeline.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so
 libgst_pipeline.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
 libgst_pipeline.so: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so
@@ -244,7 +244,7 @@ libgst_pipeline.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp
 libgst_pipeline.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 libgst_pipeline.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 libgst_pipeline.so: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-libgst_pipeline.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+libgst_pipeline.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 libgst_pipeline.so: /home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_generator_c.so
 libgst_pipeline.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
 libgst_pipeline.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so

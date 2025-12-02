@@ -1,0 +1,1 @@
+/home/devuser/Workspaces/ros2learn_ws/build/cpp_pubsub/ament_cmake_environment_hooks/local_setup.sh

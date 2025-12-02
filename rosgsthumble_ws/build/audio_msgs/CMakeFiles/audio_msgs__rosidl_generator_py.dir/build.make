@@ -92,12 +92,12 @@ audio_msgs__rosidl_generator_py_EXTERNAL_OBJECTS =
 
 rosidl_generator_py/audio_msgs/libaudio_msgs__rosidl_generator_py.so: CMakeFiles/audio_msgs__rosidl_generator_py.dir/rosidl_generator_py/audio_msgs/msg/_audio_s.c.o
 rosidl_generator_py/audio_msgs/libaudio_msgs__rosidl_generator_py.so: CMakeFiles/audio_msgs__rosidl_generator_py.dir/build.make
-rosidl_generator_py/audio_msgs/libaudio_msgs__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+rosidl_generator_py/audio_msgs/libaudio_msgs__rosidl_generator_py.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 rosidl_generator_py/audio_msgs/libaudio_msgs__rosidl_generator_py.so: libaudio_msgs__rosidl_typesupport_c.so
 rosidl_generator_py/audio_msgs/libaudio_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 rosidl_generator_py/audio_msgs/libaudio_msgs__rosidl_generator_py.so: libaudio_msgs__rosidl_generator_c.so
 rosidl_generator_py/audio_msgs/libaudio_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
-rosidl_generator_py/audio_msgs/libaudio_msgs__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+rosidl_generator_py/audio_msgs/libaudio_msgs__rosidl_generator_py.so: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 rosidl_generator_py/audio_msgs/libaudio_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
 rosidl_generator_py/audio_msgs/libaudio_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 rosidl_generator_py/audio_msgs/libaudio_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so

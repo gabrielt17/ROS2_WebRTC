@@ -1,0 +1,49 @@
+[0.150s] Invoking command in '/home/devuser/Workspaces/ros2learn_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/devuser/Workspaces/ros2learn_ws/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub
+[1.570s] -- The C compiler identification is GNU 11.4.0
+[2.877s] -- The CXX compiler identification is GNU 11.4.0
+[3.012s] -- Detecting C compiler ABI info
+[4.146s] -- Detecting C compiler ABI info - done
+[4.210s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.214s] -- Detecting C compile features
+[4.219s] -- Detecting C compile features - done
+[4.243s] -- Detecting CXX compiler ABI info
+[4.840s] -- Detecting CXX compiler ABI info - done
+[4.895s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.896s] -- Detecting CXX compile features
+[4.898s] -- Detecting CXX compile features - done
+[5.000s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.426s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.301s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.733s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.595s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.596s] -- Configured cppcheck include dirs: 
+[8.596s] -- Configured cppcheck exclude dirs and/or files: 
+[8.608s] -- Added test 'lint_cmake' to check CMake code style
+[8.611s] -- Added test 'uncrustify' to check C / C++ code style
+[8.611s] -- Configured uncrustify additional arguments: 
+[8.616s] -- Added test 'xmllint' to check XML markup files
+[8.634s] -- Configuring done
+[8.651s] -- Generating done
+[8.658s] -- Build files have been written to: /home/devuser/Workspaces/ros2learn_ws/build/cpp_pubsub
+[8.686s] Invoked command in '/home/devuser/Workspaces/ros2learn_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/devuser/Workspaces/ros2learn_ws/src/cpp_pubsub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub
+[8.694s] Invoking command in '/home/devuser/Workspaces/ros2learn_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/Workspaces/ros2learn_ws/build/cpp_pubsub -- -j4 -l4
+[8.946s] Invoked command in '/home/devuser/Workspaces/ros2learn_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/Workspaces/ros2learn_ws/build/cpp_pubsub -- -j4 -l4
+[9.016s] Invoking command in '/home/devuser/Workspaces/ros2learn_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devuser/Workspaces/ros2learn_ws/build/cpp_pubsub
+[9.050s] -- Install configuration: ""
+[9.052s] -- Execute custom install script
+[9.053s] -- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[9.104s] -- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[9.157s] -- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[9.209s] -- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[9.250s] -- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[9.303s] -- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[9.339s] -- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[9.384s] -- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[9.452s] -- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[9.504s] -- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[9.554s] -- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[9.616s] -- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[9.703s] -- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[9.763s] -- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[9.817s] -- Symlinking: /home/devuser/Workspaces/ros2learn_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[9.883s] Invoked command in '/home/devuser/Workspaces/ros2learn_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/devuser/Workspaces/ros2learn_ws/build/cpp_pubsub

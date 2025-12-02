@@ -119,7 +119,7 @@ gst_pipeline_node: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.
 gst_pipeline_node: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
 gst_pipeline_node: /opt/ros/humble/lib/libtracetools.so
 gst_pipeline_node: /opt/ros/humble/lib/libclass_loader.so
-gst_pipeline_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+gst_pipeline_node: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.1.0
 gst_pipeline_node: /opt/ros/humble/lib/libament_index_cpp.so
 gst_pipeline_node: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so
 gst_pipeline_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
@@ -156,7 +156,7 @@ gst_pipeline_node: /opt/ros/humble/lib/librosidl_typesupport_c.so
 gst_pipeline_node: /opt/ros/humble/lib/librcpputils.so
 gst_pipeline_node: /opt/ros/humble/lib/librosidl_runtime_c.so
 gst_pipeline_node: /opt/ros/humble/lib/librcutils.so
-gst_pipeline_node: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+gst_pipeline_node: /usr/lib/aarch64-linux-gnu/libpython3.10.so
 gst_pipeline_node: CMakeFiles/gst_pipeline_node.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable gst_pipeline_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gst_pipeline_node.dir/link.txt --verbose=$(VERBOSE)
