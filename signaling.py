@@ -54,7 +54,7 @@ async def handle_websocket(websocket):
             print(f"Client {client_id} disconnected.")
 
 async def main():
-    endpoint = "192.168.0.134"
+    endpoint = "0.0.0.0"
     port = 8000
     # print(f"Listening on {endpoint}:{port}")
     server = await websockets.serve(handle_websocket, endpoint, port)
