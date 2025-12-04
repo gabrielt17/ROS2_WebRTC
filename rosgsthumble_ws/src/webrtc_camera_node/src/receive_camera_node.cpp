@@ -14,8 +14,8 @@
 using json = nlohmann::json;
 
 // Variáveis globais
-std::string ipAddress = "192.168.0.134";
-std::string port = "8000";
+std::string ipAddress = "snodly-nomistic-amber.ngrok-free.dev";
+std::string port = "443";
 std::string localId = "alice"; // ID local do remetente
 std::string remoteId = "gabrielt"; // ID remoto do destinatário
 
@@ -181,6 +181,8 @@ int main(int argc, char *argv[]) {
 
     // Isola o elemento webrtcbin em um objeto global
     webrtc_recv = gst_bin_get_by_name(GST_BIN(pipeline), "recv");
+
+    g_object_set(webrtc_recv, "stun-server", "stun://stun.l.google.com:19302", NULL);
     gst_element_set_state(pipeline, GST_STATE_READY);
     gst_element_get_state(pipeline, nullptr, nullptr, GST_CLOCK_TIME_NONE);
 
@@ -188,7 +190,14 @@ int main(int argc, char *argv[]) {
     g_signal_connect(webrtc_recv, "on-ice-candidate", G_CALLBACK(on_ice_candidate), nullptr);
     g_signal_connect(webrtc_recv, "pad-added", G_CALLBACK(on_pad_added), pipeline);
 
-    std::string signaling_url = "ws://" + ipAddress + ":" + port + "/" + localId; // URL do servidor de sinalização
+    std::string signaling_url;
+    if (ipAddress.find("ngrok") != std::string::npos) {
+        // Se for ngrok, usa WSS e ignora a porta (ngrok gerencia porta 80/443)
+        signaling_url = "wss://" + ipAddress + "/" + localId; 
+    } else {
+    // Se for IP local, usa WS e a porta especificada
+        signaling_url = "ws://" + ipAddress + ":" + port + "/" + localId;
+    }
     ws.setUrl(signaling_url);
 
     ws.setOnMessageCallback([&](const ix::WebSocketMessagePtr &msg) {

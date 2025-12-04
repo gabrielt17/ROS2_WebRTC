@@ -1,0 +1,2 @@
+Invoking command in '/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node -- -j12 -l12
+Invoked command in '/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node -- -j12 -l12

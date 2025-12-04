@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20251204-1841-Experimental"
+	Name="DuquedeCaixias"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="DuquedeCaixias"
+	OSRelease="6.17.9-zen1-1-zen"
+	OSVersion="#1 ZEN SMP PREEMPT_DYNAMIC Mon, 24 Nov 2025 15:21:16 +0000"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="25"
+	ModelID="80"
+	ProcessorCacheSize="512"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="7104"
+	TotalPhysicalMemory="15871"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="4241.58"
+	>
+	<Testing>
+		<StartDateTime>Dec 04 18:41 UTC</StartDateTime>
+		<StartTestTime>1764873710</StartTestTime>
+		<TestList/>
+		<EndDateTime>Dec 04 18:41 UTC</EndDateTime>
+		<EndTestTime>1764873710</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

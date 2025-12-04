@@ -136,6 +136,8 @@ int main(int argc, char* argv[]) {
     }
 
     webrtc_send = gst_bin_get_by_name(GST_BIN(pipeline), "send");
+
+    g_object_set(webrtc_send, "stun-server", "stun://stun.l.google.com:19302", NULL);
     gst_element_set_state(pipeline, GST_STATE_READY);
     gst_element_get_state(pipeline, nullptr, nullptr, GST_CLOCK_TIME_NONE);
 

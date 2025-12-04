@@ -1,0 +1,77 @@
+[0.013s] Invoking command in '/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node -- -j12 -l12
+[0.047s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.161s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.211s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.215s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.223s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.235s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.249s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.290s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.292s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.440s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.496s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.527s] -- Found gst_bridge: 0.0.0 (/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/cmake)
+[18.282s] -- Using the multi-header code from /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/
+[20.518s] -- Configuring done
+[20.567s] -- Generating done
+[20.575s] -- Build files have been written to: /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node
+[20.611s] [35m[1mConsolidate compiler generated dependencies of target ixwebsocket[0m
+[20.649s] [  2%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXDNSLookup.cpp.o[0m
+[20.649s] [  9%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXGetFreePort.cpp.o[0m
+[20.651s] [  9%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXExponentialBackoff.cpp.o[0m
+[20.651s] [ 12%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXHttp.cpp.o[0m
+[20.651s] [ 14%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXGzipCodec.cpp.o[0m
+[20.651s] [ 17%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXHttpClient.cpp.o[0m
+[20.652s] [  4%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXConnectionState.cpp.o[0m
+[20.652s] [ 19%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXCancellationRequest.cpp.o[0m
+[20.652s] [ 21%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXNetSystem.cpp.o[0m
+[20.653s] [ 24%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterrupt.cpp.o[0m
+[20.653s] [ 26%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXBench.cpp.o[0m
+[20.656s] [ 29%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXHttpServer.cpp.o[0m
+[20.759s] [ 31%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterruptFactory.cpp.o[0m
+[20.766s] [ 34%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterruptPipe.cpp.o[0m
+[20.891s] [ 36%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterruptEvent.cpp.o[0m
+[20.960s] [ 41%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocket.cpp.o[0m
+[20.960s] [ 41%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSetThreadName.cpp.o[0m
+[21.130s] [ 43%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketConnect.cpp.o[0m
+[21.180s] [ 46%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketFactory.cpp.o[0m
+[21.225s] [ 48%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketServer.cpp.o[0m
+[21.265s] [ 51%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketTLSOptions.cpp.o[0m
+[21.354s] [ 53%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXStrCaseCompare.cpp.o[0m
+[21.493s] [ 56%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUrlParser.cpp.o[0m
+[21.494s] [ 58%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUdpSocket.cpp.o[0m
+[21.513s] [ 60%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUuid.cpp.o[0m
+[21.690s] [ 63%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUserAgent.cpp.o[0m
+[21.731s] [ 65%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocket.cpp.o[0m
+[21.791s] [ 68%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketCloseConstants.cpp.o[0m
+[21.829s] [ 70%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketHandshake.cpp.o[0m
+[21.851s] [ 73%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketHttpHeaders.cpp.o[0m
+[21.895s] [ 75%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketPerMessageDeflate.cpp.o[0m
+[22.056s] [ 78%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketPerMessageDeflateCodec.cpp.o[0m
+[22.072s] [ 80%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketPerMessageDeflateOptions.cpp.o[0m
+[22.080s] [ 85%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketProxyServer.cpp.o[0m
+[22.080s] [ 85%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketServer.cpp.o[0m
+[22.116s] [ 87%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketTransport.cpp.o[0m
+[23.109s] [ 90%] [32m[1mLinking CXX static library libixwebsocket.a[0m
+[23.217s] [ 90%] Built target ixwebsocket
+[23.228s] [35m[1mConsolidate compiler generated dependencies of target send_camera_node[0m
+[23.228s] [35m[1mConsolidate compiler generated dependencies of target receive_camera_node[0m
+[23.252s] [ 95%] [32mBuilding CXX object CMakeFiles/send_camera_node.dir/src/send_camera_node.cpp.o[0m
+[23.252s] [ 95%] [32mBuilding CXX object CMakeFiles/receive_camera_node.dir/src/receive_camera_node.cpp.o[0m
+[25.644s] [01m[K/home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/receive_camera_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[25.645s] [01m[K/home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/receive_camera_node.cpp:193:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksignaling_url[m[K’ was not declared in this scope
+[25.645s]   193 |         [01;31m[Ksignaling_url[m[K = "wss://" + ipAddress + "/" + localId;
+[25.645s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[25.657s] [01m[K/home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/receive_camera_node.cpp:196:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksignaling_url[m[K’ was not declared in this scope
+[25.658s]   196 |         [01;31m[Ksignaling_url[m[K = "ws://" + ipAddress + ":" + port + "/" + localId;
+[25.658s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[25.670s] [01m[K/home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/receive_camera_node.cpp:198:15:[m[K [01;31m[Kerror: [m[K‘[01m[Ksignaling_url[m[K’ was not declared in this scope
+[25.670s]   198 |     ws.setUrl([01;31m[Ksignaling_url[m[K);
+[25.671s]       |               [01;31m[K^~~~~~~~~~~~~[m[K
+[27.015s] gmake[2]: *** [CMakeFiles/receive_camera_node.dir/build.make:76: CMakeFiles/receive_camera_node.dir/src/receive_camera_node.cpp.o] Error 1
+[27.015s] gmake[1]: *** [CMakeFiles/Makefile2:200: CMakeFiles/receive_camera_node.dir/all] Error 2
+[27.015s] gmake[1]: *** Waiting for unfinished jobs....
+[27.915s] [ 97%] [32m[1mLinking CXX executable send_camera_node[0m
+[28.195s] [ 97%] Built target send_camera_node
+[28.195s] gmake: *** [Makefile:146: all] Error 2
+[28.197s] Invoked command in '/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node -- -j12 -l12

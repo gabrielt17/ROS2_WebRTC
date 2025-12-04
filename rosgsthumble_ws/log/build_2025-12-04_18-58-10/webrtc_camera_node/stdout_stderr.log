@@ -1,0 +1,84 @@
+[35m[1mConsolidate compiler generated dependencies of target ixwebsocket[0m
+[ 90%] Built target ixwebsocket
+[35m[1mConsolidate compiler generated dependencies of target receive_camera_node[0m
+[35m[1mConsolidate compiler generated dependencies of target send_camera_node[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/send_camera_node.dir/src/send_camera_node.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/receive_camera_node.dir/src/receive_camera_node.cpp.o[0m
+[ 97%] [32m[1mLinking CXX executable receive_camera_node[0m
+[ 97%] Built target receive_camera_node
+[100%] [32m[1mLinking CXX executable send_camera_node[0m
+[100%] Built target send_camera_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/lib/cmake/ixwebsocket/ixwebsocket-config.cmake
+-- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/lib/pkgconfig/ixwebsocket.pc
+-- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/lib/webrtc_camera_node/send_camera_node
+-- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/lib/webrtc_camera_node/receive_camera_node
+-- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/ament_index/resource_index/package_run_dependencies/webrtc_camera_node
+-- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/ament_index/resource_index/parent_prefix_path/webrtc_camera_node
+-- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/environment/path.sh
+-- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/environment/path.dsv
+-- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/local_setup.bash
+-- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/local_setup.sh
+-- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/local_setup.zsh
+-- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/local_setup.dsv
+-- Symlinking: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/package.dsv
+-- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/ament_index/resource_index/packages/webrtc_camera_node
+-- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/cmake/webrtc_camera_nodeConfig.cmake
+-- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/cmake/webrtc_camera_nodeConfig-version.cmake
+-- Up-to-date symlink: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/package.xml
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/lib/libixwebsocket.a
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXBase64.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXBench.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXCancellationRequest.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXConnectionState.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXDNSLookup.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXExponentialBackoff.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXGetFreePort.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXGzipCodec.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXHttp.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXHttpClient.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXHttpServer.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXNetSystem.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXProgressCallback.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSelectInterrupt.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSelectInterruptFactory.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSelectInterruptPipe.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSelectInterruptEvent.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSetThreadName.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSocket.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSocketConnect.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSocketFactory.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSocketServer.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSocketTLSOptions.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXStrCaseCompare.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXUdpSocket.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXUniquePtr.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXUrlParser.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXUuid.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXUtf8Validator.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXUserAgent.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocket.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketCloseConstants.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketCloseInfo.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketErrorInfo.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketHandshake.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketHandshakeKeyGen.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketHttpHeaders.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketInitResult.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketMessage.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketMessageType.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketOpenInfo.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketPerMessageDeflate.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketPerMessageDeflateCodec.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketPerMessageDeflateOptions.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketProxyServer.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketSendData.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketSendInfo.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketServer.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketTransport.h
+-- Installing: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketVersion.h
+-- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/lib/cmake/ixwebsocket/ixwebsocket-targets.cmake
+-- Up-to-date: /home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/lib/cmake/ixwebsocket/ixwebsocket-targets-noconfig.cmake
