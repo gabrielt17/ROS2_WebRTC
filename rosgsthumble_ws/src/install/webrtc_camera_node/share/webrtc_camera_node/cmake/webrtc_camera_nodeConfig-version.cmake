@@ -1,1 +1,0 @@
-/home/devuser/Workspaces/rosgsthumble_ws/src/build/webrtc_camera_node/ament_cmake_core/webrtc_camera_nodeConfig-version.cmake

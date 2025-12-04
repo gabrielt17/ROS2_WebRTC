@@ -1,4 +1,0 @@
-source;share/gst_bridge/environment/ament_prefix_path.sh
-source;share/gst_bridge/environment/library_path.sh
-source;share/gst_bridge/environment/path.sh
-source;share/gst_bridge/environment/register_plugin.dsv

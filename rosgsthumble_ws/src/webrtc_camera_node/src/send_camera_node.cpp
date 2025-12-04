@@ -121,11 +121,20 @@ int main(int argc, char* argv[]) {
     RCLCPP_INFO(node->get_logger(), "Transmitindo vídeo do tópico: %s", camera_topic.c_str());
 
     std::string pipeline_str =
-        "rosimagesrc ros-topic=\"" + camera_topic + "\" ! "
-        "videoconvert ! "
-        "vp8enc deadline=1 ! "
-        "rtpvp8pay ! "
-        "webrtcbin name=send";
+    "rosimagesrc ros-topic=\"" + camera_topic + "\" ! "
+    "videoconvert ! "
+    // --- MUDANÇA 1: Queue com vazamento (Leaky Queue) ---
+    // max-size-buffers=1: Mantém apenas 1 frame na fila.
+    // leaky=downstream: Se chegar um novo e a fila estiver cheia, joga o velho fora.
+    "queue max-size-buffers=1 leaky=downstream ! " 
+    // --- MUDANÇA 2: Forçar redução de FPS (Opcional, mas recomendado para a Nano) ---
+    "videorate ! video/x-raw,framerate=5/1 ! " 
+    // --- MUDANÇA 3: Configuração de resiliência do VP8 ---
+    // keyframe-max-dist=30: Envia um frame completo a cada 30 frames (aprox 2 segs se for 15fps)
+    // error-resilient=default: Ajuda a tolerar perdas de pacote
+    "vp8enc deadline=1 keyframe-max-dist=5 error-resilient=default ! " 
+    "rtpvp8pay ! "
+    "webrtcbin name=send bundle-policy=max-bundle";
 
     GError* error = nullptr;
     GstElement* pipeline = gst_parse_launch(pipeline_str.c_str(), &error);

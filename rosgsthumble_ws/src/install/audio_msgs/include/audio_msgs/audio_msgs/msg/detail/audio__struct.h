@@ -1,1 +1,0 @@
-/home/devuser/Workspaces/rosgsthumble_ws/src/build/audio_msgs/rosidl_generator_c/audio_msgs/msg/detail/audio__struct.h

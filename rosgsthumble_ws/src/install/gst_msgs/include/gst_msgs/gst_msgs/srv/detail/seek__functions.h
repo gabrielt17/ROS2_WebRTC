@@ -1,1 +1,0 @@
-/home/devuser/Workspaces/rosgsthumble_ws/src/build/gst_msgs/rosidl_generator_c/gst_msgs/srv/detail/seek__functions.h

@@ -1,1 +1,0 @@
-/home/devuser/Workspaces/rosgsthumble_ws/src/build/cpp_campub/ament_cmake_environment_hooks/local_setup.bash

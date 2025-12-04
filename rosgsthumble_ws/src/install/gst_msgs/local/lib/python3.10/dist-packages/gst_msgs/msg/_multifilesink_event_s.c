@@ -1,1 +1,0 @@
-/home/devuser/Workspaces/rosgsthumble_ws/src/build/gst_msgs/rosidl_generator_py/gst_msgs/msg/_multifilesink_event_s.c

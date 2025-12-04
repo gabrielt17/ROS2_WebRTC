@@ -1,1 +1,0 @@
-/home/devuser/Workspaces/rosgsthumble_ws/src/build/gst_msgs/rosidl_typesupport_introspection_cpp/gst_msgs/msg/detail/clock_observation__rosidl_typesupport_introspection_cpp.hpp

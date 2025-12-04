@@ -1,1 +1,0 @@
-/home/devuser/Workspaces/rosgsthumble_ws/src/build/gst_msgs/ament_cmake_core/gst_msgsConfig.cmake

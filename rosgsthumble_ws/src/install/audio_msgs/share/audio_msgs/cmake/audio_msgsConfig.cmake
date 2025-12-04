@@ -1,1 +1,0 @@
-/home/devuser/Workspaces/rosgsthumble_ws/src/build/audio_msgs/ament_cmake_core/audio_msgsConfig.cmake

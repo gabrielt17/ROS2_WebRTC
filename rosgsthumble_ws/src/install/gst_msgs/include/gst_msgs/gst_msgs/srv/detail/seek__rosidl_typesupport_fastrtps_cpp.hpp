@@ -1,1 +1,0 @@
-/home/devuser/Workspaces/rosgsthumble_ws/src/build/gst_msgs/rosidl_typesupport_fastrtps_cpp/gst_msgs/srv/detail/seek__rosidl_typesupport_fastrtps_cpp.hpp

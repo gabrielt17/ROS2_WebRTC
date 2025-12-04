@@ -1,1 +1,0 @@
-/home/devuser/Workspaces/rosgsthumble_ws/src/build/cpp_campub/ament_cmake_core/cpp_campubConfig.cmake
