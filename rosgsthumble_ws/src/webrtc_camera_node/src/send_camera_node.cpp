@@ -67,6 +67,27 @@ static void on_ice_candidate(GstElement *webrtc, guint mline_index, gchar *candi
     RCLCPP_INFO(rclcpp::get_logger("send_camera_node"), ">>> CANDIDATO ICE GERADO:\n%s", ice_candidate.dump().c_str());
 }
 
+// Callback para monitorar o estado da conexão ICE
+static void on_ice_connection_state_notify(GstElement *webrtc, GParamSpec *pspec, gpointer user_data) {
+    GstWebRTCICEConnectionState ice_state;
+    g_object_get(webrtc, "ice-connection-state", &ice_state, NULL);
+
+    const char *state_str = "UNKNOWN";
+    switch (ice_state) {
+        case GST_WEBRTC_ICE_CONNECTION_STATE_NEW: state_str = "NEW"; break;
+        case GST_WEBRTC_ICE_CONNECTION_STATE_CHECKING: state_str = "CHECKING"; break;
+        case GST_WEBRTC_ICE_CONNECTION_STATE_CONNECTED: state_str = "CONNECTED"; break;
+        case GST_WEBRTC_ICE_CONNECTION_STATE_COMPLETED: state_str = "COMPLETED"; break;
+        case GST_WEBRTC_ICE_CONNECTION_STATE_FAILED: state_str = "FAILED"; break;
+        case GST_WEBRTC_ICE_CONNECTION_STATE_DISCONNECTED: state_str = "DISCONNECTED"; break;
+        case GST_WEBRTC_ICE_CONNECTION_STATE_CLOSED: state_str = "CLOSED"; break;
+    }
+    
+    // Use RCLCPP_WARN para destacar no log
+    auto logger = rclcpp::get_logger("webrtc_monitor");
+    RCLCPP_WARN(logger, ">>> ESTADO ICE MUDOU PARA: %s <<<", state_str);
+}
+
 // -------------------- Helper para thread safety --------------------
 struct IceCandidateData {
     guint mline_index;
@@ -141,6 +162,8 @@ int main(int argc, char* argv[]) {
     gst_element_set_state(pipeline, GST_STATE_READY);
     gst_element_get_state(pipeline, nullptr, nullptr, GST_CLOCK_TIME_NONE);
 
+    g_signal_connect(webrtc_send, "notify::ice-connection-state", 
+                     G_CALLBACK(on_ice_connection_state_notify), NULL);
     g_signal_connect(webrtc_send, "on-negotiation-needed", G_CALLBACK(on_negotiation_needed), nullptr);
     g_signal_connect(webrtc_send, "on-ice-candidate", G_CALLBACK(on_ice_candidate), nullptr);
 

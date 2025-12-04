@@ -60,6 +60,27 @@ static void on_ice_candidate(GstElement *, guint mline_index, gchar *candidate) 
     std::cout << "\n>>> CANDIDATO ICE GERADO:\n" << ice_candidate.dump() << std::endl;
 }
 
+// Callback para monitorar o estado da conexão ICE
+static void on_ice_connection_state_notify(GstElement *webrtc, GParamSpec *pspec, gpointer user_data) {
+    GstWebRTCICEConnectionState ice_state;
+    g_object_get(webrtc, "ice-connection-state", &ice_state, NULL);
+
+    const char *state_str = "UNKNOWN";
+    switch (ice_state) {
+        case GST_WEBRTC_ICE_CONNECTION_STATE_NEW: state_str = "NEW"; break;
+        case GST_WEBRTC_ICE_CONNECTION_STATE_CHECKING: state_str = "CHECKING"; break;
+        case GST_WEBRTC_ICE_CONNECTION_STATE_CONNECTED: state_str = "CONNECTED"; break;
+        case GST_WEBRTC_ICE_CONNECTION_STATE_COMPLETED: state_str = "COMPLETED"; break;
+        case GST_WEBRTC_ICE_CONNECTION_STATE_FAILED: state_str = "FAILED"; break;
+        case GST_WEBRTC_ICE_CONNECTION_STATE_DISCONNECTED: state_str = "DISCONNECTED"; break;
+        case GST_WEBRTC_ICE_CONNECTION_STATE_CLOSED: state_str = "CLOSED"; break;
+    }
+    
+    // Use RCLCPP_WARN para destacar no log
+    auto logger = rclcpp::get_logger("webrtc_monitor");
+    RCLCPP_WARN(logger, ">>> ESTADO ICE MUDOU PARA: %s <<<", state_str);
+}
+
 static void on_pad_added(GstElement *, GstPad *pad, GstElement *pipeline) {
     RCLCPP_INFO(rclcpp::get_logger("receive_camera_node"), "Pad dinâmico recebido...");
 
@@ -154,13 +175,11 @@ int main(int argc, char *argv[]) {
     rclcpp::init(argc, argv);
     gst_init(nullptr, nullptr);
 
-    // Removido o signal handler manual para evitar conflito com ROS
-    // signal(SIGINT, sigint_handler);
-
     auto node = rclcpp::Node::make_shared("receive_camera_node");
     
-    // Configura o shutdown correto via ROS
+    // Callback de segurança para quando o ROS morrer
     rclcpp::on_shutdown([&]() {
+        // Se já parou, chamar stop de novo não tem problema
         ws.stop();
         if (gst_loop_handle && g_main_loop_is_running(gst_loop_handle)) {
             g_main_loop_quit(gst_loop_handle);
@@ -193,14 +212,13 @@ int main(int argc, char *argv[]) {
     g_object_set(webrtc_recv, "stun-server", "stun://stun.l.google.com:19302", NULL);
     gst_element_set_state(pipeline, GST_STATE_READY);
     
+    g_signal_connect(webrtc_recv, "notify::ice-connection-state", 
+                     G_CALLBACK(on_ice_connection_state_notify), NULL);
     g_signal_connect(webrtc_recv, "on-ice-candidate", G_CALLBACK(on_ice_candidate), nullptr);
     g_signal_connect(webrtc_recv, "pad-added", G_CALLBACK(on_pad_added), pipeline);
 
-
-    // --- CORREÇÃO DA URL ---
     std::string signaling_url;
-    // Se a porta é 443, É OBRIGATÓRIO USAR WSS (Secure Websocket)
-    // Seu curl provou que o certificado funciona, então podemos usar WSS sem medo.
+    // Solução da porta 80 (mantida conforme seu último sucesso parcial)
     if (port == "443") {
         signaling_url = "wss://" + ipAddress + "/" + localId;
     } else {
@@ -210,37 +228,25 @@ int main(int argc, char *argv[]) {
     RCLCPP_INFO(node->get_logger(), "Conectando em: %s", signaling_url.c_str());
     ws.setUrl(signaling_url);
 
-    // Adiciona header para pular o aviso do Ngrok (garantia extra)
     ix::WebSocketHttpHeaders headers;
     headers["ngrok-skip-browser-warning"] = "true";
     ws.setExtraHeaders(headers);
 
-    // Opções TLS (Seu curl diz que o sistema tem certificados, então SYSTEM deve funcionar)
-    // Se der erro de certificado, troque para "NONE"
     ix::SocketTLSOptions tlsOptions;
-    tlsOptions.caFile = "SYSTEM"; 
+    tlsOptions.caFile = "NONE"; 
     ws.setTLSOptions(tlsOptions);
 
-    // --- CORREÇÃO DO CALLBACK (ESTRUTURA IF/ELSE) ---
     ws.setOnMessageCallback([node](const ix::WebSocketMessagePtr &msg) {
-        
-        // 1. Conexão Aberta
         if (msg->type == ix::WebSocketMessageType::Open) {
             RCLCPP_INFO(node->get_logger(), ">>> WEBSOCKET CONECTADO! <<<");
         }
-        
-        // 2. Erro (AGORA ESTÁ NO NÍVEL CERTO E VAI APARECER)
         else if (msg->type == ix::WebSocketMessageType::Error) {
             RCLCPP_ERROR(node->get_logger(), "FALHA CONEXÃO: %s", msg->errorInfo.reason.c_str());
             RCLCPP_ERROR(node->get_logger(), "Status HTTP: %d", msg->errorInfo.http_status);
         }
-        
-        // 3. Fechamento
         else if (msg->type == ix::WebSocketMessageType::Close) {
             RCLCPP_WARN(node->get_logger(), "Conexão Fechada: %d %s", msg->closeInfo.code, msg->closeInfo.reason.c_str());
         }
-        
-        // 4. Mensagem Recebida
         else if (msg->type == ix::WebSocketMessageType::Message) {
             try {
                 json message = json::parse(msg->str);
@@ -248,7 +254,6 @@ int main(int argc, char *argv[]) {
                 if (message["type"] == "offer") {
                     auto data = new OfferData { message["sdp"] };
                     RCLCPP_INFO(node->get_logger(), "--> Oferta Recebida.");
-                    // Validação básica do SDP antes de agendar
                     if (data->sdp_text.length() > 0) {
                         g_idle_add(add_remote_offer_idle, data);
                     }
@@ -268,18 +273,34 @@ int main(int argc, char *argv[]) {
     
     ws.start();
 
-    // Loop de espera
+    // ---------------------------------------------------------
+    // CORREÇÃO CRÍTICA DO LOOP DE ESPERA
+    // ---------------------------------------------------------
+    
+    // Usa rclcpp::Rate para garantir que sinais do sistema (Ctrl+C) sejam processados
+    rclcpp::Rate loop_rate(10); // 10Hz (verifica a cada 100ms)
     int wait_attempts = 0;
+
     while (ws.getReadyState() != ix::ReadyState::Open && rclcpp::ok()) {
         if (wait_attempts % 10 == 0) {
             RCLCPP_INFO(node->get_logger(), "Aguardando WebSocket... (%ds)", wait_attempts/10);
         }
-        g_usleep(100000);
         wait_attempts++;
+        loop_rate.sleep(); // Isso permite o ROS processar callbacks e sinais
     }
 
-    // Se o ROS foi desligado durante a espera
-    if (!rclcpp::ok()) return 0;
+    // SE O LOOP QUEBROU POR CAUSA DO CTRL+C (rclcpp::ok() == false)
+    if (!rclcpp::ok()) {
+        RCLCPP_WARN(node->get_logger(), "Interrupção detectada. Encerrando WebSocket...");
+        ws.stop(); // <--- OBRIGATÓRIO: Mata a thread de conexão antes do destrutor
+        
+        gst_element_set_state(pipeline, GST_STATE_NULL);
+        gst_object_unref(pipeline);
+        rclcpp::shutdown();
+        return 0;
+    }
+
+    // ---------------------------------------------------------
 
     gst_element_set_state(pipeline, GST_STATE_PLAYING);
 
@@ -290,8 +311,12 @@ int main(int argc, char *argv[]) {
     executor.add_node(node);
     executor.spin(); 
 
-    // Cleanup
+    // Cleanup padrão
     if (gst_thread.joinable()) gst_thread.join();
+    
+    // Stop explícito aqui também ajuda
+    ws.stop();
+    
     gst_element_set_state(pipeline, GST_STATE_NULL);
     gst_object_unref(pipeline);
     g_main_loop_unref(gst_loop_handle);

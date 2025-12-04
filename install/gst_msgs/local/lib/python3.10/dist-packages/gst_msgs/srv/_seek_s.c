@@ -1,1 +1,0 @@
-/home/devuser/Workspaces/build/gst_msgs/rosidl_generator_py/gst_msgs/srv/_seek_s.c
