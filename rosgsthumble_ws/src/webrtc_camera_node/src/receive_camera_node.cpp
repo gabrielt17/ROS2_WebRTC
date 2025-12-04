@@ -209,9 +209,28 @@ int main(int argc, char *argv[]) {
 
     webrtc_recv = gst_bin_get_by_name(GST_BIN(pipeline), "recv");
 
-    g_object_set(webrtc_recv, "stun-server", "stun://stun.l.google.com:19302", NULL);
+    g_object_set(webrtc_recv, "stun-server", "stun://stun.relay.metered.ca:80", NULL);
     gst_element_set_state(pipeline, GST_STATE_READY);
     
+    // Variáveis para facilitar a montagem
+    std::string turn_user = "71715653733f5250dd465b78";
+    std::string turn_pass = "KpBzzyrYWH6Ve6PG";
+    std::string turn_host = "standard.relay.metered.ca";
+
+    // Opção A: TURN na porta 80 (Geralmente passa como HTTP)
+    std::string turn_uri_80 = "turn://" + turn_user + ":" + turn_pass + "@" + turn_host + ":80";
+    g_signal_emit_by_name(webrtc_recv, "add-turn-server", turn_uri_80.c_str(), NULL);
+
+    // Opção B: TURN na porta 443 (Geralmente passa como HTTPS)
+    std::string turn_uri_443 = "turn://" + turn_user + ":" + turn_pass + "@" + turn_host + ":443";
+    g_signal_emit_by_name(webrtc_recv, "add-turn-server", turn_uri_443.c_str(), NULL);
+
+    // Opção C: TURNS (Secure/Encrypted TURN) na porta 443
+    // Isso é a "arma nuclear" contra firewalls. O tráfego é criptografado via TLS,
+    // então o firewall da universidade não consegue distinguir isso de um acesso a banco ou gmail.
+    std::string turns_uri = "turns://" + turn_user + ":" + turn_pass + "@" + turn_host + ":443";
+    g_signal_emit_by_name(webrtc_recv, "add-turn-server", turns_uri.c_str(), NULL);
+
     g_signal_connect(webrtc_recv, "notify::ice-connection-state", 
                      G_CALLBACK(on_ice_connection_state_notify), NULL);
     g_signal_connect(webrtc_recv, "on-ice-candidate", G_CALLBACK(on_ice_candidate), nullptr);
