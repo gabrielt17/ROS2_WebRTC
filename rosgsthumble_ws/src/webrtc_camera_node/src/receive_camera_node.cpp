@@ -15,7 +15,7 @@ using json = nlohmann::json;
 
 // Variáveis globais
 std::string ipAddress = "snodly-nomistic-amber.ngrok-free.dev";
-std::string port = "443";
+std::string port = "80";
 std::string localId = "alice"; // ID local do remetente
 std::string remoteId = "gabrielt"; // ID remoto do destinatário
 
@@ -154,9 +154,18 @@ int main(int argc, char *argv[]) {
     rclcpp::init(argc, argv);
     gst_init(nullptr, nullptr);
 
-    signal(SIGINT, sigint_handler);
+    // Removido o signal handler manual para evitar conflito com ROS
+    // signal(SIGINT, sigint_handler);
 
     auto node = rclcpp::Node::make_shared("receive_camera_node");
+    
+    // Configura o shutdown correto via ROS
+    rclcpp::on_shutdown([&]() {
+        ws.stop();
+        if (gst_loop_handle && g_main_loop_is_running(gst_loop_handle)) {
+            g_main_loop_quit(gst_loop_handle);
+        }
+    });
 
     node->declare_parameter<std::string>("camera_topic", "/received_camera/image_raw");
     std::string camera_topic;
@@ -164,13 +173,13 @@ int main(int argc, char *argv[]) {
     RCLCPP_INFO(node->get_logger(), "Transmitindo vídeo no tópico: %s", camera_topic.c_str());
 
     std::string pipeline_str =
-        "webrtcbin name=recv "
+        "webrtcbin name=recv bundle-policy=max-bundle latency=100 "
         "rtpvp8depay name=depay ! "
+        "queue max-size-buffers=1 leaky=downstream ! "
         "vp8dec ! "
         "videoconvert ! "
         "rosimagesink ros-topic=\"" + camera_topic + "\"";
 
-    // Sinaliza problemas na construção da pipeline
     GError* error = nullptr;
     GstElement* pipeline = gst_parse_launch(pipeline_str.c_str(), &error);
     if (!pipeline) {
@@ -179,95 +188,114 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    // Isola o elemento webrtcbin em um objeto global
     webrtc_recv = gst_bin_get_by_name(GST_BIN(pipeline), "recv");
 
     g_object_set(webrtc_recv, "stun-server", "stun://stun.l.google.com:19302", NULL);
     gst_element_set_state(pipeline, GST_STATE_READY);
-    gst_element_get_state(pipeline, nullptr, nullptr, GST_CLOCK_TIME_NONE);
-
-    // Associa sinais do webrtcbin a funções de callback
+    
     g_signal_connect(webrtc_recv, "on-ice-candidate", G_CALLBACK(on_ice_candidate), nullptr);
     g_signal_connect(webrtc_recv, "pad-added", G_CALLBACK(on_pad_added), pipeline);
 
+
+    // --- CORREÇÃO DA URL ---
     std::string signaling_url;
-    if (ipAddress.find("ngrok") != std::string::npos) {
-        // Se for ngrok, usa WSS e ignora a porta (ngrok gerencia porta 80/443)
-        signaling_url = "wss://" + ipAddress + "/" + localId; 
+    // Se a porta é 443, É OBRIGATÓRIO USAR WSS (Secure Websocket)
+    // Seu curl provou que o certificado funciona, então podemos usar WSS sem medo.
+    if (port == "443") {
+        signaling_url = "wss://" + ipAddress + "/" + localId;
     } else {
-    // Se for IP local, usa WS e a porta especificada
         signaling_url = "ws://" + ipAddress + ":" + port + "/" + localId;
     }
+    
+    RCLCPP_INFO(node->get_logger(), "Conectando em: %s", signaling_url.c_str());
     ws.setUrl(signaling_url);
 
-    ws.setOnMessageCallback([&](const ix::WebSocketMessagePtr &msg) {
-        if (msg->type == ix::WebSocketMessageType::Message) {
+    // Adiciona header para pular o aviso do Ngrok (garantia extra)
+    ix::WebSocketHttpHeaders headers;
+    headers["ngrok-skip-browser-warning"] = "true";
+    ws.setExtraHeaders(headers);
 
+    // Opções TLS (Seu curl diz que o sistema tem certificados, então SYSTEM deve funcionar)
+    // Se der erro de certificado, troque para "NONE"
+    ix::SocketTLSOptions tlsOptions;
+    tlsOptions.caFile = "SYSTEM"; 
+    ws.setTLSOptions(tlsOptions);
+
+    // --- CORREÇÃO DO CALLBACK (ESTRUTURA IF/ELSE) ---
+    ws.setOnMessageCallback([node](const ix::WebSocketMessagePtr &msg) {
+        
+        // 1. Conexão Aberta
+        if (msg->type == ix::WebSocketMessageType::Open) {
+            RCLCPP_INFO(node->get_logger(), ">>> WEBSOCKET CONECTADO! <<<");
+        }
+        
+        // 2. Erro (AGORA ESTÁ NO NÍVEL CERTO E VAI APARECER)
+        else if (msg->type == ix::WebSocketMessageType::Error) {
+            RCLCPP_ERROR(node->get_logger(), "FALHA CONEXÃO: %s", msg->errorInfo.reason.c_str());
+            RCLCPP_ERROR(node->get_logger(), "Status HTTP: %d", msg->errorInfo.http_status);
+        }
+        
+        // 3. Fechamento
+        else if (msg->type == ix::WebSocketMessageType::Close) {
+            RCLCPP_WARN(node->get_logger(), "Conexão Fechada: %d %s", msg->closeInfo.code, msg->closeInfo.reason.c_str());
+        }
+        
+        // 4. Mensagem Recebida
+        else if (msg->type == ix::WebSocketMessageType::Message) {
             try {
-                // Tenta analisar a mensagem JSON
                 json message = json::parse(msg->str);
 
-                // Verifica o tipo de mensagem
                 if (message["type"] == "offer") {
-
-                    auto data = new OfferData {
-                    message["sdp"]
-                    };
-
-                    RCLCPP_INFO(node->get_logger(), "--> Recebida Oferta SDP, checando integridade");
-                    GstSDPMessage *sdp = nullptr;
-                    if (gst_sdp_message_new_from_text(data->sdp_text.c_str(), &sdp) == GST_SDP_OK) {
+                    auto data = new OfferData { message["sdp"] };
+                    RCLCPP_INFO(node->get_logger(), "--> Oferta Recebida.");
+                    // Validação básica do SDP antes de agendar
+                    if (data->sdp_text.length() > 0) {
                         g_idle_add(add_remote_offer_idle, data);
-                        RCLCPP_INFO(node->get_logger(), "--> Oferta SDP configurada.\n");
-
-                    } else {
-                        RCLCPP_ERROR(node->get_logger(), "Falha ao analisar SDP da oferta.\n");
                     }
-
-                } else if (message["type"] == "candidate") {
-
+                } 
+                else if (message["type"] == "candidate") {
                     auto data = new IceCandidateData{
-                    message["sdpMLineIndex"],
-                    message["candidate"]
+                        message["sdpMLineIndex"],
+                        message["candidate"]
                     };
-                    g_idle_add(add_ice_candidate_idle, data); // thread safe
-
-                } else {
-                    RCLCPP_ERROR(node->get_logger(), "---!> Tipo de mensagem desconhecido: %s\n", message["type"].get<std::string>().c_str());
+                    g_idle_add(add_ice_candidate_idle, data);
                 }
             } catch (json::parse_error &) {
-                RCLCPP_ERROR(node->get_logger(), "--!> Entrada inválida: não é JSON.\n");
+                RCLCPP_ERROR(node->get_logger(), "JSON Inválido recebido.");
             }
         }
     });
     
-    // Inicia a conexão WebSocket
     ws.start();
 
-    // Aguarda até que a conexão WebSocket esteja aberta
-    while (ws.getReadyState() != ix::ReadyState::Open) {
-        RCLCPP_INFO(node->get_logger(), "--> Aguardando conexão WebSocket...\n");
-        g_usleep(100000); // Espera até que a conexão esteja aberta
+    // Loop de espera
+    int wait_attempts = 0;
+    while (ws.getReadyState() != ix::ReadyState::Open && rclcpp::ok()) {
+        if (wait_attempts % 10 == 0) {
+            RCLCPP_INFO(node->get_logger(), "Aguardando WebSocket... (%ds)", wait_attempts/10);
+        }
+        g_usleep(100000);
+        wait_attempts++;
     }
 
-    // Inicia a pipeline
+    // Se o ROS foi desligado durante a espera
+    if (!rclcpp::ok()) return 0;
+
     gst_element_set_state(pipeline, GST_STATE_PLAYING);
 
-    // -------------------- Thread do GStreamer --------------------
     gst_loop_handle = g_main_loop_new(nullptr, FALSE);
     std::thread gst_thread([&]() { g_main_loop_run(gst_loop_handle); });
 
-    // -------------------- Executor ROS --------------------
     rclcpp::executors::MultiThreadedExecutor executor;
     executor.add_node(node);
+    executor.spin(); 
 
-    executor.spin(); // roda callbacks ROS
-
-    // -------------------- Cleanup --------------------
-    g_main_loop_quit(gst_loop_handle);
-    gst_thread.join();
+    // Cleanup
+    if (gst_thread.joinable()) gst_thread.join();
     gst_element_set_state(pipeline, GST_STATE_NULL);
     gst_object_unref(pipeline);
+    g_main_loop_unref(gst_loop_handle);
+    rclcpp::shutdown();
 
     return 0;
 }
