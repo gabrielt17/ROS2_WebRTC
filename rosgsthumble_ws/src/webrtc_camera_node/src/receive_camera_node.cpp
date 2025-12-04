@@ -164,11 +164,13 @@ int main(int argc, char *argv[]) {
     RCLCPP_INFO(node->get_logger(), "Transmitindo vídeo no tópico: %s", camera_topic.c_str());
 
     std::string pipeline_str =
-        "webrtcbin name=recv "
-        "rtpvp8depay name=depay ! "
-        "vp8dec ! "
-        "videoconvert ! "
-        "rosimagesink ros-topic=\"" + camera_topic + "\"";
+    "webrtcbin name=recv bundle-policy=max-bundle latency=100 " // latency=100ms (dá uma folga para a rede)
+    "rtpvp8depay name=depay ! "
+    // --- MUDANÇA: Queue para desacoplar a decodificação da renderização/publicação ---
+    "queue max-size-buffers=1 leaky=downstream ! "
+    "vp8dec ! "
+    "videoconvert ! "
+    "rosimagesink ros-topic=\"" + camera_topic + "\"";
 
     // Sinaliza problemas na construção da pipeline
     GError* error = nullptr;
