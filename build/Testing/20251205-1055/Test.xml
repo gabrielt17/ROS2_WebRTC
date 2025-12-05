@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Site BuildName="(empty)"
-	BuildStamp="20251204-2143-Experimental"
+	BuildStamp="20251205-1055-Experimental"
 	Name="DuquedeCaixias"
 	Generator="ctest-3.22.1"
 	CompilerName="/usr/bin/c++"
@@ -21,14 +21,14 @@
 	TotalVirtualMemory="7104"
 	TotalPhysicalMemory="15871"
 	LogicalProcessorsPerPhysical="2"
-	ProcessorClockFrequency="4241.85"
+	ProcessorClockFrequency="3738.82"
 	>
 	<Testing>
-		<StartDateTime>Dec 04 23:14 UTC</StartDateTime>
-		<StartTestTime>1764890055</StartTestTime>
+		<StartDateTime>Dec 05 10:55 UTC</StartDateTime>
+		<StartTestTime>1764932112</StartTestTime>
 		<TestList/>
-		<EndDateTime>Dec 04 23:14 UTC</EndDateTime>
-		<EndTestTime>1764890055</EndTestTime>
+		<EndDateTime>Dec 05 10:55 UTC</EndDateTime>
+		<EndTestTime>1764932112</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

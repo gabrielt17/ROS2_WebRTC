@@ -196,7 +196,7 @@ int main(int argc, char *argv[]) {
         "rtpvp8depay name=depay ! "
         "queue max-size-buffers=1 leaky=downstream ! "
         "vp8dec ! "
-        "videoconvert ! "
+        "videoconvert ! video/x-raw,format=BGR !"
         "rosimagesink ros-topic=\"" + camera_topic + "\"";
 
     GError* error = nullptr;
