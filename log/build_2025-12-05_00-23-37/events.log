@@ -1,0 +1,497 @@
+[0.000000] (-) TimerEvent: {}
+[0.005388] (-) JobUnselected: {'identifier': 'audio_msgs'}
+[0.006287] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.006828] (-) JobUnselected: {'identifier': 'gst_bridge'}
+[0.007379] (-) JobUnselected: {'identifier': 'gst_msgs'}
+[0.007576] (-) JobUnselected: {'identifier': 'gst_pipeline'}
+[0.007760] (-) JobUnselected: {'identifier': 'gst_pipeline_plugins'}
+[0.007975] (-) JobUnselected: {'identifier': 'gst_pipeline_plugins_webrtc'}
+[0.008139] (-) JobUnselected: {'identifier': 'mobile_dd_robot'}
+[0.008288] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.008439] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.008587] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.008742] (webrtc_camera_node) JobQueued: {'identifier': 'webrtc_camera_node', 'dependencies': OrderedDict([('audio_msgs', '/home/devuser/Workspaces/install/audio_msgs'), ('gst_bridge', '/home/devuser/Workspaces/install/gst_bridge')])}
+[0.008918] (webrtc_camera_node) JobStarted: {'identifier': 'webrtc_camera_node'}
+[0.098836] (-) TimerEvent: {}
+[0.172863] (webrtc_camera_node) JobProgress: {'identifier': 'webrtc_camera_node', 'progress': 'cmake'}
+[0.174638] (webrtc_camera_node) Command: {'cmd': ['/usr/bin/cmake', '/home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/devuser/Workspaces/install/webrtc_camera_node'], 'cwd': '/home/devuser/Workspaces/build/webrtc_camera_node', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('HOSTNAME', 'nano'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-arm64/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/devuser/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-arm64/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/helpers/browser.sh'), ('HOME', '/home/devuser'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('PIPEWIRE_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-a5340bf6-c613-4980-abdc-d1a31c9df408.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-arm64/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-arm64/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/devuser/.vscode-server/extensions/ms-python.debugpy-2025.16.0-linux-arm64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', ''), ('COLCON_PREFIX_PATH', '/home/devuser/Workspaces/rosgsthumble_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-16f16619-6f8d-4f68-8f6a-f6dd3f236a6a.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/lib/x86_64-linux-gnu/pkgconfig:'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/devuser/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/devuser/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/vscode/vscode-server/bin/linux-arm64/bf9252a2fb45be6893dd8870c0bf37e2e1766d61/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/devuser/.vscode-server/extensions/ms-python.debugpy-2025.16.0-linux-arm64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/.X11-unix/X5","/run/user/1000/gnupg/S.gpg-agent"]'), ('DISPLAY', ':5'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/devuser/.vscode-server/extensions/ms-python.debugpy-2025.16.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-6c08c07e3dd2725d.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/devuser/.vscode-server/data/User/workspaceStorage/609e902e26b58e5ae59b15c47e282a94/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fc0d637688.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/home/devuser/Workspaces/rosgsthumble_ws/install/realsense2_description:/home/devuser/Workspaces/rosgsthumble_ws/install/realsense2_camera:/home/devuser/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_msgs:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge:/home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub:/home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X5'), ('SHELL', '/bin/bash'), ('GST_PLUGIN_PATH', '/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/gst_bridge/'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/devuser/Workspaces/build/webrtc_camera_node'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/devuser/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_msgs/local/lib/python3.10/dist-packages:/home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/home/devuser/Workspaces/rosgsthumble_ws/install/realsense2_description:/home/devuser/Workspaces/rosgsthumble_ws/install/realsense2_camera:/home/devuser/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_msgs:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge:/home/devuser/Workspaces/rosgsthumble_ws/install/cpp_campub:/home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble')]), 'shell': False}
+[0.198972] (-) TimerEvent: {}
+[0.299603] (-) TimerEvent: {}
+[0.400376] (-) TimerEvent: {}
+[0.501084] (-) TimerEvent: {}
+[0.602268] (-) TimerEvent: {}
+[0.703240] (-) TimerEvent: {}
+[0.804032] (-) TimerEvent: {}
+[0.904716] (-) TimerEvent: {}
+[1.005411] (-) TimerEvent: {}
+[1.106120] (-) TimerEvent: {}
+[1.206868] (-) TimerEvent: {}
+[1.307609] (-) TimerEvent: {}
+[1.408435] (-) TimerEvent: {}
+[1.509115] (-) TimerEvent: {}
+[1.582319] (webrtc_camera_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.609358] (-) TimerEvent: {}
+[1.713501] (-) TimerEvent: {}
+[1.814660] (-) TimerEvent: {}
+[1.915415] (-) TimerEvent: {}
+[2.016210] (-) TimerEvent: {}
+[2.066695] (webrtc_camera_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.104567] (webrtc_camera_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.116382] (-) TimerEvent: {}
+[2.217375] (-) TimerEvent: {}
+[2.318690] (-) TimerEvent: {}
+[2.419440] (-) TimerEvent: {}
+[2.433879] (webrtc_camera_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.480569] (webrtc_camera_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.482585] (webrtc_camera_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.484921] (webrtc_camera_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.500044] (webrtc_camera_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.519609] (-) TimerEvent: {}
+[2.620971] (-) TimerEvent: {}
+[2.721978] (-) TimerEvent: {}
+[2.823155] (-) TimerEvent: {}
+[2.844263] (webrtc_camera_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.884132] (webrtc_camera_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.885177] (webrtc_camera_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.887062] (webrtc_camera_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.923318] (-) TimerEvent: {}
+[2.975982] (webrtc_camera_node) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[3.010660] (webrtc_camera_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.024677] (-) TimerEvent: {}
+[3.125785] (-) TimerEvent: {}
+[3.226525] (-) TimerEvent: {}
+[3.327223] (-) TimerEvent: {}
+[3.428917] (-) TimerEvent: {}
+[3.529930] (-) TimerEvent: {}
+[3.630981] (-) TimerEvent: {}
+[3.732565] (-) TimerEvent: {}
+[3.786311] (webrtc_camera_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.832714] (-) TimerEvent: {}
+[3.933903] (-) TimerEvent: {}
+[4.035193] (-) TimerEvent: {}
+[4.135946] (-) TimerEvent: {}
+[4.236641] (-) TimerEvent: {}
+[4.334781] (webrtc_camera_node) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.338074] (-) TimerEvent: {}
+[4.438766] (-) TimerEvent: {}
+[4.539470] (-) TimerEvent: {}
+[4.640625] (-) TimerEvent: {}
+[4.741335] (-) TimerEvent: {}
+[4.842019] (-) TimerEvent: {}
+[4.942749] (-) TimerEvent: {}
+[5.043990] (-) TimerEvent: {}
+[5.130038] (webrtc_camera_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.144144] (-) TimerEvent: {}
+[5.181857] (webrtc_camera_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.244328] (-) TimerEvent: {}
+[5.255198] (webrtc_camera_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.344500] (-) TimerEvent: {}
+[5.368859] (webrtc_camera_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.444672] (-) TimerEvent: {}
+[5.501526] (webrtc_camera_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.544852] (-) TimerEvent: {}
+[5.645572] (-) TimerEvent: {}
+[5.746724] (-) TimerEvent: {}
+[5.847956] (-) TimerEvent: {}
+[5.861539] (webrtc_camera_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.895217] (webrtc_camera_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.948133] (-) TimerEvent: {}
+[6.049556] (-) TimerEvent: {}
+[6.151304] (-) TimerEvent: {}
+[6.252025] (-) TimerEvent: {}
+[6.353307] (-) TimerEvent: {}
+[6.454051] (-) TimerEvent: {}
+[6.465977] (webrtc_camera_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.554217] (-) TimerEvent: {}
+[6.647702] (webrtc_camera_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.654353] (-) TimerEvent: {}
+[6.755114] (-) TimerEvent: {}
+[6.856189] (-) TimerEvent: {}
+[6.911546] (webrtc_camera_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.956355] (-) TimerEvent: {}
+[6.991346] (webrtc_camera_node) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.056520] (-) TimerEvent: {}
+[7.158402] (-) TimerEvent: {}
+[7.259398] (-) TimerEvent: {}
+[7.306155] (webrtc_camera_node) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.307405] (webrtc_camera_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.359572] (-) TimerEvent: {}
+[7.460382] (-) TimerEvent: {}
+[7.561109] (-) TimerEvent: {}
+[7.613567] (webrtc_camera_node) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.618429] (webrtc_camera_node) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.661275] (-) TimerEvent: {}
+[7.761973] (-) TimerEvent: {}
+[7.863340] (-) TimerEvent: {}
+[7.964909] (-) TimerEvent: {}
+[8.045900] (webrtc_camera_node) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[8.065080] (-) TimerEvent: {}
+[8.166369] (-) TimerEvent: {}
+[8.267136] (-) TimerEvent: {}
+[8.308805] (webrtc_camera_node) StdoutLine: {'line': b'-- Found gst_bridge: 0.0.0 (/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/cmake)\n'}
+[8.367432] (-) TimerEvent: {}
+[8.468277] (-) TimerEvent: {}
+[8.493578] (webrtc_camera_node) StdoutLine: {'line': b"-- Checking for modules 'gstreamer-1.0;gstreamer-webrtc-1.0;gstreamer-app-1.0;gstreamer-video-1.0;gstreamer-sdp-1.0;glib-2.0'\n"}
+[8.568456] (-) TimerEvent: {}
+[8.647998] (webrtc_camera_node) StdoutLine: {'line': b'--   Found gstreamer-1.0, version 1.20.3\n'}
+[8.668667] (-) TimerEvent: {}
+[8.700577] (webrtc_camera_node) StdoutLine: {'line': b'--   Found gstreamer-webrtc-1.0, version 1.20.3\n'}
+[8.746308] (webrtc_camera_node) StdoutLine: {'line': b'--   Found gstreamer-app-1.0, version 1.20.1\n'}
+[8.768823] (-) TimerEvent: {}
+[8.797344] (webrtc_camera_node) StdoutLine: {'line': b'--   Found gstreamer-video-1.0, version 1.20.1\n'}
+[8.844207] (webrtc_camera_node) StdoutLine: {'line': b'--   Found gstreamer-sdp-1.0, version 1.20.1\n'}
+[8.869009] (-) TimerEvent: {}
+[8.891647] (webrtc_camera_node) StdoutLine: {'line': b'--   Found glib-2.0, version 2.72.4\n'}
+[8.969178] (-) TimerEvent: {}
+[9.070808] (-) TimerEvent: {}
+[9.171677] (-) TimerEvent: {}
+[9.272464] (-) TimerEvent: {}
+[9.373145] (-) TimerEvent: {}
+[9.473860] (-) TimerEvent: {}
+[9.575274] (-) TimerEvent: {}
+[9.676608] (-) TimerEvent: {}
+[9.778422] (-) TimerEvent: {}
+[9.879200] (-) TimerEvent: {}
+[9.981786] (-) TimerEvent: {}
+[10.084845] (-) TimerEvent: {}
+[10.186824] (-) TimerEvent: {}
+[10.289726] (-) TimerEvent: {}
+[10.390846] (-) TimerEvent: {}
+[10.491573] (-) TimerEvent: {}
+[10.592412] (-) TimerEvent: {}
+[10.693165] (-) TimerEvent: {}
+[10.794494] (-) TimerEvent: {}
+[10.895441] (-) TimerEvent: {}
+[10.996257] (-) TimerEvent: {}
+[11.096972] (-) TimerEvent: {}
+[11.197729] (-) TimerEvent: {}
+[11.298460] (-) TimerEvent: {}
+[11.400203] (-) TimerEvent: {}
+[11.501892] (-) TimerEvent: {}
+[11.602607] (-) TimerEvent: {}
+[11.703566] (-) TimerEvent: {}
+[11.805279] (-) TimerEvent: {}
+[11.906487] (-) TimerEvent: {}
+[12.007290] (-) TimerEvent: {}
+[12.108847] (-) TimerEvent: {}
+[12.210198] (-) TimerEvent: {}
+[12.310982] (-) TimerEvent: {}
+[12.411647] (-) TimerEvent: {}
+[12.512389] (-) TimerEvent: {}
+[12.613104] (-) TimerEvent: {}
+[12.715209] (-) TimerEvent: {}
+[12.816125] (-) TimerEvent: {}
+[12.917114] (-) TimerEvent: {}
+[13.017828] (-) TimerEvent: {}
+[13.119442] (-) TimerEvent: {}
+[13.220178] (-) TimerEvent: {}
+[13.321692] (-) TimerEvent: {}
+[13.423571] (-) TimerEvent: {}
+[13.524789] (-) TimerEvent: {}
+[13.625952] (-) TimerEvent: {}
+[13.726978] (-) TimerEvent: {}
+[13.828132] (-) TimerEvent: {}
+[13.929266] (-) TimerEvent: {}
+[14.030285] (-) TimerEvent: {}
+[14.131407] (-) TimerEvent: {}
+[14.232548] (-) TimerEvent: {}
+[14.333746] (-) TimerEvent: {}
+[14.434496] (-) TimerEvent: {}
+[14.535623] (-) TimerEvent: {}
+[14.636580] (-) TimerEvent: {}
+[14.738241] (-) TimerEvent: {}
+[14.839301] (-) TimerEvent: {}
+[14.939958] (-) TimerEvent: {}
+[15.040897] (-) TimerEvent: {}
+[15.141922] (-) TimerEvent: {}
+[15.242673] (-) TimerEvent: {}
+[15.343542] (-) TimerEvent: {}
+[15.444529] (-) TimerEvent: {}
+[15.545563] (-) TimerEvent: {}
+[15.646381] (-) TimerEvent: {}
+[15.747067] (-) TimerEvent: {}
+[15.847751] (-) TimerEvent: {}
+[15.948490] (-) TimerEvent: {}
+[16.049199] (-) TimerEvent: {}
+[16.149858] (-) TimerEvent: {}
+[16.250522] (-) TimerEvent: {}
+[16.351177] (-) TimerEvent: {}
+[16.451950] (-) TimerEvent: {}
+[16.553402] (-) TimerEvent: {}
+[16.654560] (-) TimerEvent: {}
+[16.756269] (-) TimerEvent: {}
+[16.857362] (-) TimerEvent: {}
+[16.958143] (-) TimerEvent: {}
+[17.059679] (-) TimerEvent: {}
+[17.160409] (-) TimerEvent: {}
+[17.261163] (-) TimerEvent: {}
+[17.361881] (-) TimerEvent: {}
+[17.462581] (-) TimerEvent: {}
+[17.563562] (-) TimerEvent: {}
+[17.664857] (-) TimerEvent: {}
+[17.765613] (-) TimerEvent: {}
+[17.866455] (-) TimerEvent: {}
+[17.968377] (-) TimerEvent: {}
+[18.069102] (-) TimerEvent: {}
+[18.170233] (-) TimerEvent: {}
+[18.271274] (-) TimerEvent: {}
+[18.372519] (-) TimerEvent: {}
+[18.474605] (-) TimerEvent: {}
+[18.575914] (-) TimerEvent: {}
+[18.677840] (-) TimerEvent: {}
+[18.778879] (-) TimerEvent: {}
+[18.879583] (-) TimerEvent: {}
+[18.981773] (-) TimerEvent: {}
+[19.083589] (-) TimerEvent: {}
+[19.184807] (-) TimerEvent: {}
+[19.291488] (-) TimerEvent: {}
+[19.394948] (-) TimerEvent: {}
+[19.498539] (-) TimerEvent: {}
+[19.599945] (-) TimerEvent: {}
+[19.702002] (-) TimerEvent: {}
+[19.802680] (-) TimerEvent: {}
+[19.904937] (-) TimerEvent: {}
+[20.006831] (-) TimerEvent: {}
+[20.109111] (-) TimerEvent: {}
+[20.212354] (-) TimerEvent: {}
+[20.313047] (-) TimerEvent: {}
+[20.413747] (-) TimerEvent: {}
+[20.515422] (-) TimerEvent: {}
+[20.616160] (-) TimerEvent: {}
+[20.716851] (-) TimerEvent: {}
+[20.817550] (-) TimerEvent: {}
+[20.918811] (-) TimerEvent: {}
+[21.019529] (-) TimerEvent: {}
+[21.120374] (-) TimerEvent: {}
+[21.221366] (-) TimerEvent: {}
+[21.322427] (-) TimerEvent: {}
+[21.423121] (-) TimerEvent: {}
+[21.524146] (-) TimerEvent: {}
+[21.625188] (-) TimerEvent: {}
+[21.726454] (-) TimerEvent: {}
+[21.827708] (-) TimerEvent: {}
+[21.928710] (-) TimerEvent: {}
+[22.030313] (-) TimerEvent: {}
+[22.132180] (-) TimerEvent: {}
+[22.233499] (-) TimerEvent: {}
+[22.334192] (-) TimerEvent: {}
+[22.434928] (-) TimerEvent: {}
+[22.536202] (-) TimerEvent: {}
+[22.637199] (-) TimerEvent: {}
+[22.738353] (-) TimerEvent: {}
+[22.839099] (-) TimerEvent: {}
+[22.940287] (-) TimerEvent: {}
+[23.040948] (-) TimerEvent: {}
+[23.141837] (-) TimerEvent: {}
+[23.242731] (-) TimerEvent: {}
+[23.343434] (-) TimerEvent: {}
+[23.444222] (-) TimerEvent: {}
+[23.545224] (-) TimerEvent: {}
+[23.646339] (-) TimerEvent: {}
+[23.747134] (-) TimerEvent: {}
+[23.847895] (-) TimerEvent: {}
+[23.948578] (-) TimerEvent: {}
+[24.049545] (-) TimerEvent: {}
+[24.151186] (-) TimerEvent: {}
+[24.252215] (-) TimerEvent: {}
+[24.352875] (-) TimerEvent: {}
+[24.453557] (-) TimerEvent: {}
+[24.554280] (-) TimerEvent: {}
+[24.655392] (-) TimerEvent: {}
+[24.756130] (-) TimerEvent: {}
+[24.856817] (-) TimerEvent: {}
+[24.957543] (-) TimerEvent: {}
+[25.058255] (-) TimerEvent: {}
+[25.158920] (-) TimerEvent: {}
+[25.259599] (-) TimerEvent: {}
+[25.360370] (-) TimerEvent: {}
+[25.461134] (-) TimerEvent: {}
+[25.561805] (-) TimerEvent: {}
+[25.662837] (-) TimerEvent: {}
+[25.764158] (-) TimerEvent: {}
+[25.865056] (-) TimerEvent: {}
+[25.965737] (-) TimerEvent: {}
+[26.066437] (-) TimerEvent: {}
+[26.167422] (-) TimerEvent: {}
+[26.268356] (-) TimerEvent: {}
+[26.369069] (-) TimerEvent: {}
+[26.469962] (-) TimerEvent: {}
+[26.570625] (-) TimerEvent: {}
+[26.671404] (-) TimerEvent: {}
+[26.772215] (-) TimerEvent: {}
+[26.872897] (-) TimerEvent: {}
+[26.973890] (-) TimerEvent: {}
+[27.074605] (-) TimerEvent: {}
+[27.175334] (-) TimerEvent: {}
+[27.276655] (-) TimerEvent: {}
+[27.377615] (-) TimerEvent: {}
+[27.478317] (-) TimerEvent: {}
+[27.579002] (-) TimerEvent: {}
+[27.679679] (-) TimerEvent: {}
+[27.780408] (-) TimerEvent: {}
+[27.881104] (-) TimerEvent: {}
+[27.981826] (-) TimerEvent: {}
+[28.082512] (-) TimerEvent: {}
+[28.183367] (-) TimerEvent: {}
+[28.284090] (-) TimerEvent: {}
+[28.384767] (-) TimerEvent: {}
+[28.485460] (-) TimerEvent: {}
+[28.586191] (-) TimerEvent: {}
+[28.686886] (-) TimerEvent: {}
+[28.789889] (-) TimerEvent: {}
+[28.891009] (-) TimerEvent: {}
+[28.991734] (-) TimerEvent: {}
+[29.092539] (-) TimerEvent: {}
+[29.194301] (-) TimerEvent: {}
+[29.295083] (-) TimerEvent: {}
+[29.395744] (-) TimerEvent: {}
+[29.496556] (-) TimerEvent: {}
+[29.597211] (-) TimerEvent: {}
+[29.697911] (-) TimerEvent: {}
+[29.798675] (-) TimerEvent: {}
+[29.899413] (-) TimerEvent: {}
+[30.001226] (-) TimerEvent: {}
+[30.101934] (-) TimerEvent: {}
+[30.202604] (-) TimerEvent: {}
+[30.304197] (-) TimerEvent: {}
+[30.404976] (-) TimerEvent: {}
+[30.506268] (-) TimerEvent: {}
+[30.606938] (-) TimerEvent: {}
+[30.708225] (-) TimerEvent: {}
+[30.808894] (-) TimerEvent: {}
+[30.910187] (-) TimerEvent: {}
+[31.011091] (-) TimerEvent: {}
+[31.111906] (-) TimerEvent: {}
+[31.212572] (-) TimerEvent: {}
+[31.313513] (-) TimerEvent: {}
+[31.414220] (-) TimerEvent: {}
+[31.514927] (-) TimerEvent: {}
+[31.615597] (-) TimerEvent: {}
+[31.716356] (-) TimerEvent: {}
+[31.817057] (-) TimerEvent: {}
+[31.917781] (-) TimerEvent: {}
+[32.018484] (-) TimerEvent: {}
+[32.119314] (-) TimerEvent: {}
+[32.221770] (-) TimerEvent: {}
+[32.322712] (-) TimerEvent: {}
+[32.423666] (-) TimerEvent: {}
+[32.524388] (-) TimerEvent: {}
+[32.625545] (-) TimerEvent: {}
+[32.726293] (-) TimerEvent: {}
+[32.826990] (-) TimerEvent: {}
+[32.927699] (-) TimerEvent: {}
+[33.028665] (-) TimerEvent: {}
+[33.129414] (-) TimerEvent: {}
+[33.230160] (-) TimerEvent: {}
+[33.330822] (-) TimerEvent: {}
+[33.431593] (-) TimerEvent: {}
+[33.532714] (-) TimerEvent: {}
+[33.633379] (-) TimerEvent: {}
+[33.734072] (-) TimerEvent: {}
+[33.834755] (-) TimerEvent: {}
+[33.935438] (-) TimerEvent: {}
+[34.036743] (-) TimerEvent: {}
+[34.137743] (-) TimerEvent: {}
+[34.238438] (-) TimerEvent: {}
+[34.339427] (-) TimerEvent: {}
+[34.441104] (-) TimerEvent: {}
+[34.541873] (-) TimerEvent: {}
+[34.643566] (-) TimerEvent: {}
+[34.744477] (-) TimerEvent: {}
+[34.845164] (-) TimerEvent: {}
+[34.946347] (-) TimerEvent: {}
+[35.047058] (-) TimerEvent: {}
+[35.147736] (-) TimerEvent: {}
+[35.248497] (-) TimerEvent: {}
+[35.349625] (-) TimerEvent: {}
+[35.450288] (-) TimerEvent: {}
+[35.550941] (-) TimerEvent: {}
+[35.651613] (-) TimerEvent: {}
+[35.752667] (-) TimerEvent: {}
+[35.853360] (-) TimerEvent: {}
+[35.955447] (-) TimerEvent: {}
+[36.056754] (-) TimerEvent: {}
+[36.157525] (-) TimerEvent: {}
+[36.259085] (-) TimerEvent: {}
+[36.360092] (-) TimerEvent: {}
+[36.460780] (-) TimerEvent: {}
+[36.561498] (-) TimerEvent: {}
+[36.662193] (-) TimerEvent: {}
+[36.763105] (-) TimerEvent: {}
+[36.863839] (-) TimerEvent: {}
+[36.964553] (-) TimerEvent: {}
+[37.065428] (-) TimerEvent: {}
+[37.166158] (-) TimerEvent: {}
+[37.267378] (-) TimerEvent: {}
+[37.368196] (-) TimerEvent: {}
+[37.468882] (-) TimerEvent: {}
+[37.569537] (-) TimerEvent: {}
+[37.670185] (-) TimerEvent: {}
+[37.770853] (-) TimerEvent: {}
+[37.872025] (-) TimerEvent: {}
+[37.972681] (-) TimerEvent: {}
+[38.073471] (-) TimerEvent: {}
+[38.174125] (-) TimerEvent: {}
+[38.274800] (-) TimerEvent: {}
+[38.375486] (-) TimerEvent: {}
+[38.476161] (-) TimerEvent: {}
+[38.576834] (-) TimerEvent: {}
+[38.677523] (-) TimerEvent: {}
+[38.778273] (-) TimerEvent: {}
+[38.878946] (-) TimerEvent: {}
+[38.979689] (-) TimerEvent: {}
+[39.080593] (-) TimerEvent: {}
+[39.181262] (-) TimerEvent: {}
+[39.281920] (-) TimerEvent: {}
+[39.382826] (-) TimerEvent: {}
+[39.483569] (-) TimerEvent: {}
+[39.585486] (-) TimerEvent: {}
+[39.686464] (-) TimerEvent: {}
+[39.788371] (-) TimerEvent: {}
+[39.889062] (-) TimerEvent: {}
+[39.989916] (-) TimerEvent: {}
+[40.090815] (-) TimerEvent: {}
+[40.191754] (-) TimerEvent: {}
+[40.292775] (-) TimerEvent: {}
+[40.393460] (-) TimerEvent: {}
+[40.494116] (-) TimerEvent: {}
+[40.594795] (-) TimerEvent: {}
+[40.695530] (-) TimerEvent: {}
+[40.796302] (-) TimerEvent: {}
+[40.896986] (-) TimerEvent: {}
+[40.998786] (-) TimerEvent: {}
+[41.099508] (-) TimerEvent: {}
+[41.200802] (-) TimerEvent: {}
+[41.301463] (-) TimerEvent: {}
+[41.402120] (-) TimerEvent: {}
+[41.502779] (-) TimerEvent: {}
+[41.603491] (-) TimerEvent: {}
+[41.704562] (-) TimerEvent: {}
+[41.805211] (-) TimerEvent: {}
+[41.905868] (-) TimerEvent: {}
+[42.006602] (-) TimerEvent: {}
+[42.107263] (-) TimerEvent: {}
+[42.208086] (-) TimerEvent: {}
+[42.308793] (-) TimerEvent: {}
+[42.409505] (-) TimerEvent: {}
+[42.510202] (-) TimerEvent: {}
+[42.610903] (-) TimerEvent: {}
+[42.711869] (-) TimerEvent: {}
+[42.812527] (-) TimerEvent: {}
+[42.913187] (-) TimerEvent: {}
+[43.013927] (-) TimerEvent: {}
+[43.114580] (-) TimerEvent: {}
+[43.215239] (-) TimerEvent: {}
+[43.316012] (-) TimerEvent: {}
+[43.416721] (-) TimerEvent: {}
+[43.517437] (-) TimerEvent: {}
+[43.618096] (-) TimerEvent: {}
+[43.718751] (-) TimerEvent: {}
+[43.819744] (-) TimerEvent: {}
+[43.920439] (-) TimerEvent: {}
+[44.021098] (-) TimerEvent: {}
+[44.121008] (webrtc_camera_node) CommandEnded: {'returncode': -2}
+[44.123938] (-) TimerEvent: {}
+[44.242520] (-) TimerEvent: {}
+[44.265181] (webrtc_camera_node) JobEnded: {'identifier': 'webrtc_camera_node', 'rc': 'SIGINT'}
+[44.276806] (-) EventReactorShutdown: {}

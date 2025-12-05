@@ -143,18 +143,22 @@ int main(int argc, char* argv[]) {
 
     std::string pipeline_str =
     "rosimagesrc ros-topic=\"" + camera_topic + "\" ! "
-    "videoconvert ! "
-    // --- MUDANÇA 1: Queue com vazamento (Leaky Queue) ---
-    // max-size-buffers=1: Mantém apenas 1 frame na fila.
-    // leaky=downstream: Se chegar um novo e a fila estiver cheia, joga o velho fora.
+    "videoconvert ! video/x-raw,format=I420 ! "
+    
+    // Fila 1: Protege o Encoder (CPU Bound)
+    // Se o encoder demorar, joga fora o frame BRUTO (mais barato descartar aqui)
     "queue max-size-buffers=1 leaky=downstream ! " 
-    // --- MUDANÇA 2: Forçar redução de FPS (Opcional, mas recomendado para a Nano) ---
-    "videorate ! video/x-raw,framerate=5/1 ! " 
-    // --- MUDANÇA 3: Configuração de resiliência do VP8 ---
-    // keyframe-max-dist=30: Envia um frame completo a cada 30 frames (aprox 2 segs se for 15fps)
-    // error-resilient=default: Ajuda a tolerar perdas de pacote
-    "vp8enc deadline=1 keyframe-max-dist=5 error-resilient=default ! " 
-    "rtpvp8pay ! "
+    
+    // Encoder configurado para velocidade
+    "vp8enc deadline=1 threads=4 cpu-used=16 target-bitrate=1500000 keyframe-max-dist=0 error-resilient=default ! " 
+    
+    "rtpvp8pay picture-id-mode=15-bit ! "
+    
+    // Fila 2: Protege o Envio (Network Bound) - A que você viu na internet
+    // Se o webrtcbin (rede) travar, segura alguns pacotes JÁ CODIFICADOS
+    // max-size-time=100000000 (100ms): Não guarde dados velhos demais, melhor descartar.
+    "queue max-size-time=100000000 leaky=downstream ! " 
+    
     "webrtcbin name=send bundle-policy=max-bundle";
 
     GError* error = nullptr;

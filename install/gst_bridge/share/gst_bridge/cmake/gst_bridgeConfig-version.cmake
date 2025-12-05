@@ -1,0 +1,1 @@
+/home/devuser/Workspaces/build/gst_bridge/ament_cmake_core/gst_bridgeConfig-version.cmake
