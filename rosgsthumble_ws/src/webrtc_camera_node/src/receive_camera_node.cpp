@@ -97,26 +97,26 @@ static void on_pad_added(GstElement *, GstPad *pad, GstElement *pipeline) {
     // 2. Verificar se é o pad de vídeo VP8 que queremos.
     // O pad de saída do webrtcbin para VP8 é 'application/x-rtp' 
     // com encoding-name='VP8'.
-    if (g_str_has_prefix(caps_str, "application/x-rtp") && strstr(caps_str, "VP8")) {
+    if (g_str_has_prefix(caps_str, "application/x-rtp") && strstr(caps_str, "H264")) {
         
-        RCLCPP_INFO(rclcpp::get_logger("receive_camera_node"), "  -> É um pad VP8. Linkando...");
+        RCLCPP_INFO(rclcpp::get_logger("receive_camera_node"), "  -> Stream H.264 detectado! Linkando...");
 
-        // 3. Pegar o 'depay' (só se for VP8)
+        // Pega o elemento 'depay' que definiremos na main
         GstElement *depay = gst_bin_get_by_name(GST_BIN(pipeline), "depay");
         GstPad *sinkpad = gst_element_get_static_pad(depay, "sink");
 
-        // 4. Linkar
+        // Tenta linkar o pad dinâmico do webrtcbin ao depayloader
         if (gst_pad_link(pad, sinkpad) != GST_PAD_LINK_OK) {
-            RCLCPP_ERROR(rclcpp::get_logger("receive_camera_node"), "Falha ao linkar pad de VÍDEO.\n");
+            RCLCPP_ERROR(rclcpp::get_logger("receive_camera_node"), "Falha ao linkar pad de VÍDEO H.264.\n");
         } else {
-            RCLCPP_INFO(rclcpp::get_logger("receive_camera_node"), "  -> Linkagem de VÍDEO bem-sucedida.");
+            RCLCPP_INFO(rclcpp::get_logger("receive_camera_node"), "  -> Linkagem de VÍDEO H.264 bem-sucedida.");
         }
 
         gst_object_unref(sinkpad);
         gst_object_unref(depay);
 
     } else {
-        RCLCPP_INFO(rclcpp::get_logger("receive_camera_node"), "  -> Ignorando pad (provavelmente áudio ou outro formato).");
+        RCLCPP_INFO(rclcpp::get_logger("receive_camera_node"), "  -> Ignorando pad (não é H.264). Caps: %s", caps_str);
     }
 
     // 5. Limpar
@@ -193,10 +193,18 @@ int main(int argc, char *argv[]) {
 
     std::string pipeline_str =
         "webrtcbin name=recv bundle-policy=max-bundle latency=100 "
-        "rtpvp8depay name=depay ! "
+        // --- INÍCIO DA CADEIA DE VÍDEO ---
+        // 1. Depayloader H.264 (Extrai do RTP)
+        "rtph264depay name=depay ! "
+        // 2. Parser (Obrigatório para H.264 antes do decoder)
+        "h264parse ! "
+        // 3. Decoder por Software (Funciona em qualquer CPU)
+        "avdec_h264 ! "
+        // 4. Conversor de cor
+        "videoconvert ! video/x-raw,format=BGR ! "
+        // 5. Buffer para suavizar o ROS publishing
         "queue max-size-buffers=1 leaky=downstream ! "
-        "vp8dec ! "
-        "videoconvert ! video/x-raw,format=BGR !"
+        // 6. Publica no ROS
         "rosimagesink ros-topic=\"" + camera_topic + "\"";
 
     GError* error = nullptr;

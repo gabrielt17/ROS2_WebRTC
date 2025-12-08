@@ -1,7 +1,7 @@
 services:
   app:
     build:
-      context: ./.devcontainer
+      context: .
       dockerfile: Dockerfile
     
     network_mode: host

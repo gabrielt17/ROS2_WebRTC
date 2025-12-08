@@ -61,6 +61,19 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
+
+# Cria um arquivo de configuração OpenSSL customizado que ativa o provedor Legacy
+RUN echo "openssl_conf = openssl_init" > /etc/ssl/openssl_legacy.cnf && \
+    echo "[openssl_init]" >> /etc/ssl/openssl_legacy.cnf && \
+    echo "ssl_conf = ssl_sect" >> /etc/ssl/openssl_legacy.cnf && \
+    echo "[ssl_sect]" >> /etc/ssl/openssl_legacy.cnf && \
+    echo "system_default = system_default_sect" >> /etc/ssl/openssl_legacy.cnf && \
+    echo "[system_default_sect]" >> /etc/ssl/openssl_legacy.cnf && \
+    echo "CipherString = DEFAULT:@SECLEVEL=0" >> /etc/ssl/openssl_legacy.cnf
+    
+# Define a variável de ambiente para usar essa config
+ENV OPENSSL_CONF=/etc/ssl/openssl_legacy.cnf
+
 # Instala a versão 10.4 do websockets via pip
 RUN python3 -m pip install --no-cache-dir websockets==10.4
 
