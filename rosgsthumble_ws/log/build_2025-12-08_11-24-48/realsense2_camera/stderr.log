@@ -1,0 +1,27 @@
+[33mCMake Warning (dev) at /usr/lib/cmake/opencv4/OpenCVConfig.cmake:86 (find_package):
+  Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake
+  --help-policy CMP0146" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /usr/lib/cmake/opencv4/OpenCVConfig.cmake:108 (find_host_package)
+  /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake:41 (include)
+  CMakeLists.txt:107 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /usr/local/lib/python3.6/dist-packages/cmake/data/share/cmake-3.27/Modules/FindCUDA.cmake:745 (option):
+  Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+  --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  For compatibility with older versions of CMake, option is clearing the
+  normal variable 'CUDA_PROPAGATE_HOST_FLAGS'.
+Call Stack (most recent call first):
+  /usr/lib/cmake/opencv4/OpenCVConfig.cmake:86 (find_package)
+  /usr/lib/cmake/opencv4/OpenCVConfig.cmake:108 (find_host_package)
+  /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+  /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake:41 (include)
+  CMakeLists.txt:107 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m

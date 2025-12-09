@@ -1,1 +1,1 @@
-/home/devuser/Workspaces/rosgsthumble_ws/build/realsense2_camera_msgs/ament_cmake_environment_hooks/pythonpath.sh
+/root/Workspaces/rosgsthumble_ws/build/realsense2_camera_msgs/ament_cmake_environment_hooks/pythonpath.sh

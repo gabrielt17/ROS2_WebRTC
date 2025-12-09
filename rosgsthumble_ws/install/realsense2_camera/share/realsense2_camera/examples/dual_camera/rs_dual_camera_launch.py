@@ -1,1 +1,1 @@
-/home/devuser/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera/examples/dual_camera/rs_dual_camera_launch.py
+/root/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera/examples/dual_camera/rs_dual_camera_launch.py

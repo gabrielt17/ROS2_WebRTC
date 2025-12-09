@@ -1,1 +1,1 @@
-/home/devuser/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera_msgs/msg/IMUInfo.msg
+/root/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera_msgs/msg/IMUInfo.msg

@@ -1,1 +1,1 @@
-/home/devuser/Workspaces/rosgsthumble_ws/build/realsense2_camera/ament_cmake_environment_hooks/local_setup.bash
+/root/Workspaces/rosgsthumble_ws/build/realsense2_camera/ament_cmake_environment_hooks/local_setup.bash

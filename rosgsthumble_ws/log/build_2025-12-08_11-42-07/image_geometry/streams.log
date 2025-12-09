@@ -1,0 +1,47 @@
+[0.496s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/image_geometry': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/image_geometry -- -j4 -l4
+[0.878s] [  0%] Built target ament_cmake_python_symlink_image_geometry
+[0.936s] [100%] Built target image_geometry
+[2.932s] running egg_info
+[2.935s] writing image_geometry.egg-info/PKG-INFO
+[2.935s] writing dependency_links to image_geometry.egg-info/dependency_links.txt
+[2.936s] writing top-level names to image_geometry.egg-info/top_level.txt
+[2.948s] reading manifest file 'image_geometry.egg-info/SOURCES.txt'
+[2.976s] writing manifest file 'image_geometry.egg-info/SOURCES.txt'
+[3.072s] [100%] Built target ament_cmake_python_build_image_geometry_egg
+[3.261s] Invoked command in '/root/Workspaces/rosgsthumble_ws/build/image_geometry' returned '0': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/image_geometry -- -j4 -l4
+[3.614s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/image_geometry': /usr/local/bin/cmake --install /root/Workspaces/rosgsthumble_ws/build/image_geometry
+[3.849s] -- Install configuration: "Release"
+[3.850s] -- Execute custom install script
+[3.850s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+[3.851s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/share/image_geometry/environment/pythonpath.dsv
+[3.852s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages/image_geometry-3.2.1-py3.6.egg-info/PKG-INFO
+[3.852s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages/image_geometry-3.2.1-py3.6.egg-info/SOURCES.txt
+[3.853s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages/image_geometry-3.2.1-py3.6.egg-info/dependency_links.txt
+[3.879s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages/image_geometry-3.2.1-py3.6.egg-info/top_level.txt
+[3.880s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages/image_geometry/__init__.py
+[3.880s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages/image_geometry/cameramodels.py
+[3.881s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/include/image_geometry/image_geometry/pinhole_camera_model.h
+[3.882s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/include/image_geometry/image_geometry/stereo_camera_model.h
+[3.883s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/include/image_geometry/image_geometry/visibility_control.hpp
+[3.887s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+[3.892s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+[3.893s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+[3.896s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv
+[3.899s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/share/image_geometry/environment/path.sh
+[3.922s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/share/image_geometry/environment/path.dsv
+[3.923s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/share/image_geometry/local_setup.bash
+[3.923s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/share/image_geometry/local_setup.sh
+[3.924s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/share/image_geometry/local_setup.zsh
+[3.924s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/share/image_geometry/local_setup.dsv
+[3.925s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/image_geometry/share/image_geometry/package.dsv
+[3.965s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+[3.970s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_targets-extras.cmake
+[3.970s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.971s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+[3.972s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+[3.972s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/image_geometry/share/image_geometry/package.xml
+[4.225s] Listing '/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages/image_geometry'...
+[4.255s] -- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/libimage_geometry.so
+[4.259s] -- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport.cmake
+[4.260s] -- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport-release.cmake
+[4.318s] Invoked command in '/root/Workspaces/rosgsthumble_ws/build/image_geometry' returned '0': /usr/local/bin/cmake --install /root/Workspaces/rosgsthumble_ws/build/image_geometry

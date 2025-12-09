@@ -1,1 +1,1 @@
-/home/devuser/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera/examples/pointcloud/rs_pointcloud_launch.py
+/root/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera/examples/pointcloud/rs_pointcloud_launch.py

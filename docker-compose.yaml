@@ -1,0 +1,80 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    
+    # Define o runtime da NVIDIA (Crucial para Jetson)
+    runtime: nvidia
+    
+    # Nome do container para facilitar reconexão (evita nomes aleatórios)
+    container_name: ros_gst_webrtc_container
+    
+    # Configuração de Rede e Host
+    network_mode: host
+    ipc: host
+    pid: host
+    privileged: true # Necessário para acesso total ao USB (RealSense)
+    
+    # Memória Compartilhada (shm-size)
+    shm_size: '8gb'
+
+    environment:
+      - DISPLAY=${DISPLAY}
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility,graphics
+      - PULSE_SERVER=unix:/run/user/1000/pulse/native
+      - XDG_RUNTIME_DIR=/run/user/1000
+      
+    volumes:
+      # Seu Workspace (Código fonte persiste aqui)
+      - /home/jetson/Documents/coisas_do_goi/ROS2_WebRTC:/root/Workspaces
+      
+      # Sockets e Gráficos
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /tmp/argus_socket:/tmp/argus_socket
+      - /run/jtop.sock:/run/jtop.sock
+      
+      # Docker in Docker e DBus
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /var/run/dbus:/var/run/dbus
+      - /var/run/avahi-daemon/socket:/var/run/avahi-daemon/socket
+      
+      # Configurações Jetson/Tegra
+      - /etc/enctune.conf:/etc/enctune.conf
+      - /etc/nv_tegra_release:/etc/nv_tegra_release
+      - /tmp/nv_jetson_model:/tmp/nv_jetson_model
+      
+      # Áudio (PulseAudio)
+      - /run/user/1000/pulse:/run/user/1000/pulse
+      
+      # Timezone
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
+      
+      # Dados gerais
+      - /home/jetson/jetson-containers/data:/data
+
+    devices:
+      # Aceleração e Áudio
+      - /dev/snd:/dev/snd
+      - /dev/bus/usb:/dev/bus/usb # CRÍTICO para RealSense
+      
+      # Câmeras V4L2
+      - /dev/video0:/dev/video0
+      - /dev/video1:/dev/video1
+      - /dev/video2:/dev/video2
+      
+      # Barramentos I2C
+      - /dev/i2c-0:/dev/i2c-0
+      - /dev/i2c-1:/dev/i2c-1
+      - /dev/i2c-2:/dev/i2c-2
+      - /dev/i2c-3:/dev/i2c-3
+      - /dev/i2c-4:/dev/i2c-4
+      - /dev/i2c-5:/dev/i2c-5
+      - /dev/i2c-6:/dev/i2c-6
+      - /dev/i2c-7:/dev/i2c-7
+      - /dev/i2c-8:/dev/i2c-8
+
+    # Mantém o container rodando
+    command: sleep infinity

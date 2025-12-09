@@ -1,1 +1,1 @@
-/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/libgst_bridge.so
+/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/libgst_bridge.so

@@ -1,1 +1,1 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/devuser/Workspaces/rosgsthumble_ws/build/realsense2_camera/librealsense2_camera.so" "TARGETS" "realsense2_camera" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/Workspaces/rosgsthumble_ws/build/realsense2_camera/librealsense2_camera.so" "TARGETS" "realsense2_camera" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

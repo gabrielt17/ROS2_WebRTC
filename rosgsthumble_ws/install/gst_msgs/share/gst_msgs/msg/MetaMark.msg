@@ -1,1 +1,1 @@
-/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs/msg/MetaMark.msg
+/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs/msg/MetaMark.msg

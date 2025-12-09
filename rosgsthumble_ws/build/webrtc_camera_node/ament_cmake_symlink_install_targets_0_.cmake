@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/send_camera_node" "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/receive_camera_node" "TARGETS" "send_camera_node" "receive_camera_node" "DESTINATION" "lib/webrtc_camera_node")

@@ -7,6 +7,5 @@
 #include "realsense2_camera_msgs/msg/detail/rgbd__struct.hpp"
 #include "realsense2_camera_msgs/msg/detail/rgbd__builder.hpp"
 #include "realsense2_camera_msgs/msg/detail/rgbd__traits.hpp"
-#include "realsense2_camera_msgs/msg/detail/rgbd__type_support.hpp"
 
 #endif  // REALSENSE2_CAMERA_MSGS__MSG__RGBD_HPP_

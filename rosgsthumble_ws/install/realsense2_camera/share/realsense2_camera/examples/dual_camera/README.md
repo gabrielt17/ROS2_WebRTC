@@ -1,1 +1,1 @@
-/home/devuser/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera/examples/dual_camera/README.md
+/root/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera/examples/dual_camera/README.md

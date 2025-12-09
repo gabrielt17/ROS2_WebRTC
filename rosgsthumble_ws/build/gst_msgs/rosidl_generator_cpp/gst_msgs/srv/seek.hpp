@@ -7,6 +7,5 @@
 #include "gst_msgs/srv/detail/seek__struct.hpp"
 #include "gst_msgs/srv/detail/seek__builder.hpp"
 #include "gst_msgs/srv/detail/seek__traits.hpp"
-#include "gst_msgs/srv/detail/seek__type_support.hpp"
 
 #endif  // GST_MSGS__SRV__SEEK_HPP_

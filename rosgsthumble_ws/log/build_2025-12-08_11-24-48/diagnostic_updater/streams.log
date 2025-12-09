@@ -1,0 +1,109 @@
+[0.317s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater': /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/diagnostics/diagnostic_updater -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DOpenCV_DIR=/usr/lib/aarch64-linux-gnu/cmake/opencv4/ -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater
+[1.005s] -- The C compiler identification is GNU 7.5.0
+[1.283s] -- The CXX compiler identification is GNU 7.5.0
+[1.391s] -- Detecting C compiler ABI info
+[1.688s] -- Detecting C compiler ABI info - done
+[1.760s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.762s] -- Detecting C compile features
+[1.765s] -- Detecting C compile features - done
+[1.807s] -- Detecting CXX compiler ABI info
+[2.112s] -- Detecting CXX compiler ABI info - done
+[2.169s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.171s] -- Detecting CXX compile features
+[2.174s] -- Detecting CXX compile features - done
+[2.193s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[3.247s] -- Found Python3: /usr/bin/python3.6 (found version "3.6.9") found components: Interpreter 
+[3.802s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.044s] -- Found diagnostic_msgs: 4.2.3 (/opt/ros/humble/install/share/diagnostic_msgs/cmake)
+[4.362s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[4.406s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[4.481s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[4.613s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.783s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.730s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/install/share/rclcpp/cmake)
+[6.229s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[6.253s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/install/share/rmw_cyclonedds_cpp/cmake)
+[6.535s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[6.601s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.895s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.896s] -- Looking for pthread_create in pthreads
+[7.128s] -- Looking for pthread_create in pthreads - not found
+[7.129s] -- Looking for pthread_create in pthread
+[7.389s] -- Looking for pthread_create in pthread - found
+[7.394s] -- Found Threads: TRUE  
+[8.369s] -- Found rclpy: 3.3.9 (/opt/ros/humble/install/share/rclpy/cmake)
+[9.769s] -- Configuring done (9.3s)
+[9.831s] -- Generating done (0.0s)
+[9.845s] [33mCMake Warning:
+[9.846s]   Manually-specified variables were not used by the project:
+[9.850s] 
+[9.851s]     OpenCV_DIR
+[9.851s] 
+[9.852s] [0m
+[9.856s] -- Build files have been written to: /root/Workspaces/rosgsthumble_ws/build/diagnostic_updater
+[9.932s] Invoked command in '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater' returned '0': /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/diagnostics/diagnostic_updater -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DOpenCV_DIR=/usr/lib/aarch64-linux-gnu/cmake/opencv4/ -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater
+[9.934s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/diagnostic_updater -- -j4 -l4
+[10.304s] [  0%] Built target ament_cmake_python_symlink_diagnostic_updater
+[10.306s] [ 50%] [32mBuilding CXX object CMakeFiles/example.dir/src/example.cpp.o[0m
+[12.675s] running egg_info
+[12.678s] creating diagnostic_updater.egg-info
+[12.691s] writing diagnostic_updater.egg-info/PKG-INFO
+[12.692s] writing dependency_links to diagnostic_updater.egg-info/dependency_links.txt
+[12.693s] writing top-level names to diagnostic_updater.egg-info/top_level.txt
+[12.694s] writing manifest file 'diagnostic_updater.egg-info/SOURCES.txt'
+[12.706s] reading manifest file 'diagnostic_updater.egg-info/SOURCES.txt'
+[12.715s] writing manifest file 'diagnostic_updater.egg-info/SOURCES.txt'
+[12.923s] [ 50%] Built target ament_cmake_python_build_diagnostic_updater_egg
+[61.507s] [100%] [32m[1mLinking CXX executable example[0m
+[62.259s] [100%] Built target example
+[62.315s] Invoked command in '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater' returned '0': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/diagnostic_updater -- -j4 -l4
+[62.664s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater': /usr/local/bin/cmake --install /root/Workspaces/rosgsthumble_ws/build/diagnostic_updater
+[62.845s] -- Install configuration: "Release"
+[62.848s] -- Execute custom install script
+[62.851s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/environment/pythonpath.sh
+[62.863s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/environment/pythonpath.dsv
+[62.880s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater-4.0.6-py3.6.egg-info/PKG-INFO
+[62.892s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater-4.0.6-py3.6.egg-info/SOURCES.txt
+[62.904s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater-4.0.6-py3.6.egg-info/dependency_links.txt
+[62.916s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater-4.0.6-py3.6.egg-info/top_level.txt
+[62.931s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/__init__.py
+[62.943s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_diagnostic_status_wrapper.py
+[62.958s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_diagnostic_updater.py
+[62.973s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_publisher.py
+[62.985s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_update_functions.py
+[63.001s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/example.py
+[63.012s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/diagnostic_updater/example.py
+[63.023s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/diagnostic_updater/example
+[63.035s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/include/diagnostic_updater/diagnostic_status_wrapper.hpp
+[63.045s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/include/diagnostic_updater/diagnostic_updater.hpp
+[63.056s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/include/diagnostic_updater/publisher.hpp
+[63.069s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/include/diagnostic_updater/update_functions.hpp
+[63.083s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/environment/library_path.sh
+[63.094s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/environment/library_path.dsv
+[63.108s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/ament_index/resource_index/package_run_dependencies/diagnostic_updater
+[63.121s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/ament_index/resource_index/parent_prefix_path/diagnostic_updater
+[63.132s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/environment/ament_prefix_path.sh
+[63.143s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/environment/ament_prefix_path.dsv
+[63.156s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/environment/path.sh
+[63.169s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/environment/path.dsv
+[63.179s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/local_setup.bash
+[63.192s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/local_setup.sh
+[63.203s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/local_setup.zsh
+[63.218s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/local_setup.dsv
+[63.230s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/package.dsv
+[63.245s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/ament_index/resource_index/packages/diagnostic_updater
+[63.256s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_targets-extras.cmake
+[63.269s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_include_directories-extras.cmake
+[63.283s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_dependencies-extras.cmake
+[63.295s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterConfig.cmake
+[63.308s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterConfig-version.cmake
+[63.318s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/package.xml
+[63.547s] Listing '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater'...
+[63.548s] Compiling '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/__init__.py'...
+[63.548s] Compiling '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_diagnostic_status_wrapper.py'...
+[63.549s] Compiling '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_diagnostic_updater.py'...
+[63.549s] Compiling '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_publisher.py'...
+[63.550s] Compiling '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_update_functions.py'...
+[63.550s] Compiling '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/example.py'...
+[63.578s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterTargetsExport.cmake
+[63.616s] Invoked command in '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater' returned '0': /usr/local/bin/cmake --install /root/Workspaces/rosgsthumble_ws/build/diagnostic_updater

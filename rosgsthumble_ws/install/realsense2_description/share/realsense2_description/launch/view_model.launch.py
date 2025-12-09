@@ -1,1 +1,1 @@
-/home/devuser/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_description/launch/view_model.launch.py
+/root/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_description/launch/view_model.launch.py

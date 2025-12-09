@@ -82,11 +82,13 @@ class Extrinsics(metaclass=Metaclass_Extrinsics):
         if 'rotation' not in kwargs:
             self.rotation = numpy.zeros(9, dtype=numpy.float64)
         else:
-            self.rotation = kwargs.get('rotation')
+            self.rotation = numpy.array(kwargs.get('rotation'), dtype=numpy.float64)
+            assert self.rotation.shape == (9, )
         if 'translation' not in kwargs:
             self.translation = numpy.zeros(3, dtype=numpy.float64)
         else:
-            self.translation = kwargs.get('translation')
+            self.translation = numpy.array(kwargs.get('translation'), dtype=numpy.float64)
+            assert self.translation.shape == (3, )
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -117,9 +119,9 @@ class Extrinsics(metaclass=Metaclass_Extrinsics):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if any(self.rotation != other.rotation):
+        if all(self.rotation != other.rotation):
             return False
-        if any(self.translation != other.translation):
+        if all(self.translation != other.translation):
             return False
         return True
 

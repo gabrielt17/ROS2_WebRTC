@@ -1,0 +1,42 @@
+[100%] Built target gst_pipeline_plugins
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins//plugins.xml
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/include/gst_pipeline_plugins/bridge.h
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/include/gst_pipeline_plugins/buffer_observer.h
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/include/gst_pipeline_plugins/clock_observer.h
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/include/gst_pipeline_plugins/framegate.h
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/include/gst_pipeline_plugins/meta/gstmark.h
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/include/gst_pipeline_plugins/metadata_hook.h
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/include/gst_pipeline_plugins/multifilesink_observer.h
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/include/gst_pipeline_plugins/net_clock.h
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/include/gst_pipeline_plugins/parameters.h
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/include/gst_pipeline_plugins/pause_srv.h
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/include/gst_pipeline_plugins/rtp_header_hook.h
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/config/parameters_example.config.yaml
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/launch/parameters_example.launch.py
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/environment/library_path.sh
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/environment/library_path.dsv
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/ament_index/resource_index/package_run_dependencies/gst_pipeline_plugins
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/ament_index/resource_index/parent_prefix_path/gst_pipeline_plugins
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/environment/path.sh
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/environment/path.dsv
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/local_setup.bash
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/local_setup.sh
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/local_setup.zsh
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/local_setup.dsv
+-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/package.dsv
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/ament_index/resource_index/packages/gst_pipeline_plugins
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/ament_index/resource_index/gst_pipeline__pluginlib__plugin/gst_pipeline_plugins
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/cmake/gst_pipeline_pluginsConfig.cmake
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/cmake/gst_pipeline_pluginsConfig-version.cmake
+-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/package.xml
+-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib/libgst_pipeline_plugins.so
+-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/cmake/export_gst_pipeline_pluginsExport.cmake
+-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/cmake/export_gst_pipeline_pluginsExport-release.cmake

@@ -1,1 +1,0 @@
-/home/devuser/Workspaces/build/gst_msgs/rosidl_typesupport_introspection_cpp/gst_msgs/msg/detail/meta_mark__rosidl_typesupport_introspection_cpp.hpp

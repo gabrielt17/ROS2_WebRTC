@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "realsense2_description")
-set(realsense2_description_VERSION "4.56.4")
+set(realsense2_description_VERSION "4.55.1")
 set(realsense2_description_MAINTAINER "LibRealSense ROS Team <librs.ros@intel.com>")
 set(realsense2_description_BUILD_DEPENDS "rclcpp" "rclcpp_components" "realsense2_camera_msgs")
 set(realsense2_description_BUILDTOOL_DEPENDS "ament_cmake")

@@ -1,1 +1,1 @@
-/home/devuser/Workspaces/rosgsthumble_ws/build/realsense2_description/ament_cmake_environment_hooks/local_setup.zsh
+/root/Workspaces/rosgsthumble_ws/build/realsense2_description/ament_cmake_environment_hooks/local_setup.zsh

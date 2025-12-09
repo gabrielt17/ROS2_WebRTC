@@ -1,3 +1,0 @@
-/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/lib/libgst_pipeline_plugins_webrtc.so
-/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/cmake/export_gst_pipeline_plugins_webrtcExport.cmake
-/home/devuser/Workspaces/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/cmake/export_gst_pipeline_plugins_webrtcExport-noconfig.cmake

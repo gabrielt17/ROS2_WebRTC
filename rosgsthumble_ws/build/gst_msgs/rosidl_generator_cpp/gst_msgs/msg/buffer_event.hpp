@@ -7,6 +7,5 @@
 #include "gst_msgs/msg/detail/buffer_event__struct.hpp"
 #include "gst_msgs/msg/detail/buffer_event__builder.hpp"
 #include "gst_msgs/msg/detail/buffer_event__traits.hpp"
-#include "gst_msgs/msg/detail/buffer_event__type_support.hpp"
 
 #endif  // GST_MSGS__MSG__BUFFER_EVENT_HPP_

@@ -1,0 +1,396 @@
+[0.190s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/gst_msgs': /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DOpenCV_DIR=/usr/lib/aarch64-linux-gnu/cmake/opencv4/ -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/gst_msgs
+[0.873s] -- The C compiler identification is GNU 7.5.0
+[1.142s] -- The CXX compiler identification is GNU 7.5.0
+[1.250s] -- Detecting C compiler ABI info
+[1.533s] -- Detecting C compiler ABI info - done
+[1.583s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.586s] -- Detecting C compile features
+[1.589s] -- Detecting C compile features - done
+[1.640s] -- Detecting CXX compiler ABI info
+[1.959s] -- Detecting CXX compiler ABI info - done
+[2.016s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.019s] -- Detecting CXX compile features
+[2.020s] -- Detecting CXX compile features - done
+[2.049s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[7.695s] -- Found Python3: /usr/bin/python3.6 (found version "3.6.9") found components: Interpreter 
+[8.189s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.400s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/install/share/std_msgs/cmake)
+[8.666s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[8.704s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[8.763s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[8.870s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.027s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.462s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/install/share/rosidl_default_generators/cmake)
+[13.743s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/install/share/ament_cmake_ros/cmake)
+[19.119s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[22.333s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[22.353s] [33mCMake Warning (dev) at /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[22.354s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[22.355s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[22.355s]   the cmake_policy command to set the policy and suppress this warning.
+[22.356s] 
+[22.357s] Call Stack (most recent call first):
+[22.357s]   /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[22.358s]   /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[22.358s]   CMakeLists.txt:34 (rosidl_generate_interfaces)
+[22.359s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[22.360s] [0m
+[22.638s] -- Found PythonInterp: /usr/bin/python3.6 (found suitable version "3.6.9", minimum required is "3.6") 
+[22.660s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)
+[22.663s] [33mCMake Warning (dev) at /opt/ros/humble/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[22.664s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[22.665s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[22.665s]   the cmake_policy command to set the policy and suppress this warning.
+[22.666s] 
+[22.666s] Call Stack (most recent call first):
+[22.667s]   /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[22.668s]   /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[22.668s]   /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[22.669s]   CMakeLists.txt:34 (rosidl_generate_interfaces)
+[22.669s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[22.670s] [0m
+[23.089s] [33mCMake Warning (dev) at /opt/ros/humble/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[23.090s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[23.099s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[23.100s]   the cmake_policy command to set the policy and suppress this warning.
+[23.100s] 
+[23.101s] Call Stack (most recent call first):
+[23.101s]   /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[23.102s]   /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[23.102s]   /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[23.103s]   CMakeLists.txt:34 (rosidl_generate_interfaces)
+[23.103s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[23.104s] [0m
+[23.167s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[23.169s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3.6
+[23.170s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[23.171s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so
+[23.322s] -- Found PythonExtra: .so  
+[25.695s] -- Using numpy include directory: /usr/local/lib/python3.6/dist-packages/numpy/core/include
+[26.006s] -- Configuring done (25.6s)
+[26.775s] -- Generating done (0.6s)
+[26.784s] [33mCMake Warning:
+[26.787s]   Manually-specified variables were not used by the project:
+[26.797s] 
+[26.798s]     OpenCV_DIR
+[26.798s] 
+[26.799s] [0m
+[26.807s] -- Build files have been written to: /root/Workspaces/rosgsthumble_ws/build/gst_msgs
+[26.879s] Invoked command in '/root/Workspaces/rosgsthumble_ws/build/gst_msgs' returned '0': /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DOpenCV_DIR=/usr/lib/aarch64-linux-gnu/cmake/opencv4/ -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/gst_msgs
+[26.882s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/gst_msgs': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/gst_msgs -- -j4 -l4
+[27.659s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[27.737s] [  1%] Built target ament_cmake_python_symlink_gst_msgs
+[27.804s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[34.723s] running egg_info
+[34.737s] creating gst_msgs.egg-info
+[34.738s] writing gst_msgs.egg-info/PKG-INFO
+[34.741s] writing dependency_links to gst_msgs.egg-info/dependency_links.txt
+[34.748s] writing top-level names to gst_msgs.egg-info/top_level.txt
+[34.749s] writing manifest file 'gst_msgs.egg-info/SOURCES.txt'
+[34.769s] reading manifest file 'gst_msgs.egg-info/SOURCES.txt'
+[34.783s] writing manifest file 'gst_msgs.egg-info/SOURCES.txt'
+[35.022s] [  2%] Built target ament_cmake_python_build_gst_msgs_egg
+[43.428s] [  2%] Built target gst_msgs__cpp
+[44.381s] [  3%] [32mBuilding C object CMakeFiles/gst_msgs__rosidl_generator_c.dir/rosidl_generator_c/gst_msgs/msg/detail/frame_gate__functions.c.o[0m
+[44.828s] [  5%] [32mBuilding C object CMakeFiles/gst_msgs__rosidl_generator_c.dir/rosidl_generator_c/gst_msgs/msg/detail/webrtc_ice__functions.c.o[0m
+[45.462s] [  6%] [32mBuilding C object CMakeFiles/gst_msgs__rosidl_generator_c.dir/rosidl_generator_c/gst_msgs/msg/detail/buffer_event__functions.c.o[0m
+[45.858s] [  7%] [32mBuilding C object CMakeFiles/gst_msgs__rosidl_generator_c.dir/rosidl_generator_c/gst_msgs/msg/detail/clock_observation__functions.c.o[0m
+[46.215s] [  8%] [32mBuilding C object CMakeFiles/gst_msgs__rosidl_generator_c.dir/rosidl_generator_c/gst_msgs/msg/detail/multifilesink_event__functions.c.o[0m
+[46.591s] [ 10%] [32mBuilding C object CMakeFiles/gst_msgs__rosidl_generator_c.dir/rosidl_generator_c/gst_msgs/msg/detail/meta_mark__functions.c.o[0m
+[46.948s] [ 11%] [32mBuilding C object CMakeFiles/gst_msgs__rosidl_generator_c.dir/rosidl_generator_c/gst_msgs/srv/detail/seek__functions.c.o[0m
+[47.494s] [ 12%] [32m[1mLinking C shared library libgst_msgs__rosidl_generator_c.so[0m
+[47.598s] [ 12%] Built target gst_msgs__rosidl_generator_c
+[47.622s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[52.674s] [ 15%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gst_msgs/msg/detail/frame_gate__type_support.cpp.o[0m
+[53.911s] [ 16%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gst_msgs/msg/detail/webrtc_ice__type_support.cpp.o[0m
+[55.259s] [ 17%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gst_msgs/msg/detail/buffer_event__type_support.cpp.o[0m
+[56.567s] [ 18%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gst_msgs/msg/detail/clock_observation__type_support.cpp.o[0m
+[57.997s] [ 20%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gst_msgs/msg/detail/multifilesink_event__type_support.cpp.o[0m
+[59.429s] [ 21%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gst_msgs/msg/detail/meta_mark__type_support.cpp.o[0m
+[60.943s] [ 22%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gst_msgs/srv/detail/seek__type_support.cpp.o[0m
+[62.358s] [ 24%] [32m[1mLinking CXX shared library libgst_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[62.580s] [ 24%] Built target gst_msgs__rosidl_typesupport_introspection_cpp
+[62.607s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[67.822s] [ 26%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gst_msgs/msg/detail/frame_gate__type_support_c.cpp.o[0m
+[69.315s] [ 27%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gst_msgs/msg/detail/webrtc_ice__type_support_c.cpp.o[0m
+[70.931s] [ 29%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gst_msgs/msg/detail/buffer_event__type_support_c.cpp.o[0m
+[72.420s] [ 30%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gst_msgs/msg/detail/clock_observation__type_support_c.cpp.o[0m
+[73.843s] [ 31%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gst_msgs/msg/detail/multifilesink_event__type_support_c.cpp.o[0m
+[75.481s] [ 32%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gst_msgs/msg/detail/meta_mark__type_support_c.cpp.o[0m
+[76.982s] [ 34%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gst_msgs/srv/detail/seek__type_support_c.cpp.o[0m
+[78.717s] [ 35%] [32m[1mLinking CXX shared library libgst_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[78.950s] [ 35%] Built target gst_msgs__rosidl_typesupport_fastrtps_c
+[78.975s] [ 36%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[84.040s] [ 37%] [32mBuilding C object CMakeFiles/gst_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gst_msgs/msg/detail/frame_gate__type_support.c.o[0m
+[84.172s] [ 39%] [32mBuilding C object CMakeFiles/gst_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gst_msgs/msg/detail/webrtc_ice__type_support.c.o[0m
+[84.340s] [ 40%] [32mBuilding C object CMakeFiles/gst_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gst_msgs/msg/detail/buffer_event__type_support.c.o[0m
+[84.478s] [ 41%] [32mBuilding C object CMakeFiles/gst_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gst_msgs/msg/detail/clock_observation__type_support.c.o[0m
+[84.624s] [ 43%] [32mBuilding C object CMakeFiles/gst_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gst_msgs/msg/detail/multifilesink_event__type_support.c.o[0m
+[84.770s] [ 44%] [32mBuilding C object CMakeFiles/gst_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gst_msgs/msg/detail/meta_mark__type_support.c.o[0m
+[84.916s] [ 45%] [32mBuilding C object CMakeFiles/gst_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gst_msgs/srv/detail/seek__type_support.c.o[0m
+[85.099s] [ 46%] [32m[1mLinking C shared library libgst_msgs__rosidl_typesupport_introspection_c.so[0m
+[85.182s] [ 46%] Built target gst_msgs__rosidl_typesupport_introspection_c
+[85.214s] [ 48%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[89.658s] [ 49%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gst_msgs/msg/frame_gate__type_support.cpp.o[0m
+[89.766s] [ 50%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gst_msgs/msg/webrtc_ice__type_support.cpp.o[0m
+[89.878s] [ 51%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gst_msgs/msg/buffer_event__type_support.cpp.o[0m
+[89.987s] [ 53%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gst_msgs/msg/clock_observation__type_support.cpp.o[0m
+[90.101s] [ 54%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gst_msgs/msg/multifilesink_event__type_support.cpp.o[0m
+[90.307s] [ 55%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gst_msgs/msg/meta_mark__type_support.cpp.o[0m
+[90.525s] [ 56%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gst_msgs/srv/seek__type_support.cpp.o[0m
+[90.802s] [ 58%] [32m[1mLinking CXX shared library libgst_msgs__rosidl_typesupport_c.so[0m
+[91.063s] [ 58%] Built target gst_msgs__rosidl_typesupport_c
+[91.144s] [ 59%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[98.774s] [ 60%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gst_msgs/msg/detail/dds_fastrtps/frame_gate__type_support.cpp.o[0m
+[101.161s] [ 62%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gst_msgs/msg/detail/dds_fastrtps/buffer_event__type_support.cpp.o[0m
+[103.411s] [ 63%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gst_msgs/msg/detail/dds_fastrtps/clock_observation__type_support.cpp.o[0m
+[105.576s] [ 64%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gst_msgs/msg/detail/dds_fastrtps/multifilesink_event__type_support.cpp.o[0m
+[107.834s] [ 65%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gst_msgs/msg/detail/dds_fastrtps/meta_mark__type_support.cpp.o[0m
+[110.111s] [ 67%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gst_msgs/srv/detail/dds_fastrtps/seek__type_support.cpp.o[0m
+[112.684s] [ 68%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gst_msgs/msg/detail/dds_fastrtps/webrtc_ice__type_support.cpp.o[0m
+[114.459s] [ 69%] [32m[1mLinking CXX shared library libgst_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[114.731s] [ 69%] Built target gst_msgs__rosidl_typesupport_fastrtps_cpp
+[114.752s] [ 70%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[119.051s] [ 72%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gst_msgs/msg/frame_gate__type_support.cpp.o[0m
+[120.131s] [ 73%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gst_msgs/msg/clock_observation__type_support.cpp.o[0m
+[121.296s] [ 74%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gst_msgs/msg/multifilesink_event__type_support.cpp.o[0m
+[122.419s] [ 75%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gst_msgs/msg/meta_mark__type_support.cpp.o[0m
+[123.560s] [ 77%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gst_msgs/srv/seek__type_support.cpp.o[0m
+[124.681s] [ 78%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gst_msgs/msg/buffer_event__type_support.cpp.o[0m
+[125.821s] [ 79%] [32mBuilding CXX object CMakeFiles/gst_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gst_msgs/msg/webrtc_ice__type_support.cpp.o[0m
+[126.932s] [ 81%] [32m[1mLinking CXX shared library libgst_msgs__rosidl_typesupport_cpp.so[0m
+[127.076s] [ 81%] Built target gst_msgs__rosidl_typesupport_cpp
+[127.115s] [ 81%] Built target gst_msgs
+[127.157s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[138.148s] [ 82%] Built target gst_msgs__py
+[138.192s] [ 83%] [32mBuilding C object CMakeFiles/gst_msgs__rosidl_generator_py.dir/rosidl_generator_py/gst_msgs/msg/_frame_gate_s.c.o[0m
+[138.610s] [ 84%] [32mBuilding C object CMakeFiles/gst_msgs__rosidl_generator_py.dir/rosidl_generator_py/gst_msgs/msg/_clock_observation_s.c.o[0m
+[139.037s] [ 86%] [32mBuilding C object CMakeFiles/gst_msgs__rosidl_generator_py.dir/rosidl_generator_py/gst_msgs/msg/_multifilesink_event_s.c.o[0m
+[139.571s] [ 87%] [32mBuilding C object CMakeFiles/gst_msgs__rosidl_generator_py.dir/rosidl_generator_py/gst_msgs/msg/_meta_mark_s.c.o[0m
+[140.008s] [ 88%] [32mBuilding C object CMakeFiles/gst_msgs__rosidl_generator_py.dir/rosidl_generator_py/gst_msgs/srv/_seek_s.c.o[0m
+[140.550s] [ 89%] [32mBuilding C object CMakeFiles/gst_msgs__rosidl_generator_py.dir/rosidl_generator_py/gst_msgs/msg/_buffer_event_s.c.o[0m
+[140.961s] [ 91%] [32mBuilding C object CMakeFiles/gst_msgs__rosidl_generator_py.dir/rosidl_generator_py/gst_msgs/msg/_webrtc_ice_s.c.o[0m
+[141.501s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/gst_msgs/libgst_msgs__rosidl_generator_py.so[0m
+[141.676s] [ 92%] Built target gst_msgs__rosidl_generator_py
+[141.768s] [ 93%] [32mBuilding C object CMakeFiles/gst_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/gst_msgs/_gst_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[142.821s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/gst_msgs/gst_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so[0m
+[143.079s] [ 94%] Built target gst_msgs__rosidl_typesupport_fastrtps_c__pyext
+[143.170s] [ 96%] [32mBuilding C object CMakeFiles/gst_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/gst_msgs/_gst_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[144.120s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/gst_msgs/gst_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so[0m
+[144.410s] [ 97%] Built target gst_msgs__rosidl_typesupport_c__pyext
+[144.562s] [ 98%] [32mBuilding C object CMakeFiles/gst_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/gst_msgs/_gst_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[145.683s] [100%] [32m[1mLinking C shared library rosidl_generator_py/gst_msgs/gst_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so[0m
+[145.916s] [100%] Built target gst_msgs__rosidl_typesupport_introspection_c__pyext
+[146.021s] Invoked command in '/root/Workspaces/rosgsthumble_ws/build/gst_msgs' returned '0': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/gst_msgs -- -j4 -l4
+[150.059s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/gst_msgs': /usr/local/bin/cmake --install /root/Workspaces/rosgsthumble_ws/build/gst_msgs
+[150.283s] -- Install configuration: "Release"
+[150.286s] -- Execute custom install script
+[150.288s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/ament_index/resource_index/rosidl_interfaces/gst_msgs
+[150.306s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/buffer_event.h
+[150.317s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/clock_observation.h
+[150.328s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/buffer_event__functions.h
+[150.340s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/buffer_event__struct.h
+[150.351s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/buffer_event__type_support.h
+[150.364s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/clock_observation__functions.h
+[150.375s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/clock_observation__struct.h
+[150.386s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/clock_observation__type_support.h
+[150.397s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/frame_gate__functions.h
+[150.408s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/frame_gate__struct.h
+[150.419s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/frame_gate__type_support.h
+[150.432s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/meta_mark__functions.h
+[150.443s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/meta_mark__struct.h
+[150.454s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/meta_mark__type_support.h
+[150.464s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/multifilesink_event__functions.h
+[150.476s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/multifilesink_event__struct.h
+[150.487s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/multifilesink_event__type_support.h
+[150.500s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/webrtc_ice__functions.h
+[150.511s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/webrtc_ice__struct.h
+[150.522s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/webrtc_ice__type_support.h
+[150.535s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/frame_gate.h
+[150.547s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/meta_mark.h
+[150.557s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/multifilesink_event.h
+[150.568s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/rosidl_generator_c__visibility_control.h
+[150.580s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/webrtc_ice.h
+[150.593s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/srv/detail/seek__functions.h
+[150.602s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/srv/detail/seek__struct.h
+[150.613s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/srv/detail/seek__type_support.h
+[150.635s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/srv/seek.h
+[150.647s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/environment/library_path.sh
+[150.658s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/environment/library_path.dsv
+[150.675s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/buffer_event__rosidl_typesupport_fastrtps_c.h
+[150.691s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/clock_observation__rosidl_typesupport_fastrtps_c.h
+[150.704s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/frame_gate__rosidl_typesupport_fastrtps_c.h
+[150.716s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/meta_mark__rosidl_typesupport_fastrtps_c.h
+[150.729s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/multifilesink_event__rosidl_typesupport_fastrtps_c.h
+[150.771s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/webrtc_ice__rosidl_typesupport_fastrtps_c.h
+[150.809s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[150.821s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/srv/detail/seek__rosidl_typesupport_fastrtps_c.h
+[150.842s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/buffer_event.hpp
+[150.855s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/clock_observation.hpp
+[150.864s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/buffer_event__builder.hpp
+[150.876s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/buffer_event__struct.hpp
+[150.888s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/buffer_event__traits.hpp
+[150.901s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/clock_observation__builder.hpp
+[150.913s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/clock_observation__struct.hpp
+[150.925s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/clock_observation__traits.hpp
+[150.943s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/frame_gate__builder.hpp
+[150.955s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/frame_gate__struct.hpp
+[150.967s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/frame_gate__traits.hpp
+[150.979s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/meta_mark__builder.hpp
+[150.991s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/meta_mark__struct.hpp
+[151.006s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/meta_mark__traits.hpp
+[151.018s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/multifilesink_event__builder.hpp
+[151.030s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/multifilesink_event__struct.hpp
+[151.045s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/multifilesink_event__traits.hpp
+[151.057s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/webrtc_ice__builder.hpp
+[151.069s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/webrtc_ice__struct.hpp
+[151.080s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/webrtc_ice__traits.hpp
+[151.093s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/frame_gate.hpp
+[151.109s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/meta_mark.hpp
+[151.122s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/multifilesink_event.hpp
+[151.136s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/webrtc_ice.hpp
+[151.150s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/srv/detail/seek__builder.hpp
+[151.171s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/srv/detail/seek__struct.hpp
+[151.177s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/srv/detail/seek__traits.hpp
+[151.189s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/srv/seek.hpp
+[151.204s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/buffer_event__rosidl_typesupport_fastrtps_cpp.hpp
+[151.217s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/clock_observation__rosidl_typesupport_fastrtps_cpp.hpp
+[151.230s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/frame_gate__rosidl_typesupport_fastrtps_cpp.hpp
+[151.244s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/meta_mark__rosidl_typesupport_fastrtps_cpp.hpp
+[151.256s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/multifilesink_event__rosidl_typesupport_fastrtps_cpp.hpp
+[151.268s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/webrtc_ice__rosidl_typesupport_fastrtps_cpp.hpp
+[151.280s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[151.294s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/srv/detail/seek__rosidl_typesupport_fastrtps_cpp.hpp
+[151.308s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/buffer_event__rosidl_typesupport_introspection_c.h
+[151.319s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/clock_observation__rosidl_typesupport_introspection_c.h
+[151.330s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/frame_gate__rosidl_typesupport_introspection_c.h
+[151.342s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/meta_mark__rosidl_typesupport_introspection_c.h
+[151.353s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/multifilesink_event__rosidl_typesupport_introspection_c.h
+[151.364s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/webrtc_ice__rosidl_typesupport_introspection_c.h
+[151.375s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[151.387s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/srv/detail/seek__rosidl_typesupport_introspection_c.h
+[151.410s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/buffer_event__rosidl_typesupport_introspection_cpp.hpp
+[151.420s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/clock_observation__rosidl_typesupport_introspection_cpp.hpp
+[151.443s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/frame_gate__rosidl_typesupport_introspection_cpp.hpp
+[151.456s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/meta_mark__rosidl_typesupport_introspection_cpp.hpp
+[151.468s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/multifilesink_event__rosidl_typesupport_introspection_cpp.hpp
+[151.481s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/webrtc_ice__rosidl_typesupport_introspection_cpp.hpp
+[151.492s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/srv/detail/seek__rosidl_typesupport_introspection_cpp.hpp
+[151.506s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/environment/pythonpath.sh
+[151.518s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/environment/pythonpath.dsv
+[151.541s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs-0.0.0-py3.6.egg-info/PKG-INFO
+[151.554s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs-0.0.0-py3.6.egg-info/SOURCES.txt
+[151.566s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs-0.0.0-py3.6.egg-info/dependency_links.txt
+[151.576s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs-0.0.0-py3.6.egg-info/top_level.txt
+[151.594s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/__init__.py
+[151.605s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/_gst_msgs_s.ep.rosidl_typesupport_c.c
+[151.616s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/_gst_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[151.629s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/_gst_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[151.646s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/gst_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+[151.657s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/gst_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+[151.669s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/gst_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so
+[151.682s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/libgst_msgs__rosidl_generator_py.so
+[151.695s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/__init__.py
+[151.707s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_buffer_event.py
+[151.718s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_buffer_event_s.c
+[151.729s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_clock_observation.py
+[151.743s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_clock_observation_s.c
+[151.755s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_frame_gate.py
+[151.771s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_frame_gate_s.c
+[151.787s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_meta_mark.py
+[151.802s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_meta_mark_s.c
+[151.814s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_multifilesink_event.py
+[151.824s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_multifilesink_event_s.c
+[151.837s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_webrtc_ice.py
+[151.850s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_webrtc_ice_s.c
+[151.866s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/srv/__init__.py
+[151.879s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/srv/_seek.py
+[151.893s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/srv/_seek_s.c
+[151.909s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/gst_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+[151.913s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/gst_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so
+[151.917s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/gst_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+[151.920s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/msg/FrameGate.idl
+[151.933s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/msg/WebrtcIce.idl
+[151.946s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/msg/BufferEvent.idl
+[151.969s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/msg/ClockObservation.idl
+[151.982s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/msg/MultifilesinkEvent.idl
+[151.995s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/msg/MetaMark.idl
+[152.008s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/srv/Seek.idl
+[152.021s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/msg/FrameGate.msg
+[152.033s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/msg/WebrtcIce.msg
+[152.047s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/msg/BufferEvent.msg
+[152.059s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/msg/ClockObservation.msg
+[152.072s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/msg/MultifilesinkEvent.msg
+[152.086s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/msg/MetaMark.msg
+[152.098s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/srv/Seek.srv
+[152.111s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/srv/Seek_Request.msg
+[152.125s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/srv/Seek_Response.msg
+[152.149s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/ament_index/resource_index/package_run_dependencies/gst_msgs
+[152.176s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/ament_index/resource_index/parent_prefix_path/gst_msgs
+[152.206s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/environment/ament_prefix_path.sh
+[152.224s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/environment/ament_prefix_path.dsv
+[152.225s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/environment/path.sh
+[152.236s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/environment/path.dsv
+[152.239s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/local_setup.bash
+[152.254s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/local_setup.sh
+[152.260s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/local_setup.zsh
+[152.276s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/local_setup.dsv
+[152.287s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/package.dsv
+[152.305s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/ament_index/resource_index/packages/gst_msgs
+[152.314s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/rosidl_cmake-extras.cmake
+[152.318s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[152.339s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[152.353s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[152.354s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[152.380s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[152.381s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[152.386s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/gst_msgsConfig.cmake
+[152.426s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/gst_msgsConfig-version.cmake
+[152.427s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/package.xml
+[152.427s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_generator_c.so
+[152.434s] -- Set runtime path of "/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_generator_c.so" to ""
+[152.435s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_typesupport_fastrtps_c.so
+[152.446s] -- Set runtime path of "/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[152.447s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_typesupport_fastrtps_cpp.so
+[152.454s] -- Set runtime path of "/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[152.455s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_typesupport_introspection_c.so
+[152.458s] -- Set runtime path of "/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_typesupport_introspection_c.so" to ""
+[152.459s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_typesupport_c.so
+[152.482s] -- Set runtime path of "/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_typesupport_c.so" to ""
+[152.482s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_typesupport_introspection_cpp.so
+[152.483s] -- Set runtime path of "/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[152.484s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_typesupport_cpp.so
+[152.484s] -- Set runtime path of "/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_typesupport_cpp.so" to ""
+[152.727s] Listing '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs'...
+[152.728s] Compiling '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/__init__.py'...
+[152.729s] Listing '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg'...
+[152.729s] Compiling '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/__init__.py'...
+[152.730s] Compiling '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_buffer_event.py'...
+[152.731s] Compiling '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_clock_observation.py'...
+[152.731s] Compiling '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_frame_gate.py'...
+[152.732s] Compiling '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_meta_mark.py'...
+[152.733s] Compiling '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_multifilesink_event.py'...
+[152.733s] Compiling '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_webrtc_ice.py'...
+[152.734s] Listing '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/srv'...
+[152.735s] Compiling '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/srv/__init__.py'...
+[152.735s] Compiling '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/srv/_seek.py'...
+[152.766s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_generator_py.so
+[152.768s] -- Set runtime path of "/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_generator_py.so" to ""
+[152.769s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/export_gst_msgs__rosidl_generator_cExport.cmake
+[152.772s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/export_gst_msgs__rosidl_generator_cExport-release.cmake
+[152.774s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/export_gst_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[152.777s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/export_gst_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[152.779s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/export_gst_msgs__rosidl_generator_cppExport.cmake
+[152.782s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/export_gst_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[152.785s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/export_gst_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[152.787s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/gst_msgs__rosidl_typesupport_introspection_cExport.cmake
+[152.790s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/gst_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[152.793s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/gst_msgs__rosidl_typesupport_cExport.cmake
+[152.795s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/gst_msgs__rosidl_typesupport_cExport-release.cmake
+[152.798s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/gst_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[152.801s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/gst_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[152.803s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/gst_msgs__rosidl_typesupport_cppExport.cmake
+[152.806s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/gst_msgs__rosidl_typesupport_cppExport-release.cmake
+[152.807s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/export_gst_msgs__rosidl_generator_pyExport.cmake
+[152.810s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/export_gst_msgs__rosidl_generator_pyExport-release.cmake
+[152.850s] Invoked command in '/root/Workspaces/rosgsthumble_ws/build/gst_msgs' returned '0': /usr/local/bin/cmake --install /root/Workspaces/rosgsthumble_ws/build/gst_msgs

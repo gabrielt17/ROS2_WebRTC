@@ -1,13 +1,10 @@
 {
   "package_name": "realsense2_camera_msgs",
   "non_idl_tuples": [
-    "/home/devuser/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera_msgs:msg/IMUInfo.msg",
-    "/home/devuser/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera_msgs:msg/Extrinsics.msg",
-    "/home/devuser/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera_msgs:msg/Metadata.msg",
-    "/home/devuser/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera_msgs:msg/RGBD.msg",
-    "/home/devuser/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera_msgs:srv/DeviceInfo.srv",
-    "/home/devuser/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera_msgs:srv/CalibConfigRead.srv",
-    "/home/devuser/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera_msgs:srv/CalibConfigWrite.srv",
-    "/home/devuser/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera_msgs:action/TriggeredCalibration.action"
+    "/root/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera_msgs:msg/IMUInfo.msg",
+    "/root/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera_msgs:msg/Extrinsics.msg",
+    "/root/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera_msgs:msg/Metadata.msg",
+    "/root/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera_msgs:msg/RGBD.msg",
+    "/root/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera_msgs:srv/DeviceInfo.srv"
   ]
 }

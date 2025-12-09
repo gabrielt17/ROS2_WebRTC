@@ -1,0 +1,41 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/install/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.6 (found version "3.6.9") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (4.1s)
+-- Generating done (0.0s)
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    OpenCV_DIR
+
+[0m
+-- Build files have been written to: /root/Workspaces/rosgsthumble_ws/build/diagnostics
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostics/share/ament_index/resource_index/package_run_dependencies/diagnostics
+-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostics/share/ament_index/resource_index/parent_prefix_path/diagnostics
+-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostics/share/diagnostics/environment/ament_prefix_path.sh
+-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostics/share/diagnostics/environment/ament_prefix_path.dsv
+-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostics/share/diagnostics/environment/path.sh
+-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostics/share/diagnostics/environment/path.dsv
+-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostics/share/diagnostics/local_setup.bash
+-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostics/share/diagnostics/local_setup.sh
+-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostics/share/diagnostics/local_setup.zsh
+-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostics/share/diagnostics/local_setup.dsv
+-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostics/share/diagnostics/package.dsv
+-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostics/share/ament_index/resource_index/packages/diagnostics
+-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostics/share/diagnostics/cmake/diagnosticsConfig.cmake
+-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostics/share/diagnostics/cmake/diagnosticsConfig-version.cmake
+-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostics/share/diagnostics/package.xml

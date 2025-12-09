@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/${destination}")
+      set(destination "/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -292,7 +292,7 @@ function(_ament_cmake_symlink_install_create_symlink absolute_file symlink)
   endif()
 
   execute_process(
-    COMMAND "/usr/bin/cmake" "-E" "create_symlink"
+    COMMAND "/usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake" "-E" "create_symlink"
       "${absolute_file}"
       "${symlink}"
   )
@@ -310,53 +310,53 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-build/ixwebsocket-config.cmake" "DESTINATION" "lib/cmake/ixwebsocket")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-build/ixwebsocket-config.cmake" "DESTINATION" "lib/cmake/ixwebsocket")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-build/ixwebsocket-config.cmake" "DESTINATION" "lib/cmake/ixwebsocket")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src" FILES "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-build/ixwebsocket-config.cmake" "DESTINATION" "lib/cmake/ixwebsocket")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-build/ixwebsocket.pc" "DESTINATION" "lib/pkgconfig")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-build/ixwebsocket.pc" "DESTINATION" "lib/pkgconfig")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-build/ixwebsocket.pc" "DESTINATION" "lib/pkgconfig")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src" FILES "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-build/ixwebsocket.pc" "DESTINATION" "lib/pkgconfig")
 
 # install("TARGETS" "send_camera_node" "receive_camera_node" "DESTINATION" "lib/webrtc_camera_node")
-include("/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/webrtc_camera_node" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/webrtc_camera_node" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/webrtc_camera_node" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/webrtc_camera_node" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/webrtc_camera_node" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/webrtc_camera_node" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/webrtc_camera_node" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/webrtc_camera_node" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
-# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/webrtc_camera_node/environment")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/webrtc_camera_node/environment")
+# install(FILES "/opt/ros/humble/install/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/webrtc_camera_node/environment")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/opt/ros/humble/install/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/webrtc_camera_node/environment")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/webrtc_camera_node/environment")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/webrtc_camera_node/environment")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/webrtc_camera_node/environment")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/webrtc_camera_node/environment")
 
-# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/webrtc_camera_node/environment")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/webrtc_camera_node/environment")
+# install(FILES "/opt/ros/humble/install/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/webrtc_camera_node/environment")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/opt/ros/humble/install/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/webrtc_camera_node/environment")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/webrtc_camera_node/environment")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/webrtc_camera_node/environment")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/webrtc_camera_node/environment")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/webrtc_camera_node/environment")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/webrtc_camera_node")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/webrtc_camera_node")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/webrtc_camera_node")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/webrtc_camera_node")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/webrtc_camera_node")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/webrtc_camera_node")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/webrtc_camera_node")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/webrtc_camera_node")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/webrtc_camera_node")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/webrtc_camera_node")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/webrtc_camera_node")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/webrtc_camera_node")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/webrtc_camera_node")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/webrtc_camera_node")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/webrtc_camera_node")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/webrtc_camera_node")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/webrtc_camera_node")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/webrtc_camera_node")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/webrtc_camera_node")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/webrtc_camera_node")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_index/share/ament_index/resource_index/packages/webrtc_camera_node" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_index/share/ament_index/resource_index/packages/webrtc_camera_node" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_index/share/ament_index/resource_index/packages/webrtc_camera_node" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_index/share/ament_index/resource_index/packages/webrtc_camera_node" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_core/webrtc_camera_nodeConfig.cmake" "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_core/webrtc_camera_nodeConfig-version.cmake" "DESTINATION" "share/webrtc_camera_node/cmake")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_core/webrtc_camera_nodeConfig.cmake" "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_core/webrtc_camera_nodeConfig-version.cmake" "DESTINATION" "share/webrtc_camera_node/cmake")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_core/webrtc_camera_nodeConfig.cmake" "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_core/webrtc_camera_nodeConfig-version.cmake" "DESTINATION" "share/webrtc_camera_node/cmake")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_core/webrtc_camera_nodeConfig.cmake" "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_core/webrtc_camera_nodeConfig-version.cmake" "DESTINATION" "share/webrtc_camera_node/cmake")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/package.xml" "DESTINATION" "share/webrtc_camera_node")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/package.xml" "DESTINATION" "share/webrtc_camera_node")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/package.xml" "DESTINATION" "share/webrtc_camera_node")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node" FILES "/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/package.xml" "DESTINATION" "share/webrtc_camera_node")

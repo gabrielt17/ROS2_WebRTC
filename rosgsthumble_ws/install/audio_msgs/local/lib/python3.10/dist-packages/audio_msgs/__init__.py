@@ -1,1 +1,0 @@
-/home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs/rosidl_generator_py/audio_msgs/__init__.py

@@ -1,0 +1,15 @@
+/root/Workspaces/rosgsthumble_ws/install/diagnostics/share/ament_index/resource_index/package_run_dependencies/diagnostics
+/root/Workspaces/rosgsthumble_ws/install/diagnostics/share/ament_index/resource_index/parent_prefix_path/diagnostics
+/root/Workspaces/rosgsthumble_ws/install/diagnostics/share/diagnostics/environment/ament_prefix_path.sh
+/root/Workspaces/rosgsthumble_ws/install/diagnostics/share/diagnostics/environment/ament_prefix_path.dsv
+/root/Workspaces/rosgsthumble_ws/install/diagnostics/share/diagnostics/environment/path.sh
+/root/Workspaces/rosgsthumble_ws/install/diagnostics/share/diagnostics/environment/path.dsv
+/root/Workspaces/rosgsthumble_ws/install/diagnostics/share/diagnostics/local_setup.bash
+/root/Workspaces/rosgsthumble_ws/install/diagnostics/share/diagnostics/local_setup.sh
+/root/Workspaces/rosgsthumble_ws/install/diagnostics/share/diagnostics/local_setup.zsh
+/root/Workspaces/rosgsthumble_ws/install/diagnostics/share/diagnostics/local_setup.dsv
+/root/Workspaces/rosgsthumble_ws/install/diagnostics/share/diagnostics/package.dsv
+/root/Workspaces/rosgsthumble_ws/install/diagnostics/share/ament_index/resource_index/packages/diagnostics
+/root/Workspaces/rosgsthumble_ws/install/diagnostics/share/diagnostics/cmake/diagnosticsConfig.cmake
+/root/Workspaces/rosgsthumble_ws/install/diagnostics/share/diagnostics/cmake/diagnosticsConfig-version.cmake
+/root/Workspaces/rosgsthumble_ws/install/diagnostics/share/diagnostics/package.xml

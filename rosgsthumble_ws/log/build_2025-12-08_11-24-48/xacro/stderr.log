@@ -1,0 +1,8 @@
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    OpenCV_DIR
+
+[0m
+/usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  setuptools.SetuptoolsDeprecationWarning,

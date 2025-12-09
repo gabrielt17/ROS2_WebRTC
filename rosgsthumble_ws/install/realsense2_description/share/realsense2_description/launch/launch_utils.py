@@ -1,1 +1,1 @@
-/home/devuser/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_description/launch/launch_utils.py
+/root/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_description/launch/launch_utils.py

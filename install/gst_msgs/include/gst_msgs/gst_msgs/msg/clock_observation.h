@@ -1,1 +1,0 @@
-/home/devuser/Workspaces/build/gst_msgs/rosidl_generator_c/gst_msgs/msg/clock_observation.h

@@ -145,7 +145,8 @@ gboolean add_remote_offer_idle(gpointer data) {
     OfferData* d = static_cast<OfferData*>(data);
 
     GstSDPMessage *sdp = nullptr;
-    gst_sdp_message_new_from_text(d->sdp_text.c_str(), &sdp);
+    gst_sdp_message_new(&sdp);
+    gst_sdp_message_parse_buffer((const guint8*)d->sdp_text.c_str(), d->sdp_text.size(), sdp);
     GstWebRTCSessionDescription *offer = gst_webrtc_session_description_new(GST_WEBRTC_SDP_TYPE_OFFER, sdp);
     
     RCLCPP_INFO(rclcpp::get_logger("camera_webrtc_node"), ">>> OFERTA SDP RECEBIDA. Configurando descrição remota...");

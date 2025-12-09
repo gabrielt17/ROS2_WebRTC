@@ -7,6 +7,5 @@
 #include "gst_msgs/msg/detail/clock_observation__struct.hpp"
 #include "gst_msgs/msg/detail/clock_observation__builder.hpp"
 #include "gst_msgs/msg/detail/clock_observation__traits.hpp"
-#include "gst_msgs/msg/detail/clock_observation__type_support.hpp"
 
 #endif  // GST_MSGS__MSG__CLOCK_OBSERVATION_HPP_

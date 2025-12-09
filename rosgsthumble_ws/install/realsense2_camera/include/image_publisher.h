@@ -1,1 +1,1 @@
-/home/devuser/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera/include/image_publisher.h
+/root/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera/include/image_publisher.h

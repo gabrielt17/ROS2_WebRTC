@@ -1,0 +1,1 @@
+/root/Workspaces/rosgsthumble_ws/src/diagnostics/diagnostic_common_diagnostics/diagnostic_common_diagnostics/ntp_monitor.py

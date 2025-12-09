@@ -4,7 +4,6 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/audio_msgs/msg/detail/audio__builder.hpp"
   "rosidl_generator_cpp/audio_msgs/msg/detail/audio__struct.hpp"
   "rosidl_generator_cpp/audio_msgs/msg/detail/audio__traits.hpp"
-  "rosidl_generator_cpp/audio_msgs/msg/detail/audio__type_support.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

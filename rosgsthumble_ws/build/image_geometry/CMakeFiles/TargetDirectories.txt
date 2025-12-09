@@ -1,0 +1,12 @@
+/root/Workspaces/rosgsthumble_ws/build/image_geometry/CMakeFiles/uninstall.dir
+/root/Workspaces/rosgsthumble_ws/build/image_geometry/CMakeFiles/image_geometry_uninstall.dir
+/root/Workspaces/rosgsthumble_ws/build/image_geometry/CMakeFiles/ament_cmake_python_symlink_image_geometry.dir
+/root/Workspaces/rosgsthumble_ws/build/image_geometry/CMakeFiles/ament_cmake_python_build_image_geometry_egg.dir
+/root/Workspaces/rosgsthumble_ws/build/image_geometry/CMakeFiles/image_geometry.dir
+/root/Workspaces/rosgsthumble_ws/build/image_geometry/CMakeFiles/test.dir
+/root/Workspaces/rosgsthumble_ws/build/image_geometry/CMakeFiles/edit_cache.dir
+/root/Workspaces/rosgsthumble_ws/build/image_geometry/CMakeFiles/rebuild_cache.dir
+/root/Workspaces/rosgsthumble_ws/build/image_geometry/CMakeFiles/list_install_components.dir
+/root/Workspaces/rosgsthumble_ws/build/image_geometry/CMakeFiles/install.dir
+/root/Workspaces/rosgsthumble_ws/build/image_geometry/CMakeFiles/install/local.dir
+/root/Workspaces/rosgsthumble_ws/build/image_geometry/CMakeFiles/install/strip.dir

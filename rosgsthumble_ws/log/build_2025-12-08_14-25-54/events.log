@@ -1,0 +1,154 @@
+[0.000000] (-) TimerEvent: {}
+[0.000747] (-) JobUnselected: {'identifier': 'audio_msgs'}
+[0.001580] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.001980] (-) JobUnselected: {'identifier': 'diagnostic_common_diagnostics'}
+[0.003020] (-) JobUnselected: {'identifier': 'diagnostic_updater'}
+[0.003729] (-) JobUnselected: {'identifier': 'diagnostics'}
+[0.009063] (-) JobUnselected: {'identifier': 'gst_bridge'}
+[0.013022] (-) JobUnselected: {'identifier': 'gst_msgs'}
+[0.013290] (-) JobUnselected: {'identifier': 'gst_pipeline'}
+[0.013637] (-) JobUnselected: {'identifier': 'gst_pipeline_plugins'}
+[0.013805] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.013960] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.014116] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.019354] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.021964] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.022183] (-) JobUnselected: {'identifier': 'xacro'}
+[0.022488] (webrtc_camera_node) JobQueued: {'identifier': 'webrtc_camera_node', 'dependencies': OrderedDict([('audio_msgs', '/root/Workspaces/rosgsthumble_ws/install/audio_msgs'), ('gst_bridge', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge')])}
+[0.022673] (webrtc_camera_node) JobStarted: {'identifier': 'webrtc_camera_node'}
+[0.103962] (-) TimerEvent: {}
+[0.192365] (webrtc_camera_node) JobProgress: {'identifier': 'webrtc_camera_node', 'progress': 'cmake'}
+[0.195829] (webrtc_camera_node) JobProgress: {'identifier': 'webrtc_camera_node', 'progress': 'build'}
+[0.199691] (webrtc_camera_node) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node', '--', '-j4', '-l4'], 'cwd': '/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano'), ('LD_LIBRARY_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib'), ('SHLVL', '1'), ('OLDPWD', '/'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/1000/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/bin:/opt/ros/humble/install/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ''), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('GST_PLUGIN_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/gst_bridge/'), ('SHELL', '/bin/bash'), ('PWD', '/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node'), ('PYTHONPATH', '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/opt/ros/humble/install')]), 'shell': False}
+[0.206100] (-) TimerEvent: {}
+[0.307082] (-) TimerEvent: {}
+[0.408006] (-) TimerEvent: {}
+[0.447675] (webrtc_camera_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/install/share/rclcpp/cmake)\n'}
+[0.508182] (-) TimerEvent: {}
+[0.609187] (-) TimerEvent: {}
+[0.709944] (-) TimerEvent: {}
+[0.810666] (-) TimerEvent: {}
+[0.911738] (-) TimerEvent: {}
+[1.012989] (-) TimerEvent: {}
+[1.114100] (-) TimerEvent: {}
+[1.215103] (-) TimerEvent: {}
+[1.315832] (-) TimerEvent: {}
+[1.416874] (-) TimerEvent: {}
+[1.517761] (-) TimerEvent: {}
+[1.618474] (-) TimerEvent: {}
+[1.719338] (-) TimerEvent: {}
+[1.820114] (-) TimerEvent: {}
+[1.878878] (webrtc_camera_node) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.920282] (-) TimerEvent: {}
+[2.021340] (-) TimerEvent: {}
+[2.078126] (webrtc_camera_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)\n'}
+[2.094222] (webrtc_camera_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)\n'}
+[2.121508] (-) TimerEvent: {}
+[2.130769] (webrtc_camera_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)\n'}
+[2.205082] (webrtc_camera_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.221679] (-) TimerEvent: {}
+[2.310066] (webrtc_camera_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.321847] (-) TimerEvent: {}
+[2.422570] (-) TimerEvent: {}
+[2.523374] (-) TimerEvent: {}
+[2.624094] (-) TimerEvent: {}
+[2.678561] (webrtc_camera_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)\n'}
+[2.689334] (webrtc_camera_node) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/install/share/rmw_cyclonedds_cpp/cmake)\n'}
+[2.724231] (-) TimerEvent: {}
+[2.824924] (-) TimerEvent: {}
+[2.870598] (webrtc_camera_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[2.925101] (-) TimerEvent: {}
+[3.025950] (-) TimerEvent: {}
+[3.126693] (-) TimerEvent: {}
+[3.227427] (-) TimerEvent: {}
+[3.328157] (-) TimerEvent: {}
+[3.428886] (-) TimerEvent: {}
+[3.529717] (-) TimerEvent: {}
+[3.630441] (-) TimerEvent: {}
+[3.731228] (-) TimerEvent: {}
+[3.822017] (webrtc_camera_node) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/install/share/sensor_msgs/cmake)\n'}
+[3.831353] (-) TimerEvent: {}
+[3.932006] (-) TimerEvent: {}
+[4.032740] (-) TimerEvent: {}
+[4.133641] (-) TimerEvent: {}
+[4.234372] (-) TimerEvent: {}
+[4.335103] (-) TimerEvent: {}
+[4.435833] (-) TimerEvent: {}
+[4.536559] (-) TimerEvent: {}
+[4.572397] (webrtc_camera_node) StdoutLine: {'line': b'-- Found gst_bridge: 0.0.0 (/root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/cmake)\n'}
+[4.636730] (-) TimerEvent: {}
+[4.737523] (-) TimerEvent: {}
+[4.838239] (-) TimerEvent: {}
+[4.938973] (-) TimerEvent: {}
+[4.991169] (webrtc_camera_node) StdoutLine: {'line': b'-- WebRTC Library Found: /usr/lib/aarch64-linux-gnu/libgstwebrtc-1.0.so\n'}
+[5.039155] (-) TimerEvent: {}
+[5.139921] (-) TimerEvent: {}
+[5.240702] (-) TimerEvent: {}
+[5.341607] (-) TimerEvent: {}
+[5.442349] (-) TimerEvent: {}
+[5.479944] (webrtc_camera_node) StdoutLine: {'line': b'-- Using the multi-header code from /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/\n'}
+[5.542527] (-) TimerEvent: {}
+[5.643349] (-) TimerEvent: {}
+[5.744398] (-) TimerEvent: {}
+[5.845608] (-) TimerEvent: {}
+[5.946694] (-) TimerEvent: {}
+[6.047454] (-) TimerEvent: {}
+[6.148230] (-) TimerEvent: {}
+[6.248956] (-) TimerEvent: {}
+[6.350100] (-) TimerEvent: {}
+[6.451104] (-) TimerEvent: {}
+[6.552358] (-) TimerEvent: {}
+[6.653059] (-) TimerEvent: {}
+[6.752067] (webrtc_camera_node) StdoutLine: {'line': b'-- Configuring done (6.3s)\n'}
+[6.753164] (-) TimerEvent: {}
+[6.853886] (-) TimerEvent: {}
+[6.952809] (webrtc_camera_node) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[6.953997] (-) TimerEvent: {}
+[6.963848] (webrtc_camera_node) StdoutLine: {'line': b'-- Build files have been written to: /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node\n'}
+[7.054190] (-) TimerEvent: {}
+[7.155489] (-) TimerEvent: {}
+[7.215113] (webrtc_camera_node) StdoutLine: {'line': b'[ 90%] Built target ixwebsocket\n'}
+[7.255674] (-) TimerEvent: {}
+[7.302740] (webrtc_camera_node) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/send_camera_node.dir/src/send_camera_node.cpp.o\x1b[0m\n'}
+[7.305534] (webrtc_camera_node) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/receive_camera_node.dir/src/receive_camera_node.cpp.o\x1b[0m\n'}
+[7.355871] (-) TimerEvent: {}
+[7.457188] (-) TimerEvent: {}
+[7.557975] (-) TimerEvent: {}
+[7.658700] (-) TimerEvent: {}
+[7.760390] (-) TimerEvent: {}
+[7.861982] (-) TimerEvent: {}
+[7.963520] (-) TimerEvent: {}
+[8.065488] (-) TimerEvent: {}
+[8.168018] (-) TimerEvent: {}
+[8.268746] (-) TimerEvent: {}
+[8.369508] (-) TimerEvent: {}
+[8.470508] (-) TimerEvent: {}
+[8.482336] (webrtc_camera_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/send_camera_node.cpp:6:0\x1b[m\x1b[K:\n'}
+[8.483210] (webrtc_camera_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gstreamer-1.0/gst/webrtc/webrtc.h:28:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kgst/webrtc/rtcsessiondescription.h: No such file or directory\n'}
+[8.483780] (webrtc_camera_node) StderrLine: {'line': b' #include \x1b[01;31m\x1b[K<gst/webrtc/rtcsessiondescription.h>\x1b[m\x1b[K\n'}
+[8.484308] (webrtc_camera_node) StderrLine: {'line': b'          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.484821] (webrtc_camera_node) StderrLine: {'line': b'compilation terminated.\n'}
+[8.492184] (webrtc_camera_node) StdoutLine: {'line': b"CMakeFiles/send_camera_node.dir/build.make:75: recipe for target 'CMakeFiles/send_camera_node.dir/src/send_camera_node.cpp.o' failed\n"}
+[8.492950] (webrtc_camera_node) StderrLine: {'line': b'make[2]: *** [CMakeFiles/send_camera_node.dir/src/send_camera_node.cpp.o] Error 1\n'}
+[8.493991] (webrtc_camera_node) StdoutLine: {'line': b"CMakeFiles/Makefile2:173: recipe for target 'CMakeFiles/send_camera_node.dir/all' failed\n"}
+[8.494563] (webrtc_camera_node) StderrLine: {'line': b'make[1]: *** [CMakeFiles/send_camera_node.dir/all] Error 2\n'}
+[8.495068] (webrtc_camera_node) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[8.508588] (webrtc_camera_node) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/receive_camera_node.cpp:9:0\x1b[m\x1b[K:\n'}
+[8.509473] (webrtc_camera_node) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/gstreamer-1.0/gst/webrtc/webrtc.h:28:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kgst/webrtc/rtcsessiondescription.h: No such file or directory\n'}
+[8.510086] (webrtc_camera_node) StderrLine: {'line': b' #include \x1b[01;31m\x1b[K<gst/webrtc/rtcsessiondescription.h>\x1b[m\x1b[K\n'}
+[8.510594] (webrtc_camera_node) StderrLine: {'line': b'          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.511058] (webrtc_camera_node) StderrLine: {'line': b'compilation terminated.\n'}
+[8.517595] (webrtc_camera_node) StdoutLine: {'line': b"CMakeFiles/receive_camera_node.dir/build.make:75: recipe for target 'CMakeFiles/receive_camera_node.dir/src/receive_camera_node.cpp.o' failed\n"}
+[8.518536] (webrtc_camera_node) StdoutLine: {'line': b"CMakeFiles/Makefile2:199: recipe for target 'CMakeFiles/receive_camera_node.dir/all' failed\n"}
+[8.519929] (webrtc_camera_node) StderrLine: {'line': b'make[2]: *** [CMakeFiles/receive_camera_node.dir/src/receive_camera_node.cpp.o] Error 1\n'}
+[8.520715] (webrtc_camera_node) StderrLine: {'line': b'make[1]: *** [CMakeFiles/receive_camera_node.dir/all] Error 2\n'}
+[8.521319] (webrtc_camera_node) StdoutLine: {'line': b"Makefile:145: recipe for target 'all' failed\n"}
+[8.521922] (webrtc_camera_node) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[8.543097] (webrtc_camera_node) CommandEnded: {'returncode': 2}
+[8.570743] (-) TimerEvent: {}
+[8.671634] (-) TimerEvent: {}
+[8.772299] (-) TimerEvent: {}
+[8.878282] (-) TimerEvent: {}
+[8.984633] (-) TimerEvent: {}
+[9.033370] (webrtc_camera_node) JobEnded: {'identifier': 'webrtc_camera_node', 'rc': 2}
+[9.045474] (-) EventReactorShutdown: {}

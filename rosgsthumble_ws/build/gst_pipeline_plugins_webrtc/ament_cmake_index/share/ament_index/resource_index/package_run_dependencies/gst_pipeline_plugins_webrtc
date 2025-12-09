@@ -1,1 +1,0 @@
-rclcpp_components;image_transport;cv_bridge;std_msgs;gst_msgs;audio_msgs;sensor_msgs;gstreamer1.0;gstreamer1.0-plugins-base;gstreamer1.0-plugins-good;ament_cmake_clang_format;ament_cmake_gtest;osrf_testing_tools_cpp;rclcpp

@@ -7,6 +7,5 @@
 #include "audio_msgs/msg/detail/audio__struct.hpp"
 #include "audio_msgs/msg/detail/audio__builder.hpp"
 #include "audio_msgs/msg/detail/audio__traits.hpp"
-#include "audio_msgs/msg/detail/audio__type_support.hpp"
 
 #endif  // AUDIO_MSGS__MSG__AUDIO_HPP_

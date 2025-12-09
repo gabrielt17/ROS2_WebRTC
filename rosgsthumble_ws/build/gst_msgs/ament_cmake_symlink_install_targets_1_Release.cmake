@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/Workspaces/rosgsthumble_ws/build/gst_msgs/rosidl_generator_py/gst_msgs/gst_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so" "TARGETS" "gst_msgs__rosidl_typesupport_introspection_c__pyext" "DESTINATION" "lib/python3.6/site-packages/gst_msgs")

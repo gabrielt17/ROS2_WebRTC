@@ -1,0 +1,114 @@
+[0.436s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/cv_bridge': /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/vision_opencv/cv_bridge -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DOpenCV_DIR=/usr/lib/aarch64-linux-gnu/cmake/opencv4/ -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/cv_bridge
+[1.134s] -- The C compiler identification is GNU 7.5.0
+[1.403s] -- The CXX compiler identification is GNU 7.5.0
+[1.525s] -- Detecting C compiler ABI info
+[1.825s] -- Detecting C compiler ABI info - done
+[1.896s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.897s] -- Detecting C compile features
+[1.899s] -- Detecting C compile features - done
+[1.969s] -- Detecting CXX compiler ABI info
+[2.290s] -- Detecting CXX compiler ABI info - done
+[2.363s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.364s] -- Detecting CXX compile features
+[2.367s] -- Detecting CXX compile features - done
+[2.388s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/install/share/ament_cmake_ros/cmake)
+[8.000s] -- Found Python3: /usr/bin/python3.6 (found version "3.6.9") found components: Interpreter 
+[8.516s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[11.696s] -- Found Python3: /usr/include/python3.6m (found version "3.6.9") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[12.595s] -- Found Boost: /usr/include (found version "1.65.1") found components: python3 
+[12.609s] -- Found rcpputils: 2.4.1 (/opt/ros/humble/install/share/rcpputils/cmake)
+[12.663s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/install/share/sensor_msgs/cmake)
+[12.841s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[12.884s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[12.946s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[13.067s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.183s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.734s] [33mCMake Warning (dev) at /usr/lib/cmake/opencv4/OpenCVConfig.cmake:86 (find_package):
+[14.735s]   Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake
+[14.736s]   --help-policy CMP0146" for policy details.  Use the cmake_policy command to
+[14.737s]   set the policy and suppress this warning.
+[14.738s] 
+[14.739s] Call Stack (most recent call first):
+[14.739s]   /usr/lib/cmake/opencv4/OpenCVConfig.cmake:108 (find_host_package)
+[14.740s]   CMakeLists.txt:39 (find_package)
+[14.741s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[14.742s] [0m
+[14.813s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.097s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[15.099s] -- Looking for pthread_create in pthreads
+[15.351s] -- Looking for pthread_create in pthreads - not found
+[15.352s] -- Looking for pthread_create in pthread
+[15.586s] -- Looking for pthread_create in pthread - found
+[15.591s] -- Found Threads: TRUE  
+[15.637s] -- Found CUDA: /usr/local/cuda-10.2 (found suitable exact version "10.2") 
+[16.483s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[16.812s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[16.818s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[17.202s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[17.204s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[17.599s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[18.286s] -- Configuring done (17.7s)
+[18.437s] -- Generating done (0.1s)
+[18.468s] -- Build files have been written to: /root/Workspaces/rosgsthumble_ws/build/cv_bridge
+[18.560s] Invoked command in '/root/Workspaces/rosgsthumble_ws/build/cv_bridge' returned '0': /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/vision_opencv/cv_bridge -DCMAKE_BUILD_TYPE=Release -DBUILD_TESTING=OFF -DOpenCV_DIR=/usr/lib/aarch64-linux-gnu/cmake/opencv4/ -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/cv_bridge
+[18.564s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/cv_bridge': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/cv_bridge -- -j4 -l4
+[18.875s] [ 16%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_bridge.cpp.o[0m
+[18.879s] [ 33%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o[0m
+[18.902s] [ 33%] Built target ament_cmake_python_symlink_cv_bridge
+[21.647s] running egg_info
+[21.654s] creating cv_bridge.egg-info
+[21.655s] writing cv_bridge.egg-info/PKG-INFO
+[21.655s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[21.656s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[21.657s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[21.678s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[21.695s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[21.959s] [ 33%] Built target ament_cmake_python_build_cv_bridge_egg
+[60.848s] [ 50%] [32m[1mLinking CXX shared library libcv_bridge.so[0m
+[61.282s] [ 50%] Built target cv_bridge
+[61.328s] [ 66%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o[0m
+[77.880s] [ 83%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.o[0m
+[92.831s] [100%] [32m[1mLinking CXX shared module boost/cv_bridge_boost.so[0m
+[93.450s] [100%] Built target cv_bridge_boost
+[93.555s] Invoked command in '/root/Workspaces/rosgsthumble_ws/build/cv_bridge' returned '0': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/cv_bridge -- -j4 -l4
+[94.308s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/cv_bridge': /usr/local/bin/cmake --install /root/Workspaces/rosgsthumble_ws/build/cv_bridge
+[94.593s] -- Install configuration: "Release"
+[94.597s] -- Execute custom install script
+[94.600s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[94.612s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[94.632s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge-3.2.1-py3.6.egg-info/PKG-INFO
+[94.700s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge-3.2.1-py3.6.egg-info/SOURCES.txt
+[94.755s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge-3.2.1-py3.6.egg-info/dependency_links.txt
+[94.803s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge-3.2.1-py3.6.egg-info/top_level.txt
+[94.831s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge/__init__.py
+[94.884s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge/core.py
+[94.923s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h
+[94.971s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge/boost//cv_bridge_boost.so
+[95.006s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h
+[95.040s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.h
+[95.061s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/libcv_bridge.so
+[95.083s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[95.116s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[95.157s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[95.180s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[95.222s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/environment/path.sh
+[95.252s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[95.292s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/local_setup.bash
+[95.317s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/local_setup.sh
+[95.349s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[95.361s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[95.372s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/package.dsv
+[95.386s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[95.399s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[95.411s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[95.454s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[95.503s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[95.526s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[95.559s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/package.xml
+[95.808s] Listing '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge'...
+[95.809s] Compiling '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge/__init__.py'...
+[95.810s] Listing '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge/boost'...
+[95.810s] Compiling '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge/core.py'...
+[95.877s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake
+[95.878s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-release.cmake
+[95.930s] Invoked command in '/root/Workspaces/rosgsthumble_ws/build/cv_bridge' returned '0': /usr/local/bin/cmake --install /root/Workspaces/rosgsthumble_ws/build/cv_bridge

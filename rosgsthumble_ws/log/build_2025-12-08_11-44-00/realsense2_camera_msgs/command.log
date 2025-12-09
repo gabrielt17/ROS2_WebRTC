@@ -1,0 +1,4 @@
+Invoking command in '/root/Workspaces/rosgsthumble_ws/build/realsense2_camera_msgs': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/realsense2_camera_msgs -- -j4 -l4
+Invoked command in '/root/Workspaces/rosgsthumble_ws/build/realsense2_camera_msgs' returned '0': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/realsense2_camera_msgs -- -j4 -l4
+Invoking command in '/root/Workspaces/rosgsthumble_ws/build/realsense2_camera_msgs': /usr/local/bin/cmake --install /root/Workspaces/rosgsthumble_ws/build/realsense2_camera_msgs
+Invoked command in '/root/Workspaces/rosgsthumble_ws/build/realsense2_camera_msgs' returned '0': /usr/local/bin/cmake --install /root/Workspaces/rosgsthumble_ws/build/realsense2_camera_msgs

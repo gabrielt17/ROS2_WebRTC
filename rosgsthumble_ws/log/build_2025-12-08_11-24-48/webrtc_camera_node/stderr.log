@@ -1,0 +1,24 @@
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    OpenCV_DIR
+
+[0m
+In file included from [01m[K/usr/include/gstreamer-1.0/gst/webrtc/webrtc.h:24:0[m[K,
+                 from [01m[K/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/send_camera_node.cpp:6[m[K:
+[01m[K/usr/include/gstreamer-1.0/gst/webrtc/webrtc_fwd.h:34:10:[m[K [01;31m[Kfatal error: [m[Kgst/webrtc/webrtc-enumtypes.h: No such file or directory
+ #include [01;31m[K<gst/webrtc/webrtc-enumtypes.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/gstreamer-1.0/gst/webrtc/webrtc.h:24:0[m[K,
+                 from [01m[K/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/receive_camera_node.cpp:9[m[K:
+[01m[K/usr/include/gstreamer-1.0/gst/webrtc/webrtc_fwd.h:34:10:[m[K [01;31m[Kfatal error: [m[Kgst/webrtc/webrtc-enumtypes.h: No such file or directory
+ #include [01;31m[K<gst/webrtc/webrtc-enumtypes.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+make[2]: *** [CMakeFiles/receive_camera_node.dir/src/receive_camera_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/receive_camera_node.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/send_camera_node.dir/src/send_camera_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/send_camera_node.dir/all] Error 2
+make: *** [all] Error 2

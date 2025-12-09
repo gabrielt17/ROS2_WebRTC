@@ -7,6 +7,5 @@
 #include "gst_msgs/msg/detail/multifilesink_event__struct.hpp"
 #include "gst_msgs/msg/detail/multifilesink_event__builder.hpp"
 #include "gst_msgs/msg/detail/multifilesink_event__traits.hpp"
-#include "gst_msgs/msg/detail/multifilesink_event__type_support.hpp"
 
 #endif  // GST_MSGS__MSG__MULTIFILESINK_EVENT_HPP_

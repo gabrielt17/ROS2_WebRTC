@@ -1,1 +1,0 @@
-/home/devuser/Workspaces/build/webrtc_camera_node/ament_cmake_environment_hooks/local_setup.sh

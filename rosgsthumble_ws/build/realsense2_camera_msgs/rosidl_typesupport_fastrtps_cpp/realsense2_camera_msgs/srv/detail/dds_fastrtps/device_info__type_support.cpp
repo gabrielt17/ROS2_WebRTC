@@ -47,7 +47,7 @@ cdr_deserialize(
   cdr >> ros_message.structure_needs_at_least_one_member;
 
   return true;
-}  // NOLINT(readability/fn_size)
+}
 
 size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_realsense2_camera_msgs
@@ -83,8 +83,6 @@ max_serialized_size_DeviceInfo_Request(
 
   const size_t padding = 4;
   const size_t wchar_size = 4;
-  size_t last_member_size = 0;
-  (void)last_member_size;
   (void)padding;
   (void)wchar_size;
 
@@ -96,24 +94,10 @@ max_serialized_size_DeviceInfo_Request(
   {
     size_t array_size = 1;
 
-    last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
   }
 
-  size_t ret_val = current_alignment - initial_alignment;
-  if (is_plain) {
-    // All members are plain, and type is not empty.
-    // We still need to check that the in-memory alignment
-    // is the same as the CDR mandated alignment.
-    using DataType = realsense2_camera_msgs::srv::DeviceInfo_Request;
-    is_plain =
-      (
-      offsetof(DataType, structure_needs_at_least_one_member) +
-      last_member_size
-      ) == ret_val;
-  }
-
-  return ret_val;
+  return current_alignment - initial_alignment;
 }
 
 static bool _DeviceInfo_Request__cdr_serialize(
@@ -289,7 +273,7 @@ cdr_deserialize(
   cdr >> ros_message.physical_port;
 
   return true;
-}  // NOLINT(readability/fn_size)
+}
 
 size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_realsense2_camera_msgs
@@ -347,8 +331,6 @@ max_serialized_size_DeviceInfo_Response(
 
   const size_t padding = 4;
   const size_t wchar_size = 4;
-  size_t last_member_size = 0;
-  (void)last_member_size;
   (void)padding;
   (void)wchar_size;
 
@@ -447,20 +429,7 @@ max_serialized_size_DeviceInfo_Response(
     }
   }
 
-  size_t ret_val = current_alignment - initial_alignment;
-  if (is_plain) {
-    // All members are plain, and type is not empty.
-    // We still need to check that the in-memory alignment
-    // is the same as the CDR mandated alignment.
-    using DataType = realsense2_camera_msgs::srv::DeviceInfo_Response;
-    is_plain =
-      (
-      offsetof(DataType, physical_port) +
-      last_member_size
-      ) == ret_val;
-  }
-
-  return ret_val;
+  return current_alignment - initial_alignment;
 }
 
 static bool _DeviceInfo_Response__cdr_serialize(

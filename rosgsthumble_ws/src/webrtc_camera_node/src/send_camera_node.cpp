@@ -109,7 +109,8 @@ gboolean add_remote_answer_idle(gpointer data) {
     AnswerData* d = static_cast<AnswerData*>(data);
 
     GstSDPMessage *sdp = nullptr;
-    gst_sdp_message_new_from_text(d->sdp_text.c_str(), &sdp);
+    gst_sdp_message_new(&sdp);
+    gst_sdp_message_parse_buffer((const guint8*)d->sdp_text.c_str(), d->sdp_text.size(), sdp);
     GstWebRTCSessionDescription *answer = gst_webrtc_session_description_new(GST_WEBRTC_SDP_TYPE_ANSWER, sdp);
     
     RCLCPP_INFO(rclcpp::get_logger("send_camera_node"), ">>> RESPOSTA SDP RECEBIDA. Configurando descrição remota...");
@@ -143,22 +144,18 @@ int main(int argc, char* argv[]) {
 
     std::string pipeline_str =
     "rosimagesrc ros-topic=\"" + camera_topic + "\" ! "
-    "videoconvert ! video/x-raw,format=I420 ! "
-    
-    // Fila 1: Protege o Encoder (CPU Bound)
-    // Se o encoder demorar, joga fora o frame BRUTO (mais barato descartar aqui)
-    "queue max-size-buffers=1 leaky=downstream ! " 
-    
-    // Encoder configurado para velocidade
-    "vp8enc deadline=1 threads=4 cpu-used=16 target-bitrate=1500000 keyframe-max-dist=0 error-resilient=default ! " 
-    
-    "rtpvp8pay picture-id-mode=15-bit ! "
-    
-    // Fila 2: Protege o Envio (Network Bound) - A que você viu na internet
-    // Se o webrtcbin (rede) travar, segura alguns pacotes JÁ CODIFICADOS
-    // max-size-time=100000000 (100ms): Não guarde dados velhos demais, melhor descartar.
-    "queue max-size-time=100000000 leaky=downstream ! " 
-    
+    "videoconvert ! "
+    "video/x-raw,format=I420 ! "
+    "nvvidconv ! "
+    "video/x-raw(memory:NVMM),format=I420 ! "
+    "queue max-size-buffers=1 leaky=downstream ! "
+    // Removido preset-level (não suportado)
+    // bitrate reduzido para 2Mbps para teste de estabilidade
+    "nvv4l2h264enc bitrate=2000000 insert-sps-pps=true maxperf-enable=1 ! "
+    "h264parse ! "
+    // Removido aggregate-mode (não suportado)
+    "rtph264pay config-interval=1 ! "
+    "queue max-size-time=100000000 leaky=downstream ! "
     "webrtcbin name=send bundle-policy=max-bundle";
 
     GError* error = nullptr;
@@ -171,28 +168,26 @@ int main(int argc, char* argv[]) {
 
     webrtc_send = gst_bin_get_by_name(GST_BIN(pipeline), "send");
 
-    g_object_set(webrtc_send, "stun-server", "stun://stun.relay.metered.ca:80", NULL);
-    gst_element_set_state(pipeline, GST_STATE_READY);
-    gst_element_get_state(pipeline, nullptr, nullptr, GST_CLOCK_TIME_NONE);
-
-    // Variáveis para facilitar a montagem
+    // Credenciais Metered
     std::string turn_user = "71715653733f5250dd465b78";
     std::string turn_pass = "KpBzzyrYWH6Ve6PG";
     std::string turn_host = "standard.relay.metered.ca";
 
-    // Opção A: TURN na porta 80 (Geralmente passa como HTTP)
+    // --- CONFIGURAÇÃO ESPECÍFICA PARA GSTREAMER 1.14 (UBUNTU 18.04) ---
+
+    // 1. STUN: Use g_object_set. O webrtcbin 1.14 aceita isso bem.
+    g_object_set(webrtc_send, "stun-server", "stun://stun.relay.metered.ca:80", NULL);
+    
+    // 2. TURN: A "Bala de Prata".
+    // No GStreamer 1.14, a propriedade "turn-server" aceita apenas UMA string.
+    // Não tente adicionar vários. Vamos escolher a porta 80 porque é a que tem
+    // maior chance de passar pelo NAT Simétrico e Firewall da universidade sem TLS.
+    // Formato: turn://user:pass@host:port
+    
     std::string turn_uri_80 = "turn://" + turn_user + ":" + turn_pass + "@" + turn_host + ":80";
-    g_signal_emit_by_name(webrtc_send, "add-turn-server", turn_uri_80.c_str(), NULL);
-
-    // Opção B: TURN na porta 443 (Geralmente passa como HTTPS)
-    std::string turn_uri_443 = "turn://" + turn_user + ":" + turn_pass + "@" + turn_host + ":443";
-    g_signal_emit_by_name(webrtc_send, "add-turn-server", turn_uri_443.c_str(), NULL);
-
-    // Opção C: TURNS (Secure/Encrypted TURN) na porta 443
-    // Isso é a "arma nuclear" contra firewalls. O tráfego é criptografado via TLS,
-    // então o firewall da universidade não consegue distinguir isso de um acesso a banco ou gmail.
-    std::string turns_uri = "turns://" + turn_user + ":" + turn_pass + "@" + turn_host + ":443";
-    g_signal_emit_by_name(webrtc_send, "add-turn-server", turns_uri.c_str(), NULL);
+    
+    // ATENÇÃO: Usamos g_object_set, não signals. Signals falham no 1.14.
+    g_object_set(webrtc_send, "turn-server", turn_uri_80.c_str(), NULL);
 
 
     g_signal_connect(webrtc_send, "notify::ice-connection-state", 

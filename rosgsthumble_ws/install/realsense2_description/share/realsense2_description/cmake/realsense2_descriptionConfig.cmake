@@ -1,1 +1,1 @@
-/home/devuser/Workspaces/rosgsthumble_ws/build/realsense2_description/ament_cmake_core/realsense2_descriptionConfig.cmake
+/root/Workspaces/rosgsthumble_ws/build/realsense2_description/ament_cmake_core/realsense2_descriptionConfig.cmake

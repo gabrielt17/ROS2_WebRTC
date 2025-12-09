@@ -1,0 +1,1 @@
+/root/Workspaces/rosgsthumble_ws/build/xacro/ament_cmake_core/xacroConfig.cmake

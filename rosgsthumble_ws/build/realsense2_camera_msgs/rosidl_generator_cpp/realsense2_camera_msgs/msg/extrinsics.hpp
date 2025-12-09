@@ -7,6 +7,5 @@
 #include "realsense2_camera_msgs/msg/detail/extrinsics__struct.hpp"
 #include "realsense2_camera_msgs/msg/detail/extrinsics__builder.hpp"
 #include "realsense2_camera_msgs/msg/detail/extrinsics__traits.hpp"
-#include "realsense2_camera_msgs/msg/detail/extrinsics__type_support.hpp"
 
 #endif  // REALSENSE2_CAMERA_MSGS__MSG__EXTRINSICS_HPP_
