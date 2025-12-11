@@ -1,8 +1,8 @@
-# Install script for directory: /home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node
+# Install script for directory: /root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node")
+  set(CMAKE_INSTALL_PREFIX "/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,17 +43,17 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-build/cmake_install.cmake")
+  include("/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-build/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-build/cmake_install.cmake")
+  include("/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-build/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -64,5 +64,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

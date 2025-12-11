@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs
+CMAKE_SOURCE_DIR = /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/devuser/Workspaces/rosgsthumble_ws/build/gst_msgs
+CMAKE_BINARY_DIR = /root/Workspaces/rosgsthumble_ws/build/gst_msgs
 
 # Utility rule file for ament_cmake_python_symlink_gst_msgs.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_symlink_gst_msgs.dir/compiler_depend.make
 include CMakeFiles/ament_cmake_python_symlink_gst_msgs.dir/progress.make
 
 CMakeFiles/ament_cmake_python_symlink_gst_msgs:
-	/usr/bin/cmake -E create_symlink /home/devuser/Workspaces/rosgsthumble_ws/build/gst_msgs/rosidl_generator_py/gst_msgs /home/devuser/Workspaces/rosgsthumble_ws/build/gst_msgs/ament_cmake_python/gst_msgs/gst_msgs
+	/usr/bin/cmake -E create_symlink /root/Workspaces/rosgsthumble_ws/build/gst_msgs/rosidl_generator_py/gst_msgs /root/Workspaces/rosgsthumble_ws/build/gst_msgs/ament_cmake_python/gst_msgs/gst_msgs
 
 ament_cmake_python_symlink_gst_msgs: CMakeFiles/ament_cmake_python_symlink_gst_msgs
 ament_cmake_python_symlink_gst_msgs: CMakeFiles/ament_cmake_python_symlink_gst_msgs.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_symlink_gst_msgs.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_symlink_gst_msgs.dir/clean
 
 CMakeFiles/ament_cmake_python_symlink_gst_msgs.dir/depend:
-	cd /home/devuser/Workspaces/rosgsthumble_ws/build/gst_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs /home/devuser/Workspaces/rosgsthumble_ws/build/gst_msgs /home/devuser/Workspaces/rosgsthumble_ws/build/gst_msgs /home/devuser/Workspaces/rosgsthumble_ws/build/gst_msgs/CMakeFiles/ament_cmake_python_symlink_gst_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/Workspaces/rosgsthumble_ws/build/gst_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs /root/Workspaces/rosgsthumble_ws/build/gst_msgs /root/Workspaces/rosgsthumble_ws/build/gst_msgs /root/Workspaces/rosgsthumble_ws/build/gst_msgs/CMakeFiles/ament_cmake_python_symlink_gst_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_symlink_gst_msgs.dir/depend
 

@@ -1,9 +1,9 @@
 {
   "package_name": "audio_msgs",
-  "output_dir": "/home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs/rosidl_generator_py/audio_msgs",
+  "output_dir": "/root/Workspaces/rosgsthumble_ws/build/audio_msgs/rosidl_generator_py/audio_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs/rosidl_adapter/audio_msgs:msg/Audio.idl"
+    "/root/Workspaces/rosgsthumble_ws/build/audio_msgs/rosidl_adapter/audio_msgs:msg/Audio.idl"
   ],
   "ros_interface_dependencies": [
     "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
@@ -53,7 +53,7 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs/rosidl_adapter/audio_msgs/msg/Audio.idl",
+    "/root/Workspaces/rosgsthumble_ws/build/audio_msgs/rosidl_adapter/audio_msgs/msg/Audio.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Time.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",

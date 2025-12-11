@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline
+CMAKE_SOURCE_DIR = /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline
+CMAKE_BINARY_DIR = /root/Workspaces/rosgsthumble_ws/build/gst_pipeline
 
 # Utility rule file for gst_pipeline_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/gst_pipeline_uninstall.dir/compiler_depend.make
 include CMakeFiles/gst_pipeline_uninstall.dir/progress.make
 
 CMakeFiles/gst_pipeline_uninstall:
-	/usr/bin/cmake -P /home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /root/Workspaces/rosgsthumble_ws/build/gst_pipeline/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 gst_pipeline_uninstall: CMakeFiles/gst_pipeline_uninstall
 gst_pipeline_uninstall: CMakeFiles/gst_pipeline_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/gst_pipeline_uninstall.dir/clean:
 .PHONY : CMakeFiles/gst_pipeline_uninstall.dir/clean
 
 CMakeFiles/gst_pipeline_uninstall.dir/depend:
-	cd /home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline /home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline /home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline /home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline/CMakeFiles/gst_pipeline_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/Workspaces/rosgsthumble_ws/build/gst_pipeline && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline /root/Workspaces/rosgsthumble_ws/build/gst_pipeline /root/Workspaces/rosgsthumble_ws/build/gst_pipeline /root/Workspaces/rosgsthumble_ws/build/gst_pipeline/CMakeFiles/gst_pipeline_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gst_pipeline_uninstall.dir/depend
 

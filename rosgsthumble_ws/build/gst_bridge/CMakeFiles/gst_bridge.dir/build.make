@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge
+CMAKE_SOURCE_DIR = /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/devuser/Workspaces/rosgsthumble_ws/build/gst_bridge
+CMAKE_BINARY_DIR = /root/Workspaces/rosgsthumble_ws/build/gst_bridge
 
 # Include any dependencies generated for this target.
 include CMakeFiles/gst_bridge.dir/depend.make
@@ -70,60 +70,60 @@ include CMakeFiles/gst_bridge.dir/progress.make
 include CMakeFiles/gst_bridge.dir/flags.make
 
 CMakeFiles/gst_bridge.dir/src/gst_bridge.cpp.o: CMakeFiles/gst_bridge.dir/flags.make
-CMakeFiles/gst_bridge.dir/src/gst_bridge.cpp.o: /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/gst_bridge.cpp
+CMakeFiles/gst_bridge.dir/src/gst_bridge.cpp.o: /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/gst_bridge.cpp
 CMakeFiles/gst_bridge.dir/src/gst_bridge.cpp.o: CMakeFiles/gst_bridge.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devuser/Workspaces/rosgsthumble_ws/build/gst_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gst_bridge.dir/src/gst_bridge.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gst_bridge.dir/src/gst_bridge.cpp.o -MF CMakeFiles/gst_bridge.dir/src/gst_bridge.cpp.o.d -o CMakeFiles/gst_bridge.dir/src/gst_bridge.cpp.o -c /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/gst_bridge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Workspaces/rosgsthumble_ws/build/gst_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gst_bridge.dir/src/gst_bridge.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gst_bridge.dir/src/gst_bridge.cpp.o -MF CMakeFiles/gst_bridge.dir/src/gst_bridge.cpp.o.d -o CMakeFiles/gst_bridge.dir/src/gst_bridge.cpp.o -c /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/gst_bridge.cpp
 
 CMakeFiles/gst_bridge.dir/src/gst_bridge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gst_bridge.dir/src/gst_bridge.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/gst_bridge.cpp > CMakeFiles/gst_bridge.dir/src/gst_bridge.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/gst_bridge.cpp > CMakeFiles/gst_bridge.dir/src/gst_bridge.cpp.i
 
 CMakeFiles/gst_bridge.dir/src/gst_bridge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gst_bridge.dir/src/gst_bridge.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/gst_bridge.cpp -o CMakeFiles/gst_bridge.dir/src/gst_bridge.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/gst_bridge.cpp -o CMakeFiles/gst_bridge.dir/src/gst_bridge.cpp.s
 
 CMakeFiles/gst_bridge.dir/src/rosbaseiface.cpp.o: CMakeFiles/gst_bridge.dir/flags.make
-CMakeFiles/gst_bridge.dir/src/rosbaseiface.cpp.o: /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/rosbaseiface.cpp
+CMakeFiles/gst_bridge.dir/src/rosbaseiface.cpp.o: /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/rosbaseiface.cpp
 CMakeFiles/gst_bridge.dir/src/rosbaseiface.cpp.o: CMakeFiles/gst_bridge.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devuser/Workspaces/rosgsthumble_ws/build/gst_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gst_bridge.dir/src/rosbaseiface.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gst_bridge.dir/src/rosbaseiface.cpp.o -MF CMakeFiles/gst_bridge.dir/src/rosbaseiface.cpp.o.d -o CMakeFiles/gst_bridge.dir/src/rosbaseiface.cpp.o -c /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/rosbaseiface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Workspaces/rosgsthumble_ws/build/gst_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gst_bridge.dir/src/rosbaseiface.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gst_bridge.dir/src/rosbaseiface.cpp.o -MF CMakeFiles/gst_bridge.dir/src/rosbaseiface.cpp.o.d -o CMakeFiles/gst_bridge.dir/src/rosbaseiface.cpp.o -c /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/rosbaseiface.cpp
 
 CMakeFiles/gst_bridge.dir/src/rosbaseiface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gst_bridge.dir/src/rosbaseiface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/rosbaseiface.cpp > CMakeFiles/gst_bridge.dir/src/rosbaseiface.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/rosbaseiface.cpp > CMakeFiles/gst_bridge.dir/src/rosbaseiface.cpp.i
 
 CMakeFiles/gst_bridge.dir/src/rosbaseiface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gst_bridge.dir/src/rosbaseiface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/rosbaseiface.cpp -o CMakeFiles/gst_bridge.dir/src/rosbaseiface.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/rosbaseiface.cpp -o CMakeFiles/gst_bridge.dir/src/rosbaseiface.cpp.s
 
 CMakeFiles/gst_bridge.dir/src/rosbasesink.cpp.o: CMakeFiles/gst_bridge.dir/flags.make
-CMakeFiles/gst_bridge.dir/src/rosbasesink.cpp.o: /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/rosbasesink.cpp
+CMakeFiles/gst_bridge.dir/src/rosbasesink.cpp.o: /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/rosbasesink.cpp
 CMakeFiles/gst_bridge.dir/src/rosbasesink.cpp.o: CMakeFiles/gst_bridge.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devuser/Workspaces/rosgsthumble_ws/build/gst_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gst_bridge.dir/src/rosbasesink.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gst_bridge.dir/src/rosbasesink.cpp.o -MF CMakeFiles/gst_bridge.dir/src/rosbasesink.cpp.o.d -o CMakeFiles/gst_bridge.dir/src/rosbasesink.cpp.o -c /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/rosbasesink.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Workspaces/rosgsthumble_ws/build/gst_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/gst_bridge.dir/src/rosbasesink.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gst_bridge.dir/src/rosbasesink.cpp.o -MF CMakeFiles/gst_bridge.dir/src/rosbasesink.cpp.o.d -o CMakeFiles/gst_bridge.dir/src/rosbasesink.cpp.o -c /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/rosbasesink.cpp
 
 CMakeFiles/gst_bridge.dir/src/rosbasesink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gst_bridge.dir/src/rosbasesink.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/rosbasesink.cpp > CMakeFiles/gst_bridge.dir/src/rosbasesink.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/rosbasesink.cpp > CMakeFiles/gst_bridge.dir/src/rosbasesink.cpp.i
 
 CMakeFiles/gst_bridge.dir/src/rosbasesink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gst_bridge.dir/src/rosbasesink.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/rosbasesink.cpp -o CMakeFiles/gst_bridge.dir/src/rosbasesink.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/rosbasesink.cpp -o CMakeFiles/gst_bridge.dir/src/rosbasesink.cpp.s
 
 CMakeFiles/gst_bridge.dir/src/rosbasesrc.cpp.o: CMakeFiles/gst_bridge.dir/flags.make
-CMakeFiles/gst_bridge.dir/src/rosbasesrc.cpp.o: /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/rosbasesrc.cpp
+CMakeFiles/gst_bridge.dir/src/rosbasesrc.cpp.o: /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/rosbasesrc.cpp
 CMakeFiles/gst_bridge.dir/src/rosbasesrc.cpp.o: CMakeFiles/gst_bridge.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devuser/Workspaces/rosgsthumble_ws/build/gst_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/gst_bridge.dir/src/rosbasesrc.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gst_bridge.dir/src/rosbasesrc.cpp.o -MF CMakeFiles/gst_bridge.dir/src/rosbasesrc.cpp.o.d -o CMakeFiles/gst_bridge.dir/src/rosbasesrc.cpp.o -c /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/rosbasesrc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Workspaces/rosgsthumble_ws/build/gst_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/gst_bridge.dir/src/rosbasesrc.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gst_bridge.dir/src/rosbasesrc.cpp.o -MF CMakeFiles/gst_bridge.dir/src/rosbasesrc.cpp.o.d -o CMakeFiles/gst_bridge.dir/src/rosbasesrc.cpp.o -c /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/rosbasesrc.cpp
 
 CMakeFiles/gst_bridge.dir/src/rosbasesrc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gst_bridge.dir/src/rosbasesrc.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/rosbasesrc.cpp > CMakeFiles/gst_bridge.dir/src/rosbasesrc.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/rosbasesrc.cpp > CMakeFiles/gst_bridge.dir/src/rosbasesrc.cpp.i
 
 CMakeFiles/gst_bridge.dir/src/rosbasesrc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gst_bridge.dir/src/rosbasesrc.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/rosbasesrc.cpp -o CMakeFiles/gst_bridge.dir/src/rosbasesrc.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/rosbasesrc.cpp -o CMakeFiles/gst_bridge.dir/src/rosbasesrc.cpp.s
 
 # Object files for target gst_bridge
 gst_bridge_OBJECTS = \
@@ -1901,9 +1901,9 @@ libgst_bridge.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
 libgst_bridge.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libgst_bridge.so: /opt/ros/humble/lib/librosidl_typesupport_c.so
 libgst_bridge.so: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-libgst_bridge.so: /home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_generator_c.so
-libgst_bridge.so: /home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_c.so
-libgst_bridge.so: /home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_cpp.so
+libgst_bridge.so: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_generator_c.so
+libgst_bridge.so: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_c.so
+libgst_bridge.so: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_cpp.so
 libgst_bridge.so: /usr/lib/x86_64-linux-gnu/libglib-2.0.so
 libgst_bridge.so: /usr/lib/x86_64-linux-gnu/libgio-2.0.so
 libgst_bridge.so: /opt/ros/humble/lib/librcpputils.so
@@ -1940,9 +1940,9 @@ libgst_bridge.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 libgst_bridge.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 libgst_bridge.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
 libgst_bridge.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
-libgst_bridge.so: /home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_generator_c.so
-libgst_bridge.so: /home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_c.so
-libgst_bridge.so: /home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_cpp.so
+libgst_bridge.so: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_generator_c.so
+libgst_bridge.so: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_c.so
+libgst_bridge.so: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_cpp.so
 libgst_bridge.so: /usr/lib/x86_64-linux-gnu/libgio-2.0.so
 libgst_bridge.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so
 libgst_bridge.so: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so
@@ -1972,7 +1972,7 @@ libgst_bridge.so: /usr/lib/x86_64-linux-gnu/libgstreamer-1.0.so
 libgst_bridge.so: /usr/lib/x86_64-linux-gnu/libgobject-2.0.so
 libgst_bridge.so: /usr/lib/x86_64-linux-gnu/libglib-2.0.so
 libgst_bridge.so: CMakeFiles/gst_bridge.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/devuser/Workspaces/rosgsthumble_ws/build/gst_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libgst_bridge.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/Workspaces/rosgsthumble_ws/build/gst_bridge/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libgst_bridge.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gst_bridge.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1984,6 +1984,6 @@ CMakeFiles/gst_bridge.dir/clean:
 .PHONY : CMakeFiles/gst_bridge.dir/clean
 
 CMakeFiles/gst_bridge.dir/depend:
-	cd /home/devuser/Workspaces/rosgsthumble_ws/build/gst_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge /home/devuser/Workspaces/rosgsthumble_ws/build/gst_bridge /home/devuser/Workspaces/rosgsthumble_ws/build/gst_bridge /home/devuser/Workspaces/rosgsthumble_ws/build/gst_bridge/CMakeFiles/gst_bridge.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/Workspaces/rosgsthumble_ws/build/gst_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge /root/Workspaces/rosgsthumble_ws/build/gst_bridge /root/Workspaces/rosgsthumble_ws/build/gst_bridge /root/Workspaces/rosgsthumble_ws/build/gst_bridge/CMakeFiles/gst_bridge.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gst_bridge.dir/depend
 

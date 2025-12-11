@@ -1,1 +1,1 @@
-/home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs/ament_cmake_environment_hooks/pythonpath.sh
+/root/Workspaces/rosgsthumble_ws/build/audio_msgs/ament_cmake_environment_hooks/pythonpath.sh

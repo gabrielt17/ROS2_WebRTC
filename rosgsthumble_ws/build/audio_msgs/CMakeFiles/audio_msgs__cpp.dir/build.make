@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs
+CMAKE_SOURCE_DIR = /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs
+CMAKE_BINARY_DIR = /root/Workspaces/rosgsthumble_ws/build/audio_msgs
 
 # Utility rule file for audio_msgs__cpp.
 
@@ -121,8 +121,8 @@ rosidl_generator_cpp/audio_msgs/msg/audio.hpp: /opt/ros/humble/share/std_msgs/ms
 rosidl_generator_cpp/audio_msgs/msg/audio.hpp: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_cpp/audio_msgs/msg/audio.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_generator_cpp/audio_msgs/msg/audio.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/Workspaces/rosgsthumble_ws/build/audio_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /root/Workspaces/rosgsthumble_ws/build/audio_msgs/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/audio_msgs/msg/detail/audio__builder.hpp: rosidl_generator_cpp/audio_msgs/msg/audio.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/audio_msgs/msg/detail/audio__builder.hpp
@@ -154,6 +154,6 @@ CMakeFiles/audio_msgs__cpp.dir/clean:
 .PHONY : CMakeFiles/audio_msgs__cpp.dir/clean
 
 CMakeFiles/audio_msgs__cpp.dir/depend:
-	cd /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs/CMakeFiles/audio_msgs__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/Workspaces/rosgsthumble_ws/build/audio_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs /root/Workspaces/rosgsthumble_ws/build/audio_msgs /root/Workspaces/rosgsthumble_ws/build/audio_msgs /root/Workspaces/rosgsthumble_ws/build/audio_msgs/CMakeFiles/audio_msgs__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/audio_msgs__cpp.dir/depend
 

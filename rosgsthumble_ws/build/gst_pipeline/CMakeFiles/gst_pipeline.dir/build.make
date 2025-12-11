@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline
+CMAKE_SOURCE_DIR = /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline
+CMAKE_BINARY_DIR = /root/Workspaces/rosgsthumble_ws/build/gst_pipeline
 
 # Include any dependencies generated for this target.
 include CMakeFiles/gst_pipeline.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/gst_pipeline.dir/progress.make
 include CMakeFiles/gst_pipeline.dir/flags.make
 
 CMakeFiles/gst_pipeline.dir/src/gst_pipeline.cpp.o: CMakeFiles/gst_pipeline.dir/flags.make
-CMakeFiles/gst_pipeline.dir/src/gst_pipeline.cpp.o: /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline/src/gst_pipeline.cpp
+CMakeFiles/gst_pipeline.dir/src/gst_pipeline.cpp.o: /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline/src/gst_pipeline.cpp
 CMakeFiles/gst_pipeline.dir/src/gst_pipeline.cpp.o: CMakeFiles/gst_pipeline.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gst_pipeline.dir/src/gst_pipeline.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gst_pipeline.dir/src/gst_pipeline.cpp.o -MF CMakeFiles/gst_pipeline.dir/src/gst_pipeline.cpp.o.d -o CMakeFiles/gst_pipeline.dir/src/gst_pipeline.cpp.o -c /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline/src/gst_pipeline.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Workspaces/rosgsthumble_ws/build/gst_pipeline/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gst_pipeline.dir/src/gst_pipeline.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gst_pipeline.dir/src/gst_pipeline.cpp.o -MF CMakeFiles/gst_pipeline.dir/src/gst_pipeline.cpp.o.d -o CMakeFiles/gst_pipeline.dir/src/gst_pipeline.cpp.o -c /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline/src/gst_pipeline.cpp
 
 CMakeFiles/gst_pipeline.dir/src/gst_pipeline.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gst_pipeline.dir/src/gst_pipeline.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline/src/gst_pipeline.cpp > CMakeFiles/gst_pipeline.dir/src/gst_pipeline.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline/src/gst_pipeline.cpp > CMakeFiles/gst_pipeline.dir/src/gst_pipeline.cpp.i
 
 CMakeFiles/gst_pipeline.dir/src/gst_pipeline.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gst_pipeline.dir/src/gst_pipeline.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline/src/gst_pipeline.cpp -o CMakeFiles/gst_pipeline.dir/src/gst_pipeline.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline/src/gst_pipeline.cpp -o CMakeFiles/gst_pipeline.dir/src/gst_pipeline.cpp.s
 
 CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.o: CMakeFiles/gst_pipeline.dir/flags.make
-CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.o: /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline/src/syntax_sugar.cpp
+CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.o: /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline/src/syntax_sugar.cpp
 CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.o: CMakeFiles/gst_pipeline.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.o -MF CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.o.d -o CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.o -c /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline/src/syntax_sugar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Workspaces/rosgsthumble_ws/build/gst_pipeline/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.o -MF CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.o.d -o CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.o -c /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline/src/syntax_sugar.cpp
 
 CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline/src/syntax_sugar.cpp > CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline/src/syntax_sugar.cpp > CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.i
 
 CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline/src/syntax_sugar.cpp -o CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline/src/syntax_sugar.cpp -o CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.s
 
 # Object files for target gst_pipeline
 gst_pipeline_OBJECTS = \
@@ -114,7 +114,7 @@ libgst_pipeline.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastr
 libgst_pipeline.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
 libgst_pipeline.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
 libgst_pipeline.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
-libgst_pipeline.so: /home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/libgst_bridge.so
+libgst_pipeline.so: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/libgst_bridge.so
 libgst_pipeline.so: /opt/ros/humble/lib/librclcpp.so
 libgst_pipeline.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libgst_pipeline.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
@@ -124,15 +124,15 @@ libgst_pipeline.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesuppor
 libgst_pipeline.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 libgst_pipeline.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 libgst_pipeline.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
-libgst_pipeline.so: /home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_generator_c.so
-libgst_pipeline.so: /home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_fastrtps_c.so
-libgst_pipeline.so: /home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_fastrtps_cpp.so
-libgst_pipeline.so: /home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_introspection_c.so
-libgst_pipeline.so: /home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_c.so
-libgst_pipeline.so: /home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_introspection_cpp.so
-libgst_pipeline.so: /home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_cpp.so
-libgst_pipeline.so: /home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_generator_py.so
-libgst_pipeline.so: /home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_c.so
+libgst_pipeline.so: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_generator_c.so
+libgst_pipeline.so: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_fastrtps_c.so
+libgst_pipeline.so: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_fastrtps_cpp.so
+libgst_pipeline.so: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_introspection_c.so
+libgst_pipeline.so: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_c.so
+libgst_pipeline.so: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_introspection_cpp.so
+libgst_pipeline.so: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_cpp.so
+libgst_pipeline.so: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_generator_py.so
+libgst_pipeline.so: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_c.so
 libgst_pipeline.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
 libgst_pipeline.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
 libgst_pipeline.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
@@ -245,7 +245,7 @@ libgst_pipeline.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 libgst_pipeline.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 libgst_pipeline.so: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 libgst_pipeline.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
-libgst_pipeline.so: /home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_generator_c.so
+libgst_pipeline.so: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_generator_c.so
 libgst_pipeline.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
 libgst_pipeline.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 libgst_pipeline.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
@@ -255,7 +255,7 @@ libgst_pipeline.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_
 libgst_pipeline.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libgst_pipeline.so: /opt/ros/humble/lib/librcutils.so
 libgst_pipeline.so: CMakeFiles/gst_pipeline.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libgst_pipeline.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/Workspaces/rosgsthumble_ws/build/gst_pipeline/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libgst_pipeline.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gst_pipeline.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -267,6 +267,6 @@ CMakeFiles/gst_pipeline.dir/clean:
 .PHONY : CMakeFiles/gst_pipeline.dir/clean
 
 CMakeFiles/gst_pipeline.dir/depend:
-	cd /home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline /home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline /home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline /home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline/CMakeFiles/gst_pipeline.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/Workspaces/rosgsthumble_ws/build/gst_pipeline && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline /root/Workspaces/rosgsthumble_ws/build/gst_pipeline /root/Workspaces/rosgsthumble_ws/build/gst_pipeline /root/Workspaces/rosgsthumble_ws/build/gst_pipeline/CMakeFiles/gst_pipeline.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gst_pipeline.dir/depend
 

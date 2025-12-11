@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs
+CMAKE_SOURCE_DIR = /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs
+CMAKE_BINARY_DIR = /root/Workspaces/rosgsthumble_ws/build/audio_msgs
 
 # Utility rule file for audio_msgs.
 
@@ -66,7 +66,7 @@ include CMakeFiles/audio_msgs.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/audio_msgs.dir/progress.make
 
-CMakeFiles/audio_msgs: /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs/msg/Audio.msg
+CMakeFiles/audio_msgs: /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs/msg/Audio.msg
 CMakeFiles/audio_msgs: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 CMakeFiles/audio_msgs: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 CMakeFiles/audio_msgs: /opt/ros/humble/share/std_msgs/msg/Bool.idl
@@ -113,6 +113,6 @@ CMakeFiles/audio_msgs.dir/clean:
 .PHONY : CMakeFiles/audio_msgs.dir/clean
 
 CMakeFiles/audio_msgs.dir/depend:
-	cd /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs/CMakeFiles/audio_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/Workspaces/rosgsthumble_ws/build/audio_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs /root/Workspaces/rosgsthumble_ws/build/audio_msgs /root/Workspaces/rosgsthumble_ws/build/audio_msgs /root/Workspaces/rosgsthumble_ws/build/audio_msgs/CMakeFiles/audio_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/audio_msgs.dir/depend
 

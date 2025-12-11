@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs
+CMAKE_SOURCE_DIR = /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs
+CMAKE_BINARY_DIR = /root/Workspaces/rosgsthumble_ws/build/audio_msgs
 
 # Utility rule file for ament_cmake_python_symlink_audio_msgs.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_symlink_audio_msgs.dir/compiler_depend.mak
 include CMakeFiles/ament_cmake_python_symlink_audio_msgs.dir/progress.make
 
 CMakeFiles/ament_cmake_python_symlink_audio_msgs:
-	/usr/bin/cmake -E create_symlink /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs/rosidl_generator_py/audio_msgs /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs/ament_cmake_python/audio_msgs/audio_msgs
+	/usr/bin/cmake -E create_symlink /root/Workspaces/rosgsthumble_ws/build/audio_msgs/rosidl_generator_py/audio_msgs /root/Workspaces/rosgsthumble_ws/build/audio_msgs/ament_cmake_python/audio_msgs/audio_msgs
 
 ament_cmake_python_symlink_audio_msgs: CMakeFiles/ament_cmake_python_symlink_audio_msgs
 ament_cmake_python_symlink_audio_msgs: CMakeFiles/ament_cmake_python_symlink_audio_msgs.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_symlink_audio_msgs.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_symlink_audio_msgs.dir/clean
 
 CMakeFiles/ament_cmake_python_symlink_audio_msgs.dir/depend:
-	cd /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs/CMakeFiles/ament_cmake_python_symlink_audio_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/Workspaces/rosgsthumble_ws/build/audio_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs /root/Workspaces/rosgsthumble_ws/build/audio_msgs /root/Workspaces/rosgsthumble_ws/build/audio_msgs /root/Workspaces/rosgsthumble_ws/build/audio_msgs/CMakeFiles/ament_cmake_python_symlink_audio_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_symlink_audio_msgs.dir/depend
 

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DIXWEBSOCKET_USE_ZLIB
 
-CXX_INCLUDES = -I/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src
+CXX_INCLUDES = -I/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src
 
 CXX_FLAGS =  -Wall -Wextra -pedantic -fPIC -std=c++11
 

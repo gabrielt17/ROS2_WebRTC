@@ -1,8 +1,8 @@
-# Install script for directory: /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline
+# Install script for directory: /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline")
+  set(CMAKE_INSTALL_PREFIX "/root/Workspaces/rosgsthumble_ws/install/gst_pipeline")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/root/Workspaces/rosgsthumble_ws/build/gst_pipeline/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -53,12 +53,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgst_pipeline.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline/libgst_pipeline.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline/libgst_pipeline.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgst_pipeline.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgst_pipeline.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgst_pipeline.so"
-         OLD_RPATH "/opt/ros/humble/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgst_pipeline.so")
@@ -73,7 +73,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/gst_pipeline/cmake/export_gst_pipelineExport.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/gst_pipeline/cmake/export_gst_pipelineExport.cmake"
-         "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline/CMakeFiles/Export/share/gst_pipeline/cmake/export_gst_pipelineExport.cmake")
+         "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline/CMakeFiles/Export/share/gst_pipeline/cmake/export_gst_pipelineExport.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/gst_pipeline/cmake/export_gst_pipelineExport-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -82,15 +82,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gst_pipeline/cmake" TYPE FILE FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline/CMakeFiles/Export/share/gst_pipeline/cmake/export_gst_pipelineExport.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gst_pipeline/cmake" TYPE FILE FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline/CMakeFiles/Export/share/gst_pipeline/cmake/export_gst_pipelineExport.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gst_pipeline/cmake" TYPE FILE FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline/CMakeFiles/Export/share/gst_pipeline/cmake/export_gst_pipelineExport-noconfig.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gst_pipeline/cmake" TYPE FILE FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline/CMakeFiles/Export/share/gst_pipeline/cmake/export_gst_pipelineExport-noconfig.cmake")
   endif()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline/gtest/cmake_install.cmake")
+  include("/root/Workspaces/rosgsthumble_ws/build/gst_pipeline/gtest/cmake_install.cmake")
 
 endif()
 
@@ -102,5 +102,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

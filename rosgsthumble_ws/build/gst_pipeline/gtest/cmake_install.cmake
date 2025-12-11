@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline")
+  set(CMAKE_INSTALL_PREFIX "/root/Workspaces/rosgsthumble_ws/install/gst_pipeline")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

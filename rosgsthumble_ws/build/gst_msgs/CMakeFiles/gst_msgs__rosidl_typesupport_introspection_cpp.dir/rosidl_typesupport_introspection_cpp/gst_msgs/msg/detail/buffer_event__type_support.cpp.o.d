@@ -1,5 +1,5 @@
 CMakeFiles/gst_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gst_msgs/msg/detail/buffer_event__type_support.cpp.o: \
- /home/devuser/Workspaces/rosgsthumble_ws/build/gst_msgs/rosidl_typesupport_introspection_cpp/gst_msgs/msg/detail/buffer_event__type_support.cpp \
+ /root/Workspaces/rosgsthumble_ws/build/gst_msgs/rosidl_typesupport_introspection_cpp/gst_msgs/msg/detail/buffer_event__type_support.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/array \
  /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -137,7 +137,7 @@ CMakeFiles/gst_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/gst_msgs/rosidl_generator_cpp/gst_msgs/msg/detail/buffer_event__struct.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/gst_msgs/rosidl_generator_cpp/gst_msgs/msg/detail/buffer_event__struct.hpp \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \

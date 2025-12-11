@@ -1,5 +1,5 @@
 CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o: \
- /home/devuser/Workspaces/rosgsthumble_ws/src/cpp_campub/src/camera_publisher.cpp \
+ /root/Workspaces/rosgsthumble_ws/src/cpp_campub/src/camera_publisher.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \

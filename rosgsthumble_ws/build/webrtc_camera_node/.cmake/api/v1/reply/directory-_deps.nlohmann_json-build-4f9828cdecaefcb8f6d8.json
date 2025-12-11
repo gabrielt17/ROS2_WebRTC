@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/nlohmann_json-build",
+		"source" : "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src"
+	}
+}

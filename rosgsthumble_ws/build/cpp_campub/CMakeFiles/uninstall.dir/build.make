@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/devuser/Workspaces/rosgsthumble_ws/src/cpp_campub
+CMAKE_SOURCE_DIR = /root/Workspaces/rosgsthumble_ws/src/cpp_campub
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/devuser/Workspaces/rosgsthumble_ws/build/cpp_campub
+CMAKE_BINARY_DIR = /root/Workspaces/rosgsthumble_ws/build/cpp_campub
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/devuser/Workspaces/rosgsthumble_ws/build/cpp_campub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/devuser/Workspaces/rosgsthumble_ws/src/cpp_campub /home/devuser/Workspaces/rosgsthumble_ws/src/cpp_campub /home/devuser/Workspaces/rosgsthumble_ws/build/cpp_campub /home/devuser/Workspaces/rosgsthumble_ws/build/cpp_campub /home/devuser/Workspaces/rosgsthumble_ws/build/cpp_campub/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/Workspaces/rosgsthumble_ws/build/cpp_campub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Workspaces/rosgsthumble_ws/src/cpp_campub /root/Workspaces/rosgsthumble_ws/src/cpp_campub /root/Workspaces/rosgsthumble_ws/build/cpp_campub /root/Workspaces/rosgsthumble_ws/build/cpp_campub /root/Workspaces/rosgsthumble_ws/build/cpp_campub/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

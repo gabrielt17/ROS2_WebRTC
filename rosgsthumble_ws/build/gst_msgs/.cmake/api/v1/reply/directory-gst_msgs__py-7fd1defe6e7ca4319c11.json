@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "gst_msgs__py",
+		"source" : "/root/Workspaces/rosgsthumble_ws/build/gst_msgs/gst_msgs__py"
+	}
+}

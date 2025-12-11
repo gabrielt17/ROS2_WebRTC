@@ -1,8 +1,8 @@
-# Install script for directory: /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge
+# Install script for directory: /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/devuser/Workspaces/rosgsthumble_ws/install/gst_bridge")
+  set(CMAKE_INSTALL_PREFIX "/root/Workspaces/rosgsthumble_ws/install/gst_bridge")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/devuser/Workspaces/rosgsthumble_ws/build/gst_bridge/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/root/Workspaces/rosgsthumble_ws/build/gst_bridge/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -53,12 +53,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgst_bridge.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_bridge/libgst_bridge.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/root/Workspaces/rosgsthumble_ws/build/gst_bridge/libgst_bridge.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgst_bridge.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgst_bridge.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgst_bridge.so"
-         OLD_RPATH "/opt/ros/humble/lib:/home/devuser/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgst_bridge.so")
@@ -77,5 +77,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_bridge/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/root/Workspaces/rosgsthumble_ws/build/gst_bridge/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs
+CMAKE_SOURCE_DIR = /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs
+CMAKE_BINARY_DIR = /root/Workspaces/rosgsthumble_ws/build/audio_msgs
 
 # Utility rule file for audio_msgs__py.
 
@@ -119,8 +119,8 @@ rosidl_generator_py/audio_msgs/_audio_msgs_s.ep.rosidl_typesupport_fastrtps_c.c:
 rosidl_generator_py/audio_msgs/_audio_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_py/audio_msgs/_audio_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_generator_py/audio_msgs/_audio_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs/audio_msgs__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/Workspaces/rosgsthumble_ws/build/audio_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /root/Workspaces/rosgsthumble_ws/build/audio_msgs/audio_msgs__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /root/Workspaces/rosgsthumble_ws/build/audio_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/audio_msgs/_audio_msgs_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/audio_msgs/_audio_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/audio_msgs/_audio_msgs_s.ep.rosidl_typesupport_introspection_c.c
@@ -152,10 +152,10 @@ audio_msgs__py/CMakeFiles/audio_msgs__py.dir/build: audio_msgs__py
 .PHONY : audio_msgs__py/CMakeFiles/audio_msgs__py.dir/build
 
 audio_msgs__py/CMakeFiles/audio_msgs__py.dir/clean:
-	cd /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs/audio_msgs__py && $(CMAKE_COMMAND) -P CMakeFiles/audio_msgs__py.dir/cmake_clean.cmake
+	cd /root/Workspaces/rosgsthumble_ws/build/audio_msgs/audio_msgs__py && $(CMAKE_COMMAND) -P CMakeFiles/audio_msgs__py.dir/cmake_clean.cmake
 .PHONY : audio_msgs__py/CMakeFiles/audio_msgs__py.dir/clean
 
 audio_msgs__py/CMakeFiles/audio_msgs__py.dir/depend:
-	cd /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs/audio_msgs__py /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs/audio_msgs__py /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs/audio_msgs__py/CMakeFiles/audio_msgs__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/Workspaces/rosgsthumble_ws/build/audio_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs /root/Workspaces/rosgsthumble_ws/build/audio_msgs/audio_msgs__py /root/Workspaces/rosgsthumble_ws/build/audio_msgs /root/Workspaces/rosgsthumble_ws/build/audio_msgs/audio_msgs__py /root/Workspaces/rosgsthumble_ws/build/audio_msgs/audio_msgs__py/CMakeFiles/audio_msgs__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : audio_msgs__py/CMakeFiles/audio_msgs__py.dir/depend
 

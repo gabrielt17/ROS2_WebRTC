@@ -9,19 +9,19 @@ services:
     privileged: true
 
     environment:
-      - DISPLAY=${DISPLAY}
+      - DISPLAY=:0
       - WAYLAND_DISPLAY=${WAYLAND_DISPLAY}
-      - XDG_RUNTIME_DIR=${XDG_RUNTIME_DIR}
-      - PIPEWIRE_RUNTIME_DIR=${XDG_RUNTIME_DIR}
+      - XDG_RUNTIME_DIR=/run/user/1001
+      - PIPEWIRE_RUNTIME_DIR=/run/user/1001
       
     devices:
       - /dev/dri:/dev/dri
       - /dev/snd
 
     volumes:
-      - .:/home/devuser/Workspaces:cached
+      - /home/gabrielt/Documentos/Códigos/ROS2_WebRTC/rosgsthumble_ws:/root/Workspaces/rosgsthumble_ws
       - /tmp/.X11-unix:/tmp/.X11-unix
-      - ${HOME}/.Xauthority:/home/devuser/.Xauthority:ro
-      - ${XDG_RUNTIME_DIR}:${XDG_RUNTIME_DIR}
+      - /home/gabrielt/.Xauthority:/root/.Xauthority:ro
+      - /run/user/1001:/run/user/1001:rw
       
     command: sleep infinity

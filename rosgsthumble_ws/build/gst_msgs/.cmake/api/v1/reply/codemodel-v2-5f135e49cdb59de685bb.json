@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-a9d3045f884ee0cc78a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "gst_msgs__py",
+					"jsonFile" : "directory-gst_msgs__py-7fd1defe6e7ca4319c11.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/root/Workspaces/rosgsthumble_ws/build/gst_msgs/gst_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "gst_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_gst_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_gst_msgs_egg-0e0f84cd707365ca9cec.json",
+					"name" : "ament_cmake_python_build_gst_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_gst_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_gst_msgs-91ddf37ff8538d3e11f6.json",
+					"name" : "ament_cmake_python_symlink_gst_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gst_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gst_msgs-9869bb7c56a21557dcde.json",
+					"name" : "gst_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gst_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gst_msgs__cpp-682ece171d268da57c23.json",
+					"name" : "gst_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gst_msgs__py::@6ec66b472f1b3625dd9f",
+					"jsonFile" : "target-gst_msgs__py-0f2e5e2fe317bb2e86bc.json",
+					"name" : "gst_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gst_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gst_msgs__rosidl_generator_c-4f94b1ed413e01475cd6.json",
+					"name" : "gst_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gst_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gst_msgs__rosidl_generator_py-30e10338dc13a32ad0da.json",
+					"name" : "gst_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gst_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gst_msgs__rosidl_typesupport_c-d7005e6682488ea2eae6.json",
+					"name" : "gst_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gst_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gst_msgs__rosidl_typesupport_c__pyext-22089d00632739d640c1.json",
+					"name" : "gst_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gst_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gst_msgs__rosidl_typesupport_cpp-d7cafc6db997f9ce56ea.json",
+					"name" : "gst_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gst_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gst_msgs__rosidl_typesupport_fastrtps_c-834144fa2a5584215617.json",
+					"name" : "gst_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gst_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gst_msgs__rosidl_typesupport_fastrtps_c__pyext-1751d35d1036ae51fb7e.json",
+					"name" : "gst_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gst_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gst_msgs__rosidl_typesupport_fastrtps_cpp-49e5856949e1522c76f1.json",
+					"name" : "gst_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gst_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gst_msgs__rosidl_typesupport_introspection_c-b6d65b2606d0454f01b0.json",
+					"name" : "gst_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gst_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gst_msgs__rosidl_typesupport_introspection_c__pyext-02713224b80571019ece.json",
+					"name" : "gst_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gst_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gst_msgs__rosidl_typesupport_introspection_cpp-8123df8a71b2ab9dc3d3.json",
+					"name" : "gst_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gst_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gst_msgs_uninstall-ee1e34591c16e118a171.json",
+					"name" : "gst_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-571ca874e911914cae2d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/Workspaces/rosgsthumble_ws/build/gst_msgs",
+		"source" : "/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

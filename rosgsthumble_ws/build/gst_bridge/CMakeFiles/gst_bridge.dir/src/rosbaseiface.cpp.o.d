@@ -1,7 +1,7 @@
 CMakeFiles/gst_bridge.dir/src/rosbaseiface.cpp.o: \
- /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/rosbaseiface.cpp \
+ /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/src/rosbaseiface.cpp \
  /usr/include/stdc-predef.h \
- /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/include/gst_bridge/rosbaseiface.h \
+ /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge/include/gst_bridge/rosbaseiface.h \
  /usr/include/gstreamer-1.0/gst/gst.h /usr/include/glib-2.0/glib.h \
  /usr/include/glib-2.0/glib/galloca.h /usr/include/glib-2.0/glib/gtypes.h \
  /usr/lib/x86_64-linux-gnu/glib-2.0/include/glibconfig.h \

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline/include/gst_pipeline -I/opt/ros/humble/src/gtest_vendor/. -isystem /opt/ros/humble/src/gtest_vendor/include
+CXX_INCLUDES = -I/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline/include/gst_pipeline -I/opt/ros/humble/src/gtest_vendor/. -isystem /opt/ros/humble/src/gtest_vendor/include
 
 CXX_FLAGS = -Wall -Wextra -Wpedantic
 

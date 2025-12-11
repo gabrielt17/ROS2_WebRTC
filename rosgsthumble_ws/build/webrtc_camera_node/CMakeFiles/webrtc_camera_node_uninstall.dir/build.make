@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node
+CMAKE_SOURCE_DIR = /root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node
+CMAKE_BINARY_DIR = /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node
 
 # Utility rule file for webrtc_camera_node_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/webrtc_camera_node_uninstall.dir/compiler_depend.make
 include CMakeFiles/webrtc_camera_node_uninstall.dir/progress.make
 
 CMakeFiles/webrtc_camera_node_uninstall:
-	/usr/bin/cmake -P /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 webrtc_camera_node_uninstall: CMakeFiles/webrtc_camera_node_uninstall
 webrtc_camera_node_uninstall: CMakeFiles/webrtc_camera_node_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/webrtc_camera_node_uninstall.dir/clean:
 .PHONY : CMakeFiles/webrtc_camera_node_uninstall.dir/clean
 
 CMakeFiles/webrtc_camera_node_uninstall.dir/depend:
-	cd /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node /home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/CMakeFiles/webrtc_camera_node_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node /root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/CMakeFiles/webrtc_camera_node_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/webrtc_camera_node_uninstall.dir/depend
 

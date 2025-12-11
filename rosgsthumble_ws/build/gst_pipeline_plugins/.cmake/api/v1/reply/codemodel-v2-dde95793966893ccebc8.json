@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-03f38eba7ac2ac9e1505.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gst_pipeline_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gst_pipeline_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gst_pipeline_plugins-560c26dadf04529e0604.json",
+					"name" : "gst_pipeline_plugins",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gst_pipeline_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gst_pipeline_plugins_uninstall-eb42625ffc313b06619e.json",
+					"name" : "gst_pipeline_plugins_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-487740d0f8073366b077.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins",
+		"source" : "/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

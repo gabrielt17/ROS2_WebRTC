@@ -4,14 +4,13 @@ FROM osrf/ros:humble-desktop-full
 ENV DEBIAN_FRONTEND=noninteractive
 
 # Argumentos para criar um usuário com o mesmo UID/GID do host
-ARG USER_UID=1000
-ARG USER_GID=1000
-ARG USERNAME=devuser
+ARG USER_UID=${UID}
+ARG USER_GID=${GID}
 
 # Instala pacotes adicionais (GStreamer, WebRTC, PipeWire, ferramentas)
 RUN apt-get update && apt-get install -y --no-install-recommends \
     # Utilitários de compilação e debug
-    sudo git wget curl nano bash-completion build-essential cmake pkg-config gdb \
+    git wget curl nano bash-completion build-essential cmake pkg-config gdb \
     cppcheck valgrind \
     \
     # Python + pip (removido python3-websockets do apt)
@@ -77,31 +76,17 @@ ENV OPENSSL_CONF=/etc/ssl/openssl_legacy.cnf
 # Instala a versão 10.4 do websockets via pip
 RUN python3 -m pip install --no-cache-dir websockets==10.4
 
-# Script para criar usuário com UID/GID igual ao host
-RUN set -x && \
-    if getent passwd ${USER_UID} >/dev/null 2>&1; then deluser --remove-home $(getent passwd ${USER_UID} | cut -d: -f1); fi && \
-    if getent group ${USER_GID} >/dev/null 2>&1; then delgroup $(getent group ${USER_GID} | cut -d: -f1); fi && \
-    groupadd --gid ${USER_GID} ${USERNAME} && \
-    useradd --uid ${USER_UID} --gid ${USER_GID} -m -s /bin/bash ${USERNAME} && \
-    usermod -aG sudo ${USERNAME} && \
-    echo "${USERNAME} ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/${USERNAME}
-
-RUN groupadd --gid 985 dri && groupadd --gid 989 render && \
-    usermod -aG dri,render,video ${USERNAME}
-
 # Volta ao workspace
-WORKDIR /home/${USERNAME}/Workspaces
-
-USER ${USERNAME}
+WORKDIR /root/Workspaces
 
 # Inicializa rosdep
 RUN rosdep update
 
 # Garante o ambiente ROS em shells interativos
 RUN echo "source /opt/ros/humble/setup.bash" \
-    >> /home/${USERNAME}/.bashrc \
-    && echo "source /home/${USERNAME}/Workspaces/rosgsthumble_ws/install/setup.bash" \
-    >> /home/${USERNAME}/.bashrc
+    >> /root/.bashrc \
+    && echo "source /root/Workspaces/rosgsthumble_ws/install/setup.bash" \
+    >> /root/.bashrc
 
 ENV PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig:$PKG_CONFIG_PATH
 

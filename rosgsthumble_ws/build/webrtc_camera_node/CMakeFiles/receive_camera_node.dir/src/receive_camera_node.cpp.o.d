@@ -1,5 +1,5 @@
 CMakeFiles/receive_camera_node.dir/src/receive_camera_node.cpp.o: \
- /home/devuser/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/receive_camera_node.cpp \
+ /root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/receive_camera_node.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
@@ -821,11 +821,11 @@ CMakeFiles/receive_camera_node.dir/src/receive_camera_node.cpp.o: \
  /usr/include/gstreamer-1.0/gst/webrtc/rtpsender.h \
  /usr/include/gstreamer-1.0/gst/webrtc/rtptransceiver.h \
  /usr/include/gstreamer-1.0/gst/webrtc/datachannel.h \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/json.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/json.hpp \
  /usr/include/c++/11/cstddef \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/adl_serializer.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/abi_macros.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/conversions/from_json.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/adl_serializer.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/abi_macros.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/conversions/from_json.hpp \
  /usr/include/c++/11/forward_list /usr/include/c++/11/bits/forward_list.h \
  /usr/include/c++/11/bits/forward_list.tcc /usr/include/c++/11/valarray \
  /usr/include/c++/11/bits/valarray_array.h \
@@ -837,71 +837,71 @@ CMakeFiles/receive_camera_node.dir/src/receive_camera_node.cpp.o: \
  /usr/include/c++/11/bits/gslice_array.h \
  /usr/include/c++/11/bits/mask_array.h \
  /usr/include/c++/11/bits/indirect_array.h \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/exceptions.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/value_t.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/macro_scope.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/meta/detected.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/meta/void_t.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/thirdparty/hedley/hedley.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/exceptions.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/value_t.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/macro_scope.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/meta/detected.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/meta/void_t.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/thirdparty/hedley/hedley.hpp \
  /usr/include/c++/11/version \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/string_escape.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/input/position_t.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/meta/cpp_future.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/meta/type_traits.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/iterators/iterator_traits.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/meta/call_std/begin.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/meta/call_std/end.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/json_fwd.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/string_concat.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/meta/identity_tag.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/meta/std_fs.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/string_escape.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/input/position_t.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/meta/cpp_future.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/meta/type_traits.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/iterators/iterator_traits.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/meta/call_std/begin.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/meta/call_std/end.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/json_fwd.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/string_concat.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/meta/identity_tag.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/meta/std_fs.hpp \
  /usr/include/c++/11/filesystem /usr/include/c++/11/bits/fs_fwd.h \
  /usr/include/c++/11/bits/fs_path.h /usr/include/c++/11/bits/fs_dir.h \
  /usr/include/c++/11/bits/fs_ops.h \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/conversions/to_json.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/iterators/iteration_proxy.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/byte_container_with_subtype.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/hash.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/input/binary_reader.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/input/input_adapters.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/input/json_sax.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/input/lexer.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/meta/is_sax.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/input/parser.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/iterators/internal_iterator.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/iterators/primitive_iterator.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/iterators/iter_impl.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/json_custom_base_class.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/json_pointer.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/json_ref.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/output/binary_writer.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/output/output_adapters.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/output/serializer.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/conversions/to_chars.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/ordered_map.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/conversions/to_json.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/byte_container_with_subtype.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/hash.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/input/binary_reader.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/input/input_adapters.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/input/json_sax.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/input/lexer.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/meta/is_sax.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/input/parser.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/iterators/internal_iterator.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/iterators/iter_impl.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/json_custom_base_class.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/json_pointer.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/json_ref.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/output/binary_writer.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/output/output_adapters.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/output/serializer.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/conversions/to_chars.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/ordered_map.hpp \
  /usr/include/c++/11/any \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/macro_unscope.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocket.h \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXProgressCallback.h \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXSocketTLSOptions.h \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketCloseConstants.h \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketErrorInfo.h \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketHttpHeaders.h \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXCancellationRequest.h \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXStrCaseCompare.h \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketMessage.h \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketCloseInfo.h \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketMessageType.h \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketOpenInfo.h \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketPerMessageDeflateOptions.h \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketSendData.h \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketSendInfo.h \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketTransport.h \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketHandshake.h \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXHttp.h \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXSocket.h \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXSelectInterrupt.h \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketInitResult.h \
- /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketPerMessageDeflate.h
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/detail/macro_unscope.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocket.h \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXProgressCallback.h \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXSocketTLSOptions.h \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketCloseConstants.h \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketErrorInfo.h \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketHttpHeaders.h \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXCancellationRequest.h \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXStrCaseCompare.h \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketMessage.h \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketCloseInfo.h \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketMessageType.h \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketOpenInfo.h \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketPerMessageDeflateOptions.h \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketSendData.h \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketSendInfo.h \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketTransport.h \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketHandshake.h \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXHttp.h \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXSocket.h \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXSelectInterrupt.h \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketInitResult.h \
+ /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketPerMessageDeflate.h

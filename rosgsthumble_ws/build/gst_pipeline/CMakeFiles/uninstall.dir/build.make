@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline
+CMAKE_SOURCE_DIR = /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline
+CMAKE_BINARY_DIR = /root/Workspaces/rosgsthumble_ws/build/gst_pipeline
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline /home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline /home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline /home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/Workspaces/rosgsthumble_ws/build/gst_pipeline && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline /root/Workspaces/rosgsthumble_ws/build/gst_pipeline /root/Workspaces/rosgsthumble_ws/build/gst_pipeline /root/Workspaces/rosgsthumble_ws/build/gst_pipeline/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/opt/ros/humble/src/gtest_vendor")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

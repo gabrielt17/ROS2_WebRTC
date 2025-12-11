@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge
+CMAKE_SOURCE_DIR = /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/devuser/Workspaces/rosgsthumble_ws/build/gst_bridge
+CMAKE_BINARY_DIR = /root/Workspaces/rosgsthumble_ws/build/gst_bridge
 
 # Utility rule file for gst_bridge_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/gst_bridge_uninstall.dir/compiler_depend.make
 include CMakeFiles/gst_bridge_uninstall.dir/progress.make
 
 CMakeFiles/gst_bridge_uninstall:
-	/usr/bin/cmake -P /home/devuser/Workspaces/rosgsthumble_ws/build/gst_bridge/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /root/Workspaces/rosgsthumble_ws/build/gst_bridge/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 gst_bridge_uninstall: CMakeFiles/gst_bridge_uninstall
 gst_bridge_uninstall: CMakeFiles/gst_bridge_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/gst_bridge_uninstall.dir/clean:
 .PHONY : CMakeFiles/gst_bridge_uninstall.dir/clean
 
 CMakeFiles/gst_bridge_uninstall.dir/depend:
-	cd /home/devuser/Workspaces/rosgsthumble_ws/build/gst_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge /home/devuser/Workspaces/rosgsthumble_ws/build/gst_bridge /home/devuser/Workspaces/rosgsthumble_ws/build/gst_bridge /home/devuser/Workspaces/rosgsthumble_ws/build/gst_bridge/CMakeFiles/gst_bridge_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/Workspaces/rosgsthumble_ws/build/gst_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge /root/Workspaces/rosgsthumble_ws/build/gst_bridge /root/Workspaces/rosgsthumble_ws/build/gst_bridge /root/Workspaces/rosgsthumble_ws/build/gst_bridge/CMakeFiles/gst_bridge_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gst_bridge_uninstall.dir/depend
 

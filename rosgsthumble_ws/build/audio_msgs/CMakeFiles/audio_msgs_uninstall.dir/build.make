@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs
+CMAKE_SOURCE_DIR = /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs
+CMAKE_BINARY_DIR = /root/Workspaces/rosgsthumble_ws/build/audio_msgs
 
 # Utility rule file for audio_msgs_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/audio_msgs_uninstall.dir/compiler_depend.make
 include CMakeFiles/audio_msgs_uninstall.dir/progress.make
 
 CMakeFiles/audio_msgs_uninstall:
-	/usr/bin/cmake -P /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /root/Workspaces/rosgsthumble_ws/build/audio_msgs/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 audio_msgs_uninstall: CMakeFiles/audio_msgs_uninstall
 audio_msgs_uninstall: CMakeFiles/audio_msgs_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/audio_msgs_uninstall.dir/clean:
 .PHONY : CMakeFiles/audio_msgs_uninstall.dir/clean
 
 CMakeFiles/audio_msgs_uninstall.dir/depend:
-	cd /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs /home/devuser/Workspaces/rosgsthumble_ws/build/audio_msgs/CMakeFiles/audio_msgs_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/Workspaces/rosgsthumble_ws/build/audio_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs /root/Workspaces/rosgsthumble_ws/build/audio_msgs /root/Workspaces/rosgsthumble_ws/build/audio_msgs /root/Workspaces/rosgsthumble_ws/build/audio_msgs/CMakeFiles/audio_msgs_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/audio_msgs_uninstall.dir/depend
 

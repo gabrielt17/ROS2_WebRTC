@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline
+CMAKE_SOURCE_DIR = /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline
+CMAKE_BINARY_DIR = /root/Workspaces/rosgsthumble_ws/build/gst_pipeline
 
 # Include any dependencies generated for this target.
 include CMakeFiles/gst_pipeline_node.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/gst_pipeline_node.dir/flags.make
 CMakeFiles/gst_pipeline_node.dir/rclcpp_components/node_main_gst_pipeline_node.cpp.o: CMakeFiles/gst_pipeline_node.dir/flags.make
 CMakeFiles/gst_pipeline_node.dir/rclcpp_components/node_main_gst_pipeline_node.cpp.o: rclcpp_components/node_main_gst_pipeline_node.cpp
 CMakeFiles/gst_pipeline_node.dir/rclcpp_components/node_main_gst_pipeline_node.cpp.o: CMakeFiles/gst_pipeline_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gst_pipeline_node.dir/rclcpp_components/node_main_gst_pipeline_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gst_pipeline_node.dir/rclcpp_components/node_main_gst_pipeline_node.cpp.o -MF CMakeFiles/gst_pipeline_node.dir/rclcpp_components/node_main_gst_pipeline_node.cpp.o.d -o CMakeFiles/gst_pipeline_node.dir/rclcpp_components/node_main_gst_pipeline_node.cpp.o -c /home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline/rclcpp_components/node_main_gst_pipeline_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/Workspaces/rosgsthumble_ws/build/gst_pipeline/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gst_pipeline_node.dir/rclcpp_components/node_main_gst_pipeline_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/gst_pipeline_node.dir/rclcpp_components/node_main_gst_pipeline_node.cpp.o -MF CMakeFiles/gst_pipeline_node.dir/rclcpp_components/node_main_gst_pipeline_node.cpp.o.d -o CMakeFiles/gst_pipeline_node.dir/rclcpp_components/node_main_gst_pipeline_node.cpp.o -c /root/Workspaces/rosgsthumble_ws/build/gst_pipeline/rclcpp_components/node_main_gst_pipeline_node.cpp
 
 CMakeFiles/gst_pipeline_node.dir/rclcpp_components/node_main_gst_pipeline_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gst_pipeline_node.dir/rclcpp_components/node_main_gst_pipeline_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline/rclcpp_components/node_main_gst_pipeline_node.cpp > CMakeFiles/gst_pipeline_node.dir/rclcpp_components/node_main_gst_pipeline_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/Workspaces/rosgsthumble_ws/build/gst_pipeline/rclcpp_components/node_main_gst_pipeline_node.cpp > CMakeFiles/gst_pipeline_node.dir/rclcpp_components/node_main_gst_pipeline_node.cpp.i
 
 CMakeFiles/gst_pipeline_node.dir/rclcpp_components/node_main_gst_pipeline_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gst_pipeline_node.dir/rclcpp_components/node_main_gst_pipeline_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline/rclcpp_components/node_main_gst_pipeline_node.cpp -o CMakeFiles/gst_pipeline_node.dir/rclcpp_components/node_main_gst_pipeline_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/Workspaces/rosgsthumble_ws/build/gst_pipeline/rclcpp_components/node_main_gst_pipeline_node.cpp -o CMakeFiles/gst_pipeline_node.dir/rclcpp_components/node_main_gst_pipeline_node.cpp.s
 
 # Object files for target gst_pipeline_node
 gst_pipeline_node_OBJECTS = \
@@ -158,7 +158,7 @@ gst_pipeline_node: /opt/ros/humble/lib/librosidl_runtime_c.so
 gst_pipeline_node: /opt/ros/humble/lib/librcutils.so
 gst_pipeline_node: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 gst_pipeline_node: CMakeFiles/gst_pipeline_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable gst_pipeline_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/Workspaces/rosgsthumble_ws/build/gst_pipeline/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable gst_pipeline_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gst_pipeline_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -170,6 +170,6 @@ CMakeFiles/gst_pipeline_node.dir/clean:
 .PHONY : CMakeFiles/gst_pipeline_node.dir/clean
 
 CMakeFiles/gst_pipeline_node.dir/depend:
-	cd /home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline /home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline /home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline /home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline/CMakeFiles/gst_pipeline_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/Workspaces/rosgsthumble_ws/build/gst_pipeline && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline /root/Workspaces/rosgsthumble_ws/build/gst_pipeline /root/Workspaces/rosgsthumble_ws/build/gst_pipeline /root/Workspaces/rosgsthumble_ws/build/gst_pipeline/CMakeFiles/gst_pipeline_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gst_pipeline_node.dir/depend
 

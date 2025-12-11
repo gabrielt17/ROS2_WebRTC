@@ -1,0 +1,101 @@
+[0.009s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/gst_bridge': AMENT_PREFIX_PATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/cpp_campub:/opt/ros/humble LD_LIBRARY_PATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/gst_bridge
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.104s] -- The CXX compiler identification is GNU 11.4.0
+[0.111s] -- Detecting C compiler ABI info
+[0.173s] -- Detecting C compiler ABI info - done
+[0.178s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.178s] -- Detecting C compile features
+[0.178s] -- Detecting C compile features - done
+[0.181s] -- Detecting CXX compiler ABI info
+[0.251s] -- Detecting CXX compiler ABI info - done
+[0.257s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.257s] -- Detecting CXX compile features
+[0.257s] -- Detecting CXX compile features - done
+[0.263s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.266s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.414s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.463s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.494s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.542s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.547s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.556s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.567s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.583s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.623s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.626s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.720s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.752s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.803s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.812s] -- Looking for pthread.h
+[0.875s] -- Looking for pthread.h - found
+[0.875s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.940s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.940s] -- Found Threads: TRUE  
+[0.981s] -- Checking for one of the modules 'gstreamer-1.0'
+[1.040s] -- Checking for one of the modules 'gstreamer-base-1.0'
+[1.095s] -- Checking for one of the modules 'gstreamer-app-1.0'
+[1.152s] -- Checking for one of the modules 'gstreamer-audio-1.0'
+[1.209s] -- Checking for one of the modules 'gstreamer-video-1.0'
+[1.372s] -- Found GLIB: /usr/include/glib-2.0;/usr/lib/x86_64-linux-gnu/glib-2.0/include (found version "2.72.4") 
+[1.372s] -- Found audio_msgs: 0.0.0 (/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake)
+[1.384s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.612s] -- Found ament_cmake_clang_format: 0.12.14 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)
+[1.668s] -- Configuring done
+[2.003s] -- Generating done
+[2.020s] -- Build files have been written to: /root/Workspaces/rosgsthumble_ws/build/gst_bridge
+[2.030s] Invoked command in '/root/Workspaces/rosgsthumble_ws/build/gst_bridge' returned '0': AMENT_PREFIX_PATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/cpp_campub:/opt/ros/humble LD_LIBRARY_PATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/gst_bridge
+[2.032s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/gst_bridge': AMENT_PREFIX_PATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/cpp_campub:/opt/ros/humble LD_LIBRARY_PATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/gst_bridge -- -j16 -l16
+[2.091s] [ 30%] [32mBuilding CXX object CMakeFiles/gst_bridge.dir/src/rosbasesink.cpp.o[0m
+[2.091s] [ 30%] [32mBuilding CXX object CMakeFiles/gst_bridge.dir/src/gst_bridge.cpp.o[0m
+[2.091s] [ 30%] [32mBuilding CXX object CMakeFiles/gst_bridge.dir/src/rosbasesrc.cpp.o[0m
+[2.091s] [ 30%] [32mBuilding CXX object CMakeFiles/gst_bridge.dir/src/rosbaseiface.cpp.o[0m
+[5.470s] [ 38%] [32m[1mLinking CXX shared library libgst_bridge.so[0m
+[6.146s] [ 38%] Built target gst_bridge
+[6.172s] [ 76%] [32mBuilding CXX object CMakeFiles/rosgstbridge.dir/src/rosimagesink.cpp.o[0m
+[6.172s] [ 76%] [32mBuilding CXX object CMakeFiles/rosgstbridge.dir/src/rosaudiosrc.cpp.o[0m
+[6.172s] [ 76%] [32mBuilding CXX object CMakeFiles/rosgstbridge.dir/src/rosgstbridgeplugin.cpp.o[0m
+[6.172s] [ 76%] [32mBuilding CXX object CMakeFiles/rosgstbridge.dir/src/rostextsink.cpp.o[0m
+[6.173s] [ 84%] [32mBuilding CXX object CMakeFiles/rosgstbridge.dir/src/rosaudiosink.cpp.o[0m
+[6.173s] [ 92%] [32mBuilding CXX object CMakeFiles/rosgstbridge.dir/src/rosimagesrc.cpp.o[0m
+[6.173s] [ 92%] [32mBuilding CXX object CMakeFiles/rosgstbridge.dir/src/rostextsrc.cpp.o[0m
+[17.903s] [100%] [32m[1mLinking CXX shared library librosgstbridge.so[0m
+[19.041s] [100%] Built target rosgstbridge
+[19.052s] Invoked command in '/root/Workspaces/rosgsthumble_ws/build/gst_bridge' returned '0': AMENT_PREFIX_PATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/cpp_campub:/opt/ros/humble LD_LIBRARY_PATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/gst_bridge -- -j16 -l16
+[19.054s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/gst_bridge': AMENT_PREFIX_PATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/cpp_campub:/opt/ros/humble LD_LIBRARY_PATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/Workspaces/rosgsthumble_ws/build/gst_bridge
+[19.060s] -- Install configuration: "RelWithDebInfo"
+[19.060s] -- Execute custom install script
+[19.061s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/environment/register_plugin.dsv
+[19.068s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/environment/library_path.sh
+[19.076s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/environment/library_path.dsv
+[19.084s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/include/gst_bridge/gst_bridge.h
+[19.092s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/include/gst_bridge/rosaudiosink.h
+[19.099s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/include/gst_bridge/rosaudiosrc.h
+[19.106s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/include/gst_bridge/rosbaseiface.h
+[19.114s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/include/gst_bridge/rosbasesink.h
+[19.122s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/include/gst_bridge/rosbasesrc.h
+[19.131s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/include/gst_bridge/rosimagesink.h
+[19.138s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/include/gst_bridge/rosimagesrc.h
+[19.146s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/include/gst_bridge/rostextsink.h
+[19.153s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/include/gst_bridge/rostextsrc.h
+[19.161s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/gst_bridge/librosgstbridge.so
+[19.170s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/ament_index/resource_index/package_run_dependencies/gst_bridge
+[19.178s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/ament_index/resource_index/parent_prefix_path/gst_bridge
+[19.186s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/environment/ament_prefix_path.sh
+[19.194s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/environment/ament_prefix_path.dsv
+[19.204s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/environment/path.sh
+[19.213s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/environment/path.dsv
+[19.222s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/local_setup.bash
+[19.231s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/local_setup.sh
+[19.239s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/local_setup.zsh
+[19.247s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/local_setup.dsv
+[19.255s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/package.dsv
+[19.263s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/ament_index/resource_index/packages/gst_bridge
+[19.270s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.278s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+[19.286s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.294s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/cmake/gst_bridgeConfig.cmake
+[19.301s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/cmake/gst_bridgeConfig-version.cmake
+[19.309s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/package.xml
+[19.317s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/libgst_bridge.so
+[19.321s] -- Set runtime path of "/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/libgst_bridge.so" to ""
+[19.323s] Invoked command in '/root/Workspaces/rosgsthumble_ws/build/gst_bridge' returned '0': AMENT_PREFIX_PATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/cpp_campub:/opt/ros/humble LD_LIBRARY_PATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/Workspaces/rosgsthumble_ws/build/gst_bridge

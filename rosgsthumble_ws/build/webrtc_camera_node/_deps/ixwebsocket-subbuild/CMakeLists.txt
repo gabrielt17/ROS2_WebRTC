@@ -22,8 +22,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(ixwebsocket-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/machinezone/IXWebSocket.git" "GIT_TAG" "v11.4.6"
-                    SOURCE_DIR          "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src"
-                    BINARY_DIR          "/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-build"
+                    SOURCE_DIR          "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src"
+                    BINARY_DIR          "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

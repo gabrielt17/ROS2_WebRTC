@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc/src/base.cpp" "CMakeFiles/gst_pipeline_plugins_webrtc.dir/src/base.cpp.o" "gcc" "CMakeFiles/gst_pipeline_plugins_webrtc.dir/src/base.cpp.o.d"
-  "/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc/src/datachannel.cpp" "CMakeFiles/gst_pipeline_plugins_webrtc.dir/src/datachannel.cpp.o" "gcc" "CMakeFiles/gst_pipeline_plugins_webrtc.dir/src/datachannel.cpp.o.d"
-  "/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc/src/websockets.cpp" "CMakeFiles/gst_pipeline_plugins_webrtc.dir/src/websockets.cpp.o" "gcc" "CMakeFiles/gst_pipeline_plugins_webrtc.dir/src/websockets.cpp.o.d"
+  "/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc/src/base.cpp" "CMakeFiles/gst_pipeline_plugins_webrtc.dir/src/base.cpp.o" "gcc" "CMakeFiles/gst_pipeline_plugins_webrtc.dir/src/base.cpp.o.d"
+  "/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc/src/datachannel.cpp" "CMakeFiles/gst_pipeline_plugins_webrtc.dir/src/datachannel.cpp.o" "gcc" "CMakeFiles/gst_pipeline_plugins_webrtc.dir/src/datachannel.cpp.o.d"
+  "/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc/src/websockets.cpp" "CMakeFiles/gst_pipeline_plugins_webrtc.dir/src/websockets.cpp.o" "gcc" "CMakeFiles/gst_pipeline_plugins_webrtc.dir/src/websockets.cpp.o.d"
   )
 
 # Targets to which this target links.

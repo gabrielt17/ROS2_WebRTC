@@ -1,7 +1,7 @@
 CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.o: \
- /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline/src/syntax_sugar.cpp \
+ /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline/src/syntax_sugar.cpp \
  /usr/include/stdc-predef.h \
- /home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline/include/gst_pipeline/syntax_sugar.h \
+ /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline/include/gst_pipeline/syntax_sugar.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

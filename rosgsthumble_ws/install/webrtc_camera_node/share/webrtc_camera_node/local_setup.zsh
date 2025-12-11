@@ -1,1 +1,1 @@
-/home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/local_setup.zsh
+/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/local_setup.zsh

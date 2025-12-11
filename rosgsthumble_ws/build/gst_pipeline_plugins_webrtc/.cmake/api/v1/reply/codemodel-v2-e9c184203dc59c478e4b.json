@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-bbac1c60526c57025f8d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gst_pipeline_plugins_webrtc",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gst_pipeline_plugins_webrtc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gst_pipeline_plugins_webrtc-d1facc1c3329cc5abaad.json",
+					"name" : "gst_pipeline_plugins_webrtc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gst_pipeline_plugins_webrtc_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gst_pipeline_plugins_webrtc_uninstall-b735b4dbad0ec6c2b1de.json",
+					"name" : "gst_pipeline_plugins_webrtc_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-809b936e5840ed30d150.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins_webrtc",
+		"source" : "/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

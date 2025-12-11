@@ -1,0 +1,152 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-acea3d4d5a312a011f4d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"build" : "_deps/nlohmann_json-build",
+					"jsonFile" : "directory-_deps.nlohmann_json-build-4f9828cdecaefcb8f6d8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src"
+				},
+				{
+					"build" : "_deps/ixwebsocket-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.ixwebsocket-build-da3ecc198b305f6ccd65.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "webrtc_camera_node",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "nlohmann_json",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "ixwebsocket",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "ixwebsocket::@4972847dd4d1b2e798b2",
+					"jsonFile" : "target-ixwebsocket-524103000b8aff3f9624.json",
+					"name" : "ixwebsocket",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "receive_camera_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-receive_camera_node-1758015f3937b6d59230.json",
+					"name" : "receive_camera_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "send_camera_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-send_camera_node-c77923bdb47f985b3ec7.json",
+					"name" : "send_camera_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2e7cc70d7e2dc68ba4d1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "webrtc_camera_node_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-webrtc_camera_node_uninstall-e2ea209f781de07aee78.json",
+					"name" : "webrtc_camera_node_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node",
+		"source" : "/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

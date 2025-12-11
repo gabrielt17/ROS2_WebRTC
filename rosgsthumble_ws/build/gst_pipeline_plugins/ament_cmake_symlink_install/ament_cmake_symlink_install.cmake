@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/devuser/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/${destination}")
+      set(destination "/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,73 +311,73 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(FILES "plugins.xml" "DESTINATION" "share/gst_pipeline_plugins/")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "plugins.xml" "DESTINATION" "share/gst_pipeline_plugins/")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "plugins.xml" "DESTINATION" "share/gst_pipeline_plugins/")
 
 # install(DIRECTORY "include/" "DESTINATION" "include")
-ament_cmake_symlink_install_directory("/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" DIRECTORY "include/" "DESTINATION" "include")
+ament_cmake_symlink_install_directory("/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" DIRECTORY "include/" "DESTINATION" "include")
 
 # install(DIRECTORY "config" "launch" "DESTINATION" "share/gst_pipeline_plugins")
-ament_cmake_symlink_install_directory("/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" DIRECTORY "config" "launch" "DESTINATION" "share/gst_pipeline_plugins")
+ament_cmake_symlink_install_directory("/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" DIRECTORY "config" "launch" "DESTINATION" "share/gst_pipeline_plugins")
 
 # install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/gst_pipeline_plugins/environment")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/gst_pipeline_plugins/environment")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/gst_pipeline_plugins/environment")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/gst_pipeline_plugins/environment")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/gst_pipeline_plugins/environment")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/gst_pipeline_plugins/environment")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/gst_pipeline_plugins/environment")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/gst_pipeline_plugins" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/gst_pipeline_plugins" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/gst_pipeline_plugins" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/gst_pipeline_plugins" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/gst_pipeline_plugins" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/gst_pipeline_plugins" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/gst_pipeline_plugins" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/gst_pipeline_plugins" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/gst_pipeline_plugins/environment")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/gst_pipeline_plugins/environment")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/gst_pipeline_plugins/environment")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/gst_pipeline_plugins/environment")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/gst_pipeline_plugins/environment")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/gst_pipeline_plugins/environment")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/gst_pipeline_plugins/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/gst_pipeline_plugins/environment")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/gst_pipeline_plugins/environment")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/gst_pipeline_plugins/environment")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/gst_pipeline_plugins/environment")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/gst_pipeline_plugins/environment")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/gst_pipeline_plugins/environment")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/gst_pipeline_plugins/environment")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/gst_pipeline_plugins")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/gst_pipeline_plugins")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/gst_pipeline_plugins")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/gst_pipeline_plugins")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/gst_pipeline_plugins")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/gst_pipeline_plugins")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/gst_pipeline_plugins")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/gst_pipeline_plugins")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/gst_pipeline_plugins")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/gst_pipeline_plugins")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/gst_pipeline_plugins")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/gst_pipeline_plugins")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/gst_pipeline_plugins")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/gst_pipeline_plugins")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/gst_pipeline_plugins")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/gst_pipeline_plugins")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/gst_pipeline_plugins")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/gst_pipeline_plugins")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/gst_pipeline_plugins")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/gst_pipeline_plugins")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_index/share/ament_index/resource_index/packages/gst_pipeline_plugins" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_index/share/ament_index/resource_index/packages/gst_pipeline_plugins" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_index/share/ament_index/resource_index/packages/gst_pipeline_plugins" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_index/share/ament_index/resource_index/packages/gst_pipeline_plugins" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_index/share/ament_index/resource_index/gst_pipeline__pluginlib__plugin/gst_pipeline_plugins" "DESTINATION" "share/ament_index/resource_index/gst_pipeline__pluginlib__plugin")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_index/share/ament_index/resource_index/gst_pipeline__pluginlib__plugin/gst_pipeline_plugins" "DESTINATION" "share/ament_index/resource_index/gst_pipeline__pluginlib__plugin")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_index/share/ament_index/resource_index/gst_pipeline__pluginlib__plugin/gst_pipeline_plugins" "DESTINATION" "share/ament_index/resource_index/gst_pipeline__pluginlib__plugin")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_index/share/ament_index/resource_index/gst_pipeline__pluginlib__plugin/gst_pipeline_plugins" "DESTINATION" "share/ament_index/resource_index/gst_pipeline__pluginlib__plugin")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/gst_pipeline_plugins/cmake")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/gst_pipeline_plugins/cmake")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/gst_pipeline_plugins/cmake")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/gst_pipeline_plugins/cmake")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/gst_pipeline_plugins/cmake")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/gst_pipeline_plugins/cmake")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/gst_pipeline_plugins/cmake")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake" "DESTINATION" "share/gst_pipeline_plugins/cmake")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/gst_pipeline_plugins/cmake")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/gst_pipeline_plugins/cmake")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/gst_pipeline_plugins/cmake")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/gst_pipeline_plugins/cmake")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/gst_pipeline_plugins/cmake")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/gst_pipeline_plugins/cmake")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/gst_pipeline_plugins/cmake")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/gst_pipeline_plugins/cmake")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_core/gst_pipeline_pluginsConfig.cmake" "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_core/gst_pipeline_pluginsConfig-version.cmake" "DESTINATION" "share/gst_pipeline_plugins/cmake")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_core/gst_pipeline_pluginsConfig.cmake" "/home/devuser/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_core/gst_pipeline_pluginsConfig-version.cmake" "DESTINATION" "share/gst_pipeline_plugins/cmake")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_core/gst_pipeline_pluginsConfig.cmake" "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_core/gst_pipeline_pluginsConfig-version.cmake" "DESTINATION" "share/gst_pipeline_plugins/cmake")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_core/gst_pipeline_pluginsConfig.cmake" "/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_core/gst_pipeline_pluginsConfig-version.cmake" "DESTINATION" "share/gst_pipeline_plugins/cmake")
 
-# install(FILES "/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins/package.xml" "DESTINATION" "share/gst_pipeline_plugins")
-ament_cmake_symlink_install_files("/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/home/devuser/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins/package.xml" "DESTINATION" "share/gst_pipeline_plugins")
+# install(FILES "/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins/package.xml" "DESTINATION" "share/gst_pipeline_plugins")
+ament_cmake_symlink_install_files("/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins" FILES "/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins/package.xml" "DESTINATION" "share/gst_pipeline_plugins")

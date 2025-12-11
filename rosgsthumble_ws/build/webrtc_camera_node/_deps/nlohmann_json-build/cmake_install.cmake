@@ -1,8 +1,8 @@
-# Install script for directory: /home/devuser/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src
+# Install script for directory: /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/devuser/Workspaces/rosgsthumble_ws/install/webrtc_camera_node")
+  set(CMAKE_INSTALL_PREFIX "/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
