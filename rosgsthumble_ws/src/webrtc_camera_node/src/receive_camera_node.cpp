@@ -10,6 +10,24 @@
 #include <glib.h>
 #include <nlohmann/json.hpp>
 #include <ixwebsocket/IXWebSocket.h>
+#include <fstream>
+#include <chrono>
+
+// --- VARIÁVEIS PARA O ESTUDO DE CASO ---
+std::ofstream csv_file;
+int frame_count = 0;
+guint64 last_bytes_received = 0;
+auto last_time_check = std::chrono::steady_clock::now();
+
+struct Metrics {
+    double fps;
+    double bitrate_kbps;
+    double jitter_sec;
+    double rtt_sec;
+    guint packets_lost;
+};
+
+Metrics current_metrics = {0.0, 0.0, 0.0, 0.0, 0};
 
 using json = nlohmann::json;
 
@@ -168,12 +186,112 @@ void sigint_handler(int) {
     rclcpp::shutdown();
 }
 
+// Variável para evitar flood de logs gigantes
+static bool debug_structure_printed = false;
+
+static void on_stats_collected(GstPromise *promise, gpointer user_data) {
+    const GstStructure *reply = gst_promise_get_reply(promise);
+    
+    // Variáveis temporárias para esta varredura
+    double found_rtt = -1.0;
+    
+    int field_count = gst_structure_n_fields(reply);
+    for (int i = 0; i < field_count; i++) {
+        const gchar *field_name = gst_structure_nth_field_name(reply, i);
+        const GValue *value = gst_structure_get_value(reply, field_name);
+        
+        if (GST_VALUE_HOLDS_STRUCTURE(value)) {
+            const GstStructure *stats = gst_value_get_structure(value);
+            
+            // 1. Busca por Jitter e Packet Loss (Geralmente no inbound-rtp)
+            if (gst_structure_has_field(stats, "jitter")) {
+                gst_structure_get_double(stats, "jitter", &current_metrics.jitter_sec);
+                
+                // Aproveita para tentar pegar perdas e bytes aqui
+                if (gst_structure_has_field(stats, "packets-lost")) {
+                    gst_structure_get_uint(stats, "packets-lost", &current_metrics.packets_lost);
+                }
+                if (gst_structure_has_field(stats, "bytes-received")) {
+                    guint64 total_bytes = 0;
+                    gst_structure_get_uint64(stats, "bytes-received", &total_bytes);
+                    if (last_bytes_received > 0 && total_bytes > last_bytes_received) {
+                        double diff = total_bytes - last_bytes_received;
+                        current_metrics.bitrate_kbps = (diff * 8.0) / 1000.0; 
+                    }
+                    last_bytes_received = total_bytes;
+                }
+            }
+            
+            // 2. BUSCA PROFUNDA PELO RTT (Em qualquer estrutura)
+            // O WebRTC pode reportar isso com nomes diferentes dependendo da versão
+            if (gst_structure_has_field(stats, "round-trip-time")) {
+                gst_structure_get_double(stats, "round-trip-time", &found_rtt);
+            }
+            else if (gst_structure_has_field(stats, "current-round-trip-time")) {
+                gst_structure_get_double(stats, "current-round-trip-time", &found_rtt);
+            }
+        }
+    }
+
+    // Atualiza a métrica global apenas se achou um valor válido
+    if (found_rtt >= 0) {
+        current_metrics.rtt_sec = found_rtt;
+    }
+
+    gst_promise_unref(promise);
+}
+
+// Timer loop para chamar a coleta a cada 1 segundo
+gboolean query_stats_loop(gpointer user_data) {
+    if (!webrtc_recv) return G_SOURCE_CONTINUE;
+
+    // 1. Calcular FPS (Baseado no contador do Probe)
+    current_metrics.fps = frame_count; 
+    frame_count = 0; // Resetar contador para o próximo segundo
+
+    // 2. Pedir stats internas do WebRTC
+    GstPromise *promise = gst_promise_new_with_change_func(on_stats_collected, NULL, NULL);
+    g_signal_emit_by_name(webrtc_recv, "get-stats", NULL, promise);
+
+    // 3. Logar no Console e no CSV
+    auto now = std::chrono::system_clock::now();
+    std::time_t now_c = std::chrono::system_clock::to_time_t(now);
+    
+    // Console
+    std::cout << "[METRICAS] FPS: " << current_metrics.fps 
+              << " | Bitrate: " << current_metrics.bitrate_kbps << " kbps"
+              << " | Jitter: " << (current_metrics.jitter_sec * 1000) << " ms"
+              << " | RTT: " << (current_metrics.rtt_sec * 1000) << " ms" 
+              << " | Pkts Lost: " << current_metrics.packets_lost << std::endl;
+
+    // CSV
+    if (csv_file.is_open()) {
+        csv_file << now_c << ","
+                 << current_metrics.fps << ","
+                 << current_metrics.bitrate_kbps << ","
+                 << current_metrics.jitter_sec << ","
+                 << current_metrics.rtt_sec << ","
+                 << current_metrics.packets_lost << "\n";
+        csv_file.flush();
+    }
+
+    return G_SOURCE_CONTINUE;
+}
+
+static GstPadProbeReturn cb_count_frames (GstPad *pad, GstPadProbeInfo *info, gpointer user_data) {
+    frame_count++;
+    return GST_PAD_PROBE_OK;
+}
+
 // -------------------- Main --------------------
 
 int main(int argc, char *argv[]) {
 
     rclcpp::init(argc, argv);
     gst_init(nullptr, nullptr);
+
+    csv_file.open("resultados_estudo.csv");
+    csv_file << "Timestamp,FPS,Bitrate_Kbps,Jitter_Sec,RTT_Sec,Packets_Lost\n";
 
     auto node = rclcpp::Node::make_shared("receive_camera_node");
     
@@ -203,12 +321,22 @@ int main(int argc, char *argv[]) {
         // 4. Conversor de cor
         "videoconvert ! video/x-raw,format=BGR ! "
         // 5. Buffer para suavizar o ROS publishing
-        "queue max-size-buffers=1 leaky=downstream ! "
+        "queue name=final_queue max-size-buffers=1 leaky=downstream ! "
         // 6. Publica no ROS
         "rosimagesink ros-topic=\"" + camera_topic + "\"";
 
     GError* error = nullptr;
     GstElement* pipeline = gst_parse_launch(pipeline_str.c_str(), &error);
+    GstElement *final_queue = gst_bin_get_by_name(GST_BIN(pipeline), "final_queue");
+    if (final_queue) {
+        GstPad *sinkpad = gst_element_get_static_pad(final_queue, "sink");
+        gst_pad_add_probe(sinkpad, GST_PAD_PROBE_TYPE_BUFFER, cb_count_frames, NULL, NULL);
+        gst_object_unref(sinkpad);
+        gst_object_unref(final_queue);
+    } else {
+        RCLCPP_ERROR(node->get_logger(), "Não foi possível achar final_queue para medir FPS");
+    }
+
     if (!pipeline) {
         RCLCPP_ERROR(node->get_logger(), "Falha ao criar pipeline: %s", error->message);
         g_error_free(error);
@@ -331,6 +459,8 @@ int main(int argc, char *argv[]) {
 
     gst_element_set_state(pipeline, GST_STATE_PLAYING);
 
+    gst_loop_handle = g_main_loop_new(nullptr, FALSE);
+    g_timeout_add(1000, query_stats_loop, NULL);
     gst_loop_handle = g_main_loop_new(nullptr, FALSE);
     std::thread gst_thread([&]() { g_main_loop_run(gst_loop_handle); });
 
