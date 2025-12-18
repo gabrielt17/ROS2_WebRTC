@@ -82,7 +82,7 @@ ENV OPENSSL_CONF=/etc/ssl/openssl_legacy.cnf
 RUN python3 -m pip install --no-cache-dir websockets==10.4
 
 # Volta ao workspace
-WORKDIR /root/Workspaces
+WORKDIR /root/rosgsthumble_ws
 
 # Inicializa rosdep
 RUN rosdep update

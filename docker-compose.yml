@@ -19,7 +19,7 @@ services:
       - /dev/snd
 
     volumes:
-      - ./rogsthumble_ws:/root/rogsthumble_ws:rw
+      - ./rosgsthumble_ws:/root/rosgsthumble_ws:rw
       - /tmp/.X11-unix:/tmp/.X11-unix
       - /home/gabrielt/.Xauthority:/root/.Xauthority:ro
       - /run/user/1001:/run/user/1001:rw
