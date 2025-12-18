@@ -1,0 +1,60 @@
+[0.240s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/gst_bridge': CMAKE_PREFIX_PATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/opt/ros/humble/install LD_LIBRARY_PATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib PYTHONPATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/gst_bridge
+[0.703s] -- The C compiler identification is GNU 7.5.0
+[0.989s] -- The CXX compiler identification is GNU 7.5.0
+[1.109s] -- Detecting C compiler ABI info
+[1.428s] -- Detecting C compiler ABI info - done
+[1.489s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.492s] -- Detecting C compile features
+[1.494s] -- Detecting C compile features - done
+[1.563s] -- Detecting CXX compiler ABI info
+[1.911s] -- Detecting CXX compiler ABI info - done
+[1.972s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.975s] -- Detecting CXX compile features
+[1.978s] -- Detecting CXX compile features - done
+[2.024s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[2.057s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[8.418s] -- Found Python3: /usr/bin/python3.6 (found version "3.6.9") found components: Interpreter 
+[8.974s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.164s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/install/share/rclcpp/cmake)
+[9.497s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[9.540s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[9.613s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[10.020s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.199s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.779s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[10.801s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/install/share/rmw_cyclonedds_cpp/cmake)
+[11.069s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[11.126s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.432s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[11.433s] -- Looking for pthread_create in pthreads
+[11.680s] -- Looking for pthread_create in pthreads - not found
+[11.681s] -- Looking for pthread_create in pthread
+[11.949s] -- Looking for pthread_create in pthread - found
+[11.955s] -- Found Threads: TRUE  
+[13.241s] -- Checking for one of the modules 'gstreamer-1.0'
+[13.610s] -- Checking for one of the modules 'gstreamer-base-1.0'
+[13.934s] -- Checking for one of the modules 'gstreamer-app-1.0'
+[14.226s] -- Checking for one of the modules 'gstreamer-audio-1.0'
+[14.549s] -- Checking for one of the modules 'gstreamer-video-1.0'
+[15.584s] -- Found GLIB: /usr/include/glib-2.0;/usr/lib/aarch64-linux-gnu/glib-2.0/include (found version "2.56.4") 
+[15.590s] -- Found audio_msgs: 0.0.0 (/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake)
+[16.008s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/install/share/sensor_msgs/cmake)
+[17.240s] [31mCMake Error at CMakeLists.txt:132 (find_package):
+[17.241s]   By not providing "Findament_cmake_clang_format.cmake" in CMAKE_MODULE_PATH
+[17.242s]   this project has asked CMake to find a package configuration file provided
+[17.243s]   by "ament_cmake_clang_format", but CMake did not find one.
+[17.244s] 
+[17.245s]   Could not find a package configuration file provided by
+[17.246s]   "ament_cmake_clang_format" with any of the following names:
+[17.246s] 
+[17.247s]     ament_cmake_clang_formatConfig.cmake
+[17.248s]     ament_cmake_clang_format-config.cmake
+[17.249s] 
+[17.249s]   Add the installation prefix of "ament_cmake_clang_format" to
+[17.250s]   CMAKE_PREFIX_PATH or set "ament_cmake_clang_format_DIR" to a directory
+[17.251s]   containing one of the above files.  If "ament_cmake_clang_format" provides
+[17.252s]   a separate development package or SDK, be sure it has been installed.
+[17.254s] 
+[17.255s] [0m
+[17.268s] -- Configuring incomplete, errors occurred!
+[17.359s] Invoked command in '/root/Workspaces/rosgsthumble_ws/build/gst_bridge' returned '1': CMAKE_PREFIX_PATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/opt/ros/humble/install LD_LIBRARY_PATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib PYTHONPATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/gst_bridge

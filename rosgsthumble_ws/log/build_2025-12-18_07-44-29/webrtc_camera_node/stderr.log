@@ -1,0 +1,18 @@
+[01m[K/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/send_camera_node.cpp:[m[K In function ‘[01m[KGstPadProbeReturn cb_update_timestamp(GstPad*, GstPadProbeInfo*, gpointer)[m[K’:
+[01m[K/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/send_camera_node.cpp:125:10:[m[K [01;31m[Kerror: [m[K‘[01m[Ktext_overlay_element[m[K’ was not declared in this scope
+     if (![01;31m[Ktext_overlay_element[m[K) return GST_PAD_PROBE_OK;
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/send_camera_node.cpp:125:10:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kgst_bin_iterate_elements[m[K’
+     if (![01;36m[Ktext_overlay_element[m[K) return GST_PAD_PROBE_OK;
+          [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+          [32m[Kgst_bin_iterate_elements[m[K
+[01m[K/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/send_camera_node.cpp:136:18:[m[K [01;31m[Kerror: [m[K‘[01m[Ktext_overlay_element[m[K’ was not declared in this scope
+     g_object_set([01;31m[Ktext_overlay_element[m[K, "text", ss.str().c_str(), NULL);
+                  [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/send_camera_node.cpp:136:18:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kgst_bin_iterate_elements[m[K’
+     g_object_set([01;36m[Ktext_overlay_element[m[K, "text", ss.str().c_str(), NULL);
+                  [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+                  [32m[Kgst_bin_iterate_elements[m[K
+make[2]: *** [CMakeFiles/send_camera_node.dir/src/send_camera_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/send_camera_node.dir/all] Error 2
+make: *** [all] Error 2

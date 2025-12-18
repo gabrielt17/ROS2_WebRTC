@@ -1,0 +1,77 @@
+[0.675s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/realsense2_camera_msgs': /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs
+[1.069s] -- The C compiler identification is GNU 7.5.0
+[1.327s] -- The CXX compiler identification is GNU 7.5.0
+[1.420s] -- Detecting C compiler ABI info
+[1.688s] -- Detecting C compiler ABI info - done
+[1.741s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.742s] -- Detecting C compile features
+[1.745s] -- Detecting C compile features - done
+[1.802s] -- Detecting CXX compiler ABI info
+[2.114s] -- Detecting CXX compiler ABI info - done
+[2.182s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.183s] -- Detecting CXX compile features
+[2.186s] -- Detecting CXX compile features - done
+[2.209s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[8.073s] -- Found Python3: /usr/bin/python3.6 (found version "3.6.9") found components: Interpreter 
+[8.569s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.806s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/install/share/rosidl_default_generators/cmake)
+[8.844s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.901s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[9.201s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.475s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/install/share/builtin_interfaces/cmake)
+[9.638s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/install/share/std_msgs/cmake)
+[9.884s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/install/share/sensor_msgs/cmake)
+[13.831s] -- Found ament_cmake_cppcheck: 0.12.7 (/opt/ros/humble/install/share/ament_cmake_cppcheck/cmake)
+[13.848s] -- Found ament_cmake_cpplint: 0.12.7 (/opt/ros/humble/install/share/ament_cmake_cpplint/cmake)
+[13.866s] -- Found ament_cmake_uncrustify: 0.12.7 (/opt/ros/humble/install/share/ament_cmake_uncrustify/cmake)
+[13.885s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/install/share/ament_cmake_ros/cmake)
+[16.918s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[20.843s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[20.858s] [33mCMake Warning (dev) at /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[20.858s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[20.859s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[20.859s]   the cmake_policy command to set the policy and suppress this warning.
+[20.860s] 
+[20.860s] Call Stack (most recent call first):
+[20.861s]   /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[20.861s]   /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[20.862s]   CMakeLists.txt:39 (rosidl_generate_interfaces)
+[20.862s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[20.863s] [0m
+[20.972s] -- Found PythonInterp: /usr/bin/python3.6 (found suitable version "3.6.9", minimum required is "3.6") 
+[20.984s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)
+[20.986s] [33mCMake Warning (dev) at /opt/ros/humble/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[20.986s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[20.987s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[20.987s]   the cmake_policy command to set the policy and suppress this warning.
+[20.988s] 
+[20.988s] Call Stack (most recent call first):
+[20.989s]   /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[20.989s]   /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[20.990s]   /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[20.990s]   CMakeLists.txt:39 (rosidl_generate_interfaces)
+[20.991s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[20.991s] [0m
+[21.098s] [33mCMake Warning (dev) at /opt/ros/humble/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[21.099s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[21.099s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[21.100s]   the cmake_policy command to set the policy and suppress this warning.
+[21.100s] 
+[21.101s] Call Stack (most recent call first):
+[21.101s]   /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[21.102s]   /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[21.102s]   /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[21.103s]   CMakeLists.txt:39 (rosidl_generate_interfaces)
+[21.103s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[21.103s] [0m
+[21.122s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[21.122s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3.6
+[21.123s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[21.123s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so
+[21.231s] -- Found PythonExtra: .so  
+[22.332s] -- Using numpy include directory: /usr/local/lib/python3.6/dist-packages/numpy/core/include
+[22.504s] -- Found ament_cmake_flake8: 0.12.7 (/opt/ros/humble/install/share/ament_cmake_flake8/cmake)
+[22.521s] -- Found ament_cmake_pep257: 0.12.7 (/opt/ros/humble/install/share/ament_cmake_pep257/cmake)
+[22.582s] -- Configuring done (21.7s)
+[22.812s] -- Generating done (0.2s)
+[22.827s] -- Build files have been written to: /root/Workspaces/rosgsthumble_ws/build/realsense2_camera_msgs

@@ -64,7 +64,6 @@ src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/aarch64-linux-gnu/bits/wchar2.h \
  /usr/include/c++/7/bits/allocator.h \
  /usr/include/aarch64-linux-gnu/c++/7/bits/c++allocator.h \
  /usr/include/c++/7/ext/new_allocator.h \
@@ -114,21 +113,17 @@ src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/select.h \
  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
- /usr/include/aarch64-linux-gnu/bits/select2.h \
  /usr/include/aarch64-linux-gnu/sys/sysmacros.h \
  /usr/include/aarch64-linux-gnu/bits/sysmacros.h /usr/include/alloca.h \
- /usr/include/aarch64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
- /usr/include/aarch64-linux-gnu/bits/stdlib.h \
  /usr/include/c++/7/bits/std_abs.h /usr/include/c++/7/cstdio \
  /usr/include/stdio.h /usr/include/aarch64-linux-gnu/bits/libio.h \
  /usr/include/aarch64-linux-gnu/bits/_G_config.h \
  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
  /usr/include/aarch64-linux-gnu/bits/sys_errlist.h \
- /usr/include/aarch64-linux-gnu/bits/stdio.h \
- /usr/include/aarch64-linux-gnu/bits/stdio2.h /usr/include/c++/7/cerrno \
- /usr/include/errno.h /usr/include/aarch64-linux-gnu/bits/errno.h \
- /usr/include/linux/errno.h /usr/include/aarch64-linux-gnu/asm/errno.h \
+ /usr/include/c++/7/cerrno /usr/include/errno.h \
+ /usr/include/aarch64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/aarch64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/c++/7/bits/functional_hash.h \
  /usr/include/c++/7/bits/basic_string.tcc \
@@ -148,11 +143,8 @@ src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o: \
  /usr/include/c++/7/bits/stl_construct.h \
  /usr/include/c++/7/bits/uniform_int_dist.h \
  /usr/include/opencv4/opencv2/core/cvstd.hpp /usr/include/c++/7/cstring \
- /usr/include/string.h /usr/include/strings.h \
- /usr/include/aarch64-linux-gnu/bits/strings_fortified.h \
- /usr/include/aarch64-linux-gnu/bits/string_fortified.h \
- /usr/include/c++/7/cmath /usr/include/math.h \
- /usr/include/aarch64-linux-gnu/bits/math-vector.h \
+ /usr/include/string.h /usr/include/strings.h /usr/include/c++/7/cmath \
+ /usr/include/math.h /usr/include/aarch64-linux-gnu/bits/math-vector.h \
  /usr/include/aarch64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/aarch64-linux-gnu/bits/flt-eval-method.h \
  /usr/include/aarch64-linux-gnu/bits/fp-logb.h \
@@ -160,7 +152,6 @@ src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
  /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
- /usr/include/aarch64-linux-gnu/bits/mathinline.h \
  /usr/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
  /usr/include/c++/7/memory /usr/include/c++/7/bits/stl_uninitialized.h \
  /usr/include/c++/7/bits/stl_raw_storage_iter.h \

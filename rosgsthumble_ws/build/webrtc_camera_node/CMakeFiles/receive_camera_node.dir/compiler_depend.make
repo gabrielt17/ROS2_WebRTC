@@ -426,14 +426,12 @@ CMakeFiles/receive_camera_node.dir/src/receive_camera_node.cpp.o: /root/Workspac
   /usr/include/aarch64-linux-gnu/bits/math-vector.h \
   /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h \
   /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
-  /usr/include/aarch64-linux-gnu/bits/mathinline.h \
   /usr/include/aarch64-linux-gnu/bits/posix1_lim.h \
   /usr/include/aarch64-linux-gnu/bits/posix2_lim.h \
   /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/aarch64-linux-gnu/bits/sched.h \
   /usr/include/aarch64-linux-gnu/bits/select.h \
-  /usr/include/aarch64-linux-gnu/bits/select2.h \
   /usr/include/aarch64-linux-gnu/bits/setjmp.h \
   /usr/include/aarch64-linux-gnu/bits/sigaction.h \
   /usr/include/aarch64-linux-gnu/bits/sigcontext.h \
@@ -448,14 +446,8 @@ CMakeFiles/receive_camera_node.dir/src/receive_camera_node.cpp.o: /root/Workspac
   /usr/include/aarch64-linux-gnu/bits/ss_flags.h \
   /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
   /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/aarch64-linux-gnu/bits/stdio.h \
-  /usr/include/aarch64-linux-gnu/bits/stdio2.h \
   /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/aarch64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/aarch64-linux-gnu/bits/stdlib.h \
-  /usr/include/aarch64-linux-gnu/bits/string_fortified.h \
-  /usr/include/aarch64-linux-gnu/bits/strings_fortified.h \
   /usr/include/aarch64-linux-gnu/bits/sys_errlist.h \
   /usr/include/aarch64-linux-gnu/bits/sysmacros.h \
   /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
@@ -492,7 +484,6 @@ CMakeFiles/receive_camera_node.dir/src/receive_camera_node.cpp.o: /root/Workspac
   /usr/include/aarch64-linux-gnu/bits/waitflags.h \
   /usr/include/aarch64-linux-gnu/bits/waitstatus.h \
   /usr/include/aarch64-linux-gnu/bits/wchar.h \
-  /usr/include/aarch64-linux-gnu/bits/wchar2.h \
   /usr/include/aarch64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/aarch64-linux-gnu/bits/wordsize.h \
   /usr/include/aarch64-linux-gnu/bits/xopen_lim.h \
@@ -1160,6 +1151,8 @@ CMakeFiles/receive_camera_node.dir/src/receive_camera_node.cpp.o: /root/Workspac
 
 /usr/include/glib-2.0/glib/gbase64.h:
 
+/usr/include/glib-2.0/glib/gatomic.h:
+
 /usr/include/glib-2.0/glib/gasyncqueue.h:
 
 /usr/include/glib-2.0/glib/galloca.h:
@@ -1191,18 +1184,6 @@ CMakeFiles/receive_camera_node.dir/src/receive_camera_node.cpp.o: /root/Workspac
 /usr/include/ctype.h:
 
 /usr/include/c++/7/vector:
-
-/usr/include/c++/7/variant:
-
-/usr/include/c++/7/utility:
-
-/usr/include/c++/7/unordered_set:
-
-/usr/include/c++/7/typeinfo:
-
-/usr/include/c++/7/typeindex:
-
-/usr/include/c++/7/tuple:
 
 _deps/ixwebsocket-src/ixwebsocket/IXSelectInterrupt.h:
 
@@ -1247,6 +1228,8 @@ _deps/ixwebsocket-src/ixwebsocket/IXSelectInterrupt.h:
 /opt/ros/humble/install/include/rcutils/rcutils/types/hash_map.h:
 
 /usr/include/c++/7/bits/stl_iterator_base_funcs.h:
+
+/usr/include/c++/7/variant:
 
 /opt/ros/humble/install/include/rmw/rmw/subscription_content_filter_options.h:
 
@@ -1682,6 +1665,8 @@ _deps/ixwebsocket-src/ixwebsocket/IXWebSocketPerMessageDeflate.h:
 
 /opt/ros/humble/install/include/rcl/rcl/wait.h:
 
+/usr/include/c++/7/tuple:
+
 /usr/include/gstreamer-1.0/gst/gstcontrolsource.h:
 
 /opt/ros/humble/install/include/rcutils/rcutils/qsort.h:
@@ -1828,8 +1813,6 @@ _deps/ixwebsocket-src/ixwebsocket/IXWebSocketInitResult.h:
 
 /usr/include/glib-2.0/gobject/gparamspecs.h:
 
-/usr/include/aarch64-linux-gnu/bits/mathinline.h:
-
 /opt/ros/humble/install/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:
 
 /usr/include/gstreamer-1.0/gst/sdp/sdp-prelude.h:
@@ -1843,6 +1826,8 @@ _deps/ixwebsocket-src/ixwebsocket/IXWebSocketInitResult.h:
 /opt/ros/humble/install/include/rcutils/rcutils/types/array_list.h:
 
 /usr/include/c++/7/bits/codecvt.h:
+
+/usr/include/c++/7/unordered_set:
 
 /opt/ros/humble/install/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp:
 
@@ -1890,8 +1875,6 @@ _deps/ixwebsocket-src/ixwebsocket/IXSocketTLSOptions.h:
 
 /opt/ros/humble/install/include/rmw/rmw/message_sequence.h:
 
-/usr/include/aarch64-linux-gnu/bits/strings_fortified.h:
-
 _deps/ixwebsocket-src/ixwebsocket/IXCancellationRequest.h:
 
 /opt/ros/humble/install/include/rclcpp/rclcpp/clock.hpp:
@@ -1910,11 +1893,11 @@ _deps/ixwebsocket-src/ixwebsocket/IXCancellationRequest.h:
 
 /opt/ros/humble/install/include/rcl/rcl/network_flow_endpoints.h:
 
+/usr/include/c++/7/typeindex:
+
 /usr/include/glib-2.0/glib/gqsort.h:
 
 /opt/ros/humble/install/include/rclcpp/rclcpp/publisher.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/wchar2.h:
 
 /opt/ros/humble/install/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp:
 
@@ -2184,10 +2167,6 @@ _deps/ixwebsocket-src/ixwebsocket/IXWebSocketTransport.h:
 
 _deps/nlohmann_json-src/include/nlohmann/byte_container_with_subtype.hpp:
 
-/usr/include/c++/7/unordered_map:
-
-_deps/nlohmann_json-src/include/nlohmann/detail/conversions/from_json.hpp:
-
 /usr/include/c++/7/bits/gslice_array.h:
 
 /usr/include/c++/7/set:
@@ -2360,12 +2339,6 @@ _deps/nlohmann_json-src/include/nlohmann/detail/meta/detected.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h:
 
-/usr/include/glib-2.0/glib/gatomic.h:
-
-/usr/include/aarch64-linux-gnu/bits/select2.h:
-
-/usr/include/asm-generic/bitsperlong.h:
-
 /opt/ros/humble/install/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp:
 
 /root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/receive_camera_node.cpp:
@@ -2402,23 +2375,15 @@ _deps/nlohmann_json-src/include/nlohmann/detail/meta/detected.hpp:
 
 /usr/include/c++/7/ios:
 
-/usr/include/aarch64-linux-gnu/bits/stdio.h:
-
-/usr/include/aarch64-linux-gnu/bits/stdio2.h:
-
 /opt/ros/humble/install/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/math-vector.h:
 
 /usr/include/aarch64-linux-gnu/bits/stdio_lim.h:
 
-/usr/include/aarch64-linux-gnu/bits/stdlib-bsearch.h:
-
 /opt/ros/humble/install/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/aarch64-linux-gnu/bits/stdlib.h:
 
 /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h:
 
@@ -2526,10 +2491,6 @@ _deps/ixwebsocket-src/ixwebsocket/IXWebSocketErrorInfo.h:
 
 /usr/include/aarch64-linux-gnu/c++/7/bits/time_members.h:
 
-/usr/include/c++/7/valarray:
-
-/usr/include/c++/7/stdexcept:
-
 /usr/include/aarch64-linux-gnu/sys/select.h:
 
 /usr/include/c++/7/string_view:
@@ -2561,6 +2522,8 @@ _deps/nlohmann_json-src/include/nlohmann/json_fwd.hpp:
 /usr/include/c++/7/iterator:
 
 /usr/include/alloca.h:
+
+/usr/include/asm-generic/bitsperlong.h:
 
 /usr/include/gstreamer-1.0/gst/gstelementfactory.h:
 
@@ -2671,8 +2634,6 @@ _deps/nlohmann_json-src/include/nlohmann/json_fwd.hpp:
 /opt/ros/humble/install/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:
 
 /usr/include/c++/7/bits/refwrap.h:
-
-/usr/include/aarch64-linux-gnu/bits/string_fortified.h:
 
 /usr/include/c++/7/bits/shared_ptr_base.h:
 
@@ -2800,10 +2761,6 @@ _deps/nlohmann_json-src/include/nlohmann/detail/conversions/to_json.hpp:
 
 /usr/include/c++/7/tr1/modified_bessel_func.tcc:
 
-/usr/include/c++/7/type_traits:
-
-/usr/include/c++/7/tr1/poly_laguerre.tcc:
-
 /usr/include/gstreamer-1.0/gst/gsttracerrecord.h:
 
 /usr/include/glib-2.0/glib/gversion.h:
@@ -2813,3 +2770,19 @@ _deps/nlohmann_json-src/include/nlohmann/detail/conversions/to_json.hpp:
 /opt/ros/humble/install/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp:
 
 /usr/include/c++/7/tr1/special_function_util.h:
+
+/usr/include/c++/7/tr1/poly_laguerre.tcc:
+
+/usr/include/c++/7/type_traits:
+
+/usr/include/c++/7/typeinfo:
+
+_deps/nlohmann_json-src/include/nlohmann/detail/conversions/from_json.hpp:
+
+/usr/include/c++/7/unordered_map:
+
+/usr/include/c++/7/utility:
+
+/usr/include/c++/7/stdexcept:
+
+/usr/include/c++/7/valarray:

@@ -28,7 +28,6 @@ src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/aarch64-linux-gnu/bits/wchar2.h \
  /usr/include/c++/7/exception /usr/include/c++/7/bits/exception.h \
  /usr/include/c++/7/bits/exception_ptr.h \
  /usr/include/c++/7/bits/exception_defines.h \
@@ -105,21 +104,17 @@ src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/select.h \
  /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
- /usr/include/aarch64-linux-gnu/bits/select2.h \
  /usr/include/aarch64-linux-gnu/sys/sysmacros.h \
  /usr/include/aarch64-linux-gnu/bits/sysmacros.h /usr/include/alloca.h \
- /usr/include/aarch64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
- /usr/include/aarch64-linux-gnu/bits/stdlib.h \
  /usr/include/c++/7/bits/std_abs.h /usr/include/c++/7/cstdio \
  /usr/include/stdio.h /usr/include/aarch64-linux-gnu/bits/libio.h \
  /usr/include/aarch64-linux-gnu/bits/_G_config.h \
  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
  /usr/include/aarch64-linux-gnu/bits/sys_errlist.h \
- /usr/include/aarch64-linux-gnu/bits/stdio.h \
- /usr/include/aarch64-linux-gnu/bits/stdio2.h /usr/include/c++/7/cerrno \
- /usr/include/errno.h /usr/include/aarch64-linux-gnu/bits/errno.h \
- /usr/include/linux/errno.h /usr/include/aarch64-linux-gnu/asm/errno.h \
+ /usr/include/c++/7/cerrno /usr/include/errno.h \
+ /usr/include/aarch64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/aarch64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/c++/7/bits/functional_hash.h \
  /usr/include/c++/7/bits/basic_string.tcc \
@@ -154,16 +149,12 @@ src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o: \
  /usr/include/python3.6m/patchlevel.h /usr/include/python3.6m/Python.h \
  /usr/include/python3.6m/patchlevel.h /usr/include/python3.6m/pyconfig.h \
  /usr/include/python3.6m/pymacconfig.h /usr/include/string.h \
- /usr/include/strings.h \
- /usr/include/aarch64-linux-gnu/bits/strings_fortified.h \
- /usr/include/aarch64-linux-gnu/bits/string_fortified.h \
- /usr/include/c++/7/stdlib.h /usr/include/unistd.h \
+ /usr/include/strings.h /usr/include/c++/7/stdlib.h /usr/include/unistd.h \
  /usr/include/aarch64-linux-gnu/bits/posix_opt.h \
  /usr/include/aarch64-linux-gnu/bits/environments.h \
  /usr/include/aarch64-linux-gnu/bits/confname.h \
  /usr/include/aarch64-linux-gnu/bits/getopt_posix.h \
- /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
- /usr/include/aarch64-linux-gnu/bits/unistd.h /usr/include/crypt.h \
+ /usr/include/aarch64-linux-gnu/bits/getopt_core.h /usr/include/crypt.h \
  /usr/include/assert.h /usr/include/python3.6m/pyport.h \
  /usr/include/inttypes.h /usr/include/c++/7/math.h \
  /usr/include/c++/7/cmath /usr/include/math.h \
@@ -175,7 +166,6 @@ src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
  /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
- /usr/include/aarch64-linux-gnu/bits/mathinline.h \
  /usr/include/aarch64-linux-gnu/sys/time.h \
  /usr/include/aarch64-linux-gnu/sys/stat.h \
  /usr/include/aarch64-linux-gnu/bits/stat.h \

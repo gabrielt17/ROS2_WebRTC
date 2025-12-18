@@ -1,0 +1,3 @@
+Invoking command in '/root/Workspaces/rosgsthumble_ws/build/gst_msgs': /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/gst_msgs
+Invoked command in '/root/Workspaces/rosgsthumble_ws/build/gst_msgs' returned '0': /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/gst_msgs
+Invoking command in '/root/Workspaces/rosgsthumble_ws/build/gst_msgs': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/gst_msgs -- -j4 -l4

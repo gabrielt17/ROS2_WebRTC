@@ -1,0 +1,1 @@
+Invoking command in '/root/Workspaces/rosgsthumble_ws/build/realsense2_camera_msgs': /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs

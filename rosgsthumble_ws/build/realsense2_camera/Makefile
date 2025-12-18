@@ -223,6 +223,45 @@ realsense2_camera_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/realsense2_camera_node.dir/build.make CMakeFiles/realsense2_camera_node.dir/build
 .PHONY : realsense2_camera_node/fast
 
+#=============================================================================
+# Target rules for targets named gtest_template
+
+# Build rule for target.
+gtest_template: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_template
+.PHONY : gtest_template
+
+# fast build rule for target.
+gtest_template/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_template.dir/build.make CMakeFiles/gtest_template.dir/build
+.PHONY : gtest_template/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
 rclcpp_components/node_main_realsense2_camera_node.o: rclcpp_components/node_main_realsense2_camera_node.cpp.o
 .PHONY : rclcpp_components/node_main_realsense2_camera_node.o
 
@@ -559,6 +598,30 @@ src/tfs.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/realsense2_camera.dir/build.make CMakeFiles/realsense2_camera.dir/src/tfs.cpp.s
 .PHONY : src/tfs.cpp.s
 
+test/gtest_template.o: test/gtest_template.cpp.o
+.PHONY : test/gtest_template.o
+
+# target to build an object file
+test/gtest_template.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_template.dir/build.make CMakeFiles/gtest_template.dir/test/gtest_template.cpp.o
+.PHONY : test/gtest_template.cpp.o
+
+test/gtest_template.i: test/gtest_template.cpp.i
+.PHONY : test/gtest_template.i
+
+# target to preprocess a source file
+test/gtest_template.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_template.dir/build.make CMakeFiles/gtest_template.dir/test/gtest_template.cpp.i
+.PHONY : test/gtest_template.cpp.i
+
+test/gtest_template.s: test/gtest_template.cpp.s
+.PHONY : test/gtest_template.s
+
+# target to generate assembly for a file
+test/gtest_template.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gtest_template.dir/build.make CMakeFiles/gtest_template.dir/test/gtest_template.cpp.s
+.PHONY : test/gtest_template.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -574,6 +637,9 @@ help:
 	@echo "... test"
 	@echo "... realsense2_camera_uninstall"
 	@echo "... uninstall"
+	@echo "... gtest"
+	@echo "... gtest_main"
+	@echo "... gtest_template"
 	@echo "... realsense2_camera"
 	@echo "... realsense2_camera_node"
 	@echo "... rclcpp_components/node_main_realsense2_camera_node.o"
@@ -618,6 +684,9 @@ help:
 	@echo "... src/tfs.o"
 	@echo "... src/tfs.i"
 	@echo "... src/tfs.s"
+	@echo "... test/gtest_template.o"
+	@echo "... test/gtest_template.i"
+	@echo "... test/gtest_template.s"
 .PHONY : help
 
 

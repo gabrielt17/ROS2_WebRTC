@@ -65,10 +65,11 @@ CMAKE_BINARY_DIR = /root/Workspaces/rosgsthumble_ws/build/xacro
 # The main recursive "all" target.
 all: CMakeFiles/ament_cmake_python_build_xacro_egg.dir/all
 all: CMakeFiles/ament_cmake_python_build_xacro_scripts.dir/all
+all: test/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: test/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -78,7 +79,23 @@ clean: CMakeFiles/ament_cmake_python_symlink_xacro.dir/clean
 clean: CMakeFiles/ament_cmake_python_symlink_xacro_setup.dir/clean
 clean: CMakeFiles/ament_cmake_python_build_xacro_egg.dir/clean
 clean: CMakeFiles/ament_cmake_python_build_xacro_scripts.dir/clean
+clean: test/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory test
+
+# Recursive "all" directory target.
+test/all:
+.PHONY : test/all
+
+# Recursive "preinstall" directory target.
+test/preinstall:
+.PHONY : test/preinstall
+
+# Recursive "clean" directory target.
+test/clean:
+.PHONY : test/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/uninstall.dir

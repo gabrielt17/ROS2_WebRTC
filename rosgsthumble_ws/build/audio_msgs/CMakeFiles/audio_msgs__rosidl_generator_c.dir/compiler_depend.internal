@@ -33,17 +33,10 @@ CMakeFiles/audio_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_msgs/msg/
  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h
  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h
  /usr/include/aarch64-linux-gnu/bits/select.h
- /usr/include/aarch64-linux-gnu/bits/select2.h
  /usr/include/aarch64-linux-gnu/bits/stdint-intn.h
  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h
- /usr/include/aarch64-linux-gnu/bits/stdio.h
- /usr/include/aarch64-linux-gnu/bits/stdio2.h
  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h
- /usr/include/aarch64-linux-gnu/bits/stdlib-bsearch.h
  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h
- /usr/include/aarch64-linux-gnu/bits/stdlib.h
- /usr/include/aarch64-linux-gnu/bits/string_fortified.h
- /usr/include/aarch64-linux-gnu/bits/strings_fortified.h
  /usr/include/aarch64-linux-gnu/bits/sys_errlist.h
  /usr/include/aarch64-linux-gnu/bits/sysmacros.h
  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h

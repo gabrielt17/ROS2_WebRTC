@@ -47,7 +47,6 @@ CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
  /usr/include/aarch64-linux-gnu/sys/select.h \
  /usr/include/aarch64-linux-gnu/bits/select.h \
- /usr/include/aarch64-linux-gnu/bits/select2.h \
  /usr/include/aarch64-linux-gnu/sys/types.h \
  /usr/include/aarch64-linux-gnu/bits/types/clock_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/clockid_t.h \
@@ -111,7 +110,6 @@ CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/types/FILE.h \
  /usr/include/aarch64-linux-gnu/bits/types/locale_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/aarch64-linux-gnu/bits/wchar2.h \
  /usr/include/c++/7/ext/atomicity.h \
  /usr/include/aarch64-linux-gnu/c++/7/bits/gthr.h \
  /usr/include/aarch64-linux-gnu/c++/7/bits/gthr-default.h \
@@ -147,18 +145,15 @@ CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.o: \
  /usr/include/c++/7/ext/string_conversions.h /usr/include/c++/7/cstdlib \
  /usr/include/stdlib.h /usr/include/aarch64-linux-gnu/bits/waitflags.h \
  /usr/include/aarch64-linux-gnu/bits/waitstatus.h /usr/include/alloca.h \
- /usr/include/aarch64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
- /usr/include/aarch64-linux-gnu/bits/stdlib.h \
  /usr/include/c++/7/bits/std_abs.h /usr/include/c++/7/cstdio \
  /usr/include/stdio.h /usr/include/aarch64-linux-gnu/bits/libio.h \
  /usr/include/aarch64-linux-gnu/bits/_G_config.h \
  /usr/include/aarch64-linux-gnu/bits/stdio_lim.h \
  /usr/include/aarch64-linux-gnu/bits/sys_errlist.h \
- /usr/include/aarch64-linux-gnu/bits/stdio.h \
- /usr/include/aarch64-linux-gnu/bits/stdio2.h /usr/include/c++/7/cerrno \
- /usr/include/errno.h /usr/include/aarch64-linux-gnu/bits/errno.h \
- /usr/include/linux/errno.h /usr/include/aarch64-linux-gnu/asm/errno.h \
+ /usr/include/c++/7/cerrno /usr/include/errno.h \
+ /usr/include/aarch64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/aarch64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/c++/7/bits/basic_string.tcc \
  /usr/include/c++/7/bits/invoke.h /usr/include/c++/7/bits/shared_ptr.h \
@@ -240,8 +235,6 @@ CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.o: \
  /opt/ros/humble/install/include/rcutils/rcutils/logging.h \
  /opt/ros/humble/install/include/rcutils/rcutils/error_handling.h \
  /usr/include/c++/7/stdlib.h /usr/include/string.h /usr/include/strings.h \
- /usr/include/aarch64-linux-gnu/bits/strings_fortified.h \
- /usr/include/aarch64-linux-gnu/bits/string_fortified.h \
  /opt/ros/humble/install/include/rcutils/rcutils/snprintf.h \
  /opt/ros/humble/install/include/rcutils/rcutils/time.h \
  /opt/ros/humble/install/include/rcutils/rcutils/types.h \
@@ -439,7 +432,6 @@ CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/aarch64-linux-gnu/bits/mathcalls.h \
  /usr/include/aarch64-linux-gnu/bits/iscanonical.h \
- /usr/include/aarch64-linux-gnu/bits/mathinline.h \
  /usr/include/c++/7/bits/specfun.h /usr/include/c++/7/tr1/gamma.tcc \
  /usr/include/c++/7/tr1/special_function_util.h \
  /usr/include/c++/7/tr1/bessel_function.tcc \

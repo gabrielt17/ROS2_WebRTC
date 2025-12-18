@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:133 (ament_clang_format):
+  Unknown CMake command "ament_clang_format".
+
+[0m

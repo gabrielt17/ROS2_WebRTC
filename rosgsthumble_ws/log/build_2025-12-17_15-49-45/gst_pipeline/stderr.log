@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:87 (ament_add_gtest):
+  Unknown CMake command "ament_add_gtest".
+
+[0m

@@ -211,6 +211,32 @@ example/fast:
 .PHONY : example/fast
 
 #=============================================================================
+# Target rules for targets named diagnostic_updater_test
+
+# Build rule for target.
+diagnostic_updater_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 diagnostic_updater_test
+.PHONY : diagnostic_updater_test
+
+# fast build rule for target.
+diagnostic_updater_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diagnostic_updater_test.dir/build.make CMakeFiles/diagnostic_updater_test.dir/build
+.PHONY : diagnostic_updater_test/fast
+
+#=============================================================================
+# Target rules for targets named diagnostic_status_wrapper_test
+
+# Build rule for target.
+diagnostic_status_wrapper_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 diagnostic_status_wrapper_test
+.PHONY : diagnostic_status_wrapper_test
+
+# fast build rule for target.
+diagnostic_status_wrapper_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diagnostic_status_wrapper_test.dir/build.make CMakeFiles/diagnostic_status_wrapper_test.dir/build
+.PHONY : diagnostic_status_wrapper_test/fast
+
+#=============================================================================
 # Target rules for targets named ament_cmake_python_symlink_diagnostic_updater
 
 # Build rule for target.
@@ -236,6 +262,32 @@ ament_cmake_python_build_diagnostic_updater_egg/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_diagnostic_updater_egg.dir/build.make CMakeFiles/ament_cmake_python_build_diagnostic_updater_egg.dir/build
 .PHONY : ament_cmake_python_build_diagnostic_updater_egg/fast
 
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
 src/example.o: src/example.cpp.o
 .PHONY : src/example.o
 
@@ -260,6 +312,54 @@ src/example.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/src/example.cpp.s
 .PHONY : src/example.cpp.s
 
+test/diagnostic_status_wrapper_test.o: test/diagnostic_status_wrapper_test.cpp.o
+.PHONY : test/diagnostic_status_wrapper_test.o
+
+# target to build an object file
+test/diagnostic_status_wrapper_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diagnostic_status_wrapper_test.dir/build.make CMakeFiles/diagnostic_status_wrapper_test.dir/test/diagnostic_status_wrapper_test.cpp.o
+.PHONY : test/diagnostic_status_wrapper_test.cpp.o
+
+test/diagnostic_status_wrapper_test.i: test/diagnostic_status_wrapper_test.cpp.i
+.PHONY : test/diagnostic_status_wrapper_test.i
+
+# target to preprocess a source file
+test/diagnostic_status_wrapper_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diagnostic_status_wrapper_test.dir/build.make CMakeFiles/diagnostic_status_wrapper_test.dir/test/diagnostic_status_wrapper_test.cpp.i
+.PHONY : test/diagnostic_status_wrapper_test.cpp.i
+
+test/diagnostic_status_wrapper_test.s: test/diagnostic_status_wrapper_test.cpp.s
+.PHONY : test/diagnostic_status_wrapper_test.s
+
+# target to generate assembly for a file
+test/diagnostic_status_wrapper_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diagnostic_status_wrapper_test.dir/build.make CMakeFiles/diagnostic_status_wrapper_test.dir/test/diagnostic_status_wrapper_test.cpp.s
+.PHONY : test/diagnostic_status_wrapper_test.cpp.s
+
+test/diagnostic_updater_test.o: test/diagnostic_updater_test.cpp.o
+.PHONY : test/diagnostic_updater_test.o
+
+# target to build an object file
+test/diagnostic_updater_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diagnostic_updater_test.dir/build.make CMakeFiles/diagnostic_updater_test.dir/test/diagnostic_updater_test.cpp.o
+.PHONY : test/diagnostic_updater_test.cpp.o
+
+test/diagnostic_updater_test.i: test/diagnostic_updater_test.cpp.i
+.PHONY : test/diagnostic_updater_test.i
+
+# target to preprocess a source file
+test/diagnostic_updater_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diagnostic_updater_test.dir/build.make CMakeFiles/diagnostic_updater_test.dir/test/diagnostic_updater_test.cpp.i
+.PHONY : test/diagnostic_updater_test.cpp.i
+
+test/diagnostic_updater_test.s: test/diagnostic_updater_test.cpp.s
+.PHONY : test/diagnostic_updater_test.s
+
+# target to generate assembly for a file
+test/diagnostic_updater_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/diagnostic_updater_test.dir/build.make CMakeFiles/diagnostic_updater_test.dir/test/diagnostic_updater_test.cpp.s
+.PHONY : test/diagnostic_updater_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -277,10 +377,20 @@ help:
 	@echo "... ament_cmake_python_symlink_diagnostic_updater"
 	@echo "... diagnostic_updater_uninstall"
 	@echo "... uninstall"
+	@echo "... diagnostic_status_wrapper_test"
+	@echo "... diagnostic_updater_test"
 	@echo "... example"
+	@echo "... gtest"
+	@echo "... gtest_main"
 	@echo "... src/example.o"
 	@echo "... src/example.i"
 	@echo "... src/example.s"
+	@echo "... test/diagnostic_status_wrapper_test.o"
+	@echo "... test/diagnostic_status_wrapper_test.i"
+	@echo "... test/diagnostic_status_wrapper_test.s"
+	@echo "... test/diagnostic_updater_test.o"
+	@echo "... test/diagnostic_updater_test.i"
+	@echo "... test/diagnostic_updater_test.s"
 .PHONY : help
 
 

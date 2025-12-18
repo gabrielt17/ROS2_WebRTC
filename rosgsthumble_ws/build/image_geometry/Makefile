@@ -236,6 +236,45 @@ image_geometry/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_geometry.dir/build.make CMakeFiles/image_geometry.dir/build
 .PHONY : image_geometry/fast
 
+#=============================================================================
+# Target rules for targets named image_geometry-utest
+
+# Build rule for target.
+image_geometry-utest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 image_geometry-utest
+.PHONY : image_geometry-utest
+
+# fast build rule for target.
+image_geometry-utest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_geometry-utest.dir/build.make CMakeFiles/image_geometry-utest.dir/build
+.PHONY : image_geometry-utest/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
 src/pinhole_camera_model.o: src/pinhole_camera_model.cpp.o
 .PHONY : src/pinhole_camera_model.o
 
@@ -284,6 +323,30 @@ src/stereo_camera_model.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_geometry.dir/build.make CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.s
 .PHONY : src/stereo_camera_model.cpp.s
 
+test/utest.o: test/utest.cpp.o
+.PHONY : test/utest.o
+
+# target to build an object file
+test/utest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_geometry-utest.dir/build.make CMakeFiles/image_geometry-utest.dir/test/utest.cpp.o
+.PHONY : test/utest.cpp.o
+
+test/utest.i: test/utest.cpp.i
+.PHONY : test/utest.i
+
+# target to preprocess a source file
+test/utest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_geometry-utest.dir/build.make CMakeFiles/image_geometry-utest.dir/test/utest.cpp.i
+.PHONY : test/utest.cpp.i
+
+test/utest.s: test/utest.cpp.s
+.PHONY : test/utest.s
+
+# target to generate assembly for a file
+test/utest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/image_geometry-utest.dir/build.make CMakeFiles/image_geometry-utest.dir/test/utest.cpp.s
+.PHONY : test/utest.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -301,13 +364,19 @@ help:
 	@echo "... ament_cmake_python_symlink_image_geometry"
 	@echo "... image_geometry_uninstall"
 	@echo "... uninstall"
+	@echo "... gtest"
+	@echo "... gtest_main"
 	@echo "... image_geometry"
+	@echo "... image_geometry-utest"
 	@echo "... src/pinhole_camera_model.o"
 	@echo "... src/pinhole_camera_model.i"
 	@echo "... src/pinhole_camera_model.s"
 	@echo "... src/stereo_camera_model.o"
 	@echo "... src/stereo_camera_model.i"
 	@echo "... src/stereo_camera_model.s"
+	@echo "... test/utest.o"
+	@echo "... test/utest.i"
+	@echo "... test/utest.s"
 .PHONY : help
 
 

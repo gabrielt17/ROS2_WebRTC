@@ -1,0 +1,3 @@
+Invoking command in '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater': /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/diagnostics/diagnostic_updater -Wno-dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater
+Invoked command in '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater' returned '0': /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/diagnostics/diagnostic_updater -Wno-dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater
+Invoking command in '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/diagnostic_updater -- -j4 -l4

@@ -40,7 +40,7 @@ AMENT_TEST_RESULTS_DIR:PATH=/root/Workspaces/rosgsthumble_ws/build/image_geometr
 BUILD_SHARED_LIBS:BOOL=ON
 
 //Build the testing tree.
-BUILD_TESTING:BOOL=OFF
+BUILD_TESTING:BOOL=ON
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
@@ -50,7 +50,7 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=Release
+CMAKE_BUILD_TYPE:STRING=
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -394,6 +394,15 @@ CUDA_rt_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/librt.so
 //The directory containing a CMake configuration file for OpenCV.
 OpenCV_DIR:PATH=/usr/lib/cmake/opencv4
 
+//Name of the computer/site where compile is being run
+SITE:STRING=nano
+
+//Path to a file.
+_gtest_header_file:FILEPATH=/opt/ros/humble/install/src/gtest_vendor/include/gtest/gtest.h
+
+//Path to a file.
+_gtest_src_file:FILEPATH=/opt/ros/humble/install/src/gtest_vendor/src/gtest.cc
+
 //Path to a library.
 _lib:FILEPATH=/opt/ros/humble/install/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
 
@@ -468,6 +477,21 @@ fastrtps_cmake_module_DIR:PATH=/opt/ros/humble/install/share/fastrtps_cmake_modu
 
 //The directory containing a CMake configuration file for geometry_msgs.
 geometry_msgs_DIR:PATH=/opt/ros/humble/install/share/geometry_msgs/cmake
+
+//Value Computed by CMake
+gtest_BINARY_DIR:STATIC=/root/Workspaces/rosgsthumble_ws/build/image_geometry/gtest
+
+//Value Computed by CMake
+gtest_IS_TOP_LEVEL:STATIC=OFF
+
+//Dependencies for the target
+gtest_LIB_DEPENDS:STATIC=general;-pthread;
+
+//Value Computed by CMake
+gtest_SOURCE_DIR:STATIC=/opt/ros/humble/install/src/gtest_vendor
+
+//The directory containing a CMake configuration file for gtest_vendor.
+gtest_vendor_DIR:PATH=/opt/ros/humble/install/share/gtest_vendor/cmake
 
 //Value Computed by CMake
 image_geometry_BINARY_DIR:STATIC=/root/Workspaces/rosgsthumble_ws/build/image_geometry
@@ -597,6 +621,8 @@ CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_DLLTOOL
 CMAKE_DLLTOOL-ADVANCED:INTERNAL=1
+//Whether to issue deprecation errors for macros and functions.
+CMAKE_ERROR_DEPRECATED:INTERNAL=FALSE
 //Executable file format
 CMAKE_EXECUTABLE_FORMAT:INTERNAL=ELF
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS
@@ -649,7 +675,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -688,12 +714,20 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_STRIP
 CMAKE_STRIP-ADVANCED:INTERNAL=1
+//Suppress errors that are meant for the author of the CMakeLists.txt
+// files.
+CMAKE_SUPPRESS_DEVELOPER_ERRORS:INTERNAL=TRUE
+//Suppress Warnings that are meant for the author of the CMakeLists.txt
+// files.
+CMAKE_SUPPRESS_DEVELOPER_WARNINGS:INTERNAL=TRUE
 //ADVANCED property for variable: CMAKE_TAPI
 CMAKE_TAPI-ADVANCED:INTERNAL=1
 //uname command
 CMAKE_UNAME:INTERNAL=/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Whether to issue warnings for deprecated functionality.
+CMAKE_WARN_DEPRECATED:INTERNAL=FALSE
 //ADVANCED property for variable: CUDA_64_BIT_DEVICE_CODE
 CUDA_64_BIT_DEVICE_CODE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CUDA_ATTACH_VS_BUILD_RULE_TO_CUDA_FILE
@@ -803,9 +837,17 @@ FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/usr][cfound components: calib3d c
 FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3.6][cfound components: Interpreter ][v3.6.9()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+GTEST_FROM_SOURCE_BASE_DIR:INTERNAL=/opt/ros/humble/install/src/gtest_vendor
+GTEST_FROM_SOURCE_FOUND:INTERNAL=TRUE
+GTEST_FROM_SOURCE_INCLUDE_DIRS:INTERNAL=/opt/ros/humble/install/src/gtest_vendor/include
+GTEST_FROM_SOURCE_LIBRARIES:INTERNAL=gtest
+GTEST_FROM_SOURCE_LIBRARY_DIRS:INTERNAL=/root/Workspaces/rosgsthumble_ws/build/image_geometry/gtest
+GTEST_FROM_SOURCE_MAIN_LIBRARIES:INTERNAL=gtest_main
 //The directory for Python library installation. This needs to
 // be in PYTHONPATH when 'setup.py install' is called.
 PYTHON_INSTALL_DIR:INTERNAL=lib/python3.6/site-packages
+//Result of TRY_COMPILE
+THREADS_HAVE_PTHREAD_ARG:INTERNAL=TRUE
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //Compiler reason failure

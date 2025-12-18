@@ -1,0 +1,8 @@
+In file included from [01m[K/usr/include/gstreamer-1.0/gst/webrtc/webrtc.h:24:0[m[K,
+                 from [01m[K/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/send_camera_node.cpp:4[m[K:
+[01m[K/usr/include/gstreamer-1.0/gst/webrtc/webrtc_fwd.h:24:2:[m[K [01;35m[Kwarning: [m[K#warning "The WebRTC library from gst-plugins-bad is unstable API and may change in future." [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K "The WebRTC library from gst-plugins-bad is unstable API and may change in future."
+  [01;35m[K^~~~~~~[m[K
+[01m[K/usr/include/gstreamer-1.0/gst/webrtc/webrtc_fwd.h:25:2:[m[K [01;35m[Kwarning: [m[K#warning "You can define GST_USE_UNSTABLE_API to avoid this warning." [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K "You can define GST_USE_UNSTABLE_API to avoid this warning."
+  [01;35m[K^~~~~~~[m[K

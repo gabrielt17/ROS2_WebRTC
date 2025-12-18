@@ -23,6 +23,9 @@ AMENT_CMAKE_ENVIRONMENT_PACKAGE_GENERATION:BOOL=ON
 //Generate marker file containing the parent prefix path
 AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
+//Generate coverage information for Python tests
+AMENT_CMAKE_PYTEST_WITH_COVERAGE:BOOL=OFF
+
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
 AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
@@ -35,7 +38,7 @@ AMENT_CMAKE_UNINSTALL_TARGET:BOOL=ON
 AMENT_TEST_RESULTS_DIR:PATH=/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/test_results
 
 //Build the testing tree.
-BUILD_TESTING:BOOL=OFF
+BUILD_TESTING:BOOL=ON
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
@@ -45,7 +48,7 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=Release
+CMAKE_BUILD_TYPE:STRING=
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -241,20 +244,32 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 //The directory containing a CMake configuration file for CycloneDDS.
 CycloneDDS_DIR:PATH=/opt/ros/humble/install/lib/cmake/CycloneDDS
 
-//No help, variable specified on the command line.
-OpenCV_DIR:UNINITIALIZED=/usr/lib/aarch64-linux-gnu/cmake/opencv4/
-
 //Select ROS middleware implementation to link against
 RMW_IMPLEMENTATION:STRING=rmw_cyclonedds_cpp
 
+//Name of the computer/site where compile is being run
+SITE:STRING=nano
+
+//Path to a file.
+_gtest_header_file:FILEPATH=/opt/ros/humble/install/src/gtest_vendor/include/gtest/gtest.h
+
+//Path to a file.
+_gtest_src_file:FILEPATH=/opt/ros/humble/install/src/gtest_vendor/src/gtest.cc
+
 //Path to a library.
-_lib:FILEPATH=/opt/ros/humble/install/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/opt/ros/humble/install/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/humble/install/share/ament_cmake/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_core.
 ament_cmake_core_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_core/cmake
+
+//The directory containing a CMake configuration file for ament_cmake_cppcheck.
+ament_cmake_cppcheck_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_cppcheck/cmake
+
+//The directory containing a CMake configuration file for ament_cmake_cpplint.
+ament_cmake_cpplint_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_cpplint/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_definitions.
 ament_cmake_export_definitions_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_export_definitions/cmake
@@ -280,11 +295,23 @@ ament_cmake_export_targets_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_ex
 //The directory containing a CMake configuration file for ament_cmake_gen_version_h.
 ament_cmake_gen_version_h_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_gen_version_h/cmake
 
+//The directory containing a CMake configuration file for ament_cmake_gtest.
+ament_cmake_gtest_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_gtest/cmake
+
 //The directory containing a CMake configuration file for ament_cmake_include_directories.
 ament_cmake_include_directories_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_include_directories/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_libraries.
 ament_cmake_libraries_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_libraries/cmake
+
+//The directory containing a CMake configuration file for ament_cmake_lint_cmake.
+ament_cmake_lint_cmake_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_lint_cmake/cmake
+
+//The directory containing a CMake configuration file for ament_cmake_pep257.
+ament_cmake_pep257_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_pep257/cmake
+
+//The directory containing a CMake configuration file for ament_cmake_pytest.
+ament_cmake_pytest_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_pytest/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_python.
 ament_cmake_python_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_python/cmake
@@ -295,11 +322,41 @@ ament_cmake_target_dependencies_DIR:PATH=/opt/ros/humble/install/share/ament_cma
 //The directory containing a CMake configuration file for ament_cmake_test.
 ament_cmake_test_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_test/cmake
 
+//The directory containing a CMake configuration file for ament_cmake_uncrustify.
+ament_cmake_uncrustify_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_uncrustify/cmake
+
 //The directory containing a CMake configuration file for ament_cmake_version.
 ament_cmake_version_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_version/cmake
 
+//The directory containing a CMake configuration file for ament_cmake_xmllint.
+ament_cmake_xmllint_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_xmllint/cmake
+
+//Path to a program.
+ament_cppcheck_BIN:FILEPATH=/opt/ros/humble/install/bin/ament_cppcheck
+
+//Path to a program.
+ament_cpplint_BIN:FILEPATH=/opt/ros/humble/install/bin/ament_cpplint
+
 //The directory containing a CMake configuration file for ament_index_cpp.
 ament_index_cpp_DIR:PATH=/opt/ros/humble/install/share/ament_index_cpp/cmake
+
+//The directory containing a CMake configuration file for ament_lint_auto.
+ament_lint_auto_DIR:PATH=/opt/ros/humble/install/share/ament_lint_auto/cmake
+
+//Path to a program.
+ament_lint_cmake_BIN:FILEPATH=/opt/ros/humble/install/bin/ament_lint_cmake
+
+//The directory containing a CMake configuration file for ament_lint_common.
+ament_lint_common_DIR:PATH=/opt/ros/humble/install/share/ament_lint_common/cmake
+
+//Path to a program.
+ament_pep257_BIN:FILEPATH=/opt/ros/humble/install/bin/ament_pep257
+
+//Path to a program.
+ament_uncrustify_BIN:FILEPATH=/opt/ros/humble/install/bin/ament_uncrustify
+
+//Path to a program.
+ament_xmllint_BIN:FILEPATH=/opt/ros/humble/install/bin/ament_xmllint
 
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/humble/install/share/builtin_interfaces/cmake
@@ -322,6 +379,21 @@ fastcdr_DIR:PATH=/opt/ros/humble/install/lib/cmake/fastcdr
 //The directory containing a CMake configuration file for fastrtps_cmake_module.
 fastrtps_cmake_module_DIR:PATH=/opt/ros/humble/install/share/fastrtps_cmake_module/cmake
 
+//Value Computed by CMake
+gtest_BINARY_DIR:STATIC=/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/gtest
+
+//Value Computed by CMake
+gtest_IS_TOP_LEVEL:STATIC=OFF
+
+//Dependencies for the target
+gtest_LIB_DEPENDS:STATIC=general;-pthread;
+
+//Value Computed by CMake
+gtest_SOURCE_DIR:STATIC=/opt/ros/humble/install/src/gtest_vendor
+
+//The directory containing a CMake configuration file for gtest_vendor.
+gtest_vendor_DIR:PATH=/opt/ros/humble/install/share/gtest_vendor/cmake
+
 //The directory containing a CMake configuration file for iceoryx_binding_c.
 iceoryx_binding_c_DIR:PATH=/opt/ros/humble/install/lib/cmake/iceoryx_binding_c
 
@@ -331,17 +403,35 @@ iceoryx_hoofs_DIR:PATH=/opt/ros/humble/install/lib/cmake/iceoryx_hoofs
 //The directory containing a CMake configuration file for iceoryx_posh.
 iceoryx_posh_DIR:PATH=/opt/ros/humble/install/lib/cmake/iceoryx_posh
 
+//The directory containing a CMake configuration file for launch.
+launch_DIR:PATH=launch_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for launch_testing.
+launch_testing_DIR:PATH=launch_testing_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for launch_testing_ros.
+launch_testing_ros_DIR:PATH=launch_testing_ros_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for libstatistics_collector.
 libstatistics_collector_DIR:PATH=/opt/ros/humble/install/share/libstatistics_collector/cmake
 
 //The directory containing a CMake configuration file for libyaml_vendor.
 libyaml_vendor_DIR:PATH=/opt/ros/humble/install/share/libyaml_vendor/cmake
 
+//The directory containing a CMake configuration file for lifecycle_msgs.
+lifecycle_msgs_DIR:PATH=/opt/ros/humble/install/share/lifecycle_msgs/cmake
+
+//The directory containing a CMake configuration file for python3-pytest.
+python3-pytest_DIR:PATH=python3-pytest_DIR-NOTFOUND
+
 //The directory containing a CMake configuration file for rcl.
 rcl_DIR:PATH=/opt/ros/humble/install/share/rcl/cmake
 
 //The directory containing a CMake configuration file for rcl_interfaces.
 rcl_interfaces_DIR:PATH=/opt/ros/humble/install/share/rcl_interfaces/cmake
+
+//The directory containing a CMake configuration file for rcl_lifecycle.
+rcl_lifecycle_DIR:PATH=/opt/ros/humble/install/share/rcl_lifecycle/cmake
 
 //The directory containing a CMake configuration file for rcl_logging_interface.
 rcl_logging_interface_DIR:PATH=/opt/ros/humble/install/share/rcl_logging_interface/cmake
@@ -354,6 +444,9 @@ rcl_yaml_param_parser_DIR:PATH=/opt/ros/humble/install/share/rcl_yaml_param_pars
 
 //The directory containing a CMake configuration file for rclcpp.
 rclcpp_DIR:PATH=/opt/ros/humble/install/share/rclcpp/cmake
+
+//The directory containing a CMake configuration file for rclcpp_lifecycle.
+rclcpp_lifecycle_DIR:PATH=/opt/ros/humble/install/share/rclcpp_lifecycle/cmake
 
 //The directory containing a CMake configuration file for rclpy.
 rclpy_DIR:PATH=/opt/ros/humble/install/share/rclpy/cmake
@@ -439,6 +532,9 @@ std_msgs_DIR:PATH=/opt/ros/humble/install/share/std_msgs/cmake
 //The directory containing a CMake configuration file for tracetools.
 tracetools_DIR:PATH=/opt/ros/humble/install/share/tracetools/cmake
 
+//Path to a program.
+xmllint_BIN:FILEPATH=/usr/bin/xmllint
+
 //The directory containing a CMake configuration file for yaml.
 yaml_DIR:PATH=/opt/ros/humble/install/cmake
 
@@ -501,6 +597,8 @@ CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_DLLTOOL
 CMAKE_DLLTOOL-ADVANCED:INTERNAL=1
+//Whether to issue deprecation errors for macros and functions.
+CMAKE_ERROR_DEPRECATED:INTERNAL=FALSE
 //Executable file format
 CMAKE_EXECUTABLE_FORMAT:INTERNAL=ELF
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS
@@ -553,7 +651,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -592,19 +690,35 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_STRIP
 CMAKE_STRIP-ADVANCED:INTERNAL=1
+//Suppress errors that are meant for the author of the CMakeLists.txt
+// files.
+CMAKE_SUPPRESS_DEVELOPER_ERRORS:INTERNAL=TRUE
+//Suppress Warnings that are meant for the author of the CMakeLists.txt
+// files.
+CMAKE_SUPPRESS_DEVELOPER_WARNINGS:INTERNAL=TRUE
 //ADVANCED property for variable: CMAKE_TAPI
 CMAKE_TAPI-ADVANCED:INTERNAL=1
 //uname command
 CMAKE_UNAME:INTERNAL=/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Whether to issue warnings for deprecated functionality.
+CMAKE_WARN_DEPRECATED:INTERNAL=FALSE
 //Details about finding Python3
 FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/bin/python3.6][cfound components: Interpreter ][v3.6.9()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+GTEST_FROM_SOURCE_BASE_DIR:INTERNAL=/opt/ros/humble/install/src/gtest_vendor
+GTEST_FROM_SOURCE_FOUND:INTERNAL=TRUE
+GTEST_FROM_SOURCE_INCLUDE_DIRS:INTERNAL=/opt/ros/humble/install/src/gtest_vendor/include
+GTEST_FROM_SOURCE_LIBRARIES:INTERNAL=gtest
+GTEST_FROM_SOURCE_LIBRARY_DIRS:INTERNAL=/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/gtest
+GTEST_FROM_SOURCE_MAIN_LIBRARIES:INTERNAL=gtest_main
 //The directory for Python library installation. This needs to
 // be in PYTHONPATH when 'setup.py install' is called.
 PYTHON_INSTALL_DIR:INTERNAL=lib/python3.6/site-packages
+//Result of TRY_COMPILE
+THREADS_HAVE_PTHREAD_ARG:INTERNAL=TRUE
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //Compiler reason failure

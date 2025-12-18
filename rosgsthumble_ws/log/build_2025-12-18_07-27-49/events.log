@@ -1,0 +1,400 @@
+[0.000000] (-) TimerEvent: {}
+[0.002105] (-) JobUnselected: {'identifier': 'audio_msgs'}
+[0.002948] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.008254] (-) JobUnselected: {'identifier': 'diagnostic_common_diagnostics'}
+[0.012045] (-) JobUnselected: {'identifier': 'diagnostic_updater'}
+[0.012293] (-) JobUnselected: {'identifier': 'diagnostics'}
+[0.012644] (-) JobUnselected: {'identifier': 'gst_bridge'}
+[0.012819] (-) JobUnselected: {'identifier': 'gst_msgs'}
+[0.012978] (-) JobUnselected: {'identifier': 'gst_pipeline'}
+[0.013133] (-) JobUnselected: {'identifier': 'gst_pipeline_plugins'}
+[0.018399] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.021307] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.021585] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.022024] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.022202] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.022632] (-) JobUnselected: {'identifier': 'xacro'}
+[0.022857] (webrtc_camera_node) JobQueued: {'identifier': 'webrtc_camera_node', 'dependencies': OrderedDict([('audio_msgs', '/root/Workspaces/rosgsthumble_ws/install/audio_msgs'), ('gst_bridge', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge')])}
+[0.023088] (webrtc_camera_node) JobStarted: {'identifier': 'webrtc_camera_node'}
+[0.098785] (-) TimerEvent: {}
+[0.196688] (webrtc_camera_node) JobProgress: {'identifier': 'webrtc_camera_node', 'progress': 'cmake'}
+[0.198984] (-) TimerEvent: {}
+[0.201001] (webrtc_camera_node) JobProgress: {'identifier': 'webrtc_camera_node', 'progress': 'build'}
+[0.204938] (webrtc_camera_node) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node', '--', '-j4', '-l4'], 'cwd': '/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano'), ('LD_LIBRARY_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib'), ('SHLVL', '1'), ('OLDPWD', '/root/Workspaces'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/1000/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/bin:/opt/ros/humble/install/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ''), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('GST_PLUGIN_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/gst_bridge/'), ('SHELL', '/bin/bash'), ('PWD', '/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node'), ('PYTHONPATH', '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/opt/ros/humble/install')]), 'shell': False}
+[0.299211] (-) TimerEvent: {}
+[0.400694] (-) TimerEvent: {}
+[0.502429] (-) TimerEvent: {}
+[0.545232] (webrtc_camera_node) StdoutLine: {'line': b'[ 90%] Built target ixwebsocket\n'}
+[0.609704] (-) TimerEvent: {}
+[0.621016] (webrtc_camera_node) StdoutLine: {'line': b'[ 95%] Built target receive_camera_node\n'}
+[0.651994] (webrtc_camera_node) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object CMakeFiles/send_camera_node.dir/src/send_camera_node.cpp.o\x1b[0m\n'}
+[0.709853] (-) TimerEvent: {}
+[0.811162] (-) TimerEvent: {}
+[0.912497] (-) TimerEvent: {}
+[1.013237] (-) TimerEvent: {}
+[1.114024] (-) TimerEvent: {}
+[1.214757] (-) TimerEvent: {}
+[1.315492] (-) TimerEvent: {}
+[1.416231] (-) TimerEvent: {}
+[1.516956] (-) TimerEvent: {}
+[1.617743] (-) TimerEvent: {}
+[1.718470] (-) TimerEvent: {}
+[1.819267] (-) TimerEvent: {}
+[1.920062] (-) TimerEvent: {}
+[2.020863] (-) TimerEvent: {}
+[2.121748] (-) TimerEvent: {}
+[2.222499] (-) TimerEvent: {}
+[2.323272] (-) TimerEvent: {}
+[2.424052] (-) TimerEvent: {}
+[2.524856] (-) TimerEvent: {}
+[2.625739] (-) TimerEvent: {}
+[2.726540] (-) TimerEvent: {}
+[2.827350] (-) TimerEvent: {}
+[2.928164] (-) TimerEvent: {}
+[3.036630] (-) TimerEvent: {}
+[3.137448] (-) TimerEvent: {}
+[3.238309] (-) TimerEvent: {}
+[3.339110] (-) TimerEvent: {}
+[3.439891] (-) TimerEvent: {}
+[3.540699] (-) TimerEvent: {}
+[3.641504] (-) TimerEvent: {}
+[3.742336] (-) TimerEvent: {}
+[3.843135] (-) TimerEvent: {}
+[3.943936] (-) TimerEvent: {}
+[4.044744] (-) TimerEvent: {}
+[4.145558] (-) TimerEvent: {}
+[4.246423] (-) TimerEvent: {}
+[4.347219] (-) TimerEvent: {}
+[4.448019] (-) TimerEvent: {}
+[4.548830] (-) TimerEvent: {}
+[4.649674] (-) TimerEvent: {}
+[4.750476] (-) TimerEvent: {}
+[4.851282] (-) TimerEvent: {}
+[4.952089] (-) TimerEvent: {}
+[5.052897] (-) TimerEvent: {}
+[5.153782] (-) TimerEvent: {}
+[5.254592] (-) TimerEvent: {}
+[5.355426] (-) TimerEvent: {}
+[5.456220] (-) TimerEvent: {}
+[5.557034] (-) TimerEvent: {}
+[5.657909] (-) TimerEvent: {}
+[5.758711] (-) TimerEvent: {}
+[5.859515] (-) TimerEvent: {}
+[5.960332] (-) TimerEvent: {}
+[6.061140] (-) TimerEvent: {}
+[6.162046] (-) TimerEvent: {}
+[6.262864] (-) TimerEvent: {}
+[6.363677] (-) TimerEvent: {}
+[6.464520] (-) TimerEvent: {}
+[6.565319] (-) TimerEvent: {}
+[6.666187] (-) TimerEvent: {}
+[6.766992] (-) TimerEvent: {}
+[6.867831] (-) TimerEvent: {}
+[6.968688] (-) TimerEvent: {}
+[7.069508] (-) TimerEvent: {}
+[7.170397] (-) TimerEvent: {}
+[7.271226] (-) TimerEvent: {}
+[7.372063] (-) TimerEvent: {}
+[7.472889] (-) TimerEvent: {}
+[7.573770] (-) TimerEvent: {}
+[7.674584] (-) TimerEvent: {}
+[7.775400] (-) TimerEvent: {}
+[7.876212] (-) TimerEvent: {}
+[7.977014] (-) TimerEvent: {}
+[8.077826] (-) TimerEvent: {}
+[8.178637] (-) TimerEvent: {}
+[8.279443] (-) TimerEvent: {}
+[8.380252] (-) TimerEvent: {}
+[8.481065] (-) TimerEvent: {}
+[8.581932] (-) TimerEvent: {}
+[8.682738] (-) TimerEvent: {}
+[8.783556] (-) TimerEvent: {}
+[8.884368] (-) TimerEvent: {}
+[8.985179] (-) TimerEvent: {}
+[9.086045] (-) TimerEvent: {}
+[9.186855] (-) TimerEvent: {}
+[9.287669] (-) TimerEvent: {}
+[9.388481] (-) TimerEvent: {}
+[9.489281] (-) TimerEvent: {}
+[9.590158] (-) TimerEvent: {}
+[9.690975] (-) TimerEvent: {}
+[9.791783] (-) TimerEvent: {}
+[9.892583] (-) TimerEvent: {}
+[9.993391] (-) TimerEvent: {}
+[10.094266] (-) TimerEvent: {}
+[10.195078] (-) TimerEvent: {}
+[10.295885] (-) TimerEvent: {}
+[10.396717] (-) TimerEvent: {}
+[10.497532] (-) TimerEvent: {}
+[10.598358] (-) TimerEvent: {}
+[10.699161] (-) TimerEvent: {}
+[10.799962] (-) TimerEvent: {}
+[10.900762] (-) TimerEvent: {}
+[11.001563] (-) TimerEvent: {}
+[11.102396] (-) TimerEvent: {}
+[11.203181] (-) TimerEvent: {}
+[11.303989] (-) TimerEvent: {}
+[11.404804] (-) TimerEvent: {}
+[11.505703] (-) TimerEvent: {}
+[11.606494] (-) TimerEvent: {}
+[11.707309] (-) TimerEvent: {}
+[11.808110] (-) TimerEvent: {}
+[11.908908] (-) TimerEvent: {}
+[12.009742] (-) TimerEvent: {}
+[12.110532] (-) TimerEvent: {}
+[12.211346] (-) TimerEvent: {}
+[12.312165] (-) TimerEvent: {}
+[12.413006] (-) TimerEvent: {}
+[12.513801] (-) TimerEvent: {}
+[12.614598] (-) TimerEvent: {}
+[12.715404] (-) TimerEvent: {}
+[12.816367] (-) TimerEvent: {}
+[12.917181] (-) TimerEvent: {}
+[13.018058] (-) TimerEvent: {}
+[13.118867] (-) TimerEvent: {}
+[13.219666] (-) TimerEvent: {}
+[13.320489] (-) TimerEvent: {}
+[13.421318] (-) TimerEvent: {}
+[13.522211] (-) TimerEvent: {}
+[13.623000] (-) TimerEvent: {}
+[13.723802] (-) TimerEvent: {}
+[13.824619] (-) TimerEvent: {}
+[13.925458] (-) TimerEvent: {}
+[14.026358] (-) TimerEvent: {}
+[14.127481] (-) TimerEvent: {}
+[14.228559] (-) TimerEvent: {}
+[14.329380] (-) TimerEvent: {}
+[14.430264] (-) TimerEvent: {}
+[14.531081] (-) TimerEvent: {}
+[14.631894] (-) TimerEvent: {}
+[14.732705] (-) TimerEvent: {}
+[14.833500] (-) TimerEvent: {}
+[14.934371] (-) TimerEvent: {}
+[15.035180] (-) TimerEvent: {}
+[15.135988] (-) TimerEvent: {}
+[15.236792] (-) TimerEvent: {}
+[15.337599] (-) TimerEvent: {}
+[15.438496] (-) TimerEvent: {}
+[15.539292] (-) TimerEvent: {}
+[15.640114] (-) TimerEvent: {}
+[15.741564] (-) TimerEvent: {}
+[15.842441] (-) TimerEvent: {}
+[15.943297] (-) TimerEvent: {}
+[16.044095] (-) TimerEvent: {}
+[16.144901] (-) TimerEvent: {}
+[16.245760] (-) TimerEvent: {}
+[16.346611] (-) TimerEvent: {}
+[16.447426] (-) TimerEvent: {}
+[16.548241] (-) TimerEvent: {}
+[16.649058] (-) TimerEvent: {}
+[16.749932] (-) TimerEvent: {}
+[16.850729] (-) TimerEvent: {}
+[16.951548] (-) TimerEvent: {}
+[17.052356] (-) TimerEvent: {}
+[17.153170] (-) TimerEvent: {}
+[17.254053] (-) TimerEvent: {}
+[17.354871] (-) TimerEvent: {}
+[17.456010] (-) TimerEvent: {}
+[17.556828] (-) TimerEvent: {}
+[17.657714] (-) TimerEvent: {}
+[17.758516] (-) TimerEvent: {}
+[17.859308] (-) TimerEvent: {}
+[17.960107] (-) TimerEvent: {}
+[18.060931] (-) TimerEvent: {}
+[18.161793] (-) TimerEvent: {}
+[18.262605] (-) TimerEvent: {}
+[18.363411] (-) TimerEvent: {}
+[18.464229] (-) TimerEvent: {}
+[18.565034] (-) TimerEvent: {}
+[18.665819] (-) TimerEvent: {}
+[18.766618] (-) TimerEvent: {}
+[18.867411] (-) TimerEvent: {}
+[18.968211] (-) TimerEvent: {}
+[19.069017] (-) TimerEvent: {}
+[19.169893] (-) TimerEvent: {}
+[19.270732] (-) TimerEvent: {}
+[19.371554] (-) TimerEvent: {}
+[19.472376] (-) TimerEvent: {}
+[19.573170] (-) TimerEvent: {}
+[19.674036] (-) TimerEvent: {}
+[19.774837] (-) TimerEvent: {}
+[19.875634] (-) TimerEvent: {}
+[19.976422] (-) TimerEvent: {}
+[20.077223] (-) TimerEvent: {}
+[20.178105] (-) TimerEvent: {}
+[20.278902] (-) TimerEvent: {}
+[20.379705] (-) TimerEvent: {}
+[20.480507] (-) TimerEvent: {}
+[20.581319] (-) TimerEvent: {}
+[20.682202] (-) TimerEvent: {}
+[20.782994] (-) TimerEvent: {}
+[20.883797] (-) TimerEvent: {}
+[20.984656] (-) TimerEvent: {}
+[21.085458] (-) TimerEvent: {}
+[21.186330] (-) TimerEvent: {}
+[21.287132] (-) TimerEvent: {}
+[21.387929] (-) TimerEvent: {}
+[21.488739] (-) TimerEvent: {}
+[21.589557] (-) TimerEvent: {}
+[21.690433] (-) TimerEvent: {}
+[21.791250] (-) TimerEvent: {}
+[21.892046] (-) TimerEvent: {}
+[21.992864] (-) TimerEvent: {}
+[22.093701] (-) TimerEvent: {}
+[22.194489] (-) TimerEvent: {}
+[22.295311] (-) TimerEvent: {}
+[22.396131] (-) TimerEvent: {}
+[22.496948] (-) TimerEvent: {}
+[22.597819] (-) TimerEvent: {}
+[22.698653] (-) TimerEvent: {}
+[22.799444] (-) TimerEvent: {}
+[22.900229] (-) TimerEvent: {}
+[23.001038] (-) TimerEvent: {}
+[23.101915] (-) TimerEvent: {}
+[23.202708] (-) TimerEvent: {}
+[23.303509] (-) TimerEvent: {}
+[23.404307] (-) TimerEvent: {}
+[23.505106] (-) TimerEvent: {}
+[23.605949] (-) TimerEvent: {}
+[23.706744] (-) TimerEvent: {}
+[23.807537] (-) TimerEvent: {}
+[23.908329] (-) TimerEvent: {}
+[24.009121] (-) TimerEvent: {}
+[24.109985] (-) TimerEvent: {}
+[24.210767] (-) TimerEvent: {}
+[24.311553] (-) TimerEvent: {}
+[24.412348] (-) TimerEvent: {}
+[24.513140] (-) TimerEvent: {}
+[24.614018] (-) TimerEvent: {}
+[24.714839] (-) TimerEvent: {}
+[24.815626] (-) TimerEvent: {}
+[24.916426] (-) TimerEvent: {}
+[25.017217] (-) TimerEvent: {}
+[25.118121] (-) TimerEvent: {}
+[25.218913] (-) TimerEvent: {}
+[25.319729] (-) TimerEvent: {}
+[25.420555] (-) TimerEvent: {}
+[25.521342] (-) TimerEvent: {}
+[25.622194] (-) TimerEvent: {}
+[25.722967] (-) TimerEvent: {}
+[25.823762] (-) TimerEvent: {}
+[25.924550] (-) TimerEvent: {}
+[26.025354] (-) TimerEvent: {}
+[26.126186] (-) TimerEvent: {}
+[26.226993] (-) TimerEvent: {}
+[26.327845] (-) TimerEvent: {}
+[26.428698] (-) TimerEvent: {}
+[26.429867] (webrtc_camera_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable send_camera_node\x1b[0m\n'}
+[26.528890] (-) TimerEvent: {}
+[26.630172] (-) TimerEvent: {}
+[26.731312] (-) TimerEvent: {}
+[26.832492] (-) TimerEvent: {}
+[26.934103] (-) TimerEvent: {}
+[27.035060] (-) TimerEvent: {}
+[27.135941] (-) TimerEvent: {}
+[27.236815] (-) TimerEvent: {}
+[27.337783] (-) TimerEvent: {}
+[27.438638] (-) TimerEvent: {}
+[27.539607] (-) TimerEvent: {}
+[27.640455] (-) TimerEvent: {}
+[27.741273] (-) TimerEvent: {}
+[27.842162] (-) TimerEvent: {}
+[27.942964] (-) TimerEvent: {}
+[28.043768] (-) TimerEvent: {}
+[28.144652] (-) TimerEvent: {}
+[28.245530] (-) TimerEvent: {}
+[28.332668] (webrtc_camera_node) StdoutLine: {'line': b'[100%] Built target send_camera_node\n'}
+[28.347695] (-) TimerEvent: {}
+[28.373420] (webrtc_camera_node) CommandEnded: {'returncode': 0}
+[28.447898] (-) TimerEvent: {}
+[28.549197] (-) TimerEvent: {}
+[28.636372] (webrtc_camera_node) JobProgress: {'identifier': 'webrtc_camera_node', 'progress': 'install'}
+[28.649375] (-) TimerEvent: {}
+[28.751455] (-) TimerEvent: {}
+[28.826054] (webrtc_camera_node) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node'], 'cwd': '/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano'), ('LD_LIBRARY_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib'), ('SHLVL', '1'), ('OLDPWD', '/root/Workspaces'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/1000/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/bin:/opt/ros/humble/install/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ''), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('GST_PLUGIN_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/gst_bridge/'), ('SHELL', '/bin/bash'), ('PWD', '/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node'), ('PYTHONPATH', '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/opt/ros/humble/install')]), 'shell': False}
+[28.851658] (-) TimerEvent: {}
+[28.953010] (-) TimerEvent: {}
+[29.002284] (webrtc_camera_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.004030] (webrtc_camera_node) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[29.004961] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/lib/cmake/ixwebsocket/ixwebsocket-config.cmake\n'}
+[29.005855] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/lib/pkgconfig/ixwebsocket.pc\n'}
+[29.007067] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/lib/webrtc_camera_node/send_camera_node\n'}
+[29.007822] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/lib/webrtc_camera_node/receive_camera_node\n'}
+[29.008806] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/ament_index/resource_index/package_run_dependencies/webrtc_camera_node\n'}
+[29.009824] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/ament_index/resource_index/parent_prefix_path/webrtc_camera_node\n'}
+[29.010652] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/environment/ament_prefix_path.sh\n'}
+[29.011524] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/environment/ament_prefix_path.dsv\n'}
+[29.012396] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/environment/path.sh\n'}
+[29.013182] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/environment/path.dsv\n'}
+[29.013995] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/local_setup.bash\n'}
+[29.014770] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/local_setup.sh\n'}
+[29.015540] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/local_setup.zsh\n'}
+[29.016301] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/local_setup.dsv\n'}
+[29.016878] (webrtc_camera_node) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/package.dsv\n'}
+[29.029611] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/ament_index/resource_index/packages/webrtc_camera_node\n'}
+[29.031784] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/cmake/webrtc_camera_nodeConfig.cmake\n'}
+[29.035215] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/cmake/webrtc_camera_nodeConfig-version.cmake\n'}
+[29.036581] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/package.xml\n'}
+[29.038005] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/lib/libixwebsocket.a\n'}
+[29.038892] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXBase64.h\n'}
+[29.040889] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXBench.h\n'}
+[29.041616] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXCancellationRequest.h\n'}
+[29.042427] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXConnectionState.h\n'}
+[29.042969] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXDNSLookup.h\n'}
+[29.043493] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXExponentialBackoff.h\n'}
+[29.044096] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXGetFreePort.h\n'}
+[29.044730] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXGzipCodec.h\n'}
+[29.045315] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXHttp.h\n'}
+[29.046017] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXHttpClient.h\n'}
+[29.046603] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXHttpServer.h\n'}
+[29.047240] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXNetSystem.h\n'}
+[29.047808] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXProgressCallback.h\n'}
+[29.048336] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSelectInterrupt.h\n'}
+[29.048893] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSelectInterruptFactory.h\n'}
+[29.049433] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSelectInterruptPipe.h\n'}
+[29.050102] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSelectInterruptEvent.h\n'}
+[29.050681] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSetThreadName.h\n'}
+[29.051258] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSocket.h\n'}
+[29.051790] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSocketConnect.h\n'}
+[29.052302] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSocketFactory.h\n'}
+[29.052781] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSocketServer.h\n'}
+[29.053267] (-) TimerEvent: {}
+[29.054188] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSocketTLSOptions.h\n'}
+[29.055320] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXStrCaseCompare.h\n'}
+[29.055879] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXUdpSocket.h\n'}
+[29.056424] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXUniquePtr.h\n'}
+[29.056969] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXUrlParser.h\n'}
+[29.057500] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXUuid.h\n'}
+[29.058307] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXUtf8Validator.h\n'}
+[29.058857] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXUserAgent.h\n'}
+[29.059437] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocket.h\n'}
+[29.060000] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketCloseConstants.h\n'}
+[29.060518] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketCloseInfo.h\n'}
+[29.061028] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketErrorInfo.h\n'}
+[29.061554] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketHandshake.h\n'}
+[29.062124] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketHandshakeKeyGen.h\n'}
+[29.062612] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketHttpHeaders.h\n'}
+[29.063370] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketInitResult.h\n'}
+[29.064042] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketMessage.h\n'}
+[29.064875] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketMessageType.h\n'}
+[29.067103] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketOpenInfo.h\n'}
+[29.077682] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketPerMessageDeflate.h\n'}
+[29.078602] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketPerMessageDeflateCodec.h\n'}
+[29.079210] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketPerMessageDeflateOptions.h\n'}
+[29.087757] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketProxyServer.h\n'}
+[29.093479] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketSendData.h\n'}
+[29.104739] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketSendInfo.h\n'}
+[29.105588] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketServer.h\n'}
+[29.106468] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketTransport.h\n'}
+[29.107016] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketVersion.h\n'}
+[29.107737] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/lib/cmake/ixwebsocket/ixwebsocket-targets.cmake\n'}
+[29.117708] (webrtc_camera_node) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/lib/cmake/ixwebsocket/ixwebsocket-targets-noconfig.cmake\n'}
+[29.118531] (webrtc_camera_node) CommandEnded: {'returncode': 0}
+[29.158510] (-) TimerEvent: {}
+[29.274770] (-) TimerEvent: {}
+[29.378513] (-) TimerEvent: {}
+[29.479220] (-) TimerEvent: {}
+[29.585012] (-) TimerEvent: {}
+[29.706588] (-) TimerEvent: {}
+[29.731062] (webrtc_camera_node) JobEnded: {'identifier': 'webrtc_camera_node', 'rc': 0}
+[29.735186] (-) EventReactorShutdown: {}

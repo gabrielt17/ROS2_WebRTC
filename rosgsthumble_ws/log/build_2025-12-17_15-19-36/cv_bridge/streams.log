@@ -1,0 +1,89 @@
+[0.434s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/cv_bridge': /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/vision_opencv/cv_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/cv_bridge
+[1.322s] -- The C compiler identification is GNU 7.5.0
+[1.868s] -- The CXX compiler identification is GNU 7.5.0
+[1.968s] -- Detecting C compiler ABI info
+[2.274s] -- Detecting C compiler ABI info - done
+[2.325s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.326s] -- Detecting C compile features
+[2.328s] -- Detecting C compile features - done
+[2.386s] -- Detecting CXX compiler ABI info
+[2.719s] -- Detecting CXX compiler ABI info - done
+[2.769s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.770s] -- Detecting CXX compile features
+[2.774s] -- Detecting CXX compile features - done
+[2.789s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/install/share/ament_cmake_ros/cmake)
+[8.481s] -- Found Python3: /usr/bin/python3.6 (found version "3.6.9") found components: Interpreter 
+[8.972s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[12.345s] -- Found Python3: /usr/include/python3.6m (found version "3.6.9") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[13.114s] -- Found Boost: /usr/include (found version "1.65.1") found components: python3 
+[13.127s] -- Found rcpputils: 2.4.1 (/opt/ros/humble/install/share/rcpputils/cmake)
+[13.187s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/install/share/sensor_msgs/cmake)
+[13.360s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[13.397s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[13.459s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[13.574s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.696s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.185s] [33mCMake Warning (dev) at /usr/lib/cmake/opencv4/OpenCVConfig.cmake:86 (find_package):
+[15.185s]   Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake
+[15.186s]   --help-policy CMP0146" for policy details.  Use the cmake_policy command to
+[15.186s]   set the policy and suppress this warning.
+[15.187s] 
+[15.187s] Call Stack (most recent call first):
+[15.188s]   /usr/lib/cmake/opencv4/OpenCVConfig.cmake:108 (find_host_package)
+[15.188s]   CMakeLists.txt:39 (find_package)
+[15.189s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[15.190s] [0m
+[15.248s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.511s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[15.512s] -- Looking for pthread_create in pthreads
+[15.746s] -- Looking for pthread_create in pthreads - not found
+[15.747s] -- Looking for pthread_create in pthread
+[16.007s] -- Looking for pthread_create in pthread - found
+[16.012s] -- Found Threads: TRUE  
+[16.058s] -- Found CUDA: /usr/local/cuda-10.2 (found suitable exact version "10.2") 
+[16.859s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[17.461s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[17.470s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[18.066s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[18.068s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[18.718s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[18.762s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[19.893s] -- Found gtest sources under '/opt/ros/humble/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[19.907s] -- Check if compiler accepts -pthread
+[20.452s] -- Check if compiler accepts -pthread - yes
+[34.521s] -- Configuring done (33.8s)
+[34.770s] -- Generating done (0.2s)
+[34.799s] -- Build files have been written to: /root/Workspaces/rosgsthumble_ws/build/cv_bridge
+[34.994s] Invoked command in '/root/Workspaces/rosgsthumble_ws/build/cv_bridge' returned '0': /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/vision_opencv/cv_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/cv_bridge
+[34.996s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/cv_bridge': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/cv_bridge -- -j4 -l4
+[35.918s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[35.929s] [  6%] Built target ament_cmake_python_symlink_cv_bridge
+[35.942s] [ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[35.965s] [ 18%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/cv_bridge.cpp.o[0m
+[43.130s] running egg_info
+[43.150s] creating cv_bridge.egg-info
+[43.152s] writing cv_bridge.egg-info/PKG-INFO
+[43.162s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[43.174s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[43.175s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[43.234s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[43.270s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[43.790s] [ 18%] Built target ament_cmake_python_build_cv_bridge_egg
+[45.044s] [ 25%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[45.247s] [ 25%] Built target gtest_main
+[58.011s] [ 31%] [32m[1mLinking CXX static library libgtest.a[0m
+[58.379s] [ 31%] Built target gtest
+[63.166s] [ 37%] [32mBuilding CXX object src/CMakeFiles/cv_bridge.dir/rgb_colors.cpp.o[0m
+[72.439s] [ 43%] [32m[1mLinking CXX shared library libcv_bridge.so[0m
+[73.252s] [ 43%] Built target cv_bridge
+[73.292s] [ 50%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module.cpp.o[0m
+[88.979s] [ 56%] [32mBuilding CXX object src/CMakeFiles/cv_bridge_boost.dir/module_opencv3.cpp.o[0m
+[101.544s] [ 62%] [32m[1mLinking CXX shared module boost/cv_bridge_boost.so[0m
+[102.013s] [ 62%] Built target cv_bridge_boost
+[102.053s] [ 68%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o[0m
+[108.063s] [ 75%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o[0m
+[114.225s] [ 81%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o[0m
+[123.231s] [ 87%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o[0m
+[123.238s] [ 93%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o[0m
+[129.356s] [100%] [32m[1mLinking CXX executable cv_bridge-utest[0m
+[130.295s] [100%] Built target cv_bridge-utest

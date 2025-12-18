@@ -249,6 +249,45 @@ cv_bridge_boost/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/cv_bridge_boost.dir/build.make src/CMakeFiles/cv_bridge_boost.dir/build
 .PHONY : cv_bridge_boost/fast
 
+#=============================================================================
+# Target rules for targets named cv_bridge-utest
+
+# Build rule for target.
+cv_bridge-utest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cv_bridge-utest
+.PHONY : cv_bridge-utest
+
+# fast build rule for target.
+cv_bridge-utest/fast:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/cv_bridge-utest.dir/build.make test/CMakeFiles/cv_bridge-utest.dir/build
+.PHONY : cv_bridge-utest/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -267,7 +306,10 @@ help:
 	@echo "... cv_bridge_uninstall"
 	@echo "... uninstall"
 	@echo "... cv_bridge"
+	@echo "... cv_bridge-utest"
 	@echo "... cv_bridge_boost"
+	@echo "... gtest"
+	@echo "... gtest_main"
 .PHONY : help
 
 

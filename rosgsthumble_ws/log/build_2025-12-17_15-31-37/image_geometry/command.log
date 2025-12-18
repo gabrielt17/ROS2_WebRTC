@@ -1,0 +1,3 @@
+Invoking command in '/root/Workspaces/rosgsthumble_ws/build/image_geometry': /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/vision_opencv/image_geometry -Wno-dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/image_geometry
+Invoked command in '/root/Workspaces/rosgsthumble_ws/build/image_geometry' returned '0': /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/vision_opencv/image_geometry -Wno-dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/image_geometry
+Invoking command in '/root/Workspaces/rosgsthumble_ws/build/image_geometry': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/image_geometry -- -j4 -l4

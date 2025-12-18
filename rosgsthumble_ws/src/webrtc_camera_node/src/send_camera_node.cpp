@@ -13,6 +13,9 @@
 #include <thread>
 #include <atomic>
 #include <csignal>
+#include <chrono>
+#include <iomanip>
+#include <sstream>
 
 using namespace nlohmann;
 
@@ -23,6 +26,7 @@ std::string localId = "gabrielt";
 std::string remoteId = "alice";
 
 GstElement *webrtc_send;
+GstElement *text_overlay_element = nullptr; // Necessário para a função de timestamp
 ix::WebSocket ws;
 
 GMainLoop* gst_loop_handle;
@@ -96,7 +100,6 @@ static void on_ice_connection_state_notify(GstElement *webrtc, GParamSpec *pspec
         case GST_WEBRTC_ICE_CONNECTION_STATE_CLOSED: state_str = "CLOSED"; break;
     }
     
-    // Use RCLCPP_WARN para destacar no log
     auto logger = rclcpp::get_logger("webrtc_monitor");
     RCLCPP_WARN(logger, ">>> ESTADO ICE MUDOU PARA: %s <<<", state_str);
 }
@@ -121,6 +124,24 @@ gboolean add_remote_answer_idle(gpointer data) {
     return G_SOURCE_REMOVE;
 }
 
+static gboolean update_overlay_text(gpointer user_data) {
+    // Se a pipeline ainda não achou o elemento ou foi destruída, não faz nada
+    if (!text_overlay_element) return G_SOURCE_CONTINUE;
+
+    auto now = std::chrono::system_clock::now();
+    auto ms = std::chrono::duration_cast<std::chrono::milliseconds>(now.time_since_epoch()) % 1000;
+    std::time_t now_c = std::chrono::system_clock::to_time_t(now);
+    std::tm *parts = std::localtime(&now_c);
+
+    std::stringstream ss;
+    ss << std::put_time(parts, "%H:%M:%S") << '.' << std::setfill('0') << std::setw(3) << ms.count();
+    
+    // Atualiza a propriedade 'text' de forma segura na thread principal
+    g_object_set(text_overlay_element, "text", ss.str().c_str(), NULL);
+
+    return G_SOURCE_CONTINUE; // Continua chamando a função
+}
+
 // -------------------- Handler para SIGINT --------------------
 void sigint_handler(int) {
     running = false;
@@ -142,21 +163,22 @@ int main(int argc, char* argv[]) {
     node->get_parameter("camera_topic", camera_topic);
     RCLCPP_INFO(node->get_logger(), "Transmitindo vídeo do tópico: %s", camera_topic.c_str());
 
+    // --- CORREÇÃO: Removido gst_bin_get_by_name daqui, pois pipeline não existe ainda ---
+
     std::string pipeline_str =
-    "rosimagesrc ros-topic=\"" + camera_topic + "\" ! "
-    "videoconvert ! "
-    "video/x-raw,format=I420 ! "
-    "nvvidconv ! "
-    "video/x-raw(memory:NVMM),format=I420 ! "
-    "queue max-size-buffers=1 leaky=downstream ! "
-    // Removido preset-level (não suportado)
-    // bitrate reduzido para 2Mbps para teste de estabilidade
-    "nvv4l2h264enc bitrate=2000000 insert-sps-pps=true maxperf-enable=1 ! "
-    "h264parse ! "
-    // Removido aggregate-mode (não suportado)
-    "rtph264pay config-interval=1 ! "
-    "queue max-size-time=100000000 leaky=downstream ! "
-    "webrtcbin name=send bundle-policy=max-bundle";
+        "rosimagesrc ros-topic=\"" + camera_topic + "\" ! "
+        "videoconvert ! "
+        "video/x-raw,format=I420 ! "
+        // Elemento de texto
+        "textoverlay name=time_overlay font-desc='Sans 40' halignment=center valignment=center text='Wait...' ! "
+        "nvvidconv ! "
+        "video/x-raw(memory:NVMM),format=I420 ! "
+        "queue max-size-buffers=1 leaky=downstream ! "
+        "nvv4l2h264enc bitrate=2000000 insert-sps-pps=true maxperf-enable=1 ! "
+        "h264parse ! "
+        "rtph264pay config-interval=1 ! "
+        "queue max-size-time=100000000 leaky=downstream ! "
+        "webrtcbin name=send bundle-policy=max-bundle";
 
     GError* error = nullptr;
     GstElement* pipeline = gst_parse_launch(pipeline_str.c_str(), &error);
@@ -166,6 +188,27 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
+    // --- CORREÇÃO: Conecta a função de Timestamp AGORA que a pipeline existe ---
+    if (!pipeline) {
+        RCLCPP_ERROR(node->get_logger(), "Falha ao criar pipeline: %s", error->message);
+        g_error_free(error);
+        return 1;
+    }
+
+    // --- CORREÇÃO: Usando Timer em vez de Probe ---
+    text_overlay_element = gst_bin_get_by_name(GST_BIN(pipeline), "time_overlay");
+    
+    if (text_overlay_element) {
+        // Inicia um timer que roda a cada 33ms (aprox 30 FPS) para atualizar o relógio
+        // Isso funciona independente se está chegando vídeo ou não
+        g_timeout_add(33, update_overlay_text, NULL);
+        
+        RCLCPP_INFO(node->get_logger(), "Timestamp Timer iniciado com sucesso.");
+    } else {
+        RCLCPP_ERROR(node->get_logger(), "ERRO CRÍTICO: Elemento 'time_overlay' não encontrado no pipeline!");
+    }
+    // --------------------------------------------------------------------------
+
     webrtc_send = gst_bin_get_by_name(GST_BIN(pipeline), "send");
 
     // Credenciais Metered
@@ -173,22 +216,10 @@ int main(int argc, char* argv[]) {
     std::string turn_pass = "KpBzzyrYWH6Ve6PG";
     std::string turn_host = "standard.relay.metered.ca";
 
-    // --- CONFIGURAÇÃO ESPECÍFICA PARA GSTREAMER 1.14 (UBUNTU 18.04) ---
-
-    // 1. STUN: Use g_object_set. O webrtcbin 1.14 aceita isso bem.
     g_object_set(webrtc_send, "stun-server", "stun://stun.relay.metered.ca:80", NULL);
     
-    // 2. TURN: A "Bala de Prata".
-    // No GStreamer 1.14, a propriedade "turn-server" aceita apenas UMA string.
-    // Não tente adicionar vários. Vamos escolher a porta 80 porque é a que tem
-    // maior chance de passar pelo NAT Simétrico e Firewall da universidade sem TLS.
-    // Formato: turn://user:pass@host:port
-    
     std::string turn_uri_80 = "turn://" + turn_user + ":" + turn_pass + "@" + turn_host + ":80";
-    
-    // ATENÇÃO: Usamos g_object_set, não signals. Signals falham no 1.14.
     g_object_set(webrtc_send, "turn-server", turn_uri_80.c_str(), NULL);
-
 
     g_signal_connect(webrtc_send, "notify::ice-connection-state", 
                      G_CALLBACK(on_ice_connection_state_notify), NULL);
@@ -206,25 +237,14 @@ int main(int argc, char* argv[]) {
             json message = json::parse(msg->str);
 
             if (message["type"] == "answer") {
-
-                RCLCPP_INFO(node->get_logger(), ">>> SDP tipo resposta recebido. Chamando callback (add_remote).");
-                auto data = new AnswerData {
-                    message["sdp"]
-                };
-                g_idle_add(add_remote_answer_idle, data); // thread safe
+                RCLCPP_INFO(node->get_logger(), ">>> SDP tipo resposta recebido.");
+                auto data = new AnswerData { message["sdp"] };
+                g_idle_add(add_remote_answer_idle, data);
             }
-
             else if (message["type"] == "candidate") {
-
-                RCLCPP_INFO(node->get_logger(), ">>> CANDIDATO ICE RECEBIDO. Chamando callback.");
-                auto data = new IceCandidateData{
-                    message["sdpMLineIndex"],
-                    message["candidate"]
-                };
-                g_idle_add(add_ice_candidate_idle, data); // thread safe
-            }
-            else {
-                RCLCPP_WARN(node->get_logger(), "Tipo de mensagem desconhecido: %s", message["type"].get<std::string>().c_str());
+                RCLCPP_INFO(node->get_logger(), ">>> CANDIDATO ICE RECEBIDO.");
+                auto data = new IceCandidateData{ message["sdpMLineIndex"], message["candidate"] };
+                g_idle_add(add_ice_candidate_idle, data);
             }
         } catch (json::parse_error &) {
             RCLCPP_ERROR(node->get_logger(), "Entrada inválida: não é JSON.");
@@ -248,7 +268,7 @@ int main(int argc, char* argv[]) {
     rclcpp::executors::MultiThreadedExecutor executor;
     executor.add_node(node);
 
-    executor.spin(); // roda callbacks ROS
+    executor.spin(); 
 
     // -------------------- Cleanup --------------------
     g_main_loop_quit(gst_loop_handle);

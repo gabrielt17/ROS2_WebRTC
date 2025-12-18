@@ -28,7 +28,7 @@ services:
       
     volumes:
       # Seu Workspace (Código fonte persiste aqui)
-      - /home/jetson/Documents/coisas_do_goi/ROS2_WebRTC:/root/Workspaces
+      - ./rosgsthumble_ws:/root/rosgsthumble_ws
       
       # Sockets e Gráficos
       - /tmp/.X11-unix:/tmp/.X11-unix

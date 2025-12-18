@@ -1,0 +1,61 @@
+[0.181s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/xacro': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/xacro -- -j4 -l4
+[0.480s] Built target ament_cmake_python_symlink_xacro_setup
+[0.505s] Built target ament_cmake_python_symlink_xacro
+[2.369s] running egg_info
+[2.379s] writing xacro.egg-info/PKG-INFO
+[2.381s] writing dependency_links to xacro.egg-info/dependency_links.txt
+[2.383s] writing entry points to xacro.egg-info/entry_points.txt
+[2.384s] writing top-level names to xacro.egg-info/top_level.txt
+[2.386s] reading manifest file 'xacro.egg-info/SOURCES.txt'
+[2.392s] writing manifest file 'xacro.egg-info/SOURCES.txt'
+[2.462s] running install_scripts
+[2.471s] /usr/local/lib/python3.6/dist-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.472s]   setuptools.SetuptoolsDeprecationWarning,
+[2.510s] Built target ament_cmake_python_build_xacro_egg
+[2.576s] running egg_info
+[2.584s] writing xacro.egg-info/PKG-INFO
+[2.586s] writing dependency_links to xacro.egg-info/dependency_links.txt
+[2.588s] writing entry points to xacro.egg-info/entry_points.txt
+[2.590s] writing top-level names to xacro.egg-info/top_level.txt
+[2.592s] reading manifest file 'xacro.egg-info/SOURCES.txt'
+[2.598s] writing manifest file 'xacro.egg-info/SOURCES.txt'
+[2.609s] Installing xacro script to scripts
+[2.747s] Built target ament_cmake_python_build_xacro_scripts
+[2.790s] Invoked command in '/root/Workspaces/rosgsthumble_ws/build/xacro' returned '0': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/xacro -- -j4 -l4
+[3.508s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/xacro': /usr/local/bin/cmake --install /root/Workspaces/rosgsthumble_ws/build/xacro
+[3.725s] -- Install configuration: ""
+[3.737s] -- Execute custom install script
+[3.749s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/share/xacro/environment/completion.bash
+[3.771s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/share/xacro/environment/pythonpath.sh
+[3.789s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/share/xacro/environment/pythonpath.dsv
+[3.801s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages/xacro-2.1.1-py3.6.egg-info/PKG-INFO
+[3.806s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages/xacro-2.1.1-py3.6.egg-info/SOURCES.txt
+[3.812s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages/xacro-2.1.1-py3.6.egg-info/dependency_links.txt
+[3.815s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages/xacro-2.1.1-py3.6.egg-info/entry_points.txt
+[3.816s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages/xacro-2.1.1-py3.6.egg-info/top_level.txt
+[3.817s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/lib/xacro//xacro
+[3.817s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages/xacro/__init__.py
+[3.818s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages/xacro/cli.py
+[3.818s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages/xacro/color.py
+[3.819s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages/xacro/substitution_args.py
+[3.819s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages/xacro/xmlutils.py
+[3.820s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/share/ament_index/resource_index/package_run_dependencies/xacro
+[3.820s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/share/ament_index/resource_index/parent_prefix_path/xacro
+[3.821s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/share/xacro/environment/ament_prefix_path.sh
+[3.822s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/share/xacro/environment/ament_prefix_path.dsv
+[3.822s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/share/xacro/environment/path.sh
+[3.823s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/share/xacro/environment/path.dsv
+[3.823s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/share/xacro/local_setup.bash
+[3.824s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/share/xacro/local_setup.sh
+[3.824s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/share/xacro/local_setup.zsh
+[3.825s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/share/xacro/local_setup.dsv
+[3.825s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/xacro/share/xacro/package.dsv
+[3.826s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/share/ament_index/resource_index/packages/xacro
+[3.828s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/share/xacro/cmake/xacro-extras.cmake
+[3.828s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/share/xacro/cmake/xacroConfig.cmake
+[3.829s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/share/xacro/cmake/xacroConfig-version.cmake
+[3.830s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/xacro/share/xacro/package.xml
+[3.919s] Listing '/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages/xacro'...
+[3.947s] -- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/xacro/bin/
+[3.947s] -- Installing: /root/Workspaces/rosgsthumble_ws/install/xacro/bin//xacro
+[3.980s] Invoked command in '/root/Workspaces/rosgsthumble_ws/build/xacro' returned '0': /usr/local/bin/cmake --install /root/Workspaces/rosgsthumble_ws/build/xacro

@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-XANicR"
-      binary: "/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-XANicR"
+      source: "/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-dkZTlA"
+      binary: "/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-dkZTlA"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,21 +71,21 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-XANicR'
+        Change Dir: '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-dkZTlA'
         
-        Run Build Command(s): /usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_04058/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_04058.dir/build.make CMakeFiles/cmTC_04058.dir/build
-        make[1]: Entering directory '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-XANicR'
-        Building C object CMakeFiles/cmTC_04058.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_04058.dir/CMakeCCompilerABI.c.o -c /usr/local/lib/python3.6/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fe9dc/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_fe9dc.dir/build.make CMakeFiles/cmTC_fe9dc.dir/build
+        make[1]: Entering directory '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-dkZTlA'
+        Building C object CMakeFiles/cmTC_fe9dc.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_fe9dc.dir/CMakeCCompilerABI.c.o -c /usr/local/lib/python3.6/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         Target: aarch64-linux-gnu
         Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
         Thread model: posix
         gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_04058.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
-         /usr/lib/gcc/aarch64-linux-gnu/7/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/local/lib/python3.6/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_04058.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc1p25n1.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fe9dc.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+         /usr/lib/gcc/aarch64-linux-gnu/7/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/local/lib/python3.6/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_fe9dc.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc2p8oLN.s
         GNU C11 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)
         	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
         
@@ -105,15 +105,15 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: c19fc5c64e59a2c8da3d8cc8208e4481
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_04058.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
-         as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_04058.dir/CMakeCCompilerABI.c.o /tmp/cc1p25n1.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fe9dc.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+         as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_fe9dc.dir/CMakeCCompilerABI.c.o /tmp/cc2p8oLN.s
         GNU assembler version 2.30 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
         COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_04058.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
-        Linking C executable cmTC_04058
-        /usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04058.dir/link.txt --verbose=1
-        /usr/bin/cc  -v CMakeFiles/cmTC_04058.dir/CMakeCCompilerABI.c.o -o cmTC_04058 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fe9dc.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+        Linking C executable cmTC_fe9dc
+        /usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe9dc.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_fe9dc.dir/CMakeCCompilerABI.c.o -o cmTC_fe9dc 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper
@@ -123,10 +123,10 @@ events:
         gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 
         COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_04058' '-mlittle-endian' '-mabi=lp64'
-         /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccH8CMs4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_04058 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_04058.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_04058' '-mlittle-endian' '-mabi=lp64'
-        make[1]: Leaving directory '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-XANicR'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fe9dc' '-mlittle-endian' '-mabi=lp64'
+         /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqdvzYQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_fe9dc /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_fe9dc.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fe9dc' '-mlittle-endian' '-mabi=lp64'
+        make[1]: Leaving directory '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-dkZTlA'
         
       exitCode: 0
   -
@@ -162,21 +162,21 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-XANicR']
+        ignore line: [Change Dir: '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-dkZTlA']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_04058/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_04058.dir/build.make CMakeFiles/cmTC_04058.dir/build]
-        ignore line: [make[1]: Entering directory '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-XANicR']
-        ignore line: [Building C object CMakeFiles/cmTC_04058.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_04058.dir/CMakeCCompilerABI.c.o -c /usr/local/lib/python3.6/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fe9dc/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_fe9dc.dir/build.make CMakeFiles/cmTC_fe9dc.dir/build]
+        ignore line: [make[1]: Entering directory '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-dkZTlA']
+        ignore line: [Building C object CMakeFiles/cmTC_fe9dc.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_fe9dc.dir/CMakeCCompilerABI.c.o -c /usr/local/lib/python3.6/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [Target: aarch64-linux-gnu]
         ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
         ignore line: [Thread model: posix]
         ignore line: [gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_04058.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
-        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/7/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/local/lib/python3.6/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_04058.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc1p25n1.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fe9dc.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/7/cc1 -quiet -v -imultiarch aarch64-linux-gnu /usr/local/lib/python3.6/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_fe9dc.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc2p8oLN.s]
         ignore line: [GNU C11 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)]
         ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
         ignore line: []
@@ -196,15 +196,15 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: c19fc5c64e59a2c8da3d8cc8208e4481]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_04058.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
-        ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_04058.dir/CMakeCCompilerABI.c.o /tmp/cc1p25n1.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fe9dc.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_fe9dc.dir/CMakeCCompilerABI.c.o /tmp/cc2p8oLN.s]
         ignore line: [GNU assembler version 2.30 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_04058.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
-        ignore line: [Linking C executable cmTC_04058]
-        ignore line: [/usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04058.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_04058.dir/CMakeCCompilerABI.c.o -o cmTC_04058 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_fe9dc.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [Linking C executable cmTC_fe9dc]
+        ignore line: [/usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe9dc.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_fe9dc.dir/CMakeCCompilerABI.c.o -o cmTC_fe9dc ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper]
@@ -214,13 +214,13 @@ events:
         ignore line: [gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_04058' '-mlittle-endian' '-mabi=lp64']
-        link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccH8CMs4.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_04058 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_04058.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fe9dc' '-mlittle-endian' '-mabi=lp64']
+        link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccqdvzYQ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_fe9dc /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_fe9dc.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/aarch64-linux-gnu/7/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccH8CMs4.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccqdvzYQ.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -240,7 +240,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_04058] ==> ignore
+          arg [cmTC_fe9dc] ==> ignore
           arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o]
@@ -252,7 +252,7 @@ events:
           arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../..]
-          arg [CMakeFiles/cmTC_04058.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_fe9dc.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -292,8 +292,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-HJpeoR"
-      binary: "/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-HJpeoR"
+      source: "/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-u3SeTu"
+      binary: "/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-u3SeTu"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -302,21 +302,21 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-HJpeoR'
+        Change Dir: '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-u3SeTu'
         
-        Run Build Command(s): /usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e115f/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_e115f.dir/build.make CMakeFiles/cmTC_e115f.dir/build
-        make[1]: Entering directory '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-HJpeoR'
-        Building CXX object CMakeFiles/cmTC_e115f.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_e115f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/lib/python3.6/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e6fb7/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_e6fb7.dir/build.make CMakeFiles/cmTC_e6fb7.dir/build
+        make[1]: Entering directory '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-u3SeTu'
+        Building CXX object CMakeFiles/cmTC_e6fb7.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_e6fb7.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/lib/python3.6/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         Target: aarch64-linux-gnu
         Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
         Thread model: posix
         gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e115f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
-         /usr/lib/gcc/aarch64-linux-gnu/7/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/local/lib/python3.6/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_e115f.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc8xwSgh.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e6fb7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+         /usr/lib/gcc/aarch64-linux-gnu/7/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/local/lib/python3.6/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_e6fb7.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccp9xjDe.s
         GNU C++14 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)
         	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
         
@@ -340,15 +340,15 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 267235b6617dadf512d9def64c54895c
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e115f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
-         as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_e115f.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc8xwSgh.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e6fb7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+         as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_e6fb7.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccp9xjDe.s
         GNU assembler version 2.30 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
         COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e115f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
-        Linking CXX executable cmTC_e115f
-        /usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e115f.dir/link.txt --verbose=1
-        /usr/bin/c++  -v CMakeFiles/cmTC_e115f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e115f 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e6fb7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+        Linking CXX executable cmTC_e6fb7
+        /usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6fb7.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_e6fb7.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e6fb7 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper
@@ -358,10 +358,10 @@ events:
         gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 
         COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e115f' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
-         /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMpNpBp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_e115f /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_e115f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e115f' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
-        make[1]: Leaving directory '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-HJpeoR'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e6fb7' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+         /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc438JGa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_e6fb7 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_e6fb7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e6fb7' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+        make[1]: Leaving directory '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-u3SeTu'
         
       exitCode: 0
   -
@@ -403,21 +403,21 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-HJpeoR']
+        ignore line: [Change Dir: '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-u3SeTu']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e115f/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_e115f.dir/build.make CMakeFiles/cmTC_e115f.dir/build]
-        ignore line: [make[1]: Entering directory '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-HJpeoR']
-        ignore line: [Building CXX object CMakeFiles/cmTC_e115f.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_e115f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/lib/python3.6/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e6fb7/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_e6fb7.dir/build.make CMakeFiles/cmTC_e6fb7.dir/build]
+        ignore line: [make[1]: Entering directory '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-u3SeTu']
+        ignore line: [Building CXX object CMakeFiles/cmTC_e6fb7.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_e6fb7.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/lib/python3.6/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [Target: aarch64-linux-gnu]
         ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
         ignore line: [Thread model: posix]
         ignore line: [gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e115f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/7/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/local/lib/python3.6/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_e115f.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc8xwSgh.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e6fb7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/7/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /usr/local/lib/python3.6/dist-packages/cmake/data/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_e6fb7.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccp9xjDe.s]
         ignore line: [GNU C++14 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)]
         ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
         ignore line: []
@@ -441,15 +441,15 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 267235b6617dadf512d9def64c54895c]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e115f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-        ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_e115f.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc8xwSgh.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e6fb7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_e6fb7.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccp9xjDe.s]
         ignore line: [GNU assembler version 2.30 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e115f.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-        ignore line: [Linking CXX executable cmTC_e115f]
-        ignore line: [/usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e115f.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_e115f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e115f ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e6fb7.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [Linking CXX executable cmTC_e6fb7]
+        ignore line: [/usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6fb7.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_e6fb7.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_e6fb7 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper]
@@ -459,13 +459,13 @@ events:
         ignore line: [gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e115f' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
-        link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMpNpBp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_e115f /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_e115f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e6fb7' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+        link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc438JGa.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_e6fb7 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_e6fb7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
           arg [/usr/lib/gcc/aarch64-linux-gnu/7/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccMpNpBp.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc438JGa.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -485,7 +485,7 @@ events:
           arg [-znow] ==> ignore
           arg [-zrelro] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_e115f] ==> ignore
+          arg [cmTC_e6fb7] ==> ignore
           arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o]
           arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o]
@@ -497,7 +497,7 @@ events:
           arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../..]
-          arg [CMakeFiles/cmTC_e115f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_e6fb7.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -544,8 +544,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-j8qzYL"
-      binary: "/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-j8qzYL"
+      source: "/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-QHD1jc"
+      binary: "/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-QHD1jc"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -555,28 +555,28 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-j8qzYL'
+        Change Dir: '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-QHD1jc'
         
-        Run Build Command(s): /usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d2163/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_d2163.dir/build.make CMakeFiles/cmTC_d2163.dir/build
-        make[1]: Entering directory '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-j8qzYL'
-        Building C object CMakeFiles/cmTC_d2163.dir/src.c.o
-        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_d2163.dir/src.c.o -c /root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-j8qzYL/src.c
-        Linking C executable cmTC_d2163
-        /usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2163.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_d2163.dir/src.c.o -o cmTC_d2163 
-        CMakeFiles/cmTC_d2163.dir/src.c.o: In function `main':
+        Run Build Command(s): /usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ae2e8/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_ae2e8.dir/build.make CMakeFiles/cmTC_ae2e8.dir/build
+        make[1]: Entering directory '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-QHD1jc'
+        Building C object CMakeFiles/cmTC_ae2e8.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_ae2e8.dir/src.c.o -c /root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-QHD1jc/src.c
+        Linking C executable cmTC_ae2e8
+        /usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae2e8.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_ae2e8.dir/src.c.o -o cmTC_ae2e8 
+        CMakeFiles/cmTC_ae2e8.dir/src.c.o: In function `main':
         src.c:(.text+0x48): undefined reference to `pthread_create'
         src.c:(.text+0x50): undefined reference to `pthread_detach'
         src.c:(.text+0x58): undefined reference to `pthread_cancel'
         src.c:(.text+0x64): undefined reference to `pthread_join'
         src.c:(.text+0x74): undefined reference to `pthread_atfork'
         collect2: error: ld returned 1 exit status
-        CMakeFiles/cmTC_d2163.dir/build.make:98: recipe for target 'cmTC_d2163' failed
-        make[1]: *** [cmTC_d2163] Error 1
-        make[1]: Leaving directory '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-j8qzYL'
-        Makefile:127: recipe for target 'cmTC_d2163/fast' failed
-        make: *** [cmTC_d2163/fast] Error 2
+        CMakeFiles/cmTC_ae2e8.dir/build.make:98: recipe for target 'cmTC_ae2e8' failed
+        make[1]: *** [cmTC_ae2e8] Error 1
+        make[1]: Leaving directory '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-QHD1jc'
+        Makefile:127: recipe for target 'cmTC_ae2e8/fast' failed
+        make: *** [cmTC_ae2e8/fast] Error 2
         
       exitCode: 2
   -
@@ -598,8 +598,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-A5rEAU"
-      binary: "/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-A5rEAU"
+      source: "/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-ipSRgb"
+      binary: "/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-ipSRgb"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -609,23 +609,23 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-A5rEAU'
+        Change Dir: '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-ipSRgb'
         
-        Run Build Command(s): /usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d6c62/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_d6c62.dir/build.make CMakeFiles/cmTC_d6c62.dir/build
-        make[1]: Entering directory '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-A5rEAU'
-        Building C object CMakeFiles/cmTC_d6c62.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_d6c62.dir/CheckFunctionExists.c.o -c /root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-A5rEAU/CheckFunctionExists.c
-        Linking C executable cmTC_d6c62
-        /usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6c62.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_d6c62.dir/CheckFunctionExists.c.o -o cmTC_d6c62  -lpthreads 
+        Run Build Command(s): /usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7bfa7/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_7bfa7.dir/build.make CMakeFiles/cmTC_7bfa7.dir/build
+        make[1]: Entering directory '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-ipSRgb'
+        Building C object CMakeFiles/cmTC_7bfa7.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_7bfa7.dir/CheckFunctionExists.c.o -c /root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-ipSRgb/CheckFunctionExists.c
+        Linking C executable cmTC_7bfa7
+        /usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bfa7.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_7bfa7.dir/CheckFunctionExists.c.o -o cmTC_7bfa7  -lpthreads 
         /usr/bin/ld: cannot find -lpthreads
         collect2: error: ld returned 1 exit status
-        CMakeFiles/cmTC_d6c62.dir/build.make:98: recipe for target 'cmTC_d6c62' failed
-        make[1]: *** [cmTC_d6c62] Error 1
-        make[1]: Leaving directory '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-A5rEAU'
-        Makefile:127: recipe for target 'cmTC_d6c62/fast' failed
-        make: *** [cmTC_d6c62/fast] Error 2
+        CMakeFiles/cmTC_7bfa7.dir/build.make:98: recipe for target 'cmTC_7bfa7' failed
+        make[1]: *** [cmTC_7bfa7] Error 1
+        make[1]: Leaving directory '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-ipSRgb'
+        Makefile:127: recipe for target 'cmTC_7bfa7/fast' failed
+        make: *** [cmTC_7bfa7/fast] Error 2
         
       exitCode: 2
   -
@@ -647,8 +647,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-NI9jMi"
-      binary: "/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-NI9jMi"
+      source: "/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-5JDLQj"
+      binary: "/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-5JDLQj"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -658,17 +658,53 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-NI9jMi'
+        Change Dir: '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-5JDLQj'
         
-        Run Build Command(s): /usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_10eb4/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_10eb4.dir/build.make CMakeFiles/cmTC_10eb4.dir/build
-        make[1]: Entering directory '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-NI9jMi'
-        Building C object CMakeFiles/cmTC_10eb4.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_10eb4.dir/CheckFunctionExists.c.o -c /root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-NI9jMi/CheckFunctionExists.c
-        Linking C executable cmTC_10eb4
-        /usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10eb4.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_10eb4.dir/CheckFunctionExists.c.o -o cmTC_10eb4  -lpthread 
-        make[1]: Leaving directory '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-NI9jMi'
+        Run Build Command(s): /usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_599d9/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_599d9.dir/build.make CMakeFiles/cmTC_599d9.dir/build
+        make[1]: Entering directory '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-5JDLQj'
+        Building C object CMakeFiles/cmTC_599d9.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_599d9.dir/CheckFunctionExists.c.o -c /root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-5JDLQj/CheckFunctionExists.c
+        Linking C executable cmTC_599d9
+        /usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_599d9.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_599d9.dir/CheckFunctionExists.c.o -o cmTC_599d9  -lpthread 
+        make[1]: Leaving directory '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-5JDLQj'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/lib/python3.6/dist-packages/cmake/data/share/cmake-3.27/Modules/FindThreads.cmake:136 (try_compile)"
+      - "/usr/local/lib/python3.6/dist-packages/cmake/data/share/cmake-3.27/Modules/FindThreads.cmake:169 (_threads_check_flag_pthread)"
+      - "/opt/ros/humble/install/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:58 (find_package)"
+      - "/opt/ros/humble/install/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)"
+      - "/opt/ros/humble/install/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)"
+      - "CMakeLists.txt:61 (ament_add_gtest)"
+    checks:
+      - "Check if compiler accepts -pthread"
+    directories:
+      source: "/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-iDX3c8"
+      binary: "/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-iDX3c8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/opt/ros/humble/install/share/fastrtps_cmake_module/cmake/Modules;/opt/ros/humble/install/lib/cmake/iceoryx_hoofs;/opt/ros/humble/install/lib/cmake/iceoryx_posh"
+    buildResult:
+      variable: "THREADS_HAVE_PTHREAD_ARG"
+      cached: true
+      stdout: |
+        Change Dir: '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-iDX3c8'
+        
+        Run Build Command(s): /usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7e5e4/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_7e5e4.dir/build.make CMakeFiles/cmTC_7e5e4.dir/build
+        make[1]: Entering directory '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-iDX3c8'
+        Building C object CMakeFiles/cmTC_7e5e4.dir/CheckForPthreads.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_7e5e4.dir/CheckForPthreads.c.o -c /root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-iDX3c8/CheckForPthreads.c
+        Linking C executable cmTC_7e5e4
+        /usr/local/lib/python3.6/dist-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e5e4.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_7e5e4.dir/CheckForPthreads.c.o -o cmTC_7e5e4  -pthread 
+        make[1]: Leaving directory '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater/CMakeFiles/CMakeScratch/TryCompile-iDX3c8'
         
       exitCode: 0
 ...

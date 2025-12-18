@@ -23,6 +23,9 @@ AMENT_CMAKE_ENVIRONMENT_PACKAGE_GENERATION:BOOL=ON
 //Generate marker file containing the parent prefix path
 AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
+//Generate coverage information for Python tests
+AMENT_CMAKE_PYTEST_WITH_COVERAGE:BOOL=OFF
+
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
 AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
@@ -40,7 +43,7 @@ AMENT_TEST_RESULTS_DIR:PATH=/root/Workspaces/rosgsthumble_ws/build/cv_bridge/tes
 BUILD_SHARED_LIBS:BOOL=ON
 
 //Build the testing tree.
-BUILD_TESTING:BOOL=OFF
+BUILD_TESTING:BOOL=ON
 
 //The directory containing a CMake configuration file for Boost.
 Boost_DIR:PATH=Boost_DIR-NOTFOUND
@@ -68,7 +71,7 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=Release
+CMAKE_BUILD_TYPE:STRING=
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
@@ -412,14 +415,32 @@ CUDA_rt_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/librt.so
 //The directory containing a CMake configuration file for OpenCV.
 OpenCV_DIR:PATH=/usr/lib/cmake/opencv4
 
+//Name of the computer/site where compile is being run
+SITE:STRING=nano
+
+//Path to a file.
+_gtest_header_file:FILEPATH=/opt/ros/humble/install/src/gtest_vendor/include/gtest/gtest.h
+
+//Path to a file.
+_gtest_src_file:FILEPATH=/opt/ros/humble/install/src/gtest_vendor/src/gtest.cc
+
 //Path to a library.
 _lib:FILEPATH=/opt/ros/humble/install/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/humble/install/share/ament_cmake/cmake
 
+//The directory containing a CMake configuration file for ament_cmake_copyright.
+ament_cmake_copyright_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_copyright/cmake
+
 //The directory containing a CMake configuration file for ament_cmake_core.
 ament_cmake_core_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_core/cmake
+
+//The directory containing a CMake configuration file for ament_cmake_cppcheck.
+ament_cmake_cppcheck_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_cppcheck/cmake
+
+//The directory containing a CMake configuration file for ament_cmake_cpplint.
+ament_cmake_cpplint_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_cpplint/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_export_definitions.
 ament_cmake_export_definitions_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_export_definitions/cmake
@@ -442,6 +463,9 @@ ament_cmake_export_link_flags_DIR:PATH=/opt/ros/humble/install/share/ament_cmake
 //The directory containing a CMake configuration file for ament_cmake_export_targets.
 ament_cmake_export_targets_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_export_targets/cmake
 
+//The directory containing a CMake configuration file for ament_cmake_flake8.
+ament_cmake_flake8_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_flake8/cmake
+
 //The directory containing a CMake configuration file for ament_cmake_gen_version_h.
 ament_cmake_gen_version_h_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_gen_version_h/cmake
 
@@ -456,6 +480,12 @@ ament_cmake_include_directories_DIR:PATH=/opt/ros/humble/install/share/ament_cma
 
 //The directory containing a CMake configuration file for ament_cmake_libraries.
 ament_cmake_libraries_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_libraries/cmake
+
+//The directory containing a CMake configuration file for ament_cmake_lint_cmake.
+ament_cmake_lint_cmake_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_lint_cmake/cmake
+
+//The directory containing a CMake configuration file for ament_cmake_pep257.
+ament_cmake_pep257_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_pep257/cmake
 
 //The directory containing a CMake configuration file for ament_cmake_pytest.
 ament_cmake_pytest_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_pytest/cmake
@@ -472,8 +502,20 @@ ament_cmake_target_dependencies_DIR:PATH=/opt/ros/humble/install/share/ament_cma
 //The directory containing a CMake configuration file for ament_cmake_test.
 ament_cmake_test_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_test/cmake
 
+//The directory containing a CMake configuration file for ament_cmake_uncrustify.
+ament_cmake_uncrustify_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_uncrustify/cmake
+
 //The directory containing a CMake configuration file for ament_cmake_version.
 ament_cmake_version_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_version/cmake
+
+//The directory containing a CMake configuration file for ament_cmake_xmllint.
+ament_cmake_xmllint_DIR:PATH=/opt/ros/humble/install/share/ament_cmake_xmllint/cmake
+
+//The directory containing a CMake configuration file for ament_lint_auto.
+ament_lint_auto_DIR:PATH=/opt/ros/humble/install/share/ament_lint_auto/cmake
+
+//The directory containing a CMake configuration file for ament_lint_common.
+ament_lint_common_DIR:PATH=/opt/ros/humble/install/share/ament_lint_common/cmake
 
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/humble/install/share/builtin_interfaces/cmake
@@ -495,6 +537,21 @@ fastrtps_cmake_module_DIR:PATH=/opt/ros/humble/install/share/fastrtps_cmake_modu
 
 //The directory containing a CMake configuration file for geometry_msgs.
 geometry_msgs_DIR:PATH=/opt/ros/humble/install/share/geometry_msgs/cmake
+
+//Value Computed by CMake
+gtest_BINARY_DIR:STATIC=/root/Workspaces/rosgsthumble_ws/build/cv_bridge/gtest
+
+//Value Computed by CMake
+gtest_IS_TOP_LEVEL:STATIC=OFF
+
+//Dependencies for the target
+gtest_LIB_DEPENDS:STATIC=general;-pthread;
+
+//Value Computed by CMake
+gtest_SOURCE_DIR:STATIC=/opt/ros/humble/install/src/gtest_vendor
+
+//The directory containing a CMake configuration file for gtest_vendor.
+gtest_vendor_DIR:PATH=/opt/ros/humble/install/share/gtest_vendor/cmake
 
 //The directory containing a CMake configuration file for rcpputils.
 rcpputils_DIR:PATH=/opt/ros/humble/install/share/rcpputils/cmake
@@ -624,6 +681,8 @@ CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_DLLTOOL
 CMAKE_DLLTOOL-ADVANCED:INTERNAL=1
+//Whether to issue deprecation errors for macros and functions.
+CMAKE_ERROR_DEPRECATED:INTERNAL=FALSE
 //Executable file format
 CMAKE_EXECUTABLE_FORMAT:INTERNAL=ELF
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS
@@ -676,7 +735,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -715,12 +774,20 @@ CMAKE_STATIC_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_STRIP
 CMAKE_STRIP-ADVANCED:INTERNAL=1
+//Suppress errors that are meant for the author of the CMakeLists.txt
+// files.
+CMAKE_SUPPRESS_DEVELOPER_ERRORS:INTERNAL=TRUE
+//Suppress Warnings that are meant for the author of the CMakeLists.txt
+// files.
+CMAKE_SUPPRESS_DEVELOPER_WARNINGS:INTERNAL=TRUE
 //ADVANCED property for variable: CMAKE_TAPI
 CMAKE_TAPI-ADVANCED:INTERNAL=1
 //uname command
 CMAKE_UNAME:INTERNAL=/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Whether to issue warnings for deprecated functionality.
+CMAKE_WARN_DEPRECATED:INTERNAL=FALSE
 //Compiler support for a deprecated attribute
 COMPILER_HAS_DEPRECATED:INTERNAL=1
 //Test COMPILER_HAS_DEPRECATED_ATTR
@@ -838,9 +905,17 @@ FIND_PACKAGE_MESSAGE_DETAILS_CUDA:INTERNAL=[/usr/local/cuda-10.2][/usr/local/cud
 FIND_PACKAGE_MESSAGE_DETAILS_Python3:INTERNAL=[/usr/include/python3.6m][/usr/lib/aarch64-linux-gnu/libpython3.6m.so][/usr/local/lib/python3.6/dist-packages/numpy/core/include][cfound components: Development NumPy Interpreter Development.Module Development.Embed ][v3.6.9()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+GTEST_FROM_SOURCE_BASE_DIR:INTERNAL=/opt/ros/humble/install/src/gtest_vendor
+GTEST_FROM_SOURCE_FOUND:INTERNAL=TRUE
+GTEST_FROM_SOURCE_INCLUDE_DIRS:INTERNAL=/opt/ros/humble/install/src/gtest_vendor/include
+GTEST_FROM_SOURCE_LIBRARIES:INTERNAL=gtest
+GTEST_FROM_SOURCE_LIBRARY_DIRS:INTERNAL=/root/Workspaces/rosgsthumble_ws/build/cv_bridge/gtest
+GTEST_FROM_SOURCE_MAIN_LIBRARIES:INTERNAL=gtest_main
 //The directory for Python library installation. This needs to
 // be in PYTHONPATH when 'setup.py install' is called.
 PYTHON_INSTALL_DIR:INTERNAL=lib/python3.6/site-packages
+//Result of TRY_COMPILE
+THREADS_HAVE_PTHREAD_ARG:INTERNAL=TRUE
 //Components requested for this build tree.
 _Boost_COMPONENTS_SEARCHED:INTERNAL=python3
 //Last used Boost_INCLUDE_DIR value.
@@ -867,6 +942,8 @@ _Python3_INCLUDE_DIR:INTERNAL=/usr/include/python3.6m
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;6;9;64;m;cpython-36m-aarch64-linux-gnu;abi3;/usr/lib/python3.6;/usr/lib/python3.6;/usr/lib/python3.6/site-packages;/usr/lib/python3.6/site-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=b6830b8a27b116ec04b91b52a075b840
+//Interpreter reason failure
+_Python3_Interpreter_REASON_FAILURE:INTERNAL=
 //Path to a library.
 _Python3_LIBRARY_RELEASE:INTERNAL=/usr/lib/aarch64-linux-gnu/libpython3.6m.so
 _Python3_NUMPY_SIGNATURE:INTERNAL=728978ba2150fa209d39bd380fa3a7c7

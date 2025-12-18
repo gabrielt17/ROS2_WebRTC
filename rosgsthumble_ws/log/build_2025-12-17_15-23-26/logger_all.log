@@ -1,0 +1,802 @@
+[2.860s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--parallel-workers=4']
+[2.860s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8cead860>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8cead860>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8cd1c080>)
+[3.057s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.057s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.058s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.058s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.058s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.059s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.060s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/Workspaces/rosgsthumble_ws'
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.060s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.246s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.246s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.247s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.249s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.249s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.249s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.250s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.250s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.250s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.251s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.252s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.253s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.254s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['ignore', 'ignore_ament_install']
+[3.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'ignore'
+[3.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'ignore_ament_install'
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['colcon_pkg']
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'colcon_pkg'
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['colcon_meta']
+[3.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'colcon_meta'
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['ros']
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'ros'
+[3.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['cmake', 'python']
+[3.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'cmake'
+[3.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'python'
+[3.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['python_setup_py']
+[3.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'python_setup_py'
+[3.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extensions ['ignore', 'ignore_ament_install']
+[3.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extension 'ignore'
+[3.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) ignored
+[3.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extensions ['ignore', 'ignore_ament_install']
+[3.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extension 'ignore'
+[3.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extension 'ignore_ament_install'
+[3.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extensions ['colcon_pkg']
+[3.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extension 'colcon_pkg'
+[3.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extensions ['colcon_meta']
+[3.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extension 'colcon_meta'
+[3.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extensions ['ros']
+[3.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extension 'ros'
+[3.277s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diagnostics/diagnostic_common_diagnostics' with type 'ros.ament_cmake' and name 'diagnostic_common_diagnostics'
+[3.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_remote_logging) by extensions ['ignore', 'ignore_ament_install']
+[3.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_remote_logging) by extension 'ignore'
+[3.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_remote_logging) ignored
+[3.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extensions ['ignore', 'ignore_ament_install']
+[3.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extension 'ignore'
+[3.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extension 'ignore_ament_install'
+[3.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extensions ['colcon_pkg']
+[3.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extension 'colcon_pkg'
+[3.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extensions ['colcon_meta']
+[3.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extension 'colcon_meta'
+[3.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extensions ['ros']
+[3.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extension 'ros'
+[3.289s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diagnostics/diagnostic_updater' with type 'ros.ament_cmake' and name 'diagnostic_updater'
+[3.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extensions ['ignore', 'ignore_ament_install']
+[3.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extension 'ignore'
+[3.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extension 'ignore_ament_install'
+[3.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extensions ['colcon_pkg']
+[3.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extension 'colcon_pkg'
+[3.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extensions ['colcon_meta']
+[3.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extension 'colcon_meta'
+[3.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extensions ['ros']
+[3.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extension 'ros'
+[3.295s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diagnostics/diagnostics' with type 'ros.ament_cmake' and name 'diagnostics'
+[3.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extensions ['ignore', 'ignore_ament_install']
+[3.296s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extension 'ignore'
+[3.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) ignored
+[3.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ignore', 'ignore_ament_install']
+[3.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore'
+[3.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore_ament_install'
+[3.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_pkg']
+[3.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_pkg'
+[3.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_meta']
+[3.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_meta'
+[3.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ros']
+[3.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ros'
+[3.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['cmake', 'python']
+[3.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'cmake'
+[3.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python'
+[3.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['python_setup_py']
+[3.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python_setup_py'
+[3.301s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ignore', 'ignore_ament_install']
+[3.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore'
+[3.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore_ament_install'
+[3.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_pkg']
+[3.302s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_pkg'
+[3.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_meta']
+[3.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_meta'
+[3.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ros']
+[3.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ros'
+[3.350s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera' with type 'ros.ament_cmake' and name 'realsense2_camera'
+[3.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[3.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore'
+[3.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore_ament_install'
+[3.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_pkg']
+[3.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_pkg'
+[3.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_meta']
+[3.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_meta'
+[3.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ros']
+[3.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ros'
+[3.357s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera_msgs' with type 'ros.ament_cmake' and name 'realsense2_camera_msgs'
+[3.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ignore', 'ignore_ament_install']
+[3.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore'
+[3.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore_ament_install'
+[3.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_pkg']
+[3.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_pkg'
+[3.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_meta']
+[3.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_meta'
+[3.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ros']
+[3.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ros'
+[3.366s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_description' with type 'ros.ament_cmake' and name 'realsense2_description'
+[3.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[3.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore'
+[3.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore_ament_install'
+[3.367s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_pkg']
+[3.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_pkg'
+[3.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_meta']
+[3.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_meta'
+[3.368s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ros']
+[3.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ros'
+[3.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['cmake', 'python']
+[3.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'cmake'
+[3.369s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python'
+[3.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['python_setup_py']
+[3.370s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python_setup_py'
+[3.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extensions ['ignore', 'ignore_ament_install']
+[3.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extension 'ignore'
+[3.371s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extension 'ignore_ament_install'
+[3.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extensions ['colcon_pkg']
+[3.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extension 'colcon_pkg'
+[3.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extensions ['colcon_meta']
+[3.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extension 'colcon_meta'
+[3.372s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extensions ['ros']
+[3.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extension 'ros'
+[3.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extensions ['cmake', 'python']
+[3.373s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extension 'cmake'
+[3.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extension 'python'
+[3.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extensions ['python_setup_py']
+[3.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extension 'python_setup_py'
+[3.374s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extensions ['ignore', 'ignore_ament_install']
+[3.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extension 'ignore'
+[3.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extension 'ignore_ament_install'
+[3.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extensions ['colcon_pkg']
+[3.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extension 'colcon_pkg'
+[3.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extensions ['colcon_meta']
+[3.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extension 'colcon_meta'
+[3.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extensions ['ros']
+[3.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extension 'ros'
+[3.381s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros-gst-bridge/audio_msgs' with type 'ros.ament_cmake' and name 'audio_msgs'
+[3.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extensions ['ignore', 'ignore_ament_install']
+[3.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extension 'ignore'
+[3.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extension 'ignore_ament_install'
+[3.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extensions ['colcon_pkg']
+[3.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extension 'colcon_pkg'
+[3.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extensions ['colcon_meta']
+[3.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extension 'colcon_meta'
+[3.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extensions ['ros']
+[3.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extension 'ros'
+[3.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extensions ['cmake', 'python']
+[3.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extension 'cmake'
+[3.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extension 'python'
+[3.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extensions ['python_setup_py']
+[3.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extension 'python_setup_py'
+[3.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extensions ['ignore', 'ignore_ament_install']
+[3.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extension 'ignore'
+[3.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extension 'ignore_ament_install'
+[3.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extensions ['colcon_pkg']
+[3.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extension 'colcon_pkg'
+[3.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extensions ['colcon_meta']
+[3.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extension 'colcon_meta'
+[3.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extensions ['ros']
+[3.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extension 'ros'
+[3.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extensions ['cmake', 'python']
+[3.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extension 'cmake'
+[3.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extension 'python'
+[3.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extensions ['python_setup_py']
+[3.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extension 'python_setup_py'
+[3.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extensions ['ignore', 'ignore_ament_install']
+[3.390s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extension 'ignore'
+[3.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extension 'ignore_ament_install'
+[3.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extensions ['colcon_pkg']
+[3.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extension 'colcon_pkg'
+[3.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extensions ['colcon_meta']
+[3.391s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extension 'colcon_meta'
+[3.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extensions ['ros']
+[3.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extension 'ros'
+[3.396s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros-gst-bridge/gst_bridge' with type 'ros.ament_cmake' and name 'gst_bridge'
+[3.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extensions ['ignore', 'ignore_ament_install']
+[3.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extension 'ignore'
+[3.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extension 'ignore_ament_install'
+[3.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extensions ['colcon_pkg']
+[3.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extension 'colcon_pkg'
+[3.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extensions ['colcon_meta']
+[3.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extension 'colcon_meta'
+[3.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extensions ['ros']
+[3.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extension 'ros'
+[3.402s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros-gst-bridge/gst_msgs' with type 'ros.ament_cmake' and name 'gst_msgs'
+[3.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extensions ['ignore', 'ignore_ament_install']
+[3.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extension 'ignore'
+[3.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extension 'ignore_ament_install'
+[3.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extensions ['colcon_pkg']
+[3.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extension 'colcon_pkg'
+[3.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extensions ['colcon_meta']
+[3.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extension 'colcon_meta'
+[3.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extensions ['ros']
+[3.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extension 'ros'
+[3.410s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros-gst-bridge/gst_pipeline' with type 'ros.ament_cmake' and name 'gst_pipeline'
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extensions ['ignore', 'ignore_ament_install']
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extension 'ignore'
+[3.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extension 'ignore_ament_install'
+[3.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extensions ['colcon_pkg']
+[3.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extension 'colcon_pkg'
+[3.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extensions ['colcon_meta']
+[3.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extension 'colcon_meta'
+[3.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extensions ['ros']
+[3.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extension 'ros'
+[3.418s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros-gst-bridge/gst_pipeline_plugins' with type 'ros.ament_cmake' and name 'gst_pipeline_plugins'
+[3.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins_webrtc) by extensions ['ignore', 'ignore_ament_install']
+[3.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins_webrtc) by extension 'ignore'
+[3.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins_webrtc) ignored
+[3.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[3.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore'
+[3.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore_ament_install'
+[3.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_pkg']
+[3.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_pkg'
+[3.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_meta']
+[3.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_meta'
+[3.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ros']
+[3.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ros'
+[3.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['cmake', 'python']
+[3.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'cmake'
+[3.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python'
+[3.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['python_setup_py']
+[3.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python_setup_py'
+[3.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ignore', 'ignore_ament_install']
+[3.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore'
+[3.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore_ament_install'
+[3.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_pkg']
+[3.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_pkg'
+[3.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_meta']
+[3.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_meta'
+[3.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ros']
+[3.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ros'
+[3.432s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/cv_bridge' with type 'ros.ament_cmake' and name 'cv_bridge'
+[3.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ignore', 'ignore_ament_install']
+[3.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore'
+[3.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore_ament_install'
+[3.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_pkg']
+[3.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_pkg'
+[3.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_meta']
+[3.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_meta'
+[3.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ros']
+[3.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ros'
+[3.440s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/image_geometry' with type 'ros.ament_cmake' and name 'image_geometry'
+[3.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ignore', 'ignore_ament_install']
+[3.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore'
+[3.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) ignored
+[3.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[3.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore'
+[3.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore_ament_install'
+[3.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_pkg']
+[3.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_pkg'
+[3.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_meta']
+[3.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_meta'
+[3.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ros']
+[3.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ros'
+[3.447s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/vision_opencv' with type 'ros.ament_cmake' and name 'vision_opencv'
+[3.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extensions ['ignore', 'ignore_ament_install']
+[3.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extension 'ignore'
+[3.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extension 'ignore_ament_install'
+[3.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extensions ['colcon_pkg']
+[3.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extension 'colcon_pkg'
+[3.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extensions ['colcon_meta']
+[3.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extension 'colcon_meta'
+[3.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extensions ['ros']
+[3.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extension 'ros'
+[3.455s] DEBUG:colcon.colcon_core.package_identification:Package 'src/webrtc_camera_node' with type 'ros.ament_cmake' and name 'webrtc_camera_node'
+[3.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extensions ['ignore', 'ignore_ament_install']
+[3.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extension 'ignore'
+[3.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extension 'ignore_ament_install'
+[3.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extensions ['colcon_pkg']
+[3.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extension 'colcon_pkg'
+[3.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extensions ['colcon_meta']
+[3.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extension 'colcon_meta'
+[3.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extensions ['ros']
+[3.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extension 'ros'
+[3.465s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xacro' with type 'ros.ament_cmake' and name 'xacro'
+[3.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.467s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.652s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/xacro' from colcon.pkg: {'hooks': ['share/xacro/environment/completion.bash']}
+[3.707s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'cmake_args' from command line to 'None'
+[3.708s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'cmake_target' from command line to 'None'
+[3.708s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.708s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.708s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[3.708s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[3.709s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[3.709s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.709s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.709s] DEBUG:colcon.colcon_core.verb:Building package 'audio_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Workspaces/rosgsthumble_ws/build/audio_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Workspaces/rosgsthumble_ws/install/audio_msgs', 'merge_install': False, 'path': '/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs', 'symlink_install': True, 'test_result_base': None}
+[3.727s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_args' from command line to 'None'
+[3.727s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target' from command line to 'None'
+[3.727s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.727s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[3.727s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[3.728s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[3.728s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[3.728s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[3.728s] Level 5:colcon.colcon_core.verb:set package 'cv_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.728s] DEBUG:colcon.colcon_core.verb:Building package 'cv_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Workspaces/rosgsthumble_ws/build/cv_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Workspaces/rosgsthumble_ws/install/cv_bridge', 'merge_install': False, 'path': '/root/Workspaces/rosgsthumble_ws/src/vision_opencv/cv_bridge', 'symlink_install': True, 'test_result_base': None}
+[3.746s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'cmake_args' from command line to 'None'
+[3.746s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'cmake_target' from command line to 'None'
+[3.746s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.747s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'cmake_clean_cache' from command line to 'False'
+[3.747s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'cmake_clean_first' from command line to 'False'
+[3.747s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'cmake_force_configure' from command line to 'False'
+[3.747s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'ament_cmake_args' from command line to 'None'
+[3.747s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'catkin_cmake_args' from command line to 'None'
+[3.747s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_updater' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.748s] DEBUG:colcon.colcon_core.verb:Building package 'diagnostic_updater' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater', 'merge_install': False, 'path': '/root/Workspaces/rosgsthumble_ws/src/diagnostics/diagnostic_updater', 'symlink_install': True, 'test_result_base': None}
+[3.765s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'cmake_args' from command line to 'None'
+[3.765s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'cmake_target' from command line to 'None'
+[3.765s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.766s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.766s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[3.766s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[3.766s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[3.766s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.766s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.767s] DEBUG:colcon.colcon_core.verb:Building package 'gst_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Workspaces/rosgsthumble_ws/build/gst_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Workspaces/rosgsthumble_ws/install/gst_msgs', 'merge_install': False, 'path': '/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs', 'symlink_install': True, 'test_result_base': None}
+[3.784s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_args' from command line to 'None'
+[3.784s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_target' from command line to 'None'
+[3.784s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.784s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_clean_cache' from command line to 'False'
+[3.785s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_clean_first' from command line to 'False'
+[3.785s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'cmake_force_configure' from command line to 'False'
+[3.785s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'ament_cmake_args' from command line to 'None'
+[3.785s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'catkin_cmake_args' from command line to 'None'
+[3.785s] Level 5:colcon.colcon_core.verb:set package 'image_geometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.785s] DEBUG:colcon.colcon_core.verb:Building package 'image_geometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Workspaces/rosgsthumble_ws/build/image_geometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Workspaces/rosgsthumble_ws/install/image_geometry', 'merge_install': False, 'path': '/root/Workspaces/rosgsthumble_ws/src/vision_opencv/image_geometry', 'symlink_install': True, 'test_result_base': None}
+[3.803s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_args' from command line to 'None'
+[3.803s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[3.803s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.803s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[3.804s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[3.804s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[3.804s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[3.804s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[3.804s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.804s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Workspaces/rosgsthumble_ws/build/realsense2_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs', 'merge_install': False, 'path': '/root/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera_msgs', 'symlink_install': True, 'test_result_base': None}
+[3.822s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'cmake_args' from command line to 'None'
+[3.822s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'cmake_target' from command line to 'None'
+[3.822s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.822s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'cmake_clean_cache' from command line to 'False'
+[3.823s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'cmake_clean_first' from command line to 'False'
+[3.823s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'cmake_force_configure' from command line to 'False'
+[3.823s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'ament_cmake_args' from command line to 'None'
+[3.823s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'catkin_cmake_args' from command line to 'None'
+[3.823s] Level 5:colcon.colcon_core.verb:set package 'xacro' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.823s] DEBUG:colcon.colcon_core.verb:Building package 'xacro' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Workspaces/rosgsthumble_ws/build/xacro', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Workspaces/rosgsthumble_ws/install/xacro', 'merge_install': False, 'path': '/root/Workspaces/rosgsthumble_ws/src/xacro', 'symlink_install': True, 'test_result_base': None}
+[3.841s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'cmake_args' from command line to 'None'
+[3.841s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'cmake_target' from command line to 'None'
+[3.841s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.841s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'cmake_clean_cache' from command line to 'False'
+[3.842s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'cmake_clean_first' from command line to 'False'
+[3.842s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'cmake_force_configure' from command line to 'False'
+[3.842s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'ament_cmake_args' from command line to 'None'
+[3.842s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'catkin_cmake_args' from command line to 'None'
+[3.842s] Level 5:colcon.colcon_core.verb:set package 'diagnostic_common_diagnostics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.842s] DEBUG:colcon.colcon_core.verb:Building package 'diagnostic_common_diagnostics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Workspaces/rosgsthumble_ws/build/diagnostic_common_diagnostics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics', 'merge_install': False, 'path': '/root/Workspaces/rosgsthumble_ws/src/diagnostics/diagnostic_common_diagnostics', 'symlink_install': True, 'test_result_base': None}
+[3.860s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'cmake_args' from command line to 'None'
+[3.860s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'cmake_target' from command line to 'None'
+[3.860s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.860s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[3.860s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[3.861s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[3.861s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[3.861s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[3.861s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.861s] DEBUG:colcon.colcon_core.verb:Building package 'gst_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Workspaces/rosgsthumble_ws/build/gst_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Workspaces/rosgsthumble_ws/install/gst_bridge', 'merge_install': False, 'path': '/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge', 'symlink_install': True, 'test_result_base': None}
+[3.879s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_args' from command line to 'None'
+[3.879s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target' from command line to 'None'
+[3.879s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.879s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[3.879s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[3.880s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[3.880s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[3.880s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[3.880s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.880s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Workspaces/rosgsthumble_ws/build/realsense2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Workspaces/rosgsthumble_ws/install/realsense2_camera', 'merge_install': False, 'path': '/root/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera', 'symlink_install': True, 'test_result_base': None}
+[3.898s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_args' from command line to 'None'
+[3.899s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target' from command line to 'None'
+[3.899s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.899s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[3.899s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_first' from command line to 'False'
+[3.899s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_force_configure' from command line to 'False'
+[3.900s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'ament_cmake_args' from command line to 'None'
+[3.900s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[3.900s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.900s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Workspaces/rosgsthumble_ws/build/realsense2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Workspaces/rosgsthumble_ws/install/realsense2_description', 'merge_install': False, 'path': '/root/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_description', 'symlink_install': True, 'test_result_base': None}
+[3.918s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_args' from command line to 'None'
+[3.918s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_target' from command line to 'None'
+[3.918s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.918s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_clean_cache' from command line to 'False'
+[3.919s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_clean_first' from command line to 'False'
+[3.919s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'cmake_force_configure' from command line to 'False'
+[3.919s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'ament_cmake_args' from command line to 'None'
+[3.919s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'catkin_cmake_args' from command line to 'None'
+[3.919s] Level 5:colcon.colcon_core.verb:set package 'vision_opencv' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.919s] DEBUG:colcon.colcon_core.verb:Building package 'vision_opencv' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Workspaces/rosgsthumble_ws/build/vision_opencv', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Workspaces/rosgsthumble_ws/install/vision_opencv', 'merge_install': False, 'path': '/root/Workspaces/rosgsthumble_ws/src/vision_opencv/vision_opencv', 'symlink_install': True, 'test_result_base': None}
+[3.937s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'cmake_args' from command line to 'None'
+[3.937s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'cmake_target' from command line to 'None'
+[3.937s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.937s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'cmake_clean_cache' from command line to 'False'
+[3.938s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'cmake_clean_first' from command line to 'False'
+[3.938s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'cmake_force_configure' from command line to 'False'
+[3.938s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'ament_cmake_args' from command line to 'None'
+[3.938s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'catkin_cmake_args' from command line to 'None'
+[3.938s] Level 5:colcon.colcon_core.verb:set package 'diagnostics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.938s] DEBUG:colcon.colcon_core.verb:Building package 'diagnostics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Workspaces/rosgsthumble_ws/build/diagnostics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Workspaces/rosgsthumble_ws/install/diagnostics', 'merge_install': False, 'path': '/root/Workspaces/rosgsthumble_ws/src/diagnostics/diagnostics', 'symlink_install': True, 'test_result_base': None}
+[3.956s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'cmake_args' from command line to 'None'
+[3.956s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'cmake_target' from command line to 'None'
+[3.957s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.957s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'cmake_clean_cache' from command line to 'False'
+[3.957s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'cmake_clean_first' from command line to 'False'
+[3.957s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'cmake_force_configure' from command line to 'False'
+[3.957s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'ament_cmake_args' from command line to 'None'
+[3.957s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'catkin_cmake_args' from command line to 'None'
+[3.957s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.958s] DEBUG:colcon.colcon_core.verb:Building package 'gst_pipeline' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Workspaces/rosgsthumble_ws/build/gst_pipeline', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Workspaces/rosgsthumble_ws/install/gst_pipeline', 'merge_install': False, 'path': '/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline', 'symlink_install': True, 'test_result_base': None}
+[3.975s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'cmake_args' from command line to 'None'
+[3.976s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'cmake_target' from command line to 'None'
+[3.976s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.976s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'cmake_clean_cache' from command line to 'False'
+[3.976s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'cmake_clean_first' from command line to 'False'
+[3.976s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'cmake_force_configure' from command line to 'False'
+[3.976s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'ament_cmake_args' from command line to 'None'
+[3.977s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'catkin_cmake_args' from command line to 'None'
+[3.977s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.977s] DEBUG:colcon.colcon_core.verb:Building package 'webrtc_camera_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node', 'merge_install': False, 'path': '/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node', 'symlink_install': True, 'test_result_base': None}
+[3.994s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'cmake_args' from command line to 'None'
+[3.995s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'cmake_target' from command line to 'None'
+[3.995s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.995s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[3.995s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[3.995s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[3.995s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[3.995s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[3.996s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.996s] DEBUG:colcon.colcon_core.verb:Building package 'gst_pipeline_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins', 'merge_install': False, 'path': '/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins', 'symlink_install': True, 'test_result_base': None}
+[4.011s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.095s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.097s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs' with build type 'ament_cmake'
+[4.098s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs'
+[4.157s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.159s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.159s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.173s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Workspaces/rosgsthumble_ws/install/realsense2_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.173s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Workspaces/rosgsthumble_ws/install/xacro' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.173s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.174s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Workspaces/rosgsthumble_ws/install/vision_opencv' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.174s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Workspaces/rosgsthumble_ws/install/realsense2_camera' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.174s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.175s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Workspaces/rosgsthumble_ws/install/image_geometry' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.175s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.175s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Workspaces/rosgsthumble_ws/install/gst_pipeline' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.176s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Workspaces/rosgsthumble_ws/install/gst_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.176s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Workspaces/rosgsthumble_ws/install/diagnostics' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.177s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.177s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.177s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/root/Workspaces/rosgsthumble_ws/install/cv_bridge' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.178s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Workspaces/rosgsthumble_ws/install/realsense2_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[4.178s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Workspaces/rosgsthumble_ws/install/xacro' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[4.178s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[4.179s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Workspaces/rosgsthumble_ws/install/vision_opencv' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[4.179s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Workspaces/rosgsthumble_ws/install/realsense2_camera' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[4.179s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[4.180s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Workspaces/rosgsthumble_ws/install/image_geometry' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[4.180s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[4.180s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Workspaces/rosgsthumble_ws/install/gst_pipeline' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[4.180s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Workspaces/rosgsthumble_ws/install/gst_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[4.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Workspaces/rosgsthumble_ws/install/diagnostics' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[4.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[4.181s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[4.182s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/root/Workspaces/rosgsthumble_ws/install/cv_bridge' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[4.270s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Workspaces/rosgsthumble_ws/src/vision_opencv/cv_bridge' with build type 'ament_cmake'
+[4.271s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Workspaces/rosgsthumble_ws/src/vision_opencv/cv_bridge'
+[4.310s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.310s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.401s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Workspaces/rosgsthumble_ws/src/diagnostics/diagnostic_updater' with build type 'ament_cmake'
+[4.402s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Workspaces/rosgsthumble_ws/src/diagnostics/diagnostic_updater'
+[4.445s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.445s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.537s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs' with build type 'ament_cmake'
+[4.538s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs'
+[4.577s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Workspaces/rosgsthumble_ws/build/audio_msgs': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/audio_msgs -- -j4 -l4
+[4.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Workspaces/rosgsthumble_ws/build/cv_bridge': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/cv_bridge -- -j4 -l4
+[4.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/diagnostic_updater -- -j4 -l4
+[4.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Workspaces/rosgsthumble_ws/build/gst_msgs': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/gst_msgs -- -j4 -l4
+[7.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Workspaces/rosgsthumble_ws/build/audio_msgs' returned '0': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/audio_msgs -- -j4 -l4
+[7.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Workspaces/rosgsthumble_ws/build/cv_bridge' returned '0': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/cv_bridge -- -j4 -l4
+[7.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater' returned '0': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/diagnostic_updater -- -j4 -l4
+[7.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Workspaces/rosgsthumble_ws/build/audio_msgs': /usr/local/bin/cmake --install /root/Workspaces/rosgsthumble_ws/build/audio_msgs
+[7.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Workspaces/rosgsthumble_ws/build/cv_bridge': /usr/local/bin/cmake --install /root/Workspaces/rosgsthumble_ws/build/cv_bridge
+[7.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater': /usr/local/bin/cmake --install /root/Workspaces/rosgsthumble_ws/build/diagnostic_updater
+[7.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Workspaces/rosgsthumble_ws/build/gst_msgs' returned '0': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/gst_msgs -- -j4 -l4
+[8.461s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(audio_msgs)
+[8.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Workspaces/rosgsthumble_ws/build/audio_msgs' returned '0': /usr/local/bin/cmake --install /root/Workspaces/rosgsthumble_ws/build/audio_msgs
+[8.563s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/audio_msgs' for CMake module files
+[8.570s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/audio_msgs' for CMake config files
+[8.575s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_msgs', 'cmake_prefix_path')
+[8.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/cmake_prefix_path.ps1'
+[8.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/cmake_prefix_path.dsv'
+[8.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/cmake_prefix_path.sh'
+[8.634s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib'
+[8.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_msgs', 'ld_library_path_lib')
+[8.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/ld_library_path_lib.ps1'
+[8.684s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/ld_library_path_lib.dsv'
+[8.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/ld_library_path_lib.sh'
+[8.691s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/bin'
+[8.692s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/pkgconfig/audio_msgs.pc'
+[8.693s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages'
+[8.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_msgs', 'pythonpath')
+[8.743s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/pythonpath.ps1'
+[8.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/pythonpath.dsv'
+[8.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/pythonpath.sh'
+[8.750s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/bin'
+[8.795s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/package.ps1'
+[8.804s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/package.dsv'
+[8.811s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/package.sh'
+[8.817s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/package.bash'
+[8.823s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/package.zsh'
+[8.828s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/colcon-core/packages/audio_msgs)
+[8.846s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv_bridge)
+[8.848s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Workspaces/rosgsthumble_ws/build/cv_bridge' returned '0': /usr/local/bin/cmake --install /root/Workspaces/rosgsthumble_ws/build/cv_bridge
+[8.917s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/cv_bridge' for CMake module files
+[8.921s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/cv_bridge' for CMake config files
+[8.923s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'cmake_prefix_path')
+[8.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.ps1'
+[8.968s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.dsv'
+[8.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.sh'
+[8.973s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib'
+[8.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'ld_library_path_lib')
+[9.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.ps1'
+[9.023s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.dsv'
+[9.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.sh'
+[9.026s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/bin'
+[9.027s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/pkgconfig/cv_bridge.pc'
+[9.027s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages'
+[9.028s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'pythonpath')
+[9.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/hook/pythonpath.ps1'
+[9.069s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/hook/pythonpath.dsv'
+[9.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/hook/pythonpath.sh'
+[9.072s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/bin'
+[9.114s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/package.ps1'
+[9.117s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/package.dsv'
+[9.120s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/package.sh'
+[9.122s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/package.bash'
+[9.123s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/package.zsh'
+[9.125s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/colcon-core/packages/cv_bridge)
+[9.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Workspaces/rosgsthumble_ws/build/gst_msgs': /usr/local/bin/cmake --install /root/Workspaces/rosgsthumble_ws/build/gst_msgs
+[9.170s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diagnostic_updater)
+[9.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater' returned '0': /usr/local/bin/cmake --install /root/Workspaces/rosgsthumble_ws/build/diagnostic_updater
+[9.242s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater' for CMake module files
+[9.246s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater' for CMake config files
+[9.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('diagnostic_updater', 'cmake_prefix_path')
+[9.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/hook/cmake_prefix_path.ps1'
+[9.292s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/hook/cmake_prefix_path.dsv'
+[9.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/hook/cmake_prefix_path.sh'
+[9.298s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib'
+[9.298s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/bin'
+[9.299s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/pkgconfig/diagnostic_updater.pc'
+[9.300s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages'
+[9.300s] Level 1:colcon.colcon_core.shell:create_environment_hook('diagnostic_updater', 'pythonpath')
+[9.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/hook/pythonpath.ps1'
+[9.352s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/hook/pythonpath.dsv'
+[9.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/hook/pythonpath.sh'
+[9.357s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/bin'
+[9.407s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/package.ps1'
+[9.412s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/package.dsv'
+[9.415s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/package.sh'
+[9.417s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/package.bash'
+[9.419s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/package.zsh'
+[9.422s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/colcon-core/packages/diagnostic_updater)
+[9.491s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(audio_msgs)
+[9.562s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/audio_msgs' for CMake module files
+[9.573s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/audio_msgs' for CMake config files
+[9.579s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_msgs', 'cmake_prefix_path')
+[9.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/cmake_prefix_path.ps1'
+[9.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/cmake_prefix_path.dsv'
+[9.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/cmake_prefix_path.sh'
+[9.639s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib'
+[9.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_msgs', 'ld_library_path_lib')
+[9.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/ld_library_path_lib.ps1'
+[9.691s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/ld_library_path_lib.dsv'
+[9.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/ld_library_path_lib.sh'
+[9.695s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/bin'
+[9.696s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/pkgconfig/audio_msgs.pc'
+[9.697s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages'
+[9.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_msgs', 'pythonpath')
+[9.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/pythonpath.ps1'
+[9.753s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/pythonpath.dsv'
+[9.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/pythonpath.sh'
+[9.759s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/bin'
+[9.802s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/package.ps1'
+[9.808s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/package.dsv'
+[9.812s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/package.sh'
+[9.815s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/package.bash'
+[9.817s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/package.zsh'
+[9.819s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/colcon-core/packages/audio_msgs)
+[9.865s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cv_bridge)
+[9.932s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/cv_bridge' for CMake module files
+[9.944s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/cv_bridge' for CMake config files
+[9.947s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'cmake_prefix_path')
+[9.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.ps1'
+[9.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.dsv'
+[9.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/hook/cmake_prefix_path.sh'
+[10.001s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib'
+[10.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'ld_library_path_lib')
+[10.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.ps1'
+[10.051s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.dsv'
+[10.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/hook/ld_library_path_lib.sh'
+[10.056s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/bin'
+[10.056s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/pkgconfig/cv_bridge.pc'
+[10.057s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages'
+[10.058s] Level 1:colcon.colcon_core.shell:create_environment_hook('cv_bridge', 'pythonpath')
+[10.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/hook/pythonpath.ps1'
+[10.105s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/hook/pythonpath.dsv'
+[10.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/hook/pythonpath.sh'
+[10.110s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/bin'
+[10.156s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/package.ps1'
+[10.162s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/package.dsv'
+[10.167s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/package.sh'
+[10.170s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/package.bash'
+[10.173s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/package.zsh'
+[10.175s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/colcon-core/packages/cv_bridge)
+[10.180s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge' with build type 'ament_cmake'
+[10.181s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge'
+[10.225s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.226s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.342s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera_msgs' with build type 'ament_cmake'
+[10.344s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera_msgs'
+[10.390s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.391s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.562s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diagnostic_updater)
+[10.626s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater' for CMake module files
+[10.637s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater' for CMake config files
+[10.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('diagnostic_updater', 'cmake_prefix_path')
+[10.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/hook/cmake_prefix_path.ps1'
+[10.687s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/hook/cmake_prefix_path.dsv'
+[10.690s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/hook/cmake_prefix_path.sh'
+[10.694s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib'
+[10.695s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/bin'
+[10.695s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/pkgconfig/diagnostic_updater.pc'
+[10.696s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages'
+[10.696s] Level 1:colcon.colcon_core.shell:create_environment_hook('diagnostic_updater', 'pythonpath')
+[10.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/hook/pythonpath.ps1'
+[10.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/hook/pythonpath.dsv'
+[10.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/hook/pythonpath.sh'
+[10.751s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/bin'
+[10.795s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/package.ps1'
+[10.800s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/package.dsv'
+[10.804s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/package.sh'
+[10.807s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/package.bash'
+[10.809s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/package.zsh'
+[10.811s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/colcon-core/packages/diagnostic_updater)
+[10.817s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Workspaces/rosgsthumble_ws/src/vision_opencv/image_geometry' with build type 'ament_cmake'
+[10.818s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Workspaces/rosgsthumble_ws/src/vision_opencv/image_geometry'
+[10.862s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.863s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Workspaces/rosgsthumble_ws/build/gst_bridge': CMAKE_PREFIX_PATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/opt/ros/humble/install LD_LIBRARY_PATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib PYTHONPATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/gst_bridge
+[11.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Workspaces/rosgsthumble_ws/build/realsense2_camera_msgs': /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs
+[11.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Workspaces/rosgsthumble_ws/build/image_geometry': /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/vision_opencv/image_geometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/image_geometry
+[11.216s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gst_msgs)
+[11.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Workspaces/rosgsthumble_ws/build/gst_msgs' returned '0': /usr/local/bin/cmake --install /root/Workspaces/rosgsthumble_ws/build/gst_msgs
+[11.287s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/gst_msgs' for CMake module files
+[11.292s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/gst_msgs' for CMake config files
+[11.301s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_msgs', 'cmake_prefix_path')
+[11.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/cmake_prefix_path.ps1'
+[11.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/cmake_prefix_path.dsv'
+[11.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/cmake_prefix_path.sh'
+[11.358s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib'
+[11.359s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_msgs', 'ld_library_path_lib')
+[11.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/ld_library_path_lib.ps1'
+[11.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/ld_library_path_lib.dsv'
+[11.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/ld_library_path_lib.sh'
+[11.420s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/bin'
+[11.421s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/pkgconfig/gst_msgs.pc'
+[11.422s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages'
+[11.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_msgs', 'pythonpath')
+[11.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/pythonpath.ps1'
+[11.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/pythonpath.dsv'
+[11.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/pythonpath.sh'
+[11.474s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/bin'
+[11.523s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/package.ps1'
+[11.527s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/package.dsv'
+[11.530s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/package.sh'
+[11.533s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/package.bash'
+[11.535s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/package.zsh'
+[11.537s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/colcon-core/packages/gst_msgs)
+[12.736s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gst_msgs)
+[12.805s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/gst_msgs' for CMake module files
+[12.811s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/gst_msgs' for CMake config files
+[12.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_msgs', 'cmake_prefix_path')
+[12.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/cmake_prefix_path.ps1'
+[12.869s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/cmake_prefix_path.dsv'
+[12.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/cmake_prefix_path.sh'
+[12.875s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib'
+[12.875s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_msgs', 'ld_library_path_lib')
+[12.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/ld_library_path_lib.ps1'
+[12.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/ld_library_path_lib.dsv'
+[12.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/ld_library_path_lib.sh'
+[12.928s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/bin'
+[12.928s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/pkgconfig/gst_msgs.pc'
+[12.929s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages'
+[12.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_msgs', 'pythonpath')
+[12.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/pythonpath.ps1'
+[12.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/pythonpath.dsv'
+[12.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/pythonpath.sh'
+[12.979s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/bin'
+[13.027s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/package.ps1'
+[13.034s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/package.dsv'
+[13.038s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/package.sh'
+[13.042s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/package.bash'
+[13.044s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/package.zsh'
+[13.046s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/colcon-core/packages/gst_msgs)
+[13.054s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Workspaces/rosgsthumble_ws/src/xacro' with build type 'ament_cmake'
+[13.058s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Workspaces/rosgsthumble_ws/src/xacro'
+[13.104s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.105s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Workspaces/rosgsthumble_ws/build/xacro': /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/xacro -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/xacro
+[16.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Workspaces/rosgsthumble_ws/build/gst_bridge' returned '1': CMAKE_PREFIX_PATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/opt/ros/humble/install LD_LIBRARY_PATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib PYTHONPATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/gst_bridge
+[16.915s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gst_bridge)
+[16.981s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/gst_bridge' for CMake module files
+[16.984s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/gst_bridge' for CMake config files
+[16.987s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/bin'
+[16.988s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/pkgconfig/gst_bridge.pc'
+[16.989s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/python3.6/site-packages'
+[16.990s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/bin'
+[17.038s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/package.ps1'
+[17.040s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/package.dsv'
+[17.041s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/package.sh'
+[17.043s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/package.bash'
+[17.045s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/package.zsh'
+[17.047s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/colcon-core/packages/gst_bridge)
+[33.247s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[33.251s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[33.251s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[33.252s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[33.279s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[33.280s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[33.280s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[33.280s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[33.281s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[33.281s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[33.317s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Workspaces/rosgsthumble_ws/install/local_setup.ps1'
+[33.323s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/Workspaces/rosgsthumble_ws/install/_local_setup_util_ps1.py'
+[33.332s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Workspaces/rosgsthumble_ws/install/setup.ps1'
+[33.347s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Workspaces/rosgsthumble_ws/install/local_setup.sh'
+[33.350s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/Workspaces/rosgsthumble_ws/install/_local_setup_util_sh.py'
+[33.352s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Workspaces/rosgsthumble_ws/install/setup.sh'
+[33.366s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Workspaces/rosgsthumble_ws/install/local_setup.bash'
+[33.369s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Workspaces/rosgsthumble_ws/install/setup.bash'
+[33.383s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Workspaces/rosgsthumble_ws/install/local_setup.zsh'
+[33.386s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Workspaces/rosgsthumble_ws/install/setup.zsh'

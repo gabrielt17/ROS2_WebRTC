@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Release")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -59,6 +59,11 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/root/Workspaces/rosgsthumble_ws/build/cv_bridge/src/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/root/Workspaces/rosgsthumble_ws/build/cv_bridge/test/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/share/cv_bridge/cmake/export_cv_bridgeExport.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
@@ -77,8 +82,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     unset(_cmake_export_file_changed)
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cv_bridge/cmake" TYPE FILE FILES "/root/Workspaces/rosgsthumble_ws/build/cv_bridge/CMakeFiles/Export/2f1c49c45cd7370103d50dc4b72e674d/export_cv_bridgeExport.cmake")
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cv_bridge/cmake" TYPE FILE FILES "/root/Workspaces/rosgsthumble_ws/build/cv_bridge/CMakeFiles/Export/2f1c49c45cd7370103d50dc4b72e674d/export_cv_bridgeExport-release.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cv_bridge/cmake" TYPE FILE FILES "/root/Workspaces/rosgsthumble_ws/build/cv_bridge/CMakeFiles/Export/2f1c49c45cd7370103d50dc4b72e674d/export_cv_bridgeExport-noconfig.cmake")
   endif()
 endif()
 

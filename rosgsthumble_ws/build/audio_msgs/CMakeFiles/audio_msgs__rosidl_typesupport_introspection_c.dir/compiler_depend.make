@@ -37,12 +37,9 @@ CMakeFiles/audio_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport
   /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/aarch64-linux-gnu/bits/select.h \
-  /usr/include/aarch64-linux-gnu/bits/select2.h \
   /usr/include/aarch64-linux-gnu/bits/stdint-intn.h \
   /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/aarch64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/aarch64-linux-gnu/bits/stdlib.h \
   /usr/include/aarch64-linux-gnu/bits/sysmacros.h \
   /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/aarch64-linux-gnu/bits/types.h \
@@ -113,13 +110,9 @@ CMakeFiles/audio_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport
 
 /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h:
 
-/usr/include/aarch64-linux-gnu/bits/stdlib.h:
-
 /usr/include/aarch64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/aarch64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/aarch64-linux-gnu/bits/select2.h:
 
 /usr/include/alloca.h:
 
@@ -204,8 +197,6 @@ rosidl_generator_c/audio_msgs/msg/detail/audio__functions.h:
 rosidl_typesupport_introspection_c/audio_msgs/msg/detail/audio__rosidl_typesupport_introspection_c.h:
 
 /usr/include/aarch64-linux-gnu/bits/byteswap.h:
-
-/usr/include/aarch64-linux-gnu/bits/stdlib-bsearch.h:
 
 /opt/ros/humble/install/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h:
 

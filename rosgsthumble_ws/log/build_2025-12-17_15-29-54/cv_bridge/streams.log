@@ -1,0 +1,38 @@
+[0.460s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/cv_bridge': /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/vision_opencv/cv_bridge -Wno-dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/cv_bridge
+[0.669s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/install/share/ament_cmake_ros/cmake)
+[0.989s] -- Found Python3: /usr/bin/python3.6 (found version "3.6.9") found components: Interpreter 
+[1.531s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.234s] -- Found Python3: /usr/include/python3.6m (found version "3.6.9") found components: Development NumPy Interpreter Development.Module Development.Embed 
+[3.445s] -- Found rcpputils: 2.4.1 (/opt/ros/humble/install/share/rcpputils/cmake)
+[3.515s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/install/share/sensor_msgs/cmake)
+[3.620s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[3.639s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[3.679s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[3.762s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.866s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.022s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[6.696s] -- Found gtest sources under '/opt/ros/humble/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[16.341s] -- Configuring done (15.7s)
+[16.618s] -- Generating done (0.2s)
+[16.628s] -- Build files have been written to: /root/Workspaces/rosgsthumble_ws/build/cv_bridge
+[16.696s] Invoked command in '/root/Workspaces/rosgsthumble_ws/build/cv_bridge' returned '0': /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/vision_opencv/cv_bridge -Wno-dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/cv_bridge
+[16.700s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/cv_bridge': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/cv_bridge -- -j4 -l4
+[17.279s] [ 12%] Built target gtest
+[17.310s] [ 12%] Built target ament_cmake_python_symlink_cv_bridge
+[17.357s] [ 25%] Built target gtest_main
+[17.401s] [ 43%] Built target cv_bridge
+[17.676s] [ 50%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_endian.cpp.o[0m
+[17.696s] [ 56%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_compression.cpp.o[0m
+[17.818s] [ 75%] Built target cv_bridge_boost
+[17.874s] [ 81%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest.cpp.o[0m
+[21.632s] running egg_info
+[21.638s] writing cv_bridge.egg-info/PKG-INFO
+[21.646s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[21.663s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[21.682s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[21.688s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[22.019s] [ 81%] Built target ament_cmake_python_build_cv_bridge_egg
+[22.068s] [ 87%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/utest2.cpp.o[0m
+[34.474s] [ 93%] [32mBuilding CXX object test/CMakeFiles/cv_bridge-utest.dir/test_rgb_colors.cpp.o[0m
+[47.162s] [100%] [32m[1mLinking CXX executable cv_bridge-utest[0m
+[48.434s] [100%] Built target cv_bridge-utest

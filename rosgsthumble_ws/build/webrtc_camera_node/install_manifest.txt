@@ -50,4 +50,4 @@
 /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketTransport.h
 /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketVersion.h
 /root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/lib/cmake/ixwebsocket/ixwebsocket-targets.cmake
-/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/lib/cmake/ixwebsocket/ixwebsocket-targets-release.cmake
+/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/lib/cmake/ixwebsocket/ixwebsocket-targets-noconfig.cmake

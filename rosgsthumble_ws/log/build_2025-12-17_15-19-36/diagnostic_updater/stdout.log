@@ -1,0 +1,75 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/install/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.6 (found version "3.6.9") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found diagnostic_msgs: 4.2.3 (/opt/ros/humble/install/share/diagnostic_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 16.0.5 (/opt/ros/humble/install/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/install/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rclpy: 3.3.9 (/opt/ros/humble/install/share/rclpy/cmake)
+-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/humble/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/Workspaces/rosgsthumble_ws/src/diagnostics/diagnostic_updater/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (15.5s)
+-- Generating done (0.1s)
+-- Build files have been written to: /root/Workspaces/rosgsthumble_ws/build/diagnostic_updater
+[  0%] Built target ament_cmake_python_symlink_diagnostic_updater
+[ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/example.dir/src/example.cpp.o[0m
+running egg_info
+creating diagnostic_updater.egg-info
+writing diagnostic_updater.egg-info/PKG-INFO
+writing dependency_links to diagnostic_updater.egg-info/dependency_links.txt
+writing top-level names to diagnostic_updater.egg-info/top_level.txt
+writing manifest file 'diagnostic_updater.egg-info/SOURCES.txt'
+reading manifest file 'diagnostic_updater.egg-info/SOURCES.txt'
+writing manifest file 'diagnostic_updater.egg-info/SOURCES.txt'
+[ 30%] Built target ament_cmake_python_build_diagnostic_updater_egg
+[ 40%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 40%] Built target gtest_main
+[ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 50%] Built target gtest
+[ 60%] [32m[1mLinking CXX executable example[0m
+[ 60%] Built target example
+[ 70%] [32mBuilding CXX object CMakeFiles/diagnostic_status_wrapper_test.dir/test/diagnostic_status_wrapper_test.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable diagnostic_status_wrapper_test[0m
+[ 80%] Built target diagnostic_status_wrapper_test
+[ 90%] [32mBuilding CXX object CMakeFiles/diagnostic_updater_test.dir/test/diagnostic_updater_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable diagnostic_updater_test[0m
+[100%] Built target diagnostic_updater_test

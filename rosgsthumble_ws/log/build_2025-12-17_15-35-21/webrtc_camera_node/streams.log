@@ -1,0 +1,49 @@
+[0.194s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node': AMENT_PREFIX_PATH=/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib PYTHONPATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node -Wno-dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node
+[0.854s] -- The C compiler identification is GNU 7.5.0
+[1.142s] -- The CXX compiler identification is GNU 7.5.0
+[1.236s] -- Detecting C compiler ABI info
+[1.497s] -- Detecting C compiler ABI info - done
+[1.550s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.551s] -- Detecting C compile features
+[1.551s] -- Detecting C compile features - done
+[1.602s] -- Detecting CXX compiler ABI info
+[1.878s] -- Detecting CXX compiler ABI info - done
+[1.930s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.934s] -- Detecting CXX compile features
+[1.937s] -- Detecting CXX compile features - done
+[1.971s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[1.999s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/install/share/rclcpp/cmake)
+[3.055s] -- Found Python3: /usr/bin/python3.6 (found version "3.6.9") found components: Interpreter 
+[3.729s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.364s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[4.410s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[4.486s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[4.625s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.802s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.385s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[5.411s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/install/share/rmw_cyclonedds_cpp/cmake)
+[5.695s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[5.768s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.008s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.010s] -- Looking for pthread_create in pthreads
+[6.215s] -- Looking for pthread_create in pthreads - not found
+[6.216s] -- Looking for pthread_create in pthread
+[6.476s] -- Looking for pthread_create in pthread - found
+[6.481s] -- Found Threads: TRUE  
+[7.670s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/install/share/sensor_msgs/cmake)
+[8.557s] -- Found gst_bridge: 0.0.0 (/root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/cmake)
+[9.373s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1")  
+[9.378s] -- Checking for modules 'gstreamer-1.0;gstreamer-app-1.0;gstreamer-video-1.0;gstreamer-sdp-1.0;glib-2.0'
+[9.503s] --   Found gstreamer-1.0, version 1.14.5
+[9.561s] --   Found gstreamer-app-1.0, version 1.14.5
+[9.617s] --   Found gstreamer-video-1.0, version 1.14.5
+[9.672s] --   Found gstreamer-sdp-1.0, version 1.14.5
+[9.728s] --   Found glib-2.0, version 2.56.4
+[9.934s] -- WebRTC Library Found: /usr/lib/aarch64-linux-gnu/libgstwebrtc-1.0.so
+[117.963s] -- Using the multi-header code from /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/
+[128.135s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11")  
+[128.139s] -- Check if compiler accepts -pthread
+[128.370s] -- Check if compiler accepts -pthread - yes
+[129.233s] -- Configuring done (128.8s)
+[129.491s] -- Generating done (0.2s)
+[129.503s] -- Build files have been written to: /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node

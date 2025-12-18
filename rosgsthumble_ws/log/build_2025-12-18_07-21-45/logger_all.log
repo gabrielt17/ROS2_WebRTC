@@ -1,0 +1,399 @@
+[3.258s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'webrtc_camera_node']
+[3.258s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f85f73e80>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['webrtc_camera_node'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f85f73e80>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f85ee4828>)
+[3.498s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.501s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/Workspaces/rosgsthumble_ws'
+[3.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.502s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.503s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.504s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.504s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.504s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.719s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.720s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.720s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.721s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.721s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.722s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.722s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.723s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.725s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.726s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.726s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.727s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.727s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.728s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.728s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.729s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.729s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.729s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.730s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.730s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.730s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.731s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.732s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.732s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.732s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.733s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.733s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['ignore', 'ignore_ament_install']
+[3.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'ignore'
+[3.734s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'ignore_ament_install'
+[3.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['colcon_pkg']
+[3.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'colcon_pkg'
+[3.735s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['colcon_meta']
+[3.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'colcon_meta'
+[3.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['ros']
+[3.736s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'ros'
+[3.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['cmake', 'python']
+[3.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'cmake'
+[3.737s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'python'
+[3.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extensions ['python_setup_py']
+[3.738s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics) by extension 'python_setup_py'
+[3.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extensions ['ignore', 'ignore_ament_install']
+[3.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) by extension 'ignore'
+[3.739s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_aggregator) ignored
+[3.740s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extensions ['ignore', 'ignore_ament_install']
+[3.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extension 'ignore'
+[3.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extension 'ignore_ament_install'
+[3.741s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extensions ['colcon_pkg']
+[3.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extension 'colcon_pkg'
+[3.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extensions ['colcon_meta']
+[3.742s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extension 'colcon_meta'
+[3.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extensions ['ros']
+[3.743s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_common_diagnostics) by extension 'ros'
+[3.764s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diagnostics/diagnostic_common_diagnostics' with type 'ros.ament_cmake' and name 'diagnostic_common_diagnostics'
+[3.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_remote_logging) by extensions ['ignore', 'ignore_ament_install']
+[3.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_remote_logging) by extension 'ignore'
+[3.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_remote_logging) ignored
+[3.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extensions ['ignore', 'ignore_ament_install']
+[3.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extension 'ignore'
+[3.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extension 'ignore_ament_install'
+[3.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extensions ['colcon_pkg']
+[3.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extension 'colcon_pkg'
+[3.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extensions ['colcon_meta']
+[3.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extension 'colcon_meta'
+[3.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extensions ['ros']
+[3.770s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostic_updater) by extension 'ros'
+[3.776s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diagnostics/diagnostic_updater' with type 'ros.ament_cmake' and name 'diagnostic_updater'
+[3.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extensions ['ignore', 'ignore_ament_install']
+[3.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extension 'ignore'
+[3.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extension 'ignore_ament_install'
+[3.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extensions ['colcon_pkg']
+[3.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extension 'colcon_pkg'
+[3.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extensions ['colcon_meta']
+[3.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extension 'colcon_meta'
+[3.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extensions ['ros']
+[3.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/diagnostics) by extension 'ros'
+[3.782s] DEBUG:colcon.colcon_core.package_identification:Package 'src/diagnostics/diagnostics' with type 'ros.ament_cmake' and name 'diagnostics'
+[3.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extensions ['ignore', 'ignore_ament_install']
+[3.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) by extension 'ignore'
+[3.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/diagnostics/self_test) ignored
+[3.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ignore', 'ignore_ament_install']
+[3.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore'
+[3.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore_ament_install'
+[3.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_pkg']
+[3.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_pkg'
+[3.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_meta']
+[3.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_meta'
+[3.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ros']
+[3.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ros'
+[3.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['cmake', 'python']
+[3.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'cmake'
+[3.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python'
+[3.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['python_setup_py']
+[3.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python_setup_py'
+[3.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ignore', 'ignore_ament_install']
+[3.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore'
+[3.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore_ament_install'
+[3.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_pkg']
+[3.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_pkg'
+[3.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_meta']
+[3.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_meta'
+[3.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ros']
+[3.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ros'
+[3.839s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera' with type 'ros.ament_cmake' and name 'realsense2_camera'
+[3.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[3.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore'
+[3.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore_ament_install'
+[3.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_pkg']
+[3.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_pkg'
+[3.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_meta']
+[3.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_meta'
+[3.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ros']
+[3.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ros'
+[3.847s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera_msgs' with type 'ros.ament_cmake' and name 'realsense2_camera_msgs'
+[3.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ignore', 'ignore_ament_install']
+[3.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore'
+[3.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore_ament_install'
+[3.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_pkg']
+[3.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_pkg'
+[3.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_meta']
+[3.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_meta'
+[3.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ros']
+[3.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ros'
+[3.856s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_description' with type 'ros.ament_cmake' and name 'realsense2_description'
+[3.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[3.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore'
+[3.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore_ament_install'
+[3.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_pkg']
+[3.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_pkg'
+[3.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_meta']
+[3.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_meta'
+[3.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ros']
+[3.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ros'
+[3.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['cmake', 'python']
+[3.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'cmake'
+[3.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python'
+[3.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['python_setup_py']
+[3.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python_setup_py'
+[3.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extensions ['ignore', 'ignore_ament_install']
+[3.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extension 'ignore'
+[3.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extension 'ignore_ament_install'
+[3.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extensions ['colcon_pkg']
+[3.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extension 'colcon_pkg'
+[3.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extensions ['colcon_meta']
+[3.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extension 'colcon_meta'
+[3.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extensions ['ros']
+[3.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extension 'ros'
+[3.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extensions ['cmake', 'python']
+[3.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extension 'cmake'
+[3.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extension 'python'
+[3.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extensions ['python_setup_py']
+[3.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extension 'python_setup_py'
+[3.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extensions ['ignore', 'ignore_ament_install']
+[3.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extension 'ignore'
+[3.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extension 'ignore_ament_install'
+[3.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extensions ['colcon_pkg']
+[3.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extension 'colcon_pkg'
+[3.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extensions ['colcon_meta']
+[3.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extension 'colcon_meta'
+[3.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extensions ['ros']
+[3.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extension 'ros'
+[3.871s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros-gst-bridge/audio_msgs' with type 'ros.ament_cmake' and name 'audio_msgs'
+[3.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extensions ['ignore', 'ignore_ament_install']
+[3.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extension 'ignore'
+[3.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extension 'ignore_ament_install'
+[3.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extensions ['colcon_pkg']
+[3.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extension 'colcon_pkg'
+[3.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extensions ['colcon_meta']
+[3.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extension 'colcon_meta'
+[3.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extensions ['ros']
+[3.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extension 'ros'
+[3.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extensions ['cmake', 'python']
+[3.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extension 'cmake'
+[3.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extension 'python'
+[3.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extensions ['python_setup_py']
+[3.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extension 'python_setup_py'
+[3.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extensions ['ignore', 'ignore_ament_install']
+[3.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extension 'ignore'
+[3.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extension 'ignore_ament_install'
+[3.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extensions ['colcon_pkg']
+[3.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extension 'colcon_pkg'
+[3.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extensions ['colcon_meta']
+[3.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extension 'colcon_meta'
+[3.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extensions ['ros']
+[3.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extension 'ros'
+[3.880s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extensions ['cmake', 'python']
+[3.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extension 'cmake'
+[3.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extension 'python'
+[3.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extensions ['python_setup_py']
+[3.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extension 'python_setup_py'
+[3.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extensions ['ignore', 'ignore_ament_install']
+[3.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extension 'ignore'
+[3.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extension 'ignore_ament_install'
+[3.884s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extensions ['colcon_pkg']
+[3.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extension 'colcon_pkg'
+[3.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extensions ['colcon_meta']
+[3.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extension 'colcon_meta'
+[3.885s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extensions ['ros']
+[3.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extension 'ros'
+[3.890s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros-gst-bridge/gst_bridge' with type 'ros.ament_cmake' and name 'gst_bridge'
+[3.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extensions ['ignore', 'ignore_ament_install']
+[3.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extension 'ignore'
+[3.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extension 'ignore_ament_install'
+[3.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extensions ['colcon_pkg']
+[3.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extension 'colcon_pkg'
+[3.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extensions ['colcon_meta']
+[3.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extension 'colcon_meta'
+[3.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extensions ['ros']
+[3.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extension 'ros'
+[3.898s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros-gst-bridge/gst_msgs' with type 'ros.ament_cmake' and name 'gst_msgs'
+[3.899s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extensions ['ignore', 'ignore_ament_install']
+[3.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extension 'ignore'
+[3.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extension 'ignore_ament_install'
+[3.900s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extensions ['colcon_pkg']
+[3.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extension 'colcon_pkg'
+[3.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extensions ['colcon_meta']
+[3.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extension 'colcon_meta'
+[3.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extensions ['ros']
+[3.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extension 'ros'
+[3.907s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros-gst-bridge/gst_pipeline' with type 'ros.ament_cmake' and name 'gst_pipeline'
+[3.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extensions ['ignore', 'ignore_ament_install']
+[3.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extension 'ignore'
+[3.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extension 'ignore_ament_install'
+[3.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extensions ['colcon_pkg']
+[3.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extension 'colcon_pkg'
+[3.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extensions ['colcon_meta']
+[3.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extension 'colcon_meta'
+[3.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extensions ['ros']
+[3.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extension 'ros'
+[3.916s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros-gst-bridge/gst_pipeline_plugins' with type 'ros.ament_cmake' and name 'gst_pipeline_plugins'
+[3.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins_webrtc) by extensions ['ignore', 'ignore_ament_install']
+[3.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins_webrtc) by extension 'ignore'
+[3.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins_webrtc) ignored
+[3.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[3.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore'
+[3.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ignore_ament_install'
+[3.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_pkg']
+[3.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_pkg'
+[3.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['colcon_meta']
+[3.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'colcon_meta'
+[3.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['ros']
+[3.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'ros'
+[3.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['cmake', 'python']
+[3.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'cmake'
+[3.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python'
+[3.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extensions ['python_setup_py']
+[3.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv) by extension 'python_setup_py'
+[3.923s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ignore', 'ignore_ament_install']
+[3.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore'
+[3.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ignore_ament_install'
+[3.924s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_pkg']
+[3.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_pkg'
+[3.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['colcon_meta']
+[3.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'colcon_meta'
+[3.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extensions ['ros']
+[3.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/cv_bridge) by extension 'ros'
+[3.932s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/cv_bridge' with type 'ros.ament_cmake' and name 'cv_bridge'
+[3.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ignore', 'ignore_ament_install']
+[3.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore'
+[3.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ignore_ament_install'
+[3.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_pkg']
+[3.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_pkg'
+[3.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['colcon_meta']
+[3.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'colcon_meta'
+[3.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extensions ['ros']
+[3.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/image_geometry) by extension 'ros'
+[3.940s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/image_geometry' with type 'ros.ament_cmake' and name 'image_geometry'
+[3.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extensions ['ignore', 'ignore_ament_install']
+[3.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) by extension 'ignore'
+[3.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/opencv_tests) ignored
+[3.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ignore', 'ignore_ament_install']
+[3.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore'
+[3.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ignore_ament_install'
+[3.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_pkg']
+[3.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_pkg'
+[3.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['colcon_meta']
+[3.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'colcon_meta'
+[3.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extensions ['ros']
+[3.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/vision_opencv/vision_opencv) by extension 'ros'
+[3.947s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vision_opencv/vision_opencv' with type 'ros.ament_cmake' and name 'vision_opencv'
+[3.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extensions ['ignore', 'ignore_ament_install']
+[3.948s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extension 'ignore'
+[3.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extension 'ignore_ament_install'
+[3.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extensions ['colcon_pkg']
+[3.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extension 'colcon_pkg'
+[3.949s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extensions ['colcon_meta']
+[3.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extension 'colcon_meta'
+[3.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extensions ['ros']
+[3.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extension 'ros'
+[3.956s] DEBUG:colcon.colcon_core.package_identification:Package 'src/webrtc_camera_node' with type 'ros.ament_cmake' and name 'webrtc_camera_node'
+[3.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extensions ['ignore', 'ignore_ament_install']
+[3.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extension 'ignore'
+[3.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extension 'ignore_ament_install'
+[3.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extensions ['colcon_pkg']
+[3.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extension 'colcon_pkg'
+[3.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extensions ['colcon_meta']
+[3.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extension 'colcon_meta'
+[3.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extensions ['ros']
+[3.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/xacro) by extension 'ros'
+[3.965s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xacro' with type 'ros.ament_cmake' and name 'xacro'
+[3.966s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.967s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.968s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.170s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/xacro' from colcon.pkg: {'hooks': ['share/xacro/environment/completion.bash']}
+[4.209s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'audio_msgs' in 'src/ros-gst-bridge/audio_msgs'
+[4.210s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cv_bridge' in 'src/vision_opencv/cv_bridge'
+[4.210s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'diagnostic_updater' in 'src/diagnostics/diagnostic_updater'
+[4.210s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'gst_msgs' in 'src/ros-gst-bridge/gst_msgs'
+[4.210s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'image_geometry' in 'src/vision_opencv/image_geometry'
+[4.211s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'realsense2_camera_msgs' in 'src/realsense-ros/realsense2_camera_msgs'
+[4.211s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'xacro' in 'src/xacro'
+[4.211s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'diagnostic_common_diagnostics' in 'src/diagnostics/diagnostic_common_diagnostics'
+[4.211s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'gst_bridge' in 'src/ros-gst-bridge/gst_bridge'
+[4.211s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'realsense2_camera' in 'src/realsense-ros/realsense2_camera'
+[4.211s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'realsense2_description' in 'src/realsense-ros/realsense2_description'
+[4.212s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'vision_opencv' in 'src/vision_opencv/vision_opencv'
+[4.212s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'diagnostics' in 'src/diagnostics/diagnostics'
+[4.212s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'gst_pipeline' in 'src/ros-gst-bridge/gst_pipeline'
+[4.212s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'gst_pipeline_plugins' in 'src/ros-gst-bridge/gst_pipeline_plugins'
+[4.230s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'cmake_args' from command line to 'None'
+[4.231s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'cmake_target' from command line to 'None'
+[4.231s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.231s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'cmake_clean_cache' from command line to 'False'
+[4.232s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'cmake_clean_first' from command line to 'False'
+[4.232s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'cmake_force_configure' from command line to 'False'
+[4.232s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'ament_cmake_args' from command line to 'None'
+[4.232s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'catkin_cmake_args' from command line to 'None'
+[4.232s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.233s] DEBUG:colcon.colcon_core.verb:Building package 'webrtc_camera_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node', 'merge_install': False, 'path': '/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node', 'symlink_install': True, 'test_result_base': None}
+[4.249s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.334s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.335s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node' with build type 'ament_cmake'
+[4.336s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node'
+[4.401s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.403s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.403s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node': CMAKE_PREFIX_PATH=/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/opt/ros/humble/install LD_LIBRARY_PATH=/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib PYTHONPATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node
+[12.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node' returned '0': CMAKE_PREFIX_PATH=/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/opt/ros/humble/install LD_LIBRARY_PATH=/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib PYTHONPATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node
+[12.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node': CMAKE_PREFIX_PATH=/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/opt/ros/humble/install LD_LIBRARY_PATH=/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib PYTHONPATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node -- -j4 -l4
+[64.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node' returned '2': CMAKE_PREFIX_PATH=/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/opt/ros/humble/install LD_LIBRARY_PATH=/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib PYTHONPATH=/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node -- -j4 -l4
+[65.209s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(webrtc_camera_node)
+[65.324s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node' for CMake module files
+[65.329s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node' for CMake config files
+[65.330s] Level 1:colcon.colcon_core.shell:create_environment_hook('webrtc_camera_node', 'cmake_prefix_path')
+[65.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/hook/cmake_prefix_path.ps1'
+[65.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/hook/cmake_prefix_path.dsv'
+[65.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/hook/cmake_prefix_path.sh'
+[65.401s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/lib'
+[65.402s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/bin'
+[65.403s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/lib/pkgconfig/webrtc_camera_node.pc'
+[65.404s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/lib/python3.6/site-packages'
+[65.405s] Level 1:colcon.colcon_core.environment:checking '/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/bin'
+[65.443s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/package.ps1'
+[65.449s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/package.dsv'
+[65.453s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/package.sh'
+[65.459s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/package.bash'
+[65.467s] INFO:colcon.colcon_core.shell:Creating package script '/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/package.zsh'
+[65.477s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node/share/colcon-core/packages/webrtc_camera_node)
+[65.492s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[65.494s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[65.494s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[65.494s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[65.585s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[65.586s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[65.586s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[65.587s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[65.591s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[65.592s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[65.631s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Workspaces/rosgsthumble_ws/install/local_setup.ps1'
+[65.679s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/Workspaces/rosgsthumble_ws/install/_local_setup_util_ps1.py'
+[65.691s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Workspaces/rosgsthumble_ws/install/setup.ps1'
+[65.710s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Workspaces/rosgsthumble_ws/install/local_setup.sh'
+[65.714s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/Workspaces/rosgsthumble_ws/install/_local_setup_util_sh.py'
+[65.716s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Workspaces/rosgsthumble_ws/install/setup.sh'
+[65.735s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Workspaces/rosgsthumble_ws/install/local_setup.bash'
+[65.739s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Workspaces/rosgsthumble_ws/install/setup.bash'
+[65.757s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Workspaces/rosgsthumble_ws/install/local_setup.zsh'
+[65.762s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Workspaces/rosgsthumble_ws/install/setup.zsh'

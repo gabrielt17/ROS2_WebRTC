@@ -1,0 +1,54 @@
+[0.457s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/cv_bridge': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/cv_bridge -- -j4 -l4
+[0.769s] [ 12%] Built target gtest_main
+[0.861s] [ 25%] Built target gtest
+[0.874s] [ 43%] Built target cv_bridge
+[0.876s] [ 43%] Built target ament_cmake_python_symlink_cv_bridge
+[1.111s] [ 62%] Built target cv_bridge_boost
+[1.151s] [100%] Built target cv_bridge-utest
+[2.864s] running egg_info
+[2.871s] writing cv_bridge.egg-info/PKG-INFO
+[2.875s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[2.879s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[2.893s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[2.901s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[3.055s] [100%] Built target ament_cmake_python_build_cv_bridge_egg
+[3.118s] Invoked command in '/root/Workspaces/rosgsthumble_ws/build/cv_bridge' returned '0': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/cv_bridge -- -j4 -l4
+[3.642s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/cv_bridge': /usr/local/bin/cmake --install /root/Workspaces/rosgsthumble_ws/build/cv_bridge
+[3.852s] -- Install configuration: ""
+[3.855s] -- Execute custom install script
+[3.858s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[3.864s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[3.865s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge-3.2.1-py3.6.egg-info/PKG-INFO
+[3.866s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge-3.2.1-py3.6.egg-info/SOURCES.txt
+[3.867s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge-3.2.1-py3.6.egg-info/dependency_links.txt
+[3.867s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge-3.2.1-py3.6.egg-info/top_level.txt
+[3.868s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge/__init__.py
+[3.869s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge/core.py
+[3.870s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h
+[3.871s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge/boost//cv_bridge_boost.so
+[3.873s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h
+[3.876s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.h
+[3.876s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/libcv_bridge.so
+[3.877s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[3.880s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[3.892s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[3.893s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[3.893s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/environment/path.sh
+[3.894s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[3.894s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/local_setup.bash
+[3.895s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/local_setup.sh
+[3.895s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[3.896s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[3.896s] -- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/package.dsv
+[3.913s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[3.914s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[3.915s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.922s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake
+[3.923s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[3.929s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[3.930s] -- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/package.xml
+[4.139s] Listing '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge'...
+[4.141s] Listing '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge/boost'...
+[4.170s] -- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake
+[4.171s] -- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-noconfig.cmake
+[4.208s] Invoked command in '/root/Workspaces/rosgsthumble_ws/build/cv_bridge' returned '0': /usr/local/bin/cmake --install /root/Workspaces/rosgsthumble_ws/build/cv_bridge

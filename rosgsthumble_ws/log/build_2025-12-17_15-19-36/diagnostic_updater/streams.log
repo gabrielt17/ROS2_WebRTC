@@ -1,0 +1,78 @@
+[0.315s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater': /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/diagnostics/diagnostic_updater -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater
+[1.190s] -- The C compiler identification is GNU 7.5.0
+[1.707s] -- The CXX compiler identification is GNU 7.5.0
+[1.818s] -- Detecting C compiler ABI info
+[2.111s] -- Detecting C compiler ABI info - done
+[2.170s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.173s] -- Detecting C compile features
+[2.175s] -- Detecting C compile features - done
+[2.241s] -- Detecting CXX compiler ABI info
+[2.575s] -- Detecting CXX compiler ABI info - done
+[2.629s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.630s] -- Detecting CXX compile features
+[2.633s] -- Detecting CXX compile features - done
+[2.653s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[3.702s] -- Found Python3: /usr/bin/python3.6 (found version "3.6.9") found components: Interpreter 
+[4.241s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.460s] -- Found diagnostic_msgs: 4.2.3 (/opt/ros/humble/install/share/diagnostic_msgs/cmake)
+[4.779s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[4.826s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[4.900s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[5.036s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.208s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.139s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/install/share/rclcpp/cmake)
+[6.637s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[6.664s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/install/share/rmw_cyclonedds_cpp/cmake)
+[6.960s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[7.028s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.303s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.305s] -- Looking for pthread_create in pthreads
+[7.539s] -- Looking for pthread_create in pthreads - not found
+[7.541s] -- Looking for pthread_create in pthread
+[7.810s] -- Looking for pthread_create in pthread - found
+[7.815s] -- Found Threads: TRUE  
+[8.770s] -- Found rclpy: 3.3.9 (/opt/ros/humble/install/share/rclpy/cmake)
+[8.808s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[10.121s] -- Found gtest sources under '/opt/ros/humble/install/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.136s] -- Check if compiler accepts -pthread
+[10.416s] -- Check if compiler accepts -pthread - yes
+[16.096s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[16.100s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/Workspaces/rosgsthumble_ws/src/diagnostics/diagnostic_updater/include>
+[16.101s] -- Configured cppcheck exclude dirs and/or files: 
+[16.115s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[16.116s] -- Configured cpplint exclude dirs and/or files: 
+[16.124s] -- Added test 'lint_cmake' to check CMake code style
+[16.131s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[16.144s] -- Added test 'uncrustify' to check C / C++ code style
+[16.146s] -- Configured uncrustify additional arguments: 
+[16.153s] -- Added test 'xmllint' to check XML markup files
+[16.181s] -- Configuring done (15.5s)
+[16.303s] -- Generating done (0.1s)
+[16.315s] -- Build files have been written to: /root/Workspaces/rosgsthumble_ws/build/diagnostic_updater
+[16.392s] Invoked command in '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater' returned '0': /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/diagnostics/diagnostic_updater -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater
+[16.396s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater': /usr/local/bin/cmake --build /root/Workspaces/rosgsthumble_ws/build/diagnostic_updater -- -j4 -l4
+[16.708s] [  0%] Built target ament_cmake_python_symlink_diagnostic_updater
+[16.719s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[16.742s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[16.746s] [ 30%] [32mBuilding CXX object CMakeFiles/example.dir/src/example.cpp.o[0m
+[19.044s] running egg_info
+[19.047s] creating diagnostic_updater.egg-info
+[19.048s] writing diagnostic_updater.egg-info/PKG-INFO
+[19.049s] writing dependency_links to diagnostic_updater.egg-info/dependency_links.txt
+[19.050s] writing top-level names to diagnostic_updater.egg-info/top_level.txt
+[19.051s] writing manifest file 'diagnostic_updater.egg-info/SOURCES.txt'
+[19.077s] reading manifest file 'diagnostic_updater.egg-info/SOURCES.txt'
+[19.096s] writing manifest file 'diagnostic_updater.egg-info/SOURCES.txt'
+[19.341s] [ 30%] Built target ament_cmake_python_build_diagnostic_updater_egg
+[21.747s] [ 40%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[21.955s] [ 40%] Built target gtest_main
+[44.056s] [ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[44.603s] [ 50%] Built target gtest
+[62.505s] [ 60%] [32m[1mLinking CXX executable example[0m
+[63.853s] [ 60%] Built target example
+[63.900s] [ 70%] [32mBuilding CXX object CMakeFiles/diagnostic_status_wrapper_test.dir/test/diagnostic_status_wrapper_test.cpp.o[0m
+[83.681s] [ 80%] [32m[1mLinking CXX executable diagnostic_status_wrapper_test[0m
+[84.731s] [ 80%] Built target diagnostic_status_wrapper_test
+[84.779s] [ 90%] [32mBuilding CXX object CMakeFiles/diagnostic_updater_test.dir/test/diagnostic_updater_test.cpp.o[0m
+[113.572s] [100%] [32m[1mLinking CXX executable diagnostic_updater_test[0m
+[115.065s] [100%] Built target diagnostic_updater_test

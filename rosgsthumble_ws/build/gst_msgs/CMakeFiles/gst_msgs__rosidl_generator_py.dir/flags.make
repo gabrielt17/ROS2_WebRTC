@@ -6,5 +6,5 @@ C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"gst_msgs\" -Dg
 
 C_INCLUDES = -I/root/Workspaces/rosgsthumble_ws/build/gst_msgs/rosidl_generator_c -I/root/Workspaces/rosgsthumble_ws/build/gst_msgs/rosidl_generator_py -I/usr/include/python3.6m -isystem /usr/local/lib/python3.6/dist-packages/numpy/core/include -isystem /opt/ros/humble/install/include/builtin_interfaces -isystem /opt/ros/humble/install/include/rosidl_runtime_c -isystem /opt/ros/humble/install/include/rcutils -isystem /opt/ros/humble/install/include/rosidl_typesupport_interface -isystem /opt/ros/humble/install/include/std_msgs
 
-C_FLAGS = -O3 -DNDEBUG -std=gnu99 -fPIC -Wall -Wextra
+C_FLAGS = -std=gnu99 -fPIC -Wall -Wextra
 

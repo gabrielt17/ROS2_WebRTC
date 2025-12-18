@@ -45,16 +45,12 @@ CMakeFiles/audio_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport
  /usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h \
  /usr/include/aarch64-linux-gnu/bits/types/struct_timespec.h \
- /usr/include/aarch64-linux-gnu/bits/select2.h \
  /usr/include/aarch64-linux-gnu/sys/sysmacros.h \
  /usr/include/aarch64-linux-gnu/bits/sysmacros.h \
  /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h \
  /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h \
  /usr/include/aarch64-linux-gnu/bits/pthreadtypes-arch.h \
- /usr/include/alloca.h \
- /usr/include/aarch64-linux-gnu/bits/stdlib-bsearch.h \
- /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
- /usr/include/aarch64-linux-gnu/bits/stdlib.h \
+ /usr/include/alloca.h /usr/include/aarch64-linux-gnu/bits/stdlib-float.h \
  /root/Workspaces/rosgsthumble_ws/build/audio_msgs/rosidl_generator_c/audio_msgs/msg/rosidl_generator_c__visibility_control.h \
  /root/Workspaces/rosgsthumble_ws/build/audio_msgs/rosidl_generator_c/audio_msgs/msg/detail/audio__struct.h \
  /opt/ros/humble/install/include/std_msgs/std_msgs/msg/detail/header__struct.h \

@@ -496,8 +496,8 @@ CMakeFiles/audio_msgs__rosidl_generator_py.dir/clean:
 # Target rules for target CMakeFiles/audio_msgs__rosidl_typesupport_fastrtps_c__pyext.dir
 
 # All Build rule for target.
-CMakeFiles/audio_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/audio_msgs__rosidl_generator_py.dir/all
 CMakeFiles/audio_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/audio_msgs__rosidl_typesupport_c.dir/all
+CMakeFiles/audio_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/audio_msgs__rosidl_generator_py.dir/all
 CMakeFiles/audio_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: audio_msgs__py/CMakeFiles/audio_msgs__py.dir/all
 CMakeFiles/audio_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/audio_msgs__rosidl_generator_c.dir/all
 CMakeFiles/audio_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/audio_msgs__rosidl_typesupport_fastrtps_c.dir/all
@@ -526,9 +526,9 @@ CMakeFiles/audio_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/clean:
 # Target rules for target CMakeFiles/audio_msgs__rosidl_typesupport_introspection_c__pyext.dir
 
 # All Build rule for target.
-CMakeFiles/audio_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/audio_msgs__rosidl_generator_py.dir/all
 CMakeFiles/audio_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/audio_msgs__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/audio_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/audio_msgs__rosidl_typesupport_c.dir/all
+CMakeFiles/audio_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/audio_msgs__rosidl_generator_py.dir/all
 CMakeFiles/audio_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: audio_msgs__py/CMakeFiles/audio_msgs__py.dir/all
 CMakeFiles/audio_msgs__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/audio_msgs__rosidl_generator_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/audio_msgs__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/audio_msgs__rosidl_typesupport_introspection_c__pyext.dir/depend
@@ -556,8 +556,8 @@ CMakeFiles/audio_msgs__rosidl_typesupport_introspection_c__pyext.dir/clean:
 # Target rules for target CMakeFiles/audio_msgs__rosidl_typesupport_c__pyext.dir
 
 # All Build rule for target.
-CMakeFiles/audio_msgs__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/audio_msgs__rosidl_generator_py.dir/all
 CMakeFiles/audio_msgs__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/audio_msgs__rosidl_typesupport_c.dir/all
+CMakeFiles/audio_msgs__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/audio_msgs__rosidl_generator_py.dir/all
 CMakeFiles/audio_msgs__rosidl_typesupport_c__pyext.dir/all: audio_msgs__py/CMakeFiles/audio_msgs__py.dir/all
 CMakeFiles/audio_msgs__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/audio_msgs__rosidl_generator_c.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/audio_msgs__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/audio_msgs__rosidl_typesupport_c__pyext.dir/depend

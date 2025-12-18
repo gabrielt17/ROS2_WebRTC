@@ -1,0 +1,475 @@
+[0.000000] (-) TimerEvent: {}
+[0.001215] (-) JobUnselected: {'identifier': 'audio_msgs'}
+[0.001633] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.002646] (-) JobUnselected: {'identifier': 'diagnostic_common_diagnostics'}
+[0.003326] (-) JobUnselected: {'identifier': 'diagnostic_updater'}
+[0.008589] (-) JobUnselected: {'identifier': 'diagnostics'}
+[0.012332] (-) JobUnselected: {'identifier': 'gst_bridge'}
+[0.012577] (-) JobUnselected: {'identifier': 'gst_msgs'}
+[0.012914] (-) JobUnselected: {'identifier': 'gst_pipeline_plugins'}
+[0.013124] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.013293] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.013451] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.018692] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.021249] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.021455] (-) JobUnselected: {'identifier': 'webrtc_camera_node'}
+[0.021749] (-) JobUnselected: {'identifier': 'xacro'}
+[0.021919] (gst_pipeline) JobQueued: {'identifier': 'gst_pipeline', 'dependencies': OrderedDict([('audio_msgs', '/root/Workspaces/rosgsthumble_ws/install/audio_msgs'), ('cv_bridge', '/root/Workspaces/rosgsthumble_ws/install/cv_bridge'), ('gst_msgs', '/root/Workspaces/rosgsthumble_ws/install/gst_msgs'), ('gst_bridge', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge')])}
+[0.022102] (gst_pipeline) JobStarted: {'identifier': 'gst_pipeline'}
+[0.098854] (-) TimerEvent: {}
+[0.195527] (gst_pipeline) JobProgress: {'identifier': 'gst_pipeline', 'progress': 'cmake'}
+[0.198894] (gst_pipeline) Command: {'cmd': ['/usr/local/bin/cmake', '/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline', '-Wno-dev', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/gst_pipeline'], 'cwd': '/root/Workspaces/rosgsthumble_ws/build/gst_pipeline', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano'), ('LD_LIBRARY_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib'), ('SHLVL', '1'), ('OLDPWD', '/root/Workspaces'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install:/root/Workspaces/rosgsthumble_ws/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/1000/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/bin:/opt/ros/humble/install/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ''), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('GST_PLUGIN_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/gst_bridge/'), ('SHELL', '/bin/bash'), ('PWD', '/root/Workspaces/rosgsthumble_ws/build/gst_pipeline'), ('PYTHONPATH', '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install')]), 'shell': False}
+[0.205638] (-) TimerEvent: {}
+[0.313328] (-) TimerEvent: {}
+[0.406829] (gst_pipeline) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/install/share/ament_cmake/cmake)\n'}
+[0.413435] (-) TimerEvent: {}
+[0.514347] (-) TimerEvent: {}
+[0.615372] (-) TimerEvent: {}
+[0.716423] (-) TimerEvent: {}
+[0.817458] (-) TimerEvent: {}
+[0.918437] (-) TimerEvent: {}
+[1.019428] (-) TimerEvent: {}
+[1.120460] (-) TimerEvent: {}
+[1.221579] (-) TimerEvent: {}
+[1.322278] (-) TimerEvent: {}
+[1.422985] (-) TimerEvent: {}
+[1.523679] (-) TimerEvent: {}
+[1.624384] (-) TimerEvent: {}
+[1.725229] (-) TimerEvent: {}
+[1.729536] (gst_pipeline) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.761685] (gst_pipeline) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/install/share/rclcpp/cmake)\n'}
+[1.825401] (-) TimerEvent: {}
+[1.925828] (gst_pipeline) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)\n'}
+[1.926561] (-) TimerEvent: {}
+[1.942059] (gst_pipeline) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)\n'}
+[1.977281] (gst_pipeline) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)\n'}
+[2.026731] (-) TimerEvent: {}
+[2.047879] (gst_pipeline) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.126894] (-) TimerEvent: {}
+[2.148897] (gst_pipeline) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.227074] (-) TimerEvent: {}
+[2.328087] (-) TimerEvent: {}
+[2.429133] (-) TimerEvent: {}
+[2.509421] (gst_pipeline) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)\n'}
+[2.518033] (gst_pipeline) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/install/share/rmw_cyclonedds_cpp/cmake)\n'}
+[2.529265] (-) TimerEvent: {}
+[2.629937] (-) TimerEvent: {}
+[2.697367] (gst_pipeline) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[2.730105] (-) TimerEvent: {}
+[2.832373] (-) TimerEvent: {}
+[2.933175] (-) TimerEvent: {}
+[3.033919] (-) TimerEvent: {}
+[3.134664] (-) TimerEvent: {}
+[3.235426] (-) TimerEvent: {}
+[3.336186] (-) TimerEvent: {}
+[3.436949] (-) TimerEvent: {}
+[3.537745] (-) TimerEvent: {}
+[3.638477] (-) TimerEvent: {}
+[3.655748] (gst_pipeline) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.5 (/opt/ros/humble/install/share/rclcpp_components/cmake)\n'}
+[3.738651] (-) TimerEvent: {}
+[3.839403] (-) TimerEvent: {}
+[3.940160] (-) TimerEvent: {}
+[4.000765] (gst_pipeline) StdoutLine: {'line': b'-- Found gst_bridge: 0.0.0 (/root/Workspaces/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/cmake)\n'}
+[4.040318] (-) TimerEvent: {}
+[4.141047] (-) TimerEvent: {}
+[4.241815] (-) TimerEvent: {}
+[4.342553] (-) TimerEvent: {}
+[4.443295] (-) TimerEvent: {}
+[4.544031] (-) TimerEvent: {}
+[4.644766] (-) TimerEvent: {}
+[4.745557] (-) TimerEvent: {}
+[4.846290] (-) TimerEvent: {}
+[4.947014] (-) TimerEvent: {}
+[5.047746] (-) TimerEvent: {}
+[5.138550] (gst_pipeline) StdoutLine: {'line': b'-- Found image_transport: 3.1.6 (/opt/ros/humble/install/share/image_transport/cmake)\n'}
+[5.147875] (-) TimerEvent: {}
+[5.248558] (-) TimerEvent: {}
+[5.329743] (gst_pipeline) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/cmake)\n'}
+[5.348712] (-) TimerEvent: {}
+[5.449493] (-) TimerEvent: {}
+[5.550257] (-) TimerEvent: {}
+[5.564343] (gst_pipeline) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/install/share/std_srvs/cmake)\n'}
+[5.650494] (-) TimerEvent: {}
+[5.672307] (gst_pipeline) StdoutLine: {'line': b'-- Found gst_msgs: 0.0.0 (/root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake)\n'}
+[5.750667] (-) TimerEvent: {}
+[5.851405] (-) TimerEvent: {}
+[5.952142] (-) TimerEvent: {}
+[6.052875] (-) TimerEvent: {}
+[6.153648] (-) TimerEvent: {}
+[6.254392] (-) TimerEvent: {}
+[6.355118] (-) TimerEvent: {}
+[6.455829] (-) TimerEvent: {}
+[6.556572] (-) TimerEvent: {}
+[6.647212] (gst_pipeline) StdoutLine: {'line': b'-- Configuring done (6.3s)\n'}
+[6.656706] (-) TimerEvent: {}
+[6.757449] (-) TimerEvent: {}
+[6.779061] (gst_pipeline) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[6.788141] (gst_pipeline) StdoutLine: {'line': b'-- Build files have been written to: /root/Workspaces/rosgsthumble_ws/build/gst_pipeline\n'}
+[6.847015] (gst_pipeline) CommandEnded: {'returncode': 0}
+[6.849959] (gst_pipeline) JobProgress: {'identifier': 'gst_pipeline', 'progress': 'build'}
+[6.853708] (gst_pipeline) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/Workspaces/rosgsthumble_ws/build/gst_pipeline', '--', '-j4', '-l4'], 'cwd': '/root/Workspaces/rosgsthumble_ws/build/gst_pipeline', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano'), ('LD_LIBRARY_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib'), ('SHLVL', '1'), ('OLDPWD', '/root/Workspaces'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install:/root/Workspaces/rosgsthumble_ws/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/1000/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/bin:/opt/ros/humble/install/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ''), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('GST_PLUGIN_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/gst_bridge/'), ('SHELL', '/bin/bash'), ('PWD', '/root/Workspaces/rosgsthumble_ws/build/gst_pipeline'), ('PYTHONPATH', '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install')]), 'shell': False}
+[6.860761] (-) TimerEvent: {}
+[6.961638] (-) TimerEvent: {}
+[7.062367] (-) TimerEvent: {}
+[7.105219] (gst_pipeline) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/gst_pipeline_node.dir/rclcpp_components/node_main_gst_pipeline_node.cpp.o\x1b[0m\n'}
+[7.107817] (gst_pipeline) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/gst_pipeline.dir/src/gst_pipeline.cpp.o\x1b[0m\n'}
+[7.108848] (gst_pipeline) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/gst_pipeline.dir/src/syntax_sugar.cpp.o\x1b[0m\n'}
+[7.162546] (-) TimerEvent: {}
+[7.264631] (-) TimerEvent: {}
+[7.367033] (-) TimerEvent: {}
+[7.470189] (-) TimerEvent: {}
+[7.573218] (-) TimerEvent: {}
+[7.676034] (-) TimerEvent: {}
+[7.778949] (-) TimerEvent: {}
+[7.881651] (-) TimerEvent: {}
+[7.984333] (-) TimerEvent: {}
+[8.087082] (-) TimerEvent: {}
+[8.189884] (-) TimerEvent: {}
+[8.292713] (-) TimerEvent: {}
+[8.395152] (-) TimerEvent: {}
+[8.498562] (-) TimerEvent: {}
+[8.601372] (-) TimerEvent: {}
+[8.704815] (-) TimerEvent: {}
+[8.805712] (-) TimerEvent: {}
+[8.906916] (-) TimerEvent: {}
+[9.008522] (-) TimerEvent: {}
+[9.110385] (-) TimerEvent: {}
+[9.212068] (-) TimerEvent: {}
+[9.313967] (-) TimerEvent: {}
+[9.415169] (-) TimerEvent: {}
+[9.515971] (-) TimerEvent: {}
+[9.617783] (-) TimerEvent: {}
+[9.719803] (-) TimerEvent: {}
+[9.821735] (-) TimerEvent: {}
+[9.923720] (-) TimerEvent: {}
+[10.025540] (-) TimerEvent: {}
+[10.127329] (-) TimerEvent: {}
+[10.228830] (-) TimerEvent: {}
+[10.330736] (-) TimerEvent: {}
+[10.432678] (-) TimerEvent: {}
+[10.534673] (-) TimerEvent: {}
+[10.636326] (-) TimerEvent: {}
+[10.737972] (-) TimerEvent: {}
+[10.839567] (-) TimerEvent: {}
+[10.941228] (-) TimerEvent: {}
+[11.043027] (-) TimerEvent: {}
+[11.144449] (-) TimerEvent: {}
+[11.245659] (-) TimerEvent: {}
+[11.347231] (-) TimerEvent: {}
+[11.448872] (-) TimerEvent: {}
+[11.550371] (-) TimerEvent: {}
+[11.652041] (-) TimerEvent: {}
+[11.753729] (-) TimerEvent: {}
+[11.855152] (-) TimerEvent: {}
+[11.956861] (-) TimerEvent: {}
+[12.058989] (-) TimerEvent: {}
+[12.160043] (-) TimerEvent: {}
+[12.261702] (-) TimerEvent: {}
+[12.363272] (-) TimerEvent: {}
+[12.465160] (-) TimerEvent: {}
+[12.567157] (-) TimerEvent: {}
+[12.668633] (-) TimerEvent: {}
+[12.770153] (-) TimerEvent: {}
+[12.871762] (-) TimerEvent: {}
+[12.973674] (-) TimerEvent: {}
+[13.075469] (-) TimerEvent: {}
+[13.177403] (-) TimerEvent: {}
+[13.278513] (-) TimerEvent: {}
+[13.380236] (-) TimerEvent: {}
+[13.482194] (-) TimerEvent: {}
+[13.583968] (-) TimerEvent: {}
+[13.685695] (-) TimerEvent: {}
+[13.787101] (-) TimerEvent: {}
+[13.890432] (-) TimerEvent: {}
+[13.993969] (-) TimerEvent: {}
+[14.097301] (-) TimerEvent: {}
+[14.200649] (-) TimerEvent: {}
+[14.301551] (-) TimerEvent: {}
+[14.405254] (-) TimerEvent: {}
+[14.507135] (-) TimerEvent: {}
+[14.609050] (-) TimerEvent: {}
+[14.710501] (-) TimerEvent: {}
+[14.811905] (-) TimerEvent: {}
+[14.913665] (-) TimerEvent: {}
+[15.015055] (-) TimerEvent: {}
+[15.116457] (-) TimerEvent: {}
+[15.218319] (-) TimerEvent: {}
+[15.320184] (-) TimerEvent: {}
+[15.421588] (-) TimerEvent: {}
+[15.523389] (-) TimerEvent: {}
+[15.624814] (-) TimerEvent: {}
+[15.725657] (-) TimerEvent: {}
+[15.827066] (-) TimerEvent: {}
+[15.928160] (-) TimerEvent: {}
+[16.029729] (-) TimerEvent: {}
+[16.130616] (-) TimerEvent: {}
+[16.231701] (-) TimerEvent: {}
+[16.333136] (-) TimerEvent: {}
+[16.434648] (-) TimerEvent: {}
+[16.536391] (-) TimerEvent: {}
+[16.637883] (-) TimerEvent: {}
+[16.738990] (-) TimerEvent: {}
+[16.841291] (-) TimerEvent: {}
+[16.944198] (-) TimerEvent: {}
+[17.047085] (-) TimerEvent: {}
+[17.150033] (-) TimerEvent: {}
+[17.252892] (-) TimerEvent: {}
+[17.356291] (-) TimerEvent: {}
+[17.459357] (-) TimerEvent: {}
+[17.562851] (-) TimerEvent: {}
+[17.666069] (-) TimerEvent: {}
+[17.768955] (-) TimerEvent: {}
+[17.871818] (-) TimerEvent: {}
+[17.974852] (-) TimerEvent: {}
+[18.078206] (-) TimerEvent: {}
+[18.181277] (-) TimerEvent: {}
+[18.284093] (-) TimerEvent: {}
+[18.386986] (-) TimerEvent: {}
+[18.489973] (-) TimerEvent: {}
+[18.591162] (-) TimerEvent: {}
+[18.692596] (-) TimerEvent: {}
+[18.794353] (-) TimerEvent: {}
+[18.897577] (-) TimerEvent: {}
+[19.000835] (-) TimerEvent: {}
+[19.104360] (-) TimerEvent: {}
+[19.207653] (-) TimerEvent: {}
+[19.310938] (-) TimerEvent: {}
+[19.414369] (-) TimerEvent: {}
+[19.517766] (-) TimerEvent: {}
+[19.621319] (-) TimerEvent: {}
+[19.725212] (-) TimerEvent: {}
+[19.828845] (-) TimerEvent: {}
+[19.932399] (-) TimerEvent: {}
+[20.036207] (-) TimerEvent: {}
+[20.139619] (-) TimerEvent: {}
+[20.243399] (-) TimerEvent: {}
+[20.347119] (-) TimerEvent: {}
+[20.450873] (-) TimerEvent: {}
+[20.554960] (-) TimerEvent: {}
+[20.658472] (-) TimerEvent: {}
+[20.759941] (-) TimerEvent: {}
+[20.861282] (-) TimerEvent: {}
+[20.962501] (-) TimerEvent: {}
+[21.063930] (-) TimerEvent: {}
+[21.167226] (-) TimerEvent: {}
+[21.269535] (-) TimerEvent: {}
+[21.371455] (-) TimerEvent: {}
+[21.473407] (-) TimerEvent: {}
+[21.575220] (-) TimerEvent: {}
+[21.677128] (-) TimerEvent: {}
+[21.778957] (-) TimerEvent: {}
+[21.880810] (-) TimerEvent: {}
+[21.982831] (-) TimerEvent: {}
+[22.084703] (-) TimerEvent: {}
+[22.186595] (-) TimerEvent: {}
+[22.288507] (-) TimerEvent: {}
+[22.390334] (-) TimerEvent: {}
+[22.492169] (-) TimerEvent: {}
+[22.593447] (-) TimerEvent: {}
+[22.694666] (-) TimerEvent: {}
+[22.795843] (-) TimerEvent: {}
+[22.897000] (-) TimerEvent: {}
+[22.998174] (-) TimerEvent: {}
+[23.099335] (-) TimerEvent: {}
+[23.200485] (-) TimerEvent: {}
+[23.301699] (-) TimerEvent: {}
+[23.402548] (-) TimerEvent: {}
+[23.503385] (-) TimerEvent: {}
+[23.604245] (-) TimerEvent: {}
+[23.705418] (-) TimerEvent: {}
+[23.806863] (-) TimerEvent: {}
+[23.908009] (-) TimerEvent: {}
+[24.009176] (-) TimerEvent: {}
+[24.110284] (-) TimerEvent: {}
+[24.168872] (gst_pipeline) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable gst_pipeline_node\x1b[0m\n'}
+[24.210487] (-) TimerEvent: {}
+[24.311692] (-) TimerEvent: {}
+[24.412576] (-) TimerEvent: {}
+[24.513579] (-) TimerEvent: {}
+[24.614709] (-) TimerEvent: {}
+[24.715886] (-) TimerEvent: {}
+[24.721305] (gst_pipeline) StdoutLine: {'line': b'[ 80%] Built target gst_pipeline_node\n'}
+[24.816077] (-) TimerEvent: {}
+[24.916874] (-) TimerEvent: {}
+[25.018001] (-) TimerEvent: {}
+[25.119066] (-) TimerEvent: {}
+[25.220135] (-) TimerEvent: {}
+[25.321216] (-) TimerEvent: {}
+[25.422009] (-) TimerEvent: {}
+[25.522790] (-) TimerEvent: {}
+[25.623574] (-) TimerEvent: {}
+[25.724642] (-) TimerEvent: {}
+[25.825768] (-) TimerEvent: {}
+[25.926807] (-) TimerEvent: {}
+[26.027870] (-) TimerEvent: {}
+[26.128933] (-) TimerEvent: {}
+[26.230180] (-) TimerEvent: {}
+[26.331233] (-) TimerEvent: {}
+[26.432008] (-) TimerEvent: {}
+[26.532788] (-) TimerEvent: {}
+[26.633664] (-) TimerEvent: {}
+[26.734722] (-) TimerEvent: {}
+[26.835793] (-) TimerEvent: {}
+[26.936900] (-) TimerEvent: {}
+[27.038026] (-) TimerEvent: {}
+[27.139089] (-) TimerEvent: {}
+[27.240158] (-) TimerEvent: {}
+[27.341222] (-) TimerEvent: {}
+[27.442284] (-) TimerEvent: {}
+[27.543346] (-) TimerEvent: {}
+[27.644413] (-) TimerEvent: {}
+[27.745250] (-) TimerEvent: {}
+[27.846034] (-) TimerEvent: {}
+[27.946810] (-) TimerEvent: {}
+[28.047592] (-) TimerEvent: {}
+[28.148380] (-) TimerEvent: {}
+[28.249232] (-) TimerEvent: {}
+[28.350020] (-) TimerEvent: {}
+[28.450803] (-) TimerEvent: {}
+[28.551600] (-) TimerEvent: {}
+[28.652402] (-) TimerEvent: {}
+[28.753236] (-) TimerEvent: {}
+[28.854034] (-) TimerEvent: {}
+[28.954823] (-) TimerEvent: {}
+[29.055609] (-) TimerEvent: {}
+[29.156399] (-) TimerEvent: {}
+[29.257270] (-) TimerEvent: {}
+[29.358068] (-) TimerEvent: {}
+[29.458847] (-) TimerEvent: {}
+[29.559631] (-) TimerEvent: {}
+[29.660439] (-) TimerEvent: {}
+[29.761214] (-) TimerEvent: {}
+[29.861981] (-) TimerEvent: {}
+[29.962750] (-) TimerEvent: {}
+[30.063518] (-) TimerEvent: {}
+[30.164292] (-) TimerEvent: {}
+[30.265052] (-) TimerEvent: {}
+[30.365878] (-) TimerEvent: {}
+[30.466657] (-) TimerEvent: {}
+[30.567450] (-) TimerEvent: {}
+[30.668217] (-) TimerEvent: {}
+[30.768968] (-) TimerEvent: {}
+[30.869848] (-) TimerEvent: {}
+[30.970622] (-) TimerEvent: {}
+[31.071397] (-) TimerEvent: {}
+[31.172177] (-) TimerEvent: {}
+[31.272944] (-) TimerEvent: {}
+[31.373811] (-) TimerEvent: {}
+[31.474591] (-) TimerEvent: {}
+[31.575356] (-) TimerEvent: {}
+[31.676122] (-) TimerEvent: {}
+[31.776900] (-) TimerEvent: {}
+[31.877728] (-) TimerEvent: {}
+[31.978482] (-) TimerEvent: {}
+[32.079243] (-) TimerEvent: {}
+[32.180018] (-) TimerEvent: {}
+[32.280795] (-) TimerEvent: {}
+[32.381642] (-) TimerEvent: {}
+[32.482406] (-) TimerEvent: {}
+[32.583184] (-) TimerEvent: {}
+[32.683955] (-) TimerEvent: {}
+[32.784736] (-) TimerEvent: {}
+[32.885585] (-) TimerEvent: {}
+[32.986358] (-) TimerEvent: {}
+[33.087136] (-) TimerEvent: {}
+[33.187902] (-) TimerEvent: {}
+[33.288679] (-) TimerEvent: {}
+[33.389512] (-) TimerEvent: {}
+[33.490274] (-) TimerEvent: {}
+[33.591039] (-) TimerEvent: {}
+[33.691811] (-) TimerEvent: {}
+[33.792586] (-) TimerEvent: {}
+[33.893493] (-) TimerEvent: {}
+[33.994270] (-) TimerEvent: {}
+[34.095050] (-) TimerEvent: {}
+[34.195831] (-) TimerEvent: {}
+[34.296612] (-) TimerEvent: {}
+[34.397470] (-) TimerEvent: {}
+[34.498234] (-) TimerEvent: {}
+[34.598995] (-) TimerEvent: {}
+[34.699751] (-) TimerEvent: {}
+[34.800520] (-) TimerEvent: {}
+[34.901386] (-) TimerEvent: {}
+[35.002133] (-) TimerEvent: {}
+[35.102894] (-) TimerEvent: {}
+[35.203655] (-) TimerEvent: {}
+[35.304406] (-) TimerEvent: {}
+[35.405239] (-) TimerEvent: {}
+[35.506025] (-) TimerEvent: {}
+[35.606801] (-) TimerEvent: {}
+[35.702401] (gst_pipeline) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgst_pipeline.so\x1b[0m\n'}
+[35.706950] (-) TimerEvent: {}
+[35.808913] (-) TimerEvent: {}
+[35.909773] (-) TimerEvent: {}
+[36.010707] (-) TimerEvent: {}
+[36.111623] (-) TimerEvent: {}
+[36.212453] (-) TimerEvent: {}
+[36.313459] (-) TimerEvent: {}
+[36.414288] (-) TimerEvent: {}
+[36.515106] (-) TimerEvent: {}
+[36.615941] (-) TimerEvent: {}
+[36.716768] (-) TimerEvent: {}
+[36.817685] (-) TimerEvent: {}
+[36.918430] (-) TimerEvent: {}
+[37.019191] (-) TimerEvent: {}
+[37.119981] (-) TimerEvent: {}
+[37.159925] (gst_pipeline) StdoutLine: {'line': b'[100%] Built target gst_pipeline\n'}
+[37.193289] (gst_pipeline) CommandEnded: {'returncode': 0}
+[37.220220] (-) TimerEvent: {}
+[37.321190] (-) TimerEvent: {}
+[37.421879] (-) TimerEvent: {}
+[37.456220] (gst_pipeline) JobProgress: {'identifier': 'gst_pipeline', 'progress': 'install'}
+[37.522174] (-) TimerEvent: {}
+[37.623148] (-) TimerEvent: {}
+[37.645320] (gst_pipeline) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/root/Workspaces/rosgsthumble_ws/build/gst_pipeline'], 'cwd': '/root/Workspaces/rosgsthumble_ws/build/gst_pipeline', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano'), ('LD_LIBRARY_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib'), ('SHLVL', '1'), ('OLDPWD', '/root/Workspaces'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install:/root/Workspaces/rosgsthumble_ws/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/1000/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/bin:/opt/ros/humble/install/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ''), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('GST_PLUGIN_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/gst_bridge/'), ('SHELL', '/bin/bash'), ('PWD', '/root/Workspaces/rosgsthumble_ws/build/gst_pipeline'), ('PYTHONPATH', '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install')]), 'shell': False}
+[37.723360] (-) TimerEvent: {}
+[37.816207] (gst_pipeline) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[37.817979] (gst_pipeline) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[37.819257] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib/gst_pipeline/gst_pipeline_node\n'}
+[37.823474] (-) TimerEvent: {}
+[37.830574] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/include/gst_pipeline/gst_pipeline.h\n'}
+[37.839880] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/include/gst_pipeline/plugin_base.h\n'}
+[37.849055] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/include/gst_pipeline/syntax_sugar.h\n'}
+[37.859474] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/config/example.config.yaml\n'}
+[37.868808] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/config/example_rx.config.yaml\n'}
+[37.878797] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/launch/example.launch.py\n'}
+[37.888371] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/launch/example_rx.launch.py\n'}
+[37.898089] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/environment/library_path.sh\n'}
+[37.907586] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/environment/library_path.dsv\n'}
+[37.917397] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/ament_index/resource_index/package_run_dependencies/gst_pipeline\n'}
+[37.923635] (-) TimerEvent: {}
+[37.927298] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/ament_index/resource_index/parent_prefix_path/gst_pipeline\n'}
+[37.936833] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/environment/ament_prefix_path.sh\n'}
+[37.946380] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/environment/ament_prefix_path.dsv\n'}
+[37.955723] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/environment/path.sh\n'}
+[37.965158] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/environment/path.dsv\n'}
+[37.974532] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/local_setup.bash\n'}
+[37.983866] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/local_setup.sh\n'}
+[37.993410] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/local_setup.zsh\n'}
+[38.002699] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/local_setup.dsv\n'}
+[38.012157] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/package.dsv\n'}
+[38.021853] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/ament_index/resource_index/packages/gst_pipeline\n'}
+[38.023751] (-) TimerEvent: {}
+[38.031709] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/ament_index/resource_index/rclcpp_components/gst_pipeline\n'}
+[38.041670] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[38.051284] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[38.060796] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[38.070192] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[38.079762] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/cmake/gst_pipelineConfig.cmake\n'}
+[38.088904] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/cmake/gst_pipelineConfig-version.cmake\n'}
+[38.098445] (gst_pipeline) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/package.xml\n'}
+[38.109415] (gst_pipeline) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib/libgst_pipeline.so\n'}
+[38.118165] (gst_pipeline) StdoutLine: {'line': b'-- Set runtime path of "/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib/libgst_pipeline.so" to ""\n'}
+[38.119687] (gst_pipeline) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/cmake/export_gst_pipelineExport.cmake\n'}
+[38.120270] (gst_pipeline) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/cmake/export_gst_pipelineExport-noconfig.cmake\n'}
+[38.123923] (-) TimerEvent: {}
+[38.143280] (gst_pipeline) CommandEnded: {'returncode': 0}
+[38.229181] (-) TimerEvent: {}
+[38.350507] (-) TimerEvent: {}
+[38.453487] (-) TimerEvent: {}
+[38.554472] (-) TimerEvent: {}
+[38.660362] (-) TimerEvent: {}
+[38.776472] (-) TimerEvent: {}
+[38.878021] (-) TimerEvent: {}
+[38.879595] (gst_pipeline) JobEnded: {'identifier': 'gst_pipeline', 'rc': 0}
+[38.884464] (-) EventReactorShutdown: {}

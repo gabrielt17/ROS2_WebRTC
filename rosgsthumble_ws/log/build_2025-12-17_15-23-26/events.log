@@ -1,0 +1,995 @@
+[0.000000] (-) TimerEvent: {}
+[0.000694] (audio_msgs) JobQueued: {'identifier': 'audio_msgs', 'dependencies': OrderedDict()}
+[0.001520] (cv_bridge) JobQueued: {'identifier': 'cv_bridge', 'dependencies': OrderedDict()}
+[0.003550] (diagnostic_updater) JobQueued: {'identifier': 'diagnostic_updater', 'dependencies': OrderedDict()}
+[0.003733] (gst_msgs) JobQueued: {'identifier': 'gst_msgs', 'dependencies': OrderedDict()}
+[0.003880] (image_geometry) JobQueued: {'identifier': 'image_geometry', 'dependencies': OrderedDict()}
+[0.004741] (realsense2_camera_msgs) JobQueued: {'identifier': 'realsense2_camera_msgs', 'dependencies': OrderedDict()}
+[0.010092] (xacro) JobQueued: {'identifier': 'xacro', 'dependencies': OrderedDict()}
+[0.014616] (diagnostic_common_diagnostics) JobQueued: {'identifier': 'diagnostic_common_diagnostics', 'dependencies': OrderedDict([('diagnostic_updater', '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater')])}
+[0.014875] (gst_bridge) JobQueued: {'identifier': 'gst_bridge', 'dependencies': OrderedDict([('audio_msgs', '/root/Workspaces/rosgsthumble_ws/install/audio_msgs')])}
+[0.015222] (realsense2_camera) JobQueued: {'identifier': 'realsense2_camera', 'dependencies': OrderedDict([('cv_bridge', '/root/Workspaces/rosgsthumble_ws/install/cv_bridge'), ('diagnostic_updater', '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater'), ('realsense2_camera_msgs', '/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs')])}
+[0.015410] (realsense2_description) JobQueued: {'identifier': 'realsense2_description', 'dependencies': OrderedDict([('realsense2_camera_msgs', '/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs'), ('xacro', '/root/Workspaces/rosgsthumble_ws/install/xacro')])}
+[0.015588] (vision_opencv) JobQueued: {'identifier': 'vision_opencv', 'dependencies': OrderedDict([('cv_bridge', '/root/Workspaces/rosgsthumble_ws/install/cv_bridge'), ('image_geometry', '/root/Workspaces/rosgsthumble_ws/install/image_geometry')])}
+[0.015738] (diagnostics) JobQueued: {'identifier': 'diagnostics', 'dependencies': OrderedDict([('diagnostic_updater', '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater'), ('diagnostic_common_diagnostics', '/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics')])}
+[0.015896] (gst_pipeline) JobQueued: {'identifier': 'gst_pipeline', 'dependencies': OrderedDict([('audio_msgs', '/root/Workspaces/rosgsthumble_ws/install/audio_msgs'), ('cv_bridge', '/root/Workspaces/rosgsthumble_ws/install/cv_bridge'), ('gst_msgs', '/root/Workspaces/rosgsthumble_ws/install/gst_msgs'), ('gst_bridge', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge')])}
+[0.016040] (webrtc_camera_node) JobQueued: {'identifier': 'webrtc_camera_node', 'dependencies': OrderedDict([('audio_msgs', '/root/Workspaces/rosgsthumble_ws/install/audio_msgs'), ('gst_bridge', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge')])}
+[0.016168] (gst_pipeline_plugins) JobQueued: {'identifier': 'gst_pipeline_plugins', 'dependencies': OrderedDict([('audio_msgs', '/root/Workspaces/rosgsthumble_ws/install/audio_msgs'), ('cv_bridge', '/root/Workspaces/rosgsthumble_ws/install/cv_bridge'), ('gst_msgs', '/root/Workspaces/rosgsthumble_ws/install/gst_msgs'), ('gst_bridge', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge'), ('gst_pipeline', '/root/Workspaces/rosgsthumble_ws/install/gst_pipeline')])}
+[0.016323] (audio_msgs) JobStarted: {'identifier': 'audio_msgs'}
+[0.103875] (-) TimerEvent: {}
+[0.176736] (cv_bridge) JobStarted: {'identifier': 'cv_bridge'}
+[0.209086] (-) TimerEvent: {}
+[0.308249] (diagnostic_updater) JobStarted: {'identifier': 'diagnostic_updater'}
+[0.319816] (-) TimerEvent: {}
+[0.432460] (-) TimerEvent: {}
+[0.444064] (gst_msgs) JobStarted: {'identifier': 'gst_msgs'}
+[0.532630] (-) TimerEvent: {}
+[0.588116] (audio_msgs) JobProgress: {'identifier': 'audio_msgs', 'progress': 'cmake'}
+[0.591733] (audio_msgs) JobProgress: {'identifier': 'audio_msgs', 'progress': 'build'}
+[0.595178] (audio_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/Workspaces/rosgsthumble_ws/build/audio_msgs', '--', '-j4', '-l4'], 'cwd': '/root/Workspaces/rosgsthumble_ws/build/audio_msgs', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano'), ('LD_LIBRARY_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('SHLVL', '1'), ('OLDPWD', '/root/Workspaces'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/1000/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/bin:/opt/ros/humble/install/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ''), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('GST_PLUGIN_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/gst_bridge/'), ('SHELL', '/bin/bash'), ('PWD', '/root/Workspaces/rosgsthumble_ws/build/audio_msgs'), ('PYTHONPATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install')]), 'shell': False}
+[0.616396] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'cmake'}
+[0.620328] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'build'}
+[0.621637] (cv_bridge) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/Workspaces/rosgsthumble_ws/build/cv_bridge', '--', '-j4', '-l4'], 'cwd': '/root/Workspaces/rosgsthumble_ws/build/cv_bridge', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano'), ('LD_LIBRARY_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('SHLVL', '1'), ('OLDPWD', '/root/Workspaces'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/1000/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/bin:/opt/ros/humble/install/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ''), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('GST_PLUGIN_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/gst_bridge/'), ('SHELL', '/bin/bash'), ('PWD', '/root/Workspaces/rosgsthumble_ws/build/cv_bridge'), ('PYTHONPATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install')]), 'shell': False}
+[0.632851] (-) TimerEvent: {}
+[0.635755] (diagnostic_updater) JobProgress: {'identifier': 'diagnostic_updater', 'progress': 'cmake'}
+[0.638429] (diagnostic_updater) JobProgress: {'identifier': 'diagnostic_updater', 'progress': 'build'}
+[0.639898] (diagnostic_updater) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater', '--', '-j4', '-l4'], 'cwd': '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano'), ('LD_LIBRARY_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('SHLVL', '1'), ('OLDPWD', '/root/Workspaces'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/1000/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/bin:/opt/ros/humble/install/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ''), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('GST_PLUGIN_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/gst_bridge/'), ('SHELL', '/bin/bash'), ('PWD', '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater'), ('PYTHONPATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install')]), 'shell': False}
+[0.678400] (gst_msgs) JobProgress: {'identifier': 'gst_msgs', 'progress': 'cmake'}
+[0.682214] (gst_msgs) JobProgress: {'identifier': 'gst_msgs', 'progress': 'build'}
+[0.683684] (gst_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/Workspaces/rosgsthumble_ws/build/gst_msgs', '--', '-j4', '-l4'], 'cwd': '/root/Workspaces/rosgsthumble_ws/build/gst_msgs', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano'), ('LD_LIBRARY_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('SHLVL', '1'), ('OLDPWD', '/root/Workspaces'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/1000/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/bin:/opt/ros/humble/install/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ''), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('GST_PLUGIN_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/gst_bridge/'), ('SHELL', '/bin/bash'), ('PWD', '/root/Workspaces/rosgsthumble_ws/build/gst_msgs'), ('PYTHONPATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install')]), 'shell': False}
+[0.733103] (-) TimerEvent: {}
+[0.834304] (-) TimerEvent: {}
+[0.887109] (audio_msgs) StdoutLine: {'line': b'[  3%] Built target audio_msgs__cpp\n'}
+[0.901183] (audio_msgs) StdoutLine: {'line': b'[ 12%] Built target audio_msgs__rosidl_generator_c\n'}
+[0.923698] (audio_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_audio_msgs\n'}
+[0.934694] (-) TimerEvent: {}
+[0.958222] (cv_bridge) StdoutLine: {'line': b'[ 12%] Built target gtest_main\n'}
+[0.973745] (audio_msgs) StdoutLine: {'line': b'[ 22%] Built target audio_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.012687] (audio_msgs) StdoutLine: {'line': b'[ 32%] Built target audio_msgs__rosidl_typesupport_cpp\n'}
+[1.022906] (cv_bridge) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_cv_bridge\n'}
+[1.034874] (-) TimerEvent: {}
+[1.041468] (audio_msgs) StdoutLine: {'line': b'[ 41%] Built target audio_msgs__rosidl_typesupport_introspection_c\n'}
+[1.057661] (cv_bridge) StdoutLine: {'line': b'[ 31%] Built target cv_bridge\n'}
+[1.078235] (cv_bridge) StdoutLine: {'line': b'[ 43%] Built target gtest\n'}
+[1.092130] (audio_msgs) StdoutLine: {'line': b'[ 51%] Built target audio_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.102947] (audio_msgs) StdoutLine: {'line': b'[ 61%] Built target audio_msgs__rosidl_typesupport_c\n'}
+[1.106112] (diagnostic_updater) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_symlink_diagnostic_updater\n'}
+[1.114839] (gst_msgs) StdoutLine: {'line': b'[  1%] Built target gst_msgs__cpp\n'}
+[1.134102] (diagnostic_updater) StdoutLine: {'line': b'[ 20%] Built target example\n'}
+[1.135107] (-) TimerEvent: {}
+[1.148039] (diagnostic_updater) StdoutLine: {'line': b'[ 50%] Built target gtest\n'}
+[1.149434] (diagnostic_updater) StdoutLine: {'line': b'[ 60%] Built target gtest_main\n'}
+[1.172936] (gst_msgs) StdoutLine: {'line': b'[ 12%] Built target gst_msgs__rosidl_generator_c\n'}
+[1.175134] (audio_msgs) StdoutLine: {'line': b'[ 70%] Built target audio_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.210832] (gst_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_gst_msgs\n'}
+[1.234317] (cv_bridge) StdoutLine: {'line': b'[ 62%] Built target cv_bridge_boost\n'}
+[1.235381] (-) TimerEvent: {}
+[1.255719] (audio_msgs) StdoutLine: {'line': b'[ 70%] Built target audio_msgs\n'}
+[1.335587] (-) TimerEvent: {}
+[1.392453] (audio_msgs) StdoutLine: {'line': b'[ 74%] Built target audio_msgs__py\n'}
+[1.409139] (gst_msgs) StdoutLine: {'line': b'[ 24%] Built target gst_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.434651] (gst_msgs) StdoutLine: {'line': b'[ 35%] Built target gst_msgs__rosidl_typesupport_cpp\n'}
+[1.435722] (-) TimerEvent: {}
+[1.473459] (diagnostic_updater) StdoutLine: {'line': b'[ 80%] Built target diagnostic_updater_test\n'}
+[1.487531] (gst_msgs) StdoutLine: {'line': b'[ 46%] Built target gst_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.490059] (diagnostic_updater) StdoutLine: {'line': b'[100%] Built target diagnostic_status_wrapper_test\n'}
+[1.494751] (cv_bridge) StdoutLine: {'line': b'[100%] Built target cv_bridge-utest\n'}
+[1.522735] (gst_msgs) StdoutLine: {'line': b'[ 58%] Built target gst_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.535923] (-) TimerEvent: {}
+[1.544560] (audio_msgs) StdoutLine: {'line': b'[ 80%] Built target audio_msgs__rosidl_generator_py\n'}
+[1.636112] (-) TimerEvent: {}
+[1.644669] (gst_msgs) StdoutLine: {'line': b'[ 69%] Built target gst_msgs__rosidl_typesupport_c\n'}
+[1.648813] (gst_msgs) StdoutLine: {'line': b'[ 81%] Built target gst_msgs__rosidl_typesupport_introspection_c\n'}
+[1.734126] (audio_msgs) StdoutLine: {'line': b'[ 87%] Built target audio_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.735650] (audio_msgs) StdoutLine: {'line': b'[ 93%] Built target audio_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[1.736331] (-) TimerEvent: {}
+[1.746637] (audio_msgs) StdoutLine: {'line': b'[100%] Built target audio_msgs__rosidl_typesupport_c__pyext\n'}
+[1.782257] (gst_msgs) StdoutLine: {'line': b'[ 81%] Built target gst_msgs\n'}
+[1.836530] (-) TimerEvent: {}
+[1.938834] (gst_msgs) StdoutLine: {'line': b'[ 82%] Built target gst_msgs__py\n'}
+[1.939531] (-) TimerEvent: {}
+[2.042057] (-) TimerEvent: {}
+[2.049072] (gst_msgs) StdoutLine: {'line': b'[ 92%] Built target gst_msgs__rosidl_generator_py\n'}
+[2.142254] (-) TimerEvent: {}
+[2.205201] (gst_msgs) StdoutLine: {'line': b'[ 94%] Built target gst_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[2.236834] (gst_msgs) StdoutLine: {'line': b'[ 97%] Built target gst_msgs__rosidl_typesupport_c__pyext\n'}
+[2.242411] (-) TimerEvent: {}
+[2.258041] (gst_msgs) StdoutLine: {'line': b'[100%] Built target gst_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.342606] (-) TimerEvent: {}
+[2.443962] (-) TimerEvent: {}
+[2.546363] (-) TimerEvent: {}
+[2.647996] (-) TimerEvent: {}
+[2.750361] (-) TimerEvent: {}
+[2.852766] (-) TimerEvent: {}
+[2.925321] (audio_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.929919] (audio_msgs) StdoutLine: {'line': b'writing audio_msgs.egg-info/PKG-INFO\n'}
+[2.930886] (audio_msgs) StdoutLine: {'line': b'writing dependency_links to audio_msgs.egg-info/dependency_links.txt\n'}
+[2.931815] (audio_msgs) StdoutLine: {'line': b'writing top-level names to audio_msgs.egg-info/top_level.txt\n'}
+[2.943252] (audio_msgs) StdoutLine: {'line': b"reading manifest file 'audio_msgs.egg-info/SOURCES.txt'\n"}
+[2.948454] (audio_msgs) StdoutLine: {'line': b"writing manifest file 'audio_msgs.egg-info/SOURCES.txt'\n"}
+[2.952960] (-) TimerEvent: {}
+[3.053857] (-) TimerEvent: {}
+[3.065679] (audio_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_audio_msgs_egg\n'}
+[3.106734] (audio_msgs) CommandEnded: {'returncode': 0}
+[3.154153] (-) TimerEvent: {}
+[3.160938] (cv_bridge) StdoutLine: {'line': b'running egg_info\n'}
+[3.161873] (diagnostic_updater) StdoutLine: {'line': b'running egg_info\n'}
+[3.164584] (cv_bridge) StdoutLine: {'line': b'writing cv_bridge.egg-info/PKG-INFO\n'}
+[3.165317] (diagnostic_updater) StdoutLine: {'line': b'writing diagnostic_updater.egg-info/PKG-INFO\n'}
+[3.166345] (cv_bridge) StdoutLine: {'line': b'writing dependency_links to cv_bridge.egg-info/dependency_links.txt\n'}
+[3.167048] (cv_bridge) StdoutLine: {'line': b'writing top-level names to cv_bridge.egg-info/top_level.txt\n'}
+[3.167826] (diagnostic_updater) StdoutLine: {'line': b'writing dependency_links to diagnostic_updater.egg-info/dependency_links.txt\n'}
+[3.168780] (diagnostic_updater) StdoutLine: {'line': b'writing top-level names to diagnostic_updater.egg-info/top_level.txt\n'}
+[3.178107] (cv_bridge) StdoutLine: {'line': b"reading manifest file 'cv_bridge.egg-info/SOURCES.txt'\n"}
+[3.181863] (diagnostic_updater) StdoutLine: {'line': b"reading manifest file 'diagnostic_updater.egg-info/SOURCES.txt'\n"}
+[3.182870] (cv_bridge) StdoutLine: {'line': b"writing manifest file 'cv_bridge.egg-info/SOURCES.txt'\n"}
+[3.191657] (diagnostic_updater) StdoutLine: {'line': b"writing manifest file 'diagnostic_updater.egg-info/SOURCES.txt'\n"}
+[3.254320] (-) TimerEvent: {}
+[3.300479] (cv_bridge) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_cv_bridge_egg\n'}
+[3.317996] (diagnostic_updater) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_diagnostic_updater_egg\n'}
+[3.350983] (cv_bridge) CommandEnded: {'returncode': 0}
+[3.354701] (-) TimerEvent: {}
+[3.360867] (diagnostic_updater) CommandEnded: {'returncode': 0}
+[3.454981] (-) TimerEvent: {}
+[3.509199] (gst_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[3.513028] (gst_msgs) StdoutLine: {'line': b'writing gst_msgs.egg-info/PKG-INFO\n'}
+[3.516072] (gst_msgs) StdoutLine: {'line': b'writing dependency_links to gst_msgs.egg-info/dependency_links.txt\n'}
+[3.516815] (gst_msgs) StdoutLine: {'line': b'writing top-level names to gst_msgs.egg-info/top_level.txt\n'}
+[3.528980] (gst_msgs) StdoutLine: {'line': b"reading manifest file 'gst_msgs.egg-info/SOURCES.txt'\n"}
+[3.534557] (gst_msgs) StdoutLine: {'line': b"writing manifest file 'gst_msgs.egg-info/SOURCES.txt'\n"}
+[3.555142] (-) TimerEvent: {}
+[3.640318] (audio_msgs) JobProgress: {'identifier': 'audio_msgs', 'progress': 'install'}
+[3.651645] (gst_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_gst_msgs_egg\n'}
+[3.655345] (-) TimerEvent: {}
+[3.757949] (-) TimerEvent: {}
+[3.818568] (audio_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/root/Workspaces/rosgsthumble_ws/build/audio_msgs'], 'cwd': '/root/Workspaces/rosgsthumble_ws/build/audio_msgs', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano'), ('LD_LIBRARY_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('SHLVL', '1'), ('OLDPWD', '/root/Workspaces'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/1000/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/bin:/opt/ros/humble/install/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ''), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('GST_PLUGIN_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/gst_bridge/'), ('SHELL', '/bin/bash'), ('PWD', '/root/Workspaces/rosgsthumble_ws/build/audio_msgs'), ('PYTHONPATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install')]), 'shell': False}
+[3.836083] (cv_bridge) JobProgress: {'identifier': 'cv_bridge', 'progress': 'install'}
+[3.837522] (cv_bridge) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/root/Workspaces/rosgsthumble_ws/build/cv_bridge'], 'cwd': '/root/Workspaces/rosgsthumble_ws/build/cv_bridge', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano'), ('LD_LIBRARY_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('SHLVL', '1'), ('OLDPWD', '/root/Workspaces'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/1000/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/bin:/opt/ros/humble/install/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ''), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('GST_PLUGIN_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/gst_bridge/'), ('SHELL', '/bin/bash'), ('PWD', '/root/Workspaces/rosgsthumble_ws/build/cv_bridge'), ('PYTHONPATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install')]), 'shell': False}
+[3.849320] (diagnostic_updater) JobProgress: {'identifier': 'diagnostic_updater', 'progress': 'install'}
+[3.850805] (diagnostic_updater) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater'], 'cwd': '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano'), ('LD_LIBRARY_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('SHLVL', '1'), ('OLDPWD', '/root/Workspaces'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/1000/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/bin:/opt/ros/humble/install/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ''), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('GST_PLUGIN_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/gst_bridge/'), ('SHELL', '/bin/bash'), ('PWD', '/root/Workspaces/rosgsthumble_ws/build/diagnostic_updater'), ('PYTHONPATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install')]), 'shell': False}
+[3.859343] (-) TimerEvent: {}
+[3.867541] (gst_msgs) CommandEnded: {'returncode': 0}
+[3.959648] (-) TimerEvent: {}
+[3.993267] (audio_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.995275] (audio_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.996364] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/ament_index/resource_index/rosidl_interfaces/audio_msgs\n'}
+[3.998435] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/audio.h\n'}
+[3.999342] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__functions.h\n'}
+[4.000141] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__struct.h\n'}
+[4.000910] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__type_support.h\n'}
+[4.001677] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.002402] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/environment/library_path.sh\n'}
+[4.003267] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/environment/library_path.dsv\n'}
+[4.005652] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__rosidl_typesupport_fastrtps_c.h\n'}
+[4.006584] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.008376] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/audio.hpp\n'}
+[4.009197] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__builder.hpp\n'}
+[4.009835] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__struct.hpp\n'}
+[4.010583] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__traits.hpp\n'}
+[4.013075] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.013892] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.015763] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__rosidl_typesupport_introspection_c.h\n'}
+[4.016728] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.018433] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.019413] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/environment/pythonpath.sh\n'}
+[4.020336] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/environment/pythonpath.dsv\n'}
+[4.025059] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages/audio_msgs-0.0.0-py3.6.egg-info/PKG-INFO\n'}
+[4.025895] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages/audio_msgs-0.0.0-py3.6.egg-info/SOURCES.txt\n'}
+[4.026442] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages/audio_msgs-0.0.0-py3.6.egg-info/dependency_links.txt\n'}
+[4.027351] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages/audio_msgs-0.0.0-py3.6.egg-info/top_level.txt\n'}
+[4.028641] (cv_bridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.029222] (diagnostic_updater) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.031017] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages/audio_msgs/__init__.py\n'}
+[4.032126] (cv_bridge) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.033216] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh\n'}
+[4.034007] (diagnostic_updater) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.034868] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages/audio_msgs/_audio_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[4.035679] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages/audio_msgs/_audio_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.036397] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/environment/pythonpath.sh\n'}
+[4.037184] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages/audio_msgs/_audio_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.038134] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages/audio_msgs/audio_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[4.038829] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages/audio_msgs/audio_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[4.039664] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages/audio_msgs/audio_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[4.040248] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages/audio_msgs/libaudio_msgs__rosidl_generator_py.so\n'}
+[4.041050] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages/audio_msgs/msg/__init__.py\n'}
+[4.041669] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages/audio_msgs/msg/_audio.py\n'}
+[4.042431] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages/audio_msgs/msg/_audio_s.c\n'}
+[4.043513] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages/audio_msgs/audio_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[4.044087] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages/audio_msgs/audio_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[4.044794] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages/audio_msgs/audio_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[4.045462] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv\n'}
+[4.045990] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/msg/Audio.idl\n'}
+[4.046906] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/msg/Audio.msg\n'}
+[4.047720] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/ament_index/resource_index/package_run_dependencies/audio_msgs\n'}
+[4.048484] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/ament_index/resource_index/parent_prefix_path/audio_msgs\n'}
+[4.049264] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/environment/ament_prefix_path.sh\n'}
+[4.050353] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/environment/ament_prefix_path.dsv\n'}
+[4.051124] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/environment/path.sh\n'}
+[4.051894] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/environment/path.dsv\n'}
+[4.052621] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/local_setup.bash\n'}
+[4.053570] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/local_setup.sh\n'}
+[4.054406] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/local_setup.zsh\n'}
+[4.055256] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/environment/pythonpath.dsv\n'}
+[4.055854] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/local_setup.dsv\n'}
+[4.056399] (audio_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/package.dsv\n'}
+[4.059841] (-) TimerEvent: {}
+[4.066073] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/ament_index/resource_index/packages/audio_msgs\n'}
+[4.067349] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge-3.2.1-py3.6.egg-info/PKG-INFO\n'}
+[4.068194] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[4.068858] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.070226] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater-4.0.6-py3.6.egg-info/PKG-INFO\n'}
+[4.071036] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.071898] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.072730] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.073333] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.074204] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.076061] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/audio_msgsConfig.cmake\n'}
+[4.076681] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/audio_msgsConfig-version.cmake\n'}
+[4.078580] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/package.xml\n'}
+[4.079641] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge-3.2.1-py3.6.egg-info/SOURCES.txt\n'}
+[4.080449] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_generator_c.so\n'}
+[4.081270] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[4.082251] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.083679] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_introspection_c.so\n'}
+[4.084350] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater-4.0.6-py3.6.egg-info/SOURCES.txt\n'}
+[4.085137] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_c.so\n'}
+[4.085973] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[4.087103] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_cpp.so\n'}
+[4.090084] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge-3.2.1-py3.6.egg-info/dependency_links.txt\n'}
+[4.095667] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater-4.0.6-py3.6.egg-info/dependency_links.txt\n'}
+[4.099730] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge-3.2.1-py3.6.egg-info/top_level.txt\n'}
+[4.106145] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater-4.0.6-py3.6.egg-info/top_level.txt\n'}
+[4.117367] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/__init__.py\n'}
+[4.118368] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge/__init__.py\n'}
+[4.127278] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_diagnostic_status_wrapper.py\n'}
+[4.128214] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge/core.py\n'}
+[4.138345] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_diagnostic_updater.py\n'}
+[4.139307] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge_export.h\n'}
+[4.149137] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge/boost//cv_bridge_boost.so\n'}
+[4.150359] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_publisher.py\n'}
+[4.159696] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_update_functions.py\n'}
+[4.160444] (-) TimerEvent: {}
+[4.162908] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/include/cv_bridge/cv_bridge/cv_bridge.h\n'}
+[4.172396] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/example.py\n'}
+[4.173415] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/include/cv_bridge/cv_bridge/rgb_colors.h\n'}
+[4.182872] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/diagnostic_updater/example.py\n'}
+[4.184628] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/libcv_bridge.so\n'}
+[4.196299] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/diagnostic_updater/example\n'}
+[4.197073] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge\n'}
+[4.207187] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge\n'}
+[4.212167] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/include/diagnostic_updater/diagnostic_status_wrapper.hpp\n'}
+[4.217839] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh\n'}
+[4.222228] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/include/diagnostic_updater/diagnostic_updater.hpp\n'}
+[4.231489] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv\n'}
+[4.233009] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/include/diagnostic_updater/publisher.hpp\n'}
+[4.243117] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/environment/path.sh\n'}
+[4.246725] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/include/diagnostic_updater/update_functions.hpp\n'}
+[4.256461] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/environment/path.dsv\n'}
+[4.257255] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/environment/library_path.sh\n'}
+[4.260633] (-) TimerEvent: {}
+[4.267542] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/environment/library_path.dsv\n'}
+[4.268589] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/local_setup.bash\n'}
+[4.278836] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/ament_index/resource_index/package_run_dependencies/diagnostic_updater\n'}
+[4.282381] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/local_setup.sh\n'}
+[4.286942] (audio_msgs) StdoutLine: {'line': b"Listing '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages/audio_msgs'...\n"}
+[4.288539] (audio_msgs) StdoutLine: {'line': b"Listing '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages/audio_msgs/msg'...\n"}
+[4.290677] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/ament_index/resource_index/parent_prefix_path/diagnostic_updater\n'}
+[4.296287] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/local_setup.zsh\n'}
+[4.301809] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/environment/ament_prefix_path.sh\n'}
+[4.309320] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/local_setup.dsv\n'}
+[4.313320] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_generator_py.so\n'}
+[4.316153] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_generator_cExport.cmake\n'}
+[4.318642] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/environment/ament_prefix_path.dsv\n'}
+[4.319492] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.320536] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.321367] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.321999] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_generator_cppExport.cmake\n'}
+[4.322981] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/package.dsv\n'}
+[4.323683] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.324331] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.324931] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/audio_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.325563] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/audio_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.326197] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/audio_msgs__rosidl_typesupport_cExport.cmake\n'}
+[4.327544] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/audio_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.328196] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/audio_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.328775] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/audio_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.329393] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/audio_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[4.330005] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/audio_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.335195] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_generator_pyExport.cmake\n'}
+[4.335931] (audio_msgs) StdoutLine: {'line': b'-- Up-to-date: /root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.336531] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/environment/path.sh\n'}
+[4.337135] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge\n'}
+[4.342074] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/environment/path.dsv\n'}
+[4.342883] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake\n'}
+[4.352602] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.353433] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/local_setup.bash\n'}
+[4.360826] (-) TimerEvent: {}
+[4.364853] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.373123] (audio_msgs) CommandEnded: {'returncode': 0}
+[4.390254] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/local_setup.sh\n'}
+[4.410686] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/local_setup.zsh\n'}
+[4.416047] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake\n'}
+[4.416664] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake\n'}
+[4.417212] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/local_setup.dsv\n'}
+[4.417784] (cv_bridge) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/package.xml\n'}
+[4.418389] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/package.dsv\n'}
+[4.419321] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/ament_index/resource_index/packages/diagnostic_updater\n'}
+[4.432723] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.443247] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.459067] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.461017] (-) TimerEvent: {}
+[4.464079] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterConfig.cmake\n'}
+[4.472593] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterConfig-version.cmake\n'}
+[4.503448] (diagnostic_updater) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/package.xml\n'}
+[4.566342] (-) TimerEvent: {}
+[4.593946] (cv_bridge) StdoutLine: {'line': b"Listing '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge'...\n"}
+[4.594906] (cv_bridge) StdoutLine: {'line': b"Compiling '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge/__init__.py'...\n"}
+[4.595606] (cv_bridge) StdoutLine: {'line': b"Listing '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge/boost'...\n"}
+[4.596318] (cv_bridge) StdoutLine: {'line': b"Compiling '/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages/cv_bridge/core.py'...\n"}
+[4.634072] (cv_bridge) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport.cmake\n'}
+[4.650254] (cv_bridge) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/cv_bridge/share/cv_bridge/cmake/export_cv_bridgeExport-noconfig.cmake\n'}
+[4.671661] (-) TimerEvent: {}
+[4.703040] (diagnostic_updater) StdoutLine: {'line': b"Listing '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater'...\n"}
+[4.708543] (diagnostic_updater) StdoutLine: {'line': b"Compiling '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/__init__.py'...\n"}
+[4.709603] (diagnostic_updater) StdoutLine: {'line': b"Compiling '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_diagnostic_status_wrapper.py'...\n"}
+[4.711363] (diagnostic_updater) StdoutLine: {'line': b"Compiling '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_diagnostic_updater.py'...\n"}
+[4.714953] (diagnostic_updater) StdoutLine: {'line': b"Compiling '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_publisher.py'...\n"}
+[4.715847] (diagnostic_updater) StdoutLine: {'line': b"Compiling '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/_update_functions.py'...\n"}
+[4.716623] (diagnostic_updater) StdoutLine: {'line': b"Compiling '/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages/diagnostic_updater/example.py'...\n"}
+[4.728188] (diagnostic_updater) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/share/diagnostic_updater/cmake/diagnostic_updaterTargetsExport.cmake\n'}
+[4.753045] (cv_bridge) CommandEnded: {'returncode': 0}
+[4.777354] (-) TimerEvent: {}
+[4.889942] (-) TimerEvent: {}
+[5.012891] (-) TimerEvent: {}
+[5.048932] (gst_msgs) JobProgress: {'identifier': 'gst_msgs', 'progress': 'install'}
+[5.050799] (gst_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/root/Workspaces/rosgsthumble_ws/build/gst_msgs'], 'cwd': '/root/Workspaces/rosgsthumble_ws/build/gst_msgs', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano'), ('LD_LIBRARY_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('SHLVL', '1'), ('OLDPWD', '/root/Workspaces'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/1000/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/bin:/opt/ros/humble/install/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ''), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('GST_PLUGIN_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/gst_bridge/'), ('SHELL', '/bin/bash'), ('PWD', '/root/Workspaces/rosgsthumble_ws/build/gst_msgs'), ('PYTHONPATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install')]), 'shell': False}
+[5.083833] (diagnostic_updater) CommandEnded: {'returncode': 0}
+[5.118199] (-) TimerEvent: {}
+[5.225833] (-) TimerEvent: {}
+[5.239603] (gst_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.254889] (gst_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.255546] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/ament_index/resource_index/rosidl_interfaces/gst_msgs\n'}
+[5.256105] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/buffer_event.h\n'}
+[5.259084] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/clock_observation.h\n'}
+[5.278739] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/buffer_event__functions.h\n'}
+[5.305771] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/buffer_event__struct.h\n'}
+[5.314381] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/buffer_event__type_support.h\n'}
+[5.316399] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/clock_observation__functions.h\n'}
+[5.317291] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/clock_observation__struct.h\n'}
+[5.318537] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/clock_observation__type_support.h\n'}
+[5.326319] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/frame_gate__functions.h\n'}
+[5.327226] (-) TimerEvent: {}
+[5.337010] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/frame_gate__struct.h\n'}
+[5.346149] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/frame_gate__type_support.h\n'}
+[5.369773] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/meta_mark__functions.h\n'}
+[5.390952] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/meta_mark__struct.h\n'}
+[5.403432] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/meta_mark__type_support.h\n'}
+[5.425419] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/multifilesink_event__functions.h\n'}
+[5.441840] (-) TimerEvent: {}
+[5.448546] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/multifilesink_event__struct.h\n'}
+[5.459763] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/multifilesink_event__type_support.h\n'}
+[5.471070] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/webrtc_ice__functions.h\n'}
+[5.471966] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/webrtc_ice__struct.h\n'}
+[5.472735] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/webrtc_ice__type_support.h\n'}
+[5.473451] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/frame_gate.h\n'}
+[5.474266] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/meta_mark.h\n'}
+[5.475239] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/multifilesink_event.h\n'}
+[5.476084] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.479489] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/webrtc_ice.h\n'}
+[5.499570] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/srv/detail/seek__functions.h\n'}
+[5.500530] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/srv/detail/seek__struct.h\n'}
+[5.516967] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/srv/detail/seek__type_support.h\n'}
+[5.534102] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/srv/seek.h\n'}
+[5.535836] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/environment/library_path.sh\n'}
+[5.543197] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/environment/library_path.dsv\n'}
+[5.543990] (-) TimerEvent: {}
+[5.570104] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/buffer_event__rosidl_typesupport_fastrtps_c.h\n'}
+[5.593337] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/clock_observation__rosidl_typesupport_fastrtps_c.h\n'}
+[5.594217] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/frame_gate__rosidl_typesupport_fastrtps_c.h\n'}
+[5.595783] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/meta_mark__rosidl_typesupport_fastrtps_c.h\n'}
+[5.596565] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/multifilesink_event__rosidl_typesupport_fastrtps_c.h\n'}
+[5.602828] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/webrtc_ice__rosidl_typesupport_fastrtps_c.h\n'}
+[5.617060] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.638920] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/srv/detail/seek__rosidl_typesupport_fastrtps_c.h\n'}
+[5.654226] (-) TimerEvent: {}
+[5.655867] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/buffer_event.hpp\n'}
+[5.656666] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/clock_observation.hpp\n'}
+[5.658801] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/buffer_event__builder.hpp\n'}
+[5.663264] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/buffer_event__struct.hpp\n'}
+[5.686700] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/buffer_event__traits.hpp\n'}
+[5.709890] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/clock_observation__builder.hpp\n'}
+[5.712483] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/clock_observation__struct.hpp\n'}
+[5.713267] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/clock_observation__traits.hpp\n'}
+[5.713994] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/frame_gate__builder.hpp\n'}
+[5.719095] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/frame_gate__struct.hpp\n'}
+[5.732042] (audio_msgs) JobEnded: {'identifier': 'audio_msgs', 'rc': 0}
+[5.825741] (-) TimerEvent: {}
+[5.839340] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/frame_gate__traits.hpp\n'}
+[5.841749] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/meta_mark__builder.hpp\n'}
+[5.842538] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/meta_mark__struct.hpp\n'}
+[5.843251] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/meta_mark__traits.hpp\n'}
+[5.843982] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/multifilesink_event__builder.hpp\n'}
+[5.844790] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/multifilesink_event__struct.hpp\n'}
+[5.845562] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/multifilesink_event__traits.hpp\n'}
+[5.846305] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/webrtc_ice__builder.hpp\n'}
+[5.847140] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/webrtc_ice__struct.hpp\n'}
+[5.847881] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/webrtc_ice__traits.hpp\n'}
+[5.848568] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/frame_gate.hpp\n'}
+[5.849341] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/meta_mark.hpp\n'}
+[5.850057] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/multifilesink_event.hpp\n'}
+[5.851170] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/webrtc_ice.hpp\n'}
+[5.871608] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/srv/detail/seek__builder.hpp\n'}
+[5.897837] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/srv/detail/seek__struct.hpp\n'}
+[5.898690] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/srv/detail/seek__traits.hpp\n'}
+[5.899850] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/srv/seek.hpp\n'}
+[5.900517] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/buffer_event__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.907576] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/clock_observation__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.931084] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/frame_gate__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.951821] (-) TimerEvent: {}
+[5.953876] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/meta_mark__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.954927] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/multifilesink_event__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.955962] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/webrtc_ice__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.956926] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.963092] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/srv/detail/seek__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.988162] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/buffer_event__rosidl_typesupport_introspection_c.h\n'}
+[6.008529] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/clock_observation__rosidl_typesupport_introspection_c.h\n'}
+[6.009892] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/frame_gate__rosidl_typesupport_introspection_c.h\n'}
+[6.010904] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/meta_mark__rosidl_typesupport_introspection_c.h\n'}
+[6.012308] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/multifilesink_event__rosidl_typesupport_introspection_c.h\n'}
+[6.033810] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/webrtc_ice__rosidl_typesupport_introspection_c.h\n'}
+[6.062674] (-) TimerEvent: {}
+[6.065747] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.067056] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/srv/detail/seek__rosidl_typesupport_introspection_c.h\n'}
+[6.068002] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/buffer_event__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.069058] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/clock_observation__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.070205] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/frame_gate__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.078229] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/meta_mark__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.082992] (cv_bridge) JobEnded: {'identifier': 'cv_bridge', 'rc': 0}
+[6.103425] (gst_bridge) JobStarted: {'identifier': 'gst_bridge'}
+[6.116908] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/multifilesink_event__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.133212] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/msg/detail/webrtc_ice__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.143599] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/include/gst_msgs/gst_msgs/srv/detail/seek__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.144331] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/environment/pythonpath.sh\n'}
+[6.145016] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/environment/pythonpath.dsv\n'}
+[6.145782] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs-0.0.0-py3.6.egg-info/PKG-INFO\n'}
+[6.146690] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs-0.0.0-py3.6.egg-info/SOURCES.txt\n'}
+[6.166340] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs-0.0.0-py3.6.egg-info/dependency_links.txt\n'}
+[6.167370] (-) TimerEvent: {}
+[6.168250] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs-0.0.0-py3.6.egg-info/top_level.txt\n'}
+[6.188844] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/__init__.py\n'}
+[6.189534] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/_gst_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[6.196177] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/_gst_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.222068] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/_gst_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.231140] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/gst_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[6.242399] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/gst_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[6.249362] (realsense2_camera_msgs) JobStarted: {'identifier': 'realsense2_camera_msgs'}
+[6.264026] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/gst_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[6.296014] (-) TimerEvent: {}
+[6.297759] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/libgst_msgs__rosidl_generator_py.so\n'}
+[6.309654] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/__init__.py\n'}
+[6.310352] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_buffer_event.py\n'}
+[6.311115] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_buffer_event_s.c\n'}
+[6.311702] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_clock_observation.py\n'}
+[6.312581] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_clock_observation_s.c\n'}
+[6.331427] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_frame_gate.py\n'}
+[6.333432] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_frame_gate_s.c\n'}
+[6.335588] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_meta_mark.py\n'}
+[6.354299] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_meta_mark_s.c\n'}
+[6.355208] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_multifilesink_event.py\n'}
+[6.362902] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_multifilesink_event_s.c\n'}
+[6.371921] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_webrtc_ice.py\n'}
+[6.381003] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_webrtc_ice_s.c\n'}
+[6.390290] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/srv/__init__.py\n'}
+[6.396168] (-) TimerEvent: {}
+[6.399408] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/srv/_seek.py\n'}
+[6.411785] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/srv/_seek_s.c\n'}
+[6.419819] (gst_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/gst_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[6.421349] (gst_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/gst_msgs_s__rosidl_typesupport_introspection_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[6.437920] (gst_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/gst_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[6.464484] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/msg/FrameGate.idl\n'}
+[6.504341] (-) TimerEvent: {}
+[6.525713] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/msg/WebrtcIce.idl\n'}
+[6.534379] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/msg/BufferEvent.idl\n'}
+[6.535310] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/msg/ClockObservation.idl\n'}
+[6.536113] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/msg/MultifilesinkEvent.idl\n'}
+[6.536786] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/msg/MetaMark.idl\n'}
+[6.537606] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/srv/Seek.idl\n'}
+[6.538302] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/msg/FrameGate.msg\n'}
+[6.539218] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/msg/WebrtcIce.msg\n'}
+[6.539923] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/msg/BufferEvent.msg\n'}
+[6.540628] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/msg/ClockObservation.msg\n'}
+[6.541365] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/msg/MultifilesinkEvent.msg\n'}
+[6.542049] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/msg/MetaMark.msg\n'}
+[6.556867] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/srv/Seek.srv\n'}
+[6.589541] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/srv/Seek_Request.msg\n'}
+[6.590919] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/srv/Seek_Response.msg\n'}
+[6.592277] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/ament_index/resource_index/package_run_dependencies/gst_msgs\n'}
+[6.593059] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/ament_index/resource_index/parent_prefix_path/gst_msgs\n'}
+[6.595387] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/environment/ament_prefix_path.sh\n'}
+[6.609752] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/environment/ament_prefix_path.dsv\n'}
+[6.646447] (-) TimerEvent: {}
+[6.648599] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/environment/path.sh\n'}
+[6.650056] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/environment/path.dsv\n'}
+[6.651004] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/local_setup.bash\n'}
+[6.652859] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/local_setup.sh\n'}
+[6.654239] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/local_setup.zsh\n'}
+[6.677783] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/local_setup.dsv\n'}
+[6.702627] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/package.dsv\n'}
+[6.704842] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/ament_index/resource_index/packages/gst_msgs\n'}
+[6.705576] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[6.706805] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.712304] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.718997] (diagnostic_updater) JobEnded: {'identifier': 'diagnostic_updater', 'rc': 0}
+[6.724035] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.745983] (image_geometry) JobStarted: {'identifier': 'image_geometry'}
+[6.761181] (-) TimerEvent: {}
+[6.770557] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.781405] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.782076] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.782844] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/gst_msgsConfig.cmake\n'}
+[6.783531] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/gst_msgsConfig-version.cmake\n'}
+[6.784306] (gst_msgs) StdoutLine: {'line': b'-- Symlinking: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/package.xml\n'}
+[6.799242] (gst_msgs) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_generator_c.so\n'}
+[6.804871] (gst_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_generator_c.so" to ""\n'}
+[6.805691] (gst_msgs) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[6.806291] (gst_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.807240] (gst_msgs) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.808053] (gst_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.808898] (gst_msgs) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_typesupport_introspection_c.so\n'}
+[6.809711] (gst_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.810588] (gst_msgs) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_typesupport_c.so\n'}
+[6.811269] (gst_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_typesupport_c.so" to ""\n'}
+[6.811930] (gst_msgs) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[6.812613] (gst_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.829825] (gst_msgs) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_typesupport_cpp.so\n'}
+[6.830407] (gst_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[6.861357] (-) TimerEvent: {}
+[6.891316] (gst_bridge) JobProgress: {'identifier': 'gst_bridge', 'progress': 'cmake'}
+[6.900035] (gst_bridge) Command: {'cmd': ['/usr/local/bin/cmake', '/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/gst_bridge'], 'cwd': '/root/Workspaces/rosgsthumble_ws/build/gst_bridge', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano'), ('LD_LIBRARY_PATH', '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib'), ('SHLVL', '1'), ('OLDPWD', '/root/Workspaces'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/1000/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/bin:/opt/ros/humble/install/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ''), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('GST_PLUGIN_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/gst_bridge/'), ('SHELL', '/bin/bash'), ('PWD', '/root/Workspaces/rosgsthumble_ws/build/gst_bridge'), ('PYTHONPATH', '/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/opt/ros/humble/install')]), 'shell': False}
+[6.915912] (realsense2_camera_msgs) JobProgress: {'identifier': 'realsense2_camera_msgs', 'progress': 'cmake'}
+[6.916925] (realsense2_camera_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '/root/Workspaces/rosgsthumble_ws/src/realsense-ros/realsense2_camera_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs'], 'cwd': '/root/Workspaces/rosgsthumble_ws/build/realsense2_camera_msgs', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano'), ('LD_LIBRARY_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('SHLVL', '1'), ('OLDPWD', '/root/Workspaces'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/1000/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/bin:/opt/ros/humble/install/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ''), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('GST_PLUGIN_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/gst_bridge/'), ('SHELL', '/bin/bash'), ('PWD', '/root/Workspaces/rosgsthumble_ws/build/realsense2_camera_msgs'), ('PYTHONPATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install')]), 'shell': False}
+[6.958702] (image_geometry) JobProgress: {'identifier': 'image_geometry', 'progress': 'cmake'}
+[6.959862] (image_geometry) Command: {'cmd': ['/usr/local/bin/cmake', '/root/Workspaces/rosgsthumble_ws/src/vision_opencv/image_geometry', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/image_geometry'], 'cwd': '/root/Workspaces/rosgsthumble_ws/build/image_geometry', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano'), ('LD_LIBRARY_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('SHLVL', '1'), ('OLDPWD', '/root/Workspaces'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/1000/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/bin:/opt/ros/humble/install/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ''), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('GST_PLUGIN_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/gst_bridge/'), ('SHELL', '/bin/bash'), ('PWD', '/root/Workspaces/rosgsthumble_ws/build/image_geometry'), ('PYTHONPATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install')]), 'shell': False}
+[6.962850] (-) TimerEvent: {}
+[7.012746] (gst_msgs) StdoutLine: {'line': b"Listing '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs'...\n"}
+[7.013766] (gst_msgs) StdoutLine: {'line': b"Compiling '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/__init__.py'...\n"}
+[7.014368] (gst_msgs) StdoutLine: {'line': b"Listing '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg'...\n"}
+[7.015364] (gst_msgs) StdoutLine: {'line': b"Compiling '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/__init__.py'...\n"}
+[7.015935] (gst_msgs) StdoutLine: {'line': b"Compiling '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_buffer_event.py'...\n"}
+[7.016493] (gst_msgs) StdoutLine: {'line': b"Compiling '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_clock_observation.py'...\n"}
+[7.017385] (gst_msgs) StdoutLine: {'line': b"Compiling '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_frame_gate.py'...\n"}
+[7.017963] (gst_msgs) StdoutLine: {'line': b"Compiling '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_meta_mark.py'...\n"}
+[7.018587] (gst_msgs) StdoutLine: {'line': b"Compiling '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_multifilesink_event.py'...\n"}
+[7.019241] (gst_msgs) StdoutLine: {'line': b"Compiling '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/msg/_webrtc_ice.py'...\n"}
+[7.019771] (gst_msgs) StdoutLine: {'line': b"Listing '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/srv'...\n"}
+[7.020317] (gst_msgs) StdoutLine: {'line': b"Compiling '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/srv/__init__.py'...\n"}
+[7.020866] (gst_msgs) StdoutLine: {'line': b"Compiling '/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages/gst_msgs/srv/_seek.py'...\n"}
+[7.047326] (gst_msgs) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_generator_py.so\n'}
+[7.050090] (gst_msgs) StdoutLine: {'line': b'-- Set runtime path of "/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/libgst_msgs__rosidl_generator_py.so" to ""\n'}
+[7.051808] (gst_msgs) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/export_gst_msgs__rosidl_generator_cExport.cmake\n'}
+[7.053818] (gst_msgs) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/export_gst_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.055857] (gst_msgs) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/export_gst_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.057726] (gst_msgs) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/export_gst_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.059630] (gst_msgs) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/export_gst_msgs__rosidl_generator_cppExport.cmake\n'}
+[7.061465] (gst_msgs) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/export_gst_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.063258] (-) TimerEvent: {}
+[7.064280] (gst_msgs) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/export_gst_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.066587] (gst_msgs) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/gst_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.068485] (gst_msgs) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/gst_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.070370] (gst_msgs) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/gst_msgs__rosidl_typesupport_cExport.cmake\n'}
+[7.072316] (gst_msgs) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/gst_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.074170] (gst_msgs) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/gst_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.076238] (gst_msgs) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/gst_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.078074] (gst_msgs) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/gst_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[7.079954] (gst_msgs) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/gst_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.082848] (gst_msgs) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/export_gst_msgs__rosidl_generator_pyExport.cmake\n'}
+[7.084765] (gst_msgs) StdoutLine: {'line': b'-- Installing: /root/Workspaces/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/cmake/export_gst_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.135727] (gst_msgs) CommandEnded: {'returncode': 0}
+[7.156256] (gst_bridge) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/install/share/ament_cmake/cmake)\n'}
+[7.168542] (-) TimerEvent: {}
+[7.290190] (-) TimerEvent: {}
+[7.315606] (realsense2_camera_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[7.373963] (image_geometry) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[7.395502] (-) TimerEvent: {}
+[7.496559] (-) TimerEvent: {}
+[7.576550] (realsense2_camera_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[7.596704] (-) TimerEvent: {}
+[7.609608] (image_geometry) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[7.670052] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.696010] (image_geometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.696757] (-) TimerEvent: {}
+[7.797538] (-) TimerEvent: {}
+[7.899860] (-) TimerEvent: {}
+[7.937813] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.969903] (image_geometry) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.991187] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.992396] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.994296] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.000027] (-) TimerEvent: {}
+[8.022737] (image_geometry) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[8.023879] (image_geometry) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.025659] (image_geometry) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.051885] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.091720] (image_geometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.100221] (-) TimerEvent: {}
+[8.202895] (-) TimerEvent: {}
+[8.304229] (-) TimerEvent: {}
+[8.363685] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.404416] (-) TimerEvent: {}
+[8.407192] (image_geometry) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.431566] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.432771] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.435606] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.458959] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/install/share/ament_cmake/cmake)\n'}
+[8.466222] (image_geometry) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.469157] (image_geometry) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.472201] (image_geometry) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.495960] (image_geometry) StdoutLine: {'line': b'-- Found ament_cmake_python: 1.3.5 (/opt/ros/humble/install/share/ament_cmake_python/cmake)\n'}
+[8.504603] (-) TimerEvent: {}
+[8.512938] (image_geometry) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/install/share/ament_cmake_ros/cmake)\n'}
+[8.609892] (-) TimerEvent: {}
+[8.701806] (gst_bridge) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[8.711889] (-) TimerEvent: {}
+[8.745498] (gst_bridge) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/install/share/rclcpp/cmake)\n'}
+[8.817182] (-) TimerEvent: {}
+[8.933590] (gst_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)\n'}
+[8.934331] (-) TimerEvent: {}
+[8.946425] (gst_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)\n'}
+[8.953856] (gst_msgs) JobEnded: {'identifier': 'gst_msgs', 'rc': 0}
+[8.961310] (xacro) JobStarted: {'identifier': 'xacro'}
+[8.998626] (gst_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)\n'}
+[9.039666] (-) TimerEvent: {}
+[9.074310] (gst_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.139953] (-) TimerEvent: {}
+[9.153210] (xacro) JobProgress: {'identifier': 'xacro', 'progress': 'cmake'}
+[9.154740] (xacro) Command: {'cmd': ['/usr/local/bin/cmake', '/root/Workspaces/rosgsthumble_ws/src/xacro', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/xacro'], 'cwd': '/root/Workspaces/rosgsthumble_ws/build/xacro', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'nano'), ('LD_LIBRARY_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_camera/lib:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins/lib:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline/lib:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib:/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda-10.2/targets/aarch64-linux/lib:'), ('SHLVL', '1'), ('OLDPWD', '/root/Workspaces'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('PULSE_SERVER', 'unix:/run/user/1000/pulse/native'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'compute,utility,graphics'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/bin:/opt/ros/humble/install/bin:/usr/local/cuda-10.2/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ''), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('GST_PLUGIN_PATH', '/root/Workspaces/rosgsthumble_ws/install/gst_bridge/lib/gst_bridge/'), ('SHELL', '/bin/bash'), ('PWD', '/root/Workspaces/rosgsthumble_ws/build/xacro'), ('PYTHONPATH', '/root/Workspaces/rosgsthumble_ws/install/xacro/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/image_geometry/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/gst_msgs/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/cv_bridge/lib/python3.6/site-packages:/root/Workspaces/rosgsthumble_ws/install/audio_msgs/lib/python3.6/site-packages:/opt/ros/humble/install/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/Workspaces/rosgsthumble_ws/install/realsense2_description:/root/Workspaces/rosgsthumble_ws/install/xacro:/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node:/root/Workspaces/rosgsthumble_ws/install/vision_opencv:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera:/root/Workspaces/rosgsthumble_ws/install/realsense2_camera_msgs:/root/Workspaces/rosgsthumble_ws/install/image_geometry:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline_plugins:/root/Workspaces/rosgsthumble_ws/install/gst_pipeline:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_common_diagnostics:/root/Workspaces/rosgsthumble_ws/install/diagnostic_updater:/root/Workspaces/rosgsthumble_ws/install/cv_bridge:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble/install')]), 'shell': False}
+[9.196549] (gst_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.240122] (-) TimerEvent: {}
+[9.341314] (-) TimerEvent: {}
+[9.443929] (-) TimerEvent: {}
+[9.545269] (-) TimerEvent: {}
+[9.550305] (xacro) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[9.624639] (gst_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)\n'}
+[9.637232] (gst_bridge) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/install/share/rmw_cyclonedds_cpp/cmake)\n'}
+[9.645478] (-) TimerEvent: {}
+[9.747978] (-) TimerEvent: {}
+[9.798737] (xacro) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[9.848176] (-) TimerEvent: {}
+[9.850441] (gst_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[9.900903] (xacro) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[9.948373] (-) TimerEvent: {}
+[10.049225] (-) TimerEvent: {}
+[10.152498] (-) TimerEvent: {}
+[10.208438] (xacro) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[10.252699] (-) TimerEvent: {}
+[10.262705] (xacro) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[10.264698] (xacro) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[10.267216] (xacro) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[10.330521] (xacro) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[10.352876] (-) TimerEvent: {}
+[10.455463] (-) TimerEvent: {}
+[10.556398] (-) TimerEvent: {}
+[10.647398] (xacro) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[10.656595] (-) TimerEvent: {}
+[10.708084] (xacro) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[10.710684] (xacro) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[10.714194] (xacro) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[10.735891] (xacro) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/install/share/ament_cmake/cmake)\n'}
+[10.756789] (-) TimerEvent: {}
+[10.859435] (-) TimerEvent: {}
+[10.961715] (-) TimerEvent: {}
+[10.979985] (gst_bridge) StdoutLine: {'line': b'-- Found audio_msgs: 0.0.0 (/root/Workspaces/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake)\n'}
+[11.061902] (-) TimerEvent: {}
+[11.164369] (-) TimerEvent: {}
+[11.266991] (-) TimerEvent: {}
+[11.315766] (gst_bridge) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/install/share/sensor_msgs/cmake)\n'}
+[11.367176] (-) TimerEvent: {}
+[11.469366] (-) TimerEvent: {}
+[11.571491] (-) TimerEvent: {}
+[11.673619] (-) TimerEvent: {}
+[11.776059] (-) TimerEvent: {}
+[11.878065] (-) TimerEvent: {}
+[11.981046] (-) TimerEvent: {}
+[12.083885] (-) TimerEvent: {}
+[12.186681] (-) TimerEvent: {}
+[12.289482] (-) TimerEvent: {}
+[12.392459] (-) TimerEvent: {}
+[12.495125] (-) TimerEvent: {}
+[12.516444] (gst_bridge) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:132 (find_package):\n'}
+[12.517257] (gst_bridge) StderrLine: {'line': b'  By not providing "Findament_cmake_clang_format.cmake" in CMAKE_MODULE_PATH\n'}
+[12.517866] (gst_bridge) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[12.518435] (gst_bridge) StderrLine: {'line': b'  by "ament_cmake_clang_format", but CMake did not find one.\n'}
+[12.519163] (gst_bridge) StderrLine: {'line': b'\n'}
+[12.519702] (gst_bridge) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[12.520239] (gst_bridge) StderrLine: {'line': b'  "ament_cmake_clang_format" with any of the following names:\n'}
+[12.520866] (gst_bridge) StderrLine: {'line': b'\n'}
+[12.521450] (gst_bridge) StderrLine: {'line': b'    ament_cmake_clang_formatConfig.cmake\n'}
+[12.521970] (gst_bridge) StderrLine: {'line': b'    ament_cmake_clang_format-config.cmake\n'}
+[12.522833] (gst_bridge) StderrLine: {'line': b'\n'}
+[12.523376] (gst_bridge) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake_clang_format" to\n'}
+[12.523943] (gst_bridge) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "ament_cmake_clang_format_DIR" to a directory\n'}
+[12.524576] (gst_bridge) StderrLine: {'line': b'  containing one of the above files.  If "ament_cmake_clang_format" provides\n'}
+[12.525205] (gst_bridge) StderrLine: {'line': b'  a separate development package or SDK, be sure it has been installed.\n'}
+[12.525890] (gst_bridge) StderrLine: {'line': b'\n'}
+[12.526762] (gst_bridge) StderrLine: {'line': b'\x1b[0m\n'}
+[12.527409] (gst_bridge) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[12.582639] (gst_bridge) CommandEnded: {'returncode': 1}
+[12.595755] (-) TimerEvent: {}
+[12.697610] (-) TimerEvent: {}
+[12.799735] (-) TimerEvent: {}
+[12.905741] (-) TimerEvent: {}
+[12.954301] (gst_bridge) JobEnded: {'identifier': 'gst_bridge', 'rc': 1}
+[13.005928] (-) TimerEvent: {}
+[13.110395] (-) TimerEvent: {}
+[13.213376] (-) TimerEvent: {}
+[13.316074] (-) TimerEvent: {}
+[13.418881] (-) TimerEvent: {}
+[13.521567] (-) TimerEvent: {}
+[13.624511] (-) TimerEvent: {}
+[13.727631] (-) TimerEvent: {}
+[13.830363] (-) TimerEvent: {}
+[13.933173] (-) TimerEvent: {}
+[14.036363] (-) TimerEvent: {}
+[14.139285] (-) TimerEvent: {}
+[14.242244] (-) TimerEvent: {}
+[14.322680] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.6 (found version "3.6.9") found components: Interpreter \n'}
+[14.342429] (-) TimerEvent: {}
+[14.377286] (image_geometry) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.6 (found version "3.6.9") found components: Interpreter \n'}
+[14.442643] (-) TimerEvent: {}
+[14.545368] (-) TimerEvent: {}
+[14.648253] (-) TimerEvent: {}
+[14.751083] (-) TimerEvent: {}
+[14.819299] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[14.851284] (-) TimerEvent: {}
+[14.874980] (image_geometry) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[14.951443] (-) TimerEvent: {}
+[15.052210] (-) TimerEvent: {}
+[15.055430] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/install/share/rosidl_default_generators/cmake)\n'}
+[15.094279] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[15.150858] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)\n'}
+[15.152328] (-) TimerEvent: {}
+[15.254730] (-) TimerEvent: {}
+[15.357453] (-) TimerEvent: {}
+[15.451044] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.457595] (-) TimerEvent: {}
+[15.560312] (-) TimerEvent: {}
+[15.663112] (-) TimerEvent: {}
+[15.725314] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/install/share/builtin_interfaces/cmake)\n'}
+[15.763314] (-) TimerEvent: {}
+[15.823847] (image_geometry) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/cmake/opencv4/OpenCVConfig.cmake:86 (find_package):\n'}
+[15.824660] (image_geometry) StderrLine: {'line': b'  Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake\n'}
+[15.825192] (image_geometry) StderrLine: {'line': b'  --help-policy CMP0146" for policy details.  Use the cmake_policy command to\n'}
+[15.825721] (image_geometry) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[15.826288] (image_geometry) StderrLine: {'line': b'\n'}
+[15.827180] (image_geometry) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[15.827829] (image_geometry) StderrLine: {'line': b'  /usr/lib/cmake/opencv4/OpenCVConfig.cmake:108 (find_host_package)\n'}
+[15.828431] (image_geometry) StderrLine: {'line': b'  CMakeLists.txt:18 (find_package)\n'}
+[15.828990] (image_geometry) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[15.829520] (image_geometry) StderrLine: {'line': b'\x1b[0m\n'}
+[15.863498] (-) TimerEvent: {}
+[15.883035] (image_geometry) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[15.887770] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/install/share/std_msgs/cmake)\n'}
+[15.963667] (-) TimerEvent: {}
+[16.065397] (-) TimerEvent: {}
+[16.108555] (image_geometry) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[16.109545] (image_geometry) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[16.134090] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/install/share/sensor_msgs/cmake)\n'}
+[16.165570] (-) TimerEvent: {}
+[16.268053] (-) TimerEvent: {}
+[16.293175] (image_geometry) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[16.294217] (image_geometry) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[16.368230] (-) TimerEvent: {}
+[16.392294] (xacro) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.6 (found version "3.6.9") found components: Interpreter \n'}
+[16.468416] (-) TimerEvent: {}
+[16.506250] (image_geometry) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[16.510312] (image_geometry) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[16.568583] (-) TimerEvent: {}
+[16.581151] (image_geometry) StdoutLine: {'line': b'-- Found CUDA: /usr/local/cuda-10.2 (found suitable exact version "10.2") \n'}
+[16.621698] (image_geometry) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.0") found components: calib3d core highgui imgproc \n'}
+[16.635068] (image_geometry) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/install/share/sensor_msgs/cmake)\n'}
+[16.668736] (-) TimerEvent: {}
+[16.771541] (-) TimerEvent: {}
+[16.847609] (image_geometry) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)\n'}
+[16.871720] (-) TimerEvent: {}
+[16.886632] (xacro) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[16.892609] (image_geometry) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)\n'}
+[16.960742] (image_geometry) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)\n'}
+[16.971881] (-) TimerEvent: {}
+[17.065111] (image_geometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[17.072019] (-) TimerEvent: {}
+[17.174411] (-) TimerEvent: {}
+[17.219147] (image_geometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[17.274611] (-) TimerEvent: {}
+[17.377372] (-) TimerEvent: {}
+[17.480558] (-) TimerEvent: {}
+[17.583482] (-) TimerEvent: {}
+[17.686321] (-) TimerEvent: {}
+[17.786055] (xacro) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/install/share/ament_lint_auto/cmake)\n'}
+[17.786943] (-) TimerEvent: {}
+[17.889647] (-) TimerEvent: {}
+[17.992559] (-) TimerEvent: {}
+[18.093401] (-) TimerEvent: {}
+[18.194247] (-) TimerEvent: {}
+[18.295181] (-) TimerEvent: {}
+[18.398097] (-) TimerEvent: {}
+[18.500815] (-) TimerEvent: {}
+[18.603806] (-) TimerEvent: {}
+[18.636224] (image_geometry) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/install/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[18.646450] (image_geometry) StdoutLine: {'line': b'-- Check if compiler accepts -pthread\n'}
+[18.703983] (-) TimerEvent: {}
+[18.806569] (-) TimerEvent: {}
+[18.871940] (image_geometry) StdoutLine: {'line': b'-- Check if compiler accepts -pthread - yes\n'}
+[18.906662] (-) TimerEvent: {}
+[19.007470] (-) TimerEvent: {}
+[19.110278] (-) TimerEvent: {}
+[19.213020] (-) TimerEvent: {}
+[19.315784] (-) TimerEvent: {}
+[19.418628] (-) TimerEvent: {}
+[19.469394] (image_geometry) StdoutLine: {'line': b'-- Configuring done (12.3s)\n'}
+[19.518791] (-) TimerEvent: {}
+[19.550175] (image_geometry) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[19.559936] (image_geometry) StdoutLine: {'line': b'-- Build files have been written to: /root/Workspaces/rosgsthumble_ws/build/image_geometry\n'}
+[19.618963] (-) TimerEvent: {}
+[19.621214] (image_geometry) JobEnded: {'identifier': 'image_geometry', 'rc': 'SIGINT'}
+[19.719141] (-) TimerEvent: {}
+[19.819861] (-) TimerEvent: {}
+[19.920638] (-) TimerEvent: {}
+[20.021417] (-) TimerEvent: {}
+[20.080591] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.7 (/opt/ros/humble/install/share/ament_cmake_cppcheck/cmake)\n'}
+[20.098256] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.7 (/opt/ros/humble/install/share/ament_cmake_cpplint/cmake)\n'}
+[20.115772] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.7 (/opt/ros/humble/install/share/ament_cmake_uncrustify/cmake)\n'}
+[20.121571] (-) TimerEvent: {}
+[20.134910] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/install/share/ament_cmake_ros/cmake)\n'}
+[20.221750] (-) TimerEvent: {}
+[20.322570] (-) TimerEvent: {}
+[20.423370] (-) TimerEvent: {}
+[20.524246] (-) TimerEvent: {}
+[20.625327] (-) TimerEvent: {}
+[20.649400] (xacro) StdoutLine: {'line': b'-- Configuring done (11.3s)\n'}
+[20.673588] (xacro) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[20.679530] (xacro) StdoutLine: {'line': b'-- Build files have been written to: /root/Workspaces/rosgsthumble_ws/build/xacro\n'}
+[20.719278] (xacro) JobEnded: {'identifier': 'xacro', 'rc': 'SIGINT'}
+[20.725465] (-) TimerEvent: {}
+[20.826104] (-) TimerEvent: {}
+[20.926849] (-) TimerEvent: {}
+[21.027620] (-) TimerEvent: {}
+[21.128327] (-) TimerEvent: {}
+[21.229050] (-) TimerEvent: {}
+[21.329755] (-) TimerEvent: {}
+[21.430449] (-) TimerEvent: {}
+[21.531249] (-) TimerEvent: {}
+[21.632059] (-) TimerEvent: {}
+[21.732815] (-) TimerEvent: {}
+[21.833657] (-) TimerEvent: {}
+[21.934529] (-) TimerEvent: {}
+[22.035220] (-) TimerEvent: {}
+[22.135908] (-) TimerEvent: {}
+[22.236726] (-) TimerEvent: {}
+[22.337476] (-) TimerEvent: {}
+[22.438174] (-) TimerEvent: {}
+[22.538944] (-) TimerEvent: {}
+[22.639714] (-) TimerEvent: {}
+[22.740478] (-) TimerEvent: {}
+[22.841220] (-) TimerEvent: {}
+[22.942157] (-) TimerEvent: {}
+[23.044738] (-) TimerEvent: {}
+[23.145540] (-) TimerEvent: {}
+[23.167483] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[23.245688] (-) TimerEvent: {}
+[23.346418] (-) TimerEvent: {}
+[23.447165] (-) TimerEvent: {}
+[23.547882] (-) TimerEvent: {}
+[23.648612] (-) TimerEvent: {}
+[23.749325] (-) TimerEvent: {}
+[23.850033] (-) TimerEvent: {}
+[23.951160] (-) TimerEvent: {}
+[24.051869] (-) TimerEvent: {}
+[24.152650] (-) TimerEvent: {}
+[24.253439] (-) TimerEvent: {}
+[24.354167] (-) TimerEvent: {}
+[24.454895] (-) TimerEvent: {}
+[24.555612] (-) TimerEvent: {}
+[24.656316] (-) TimerEvent: {}
+[24.757009] (-) TimerEvent: {}
+[24.857732] (-) TimerEvent: {}
+[24.958518] (-) TimerEvent: {}
+[25.059327] (-) TimerEvent: {}
+[25.160102] (-) TimerEvent: {}
+[25.260922] (-) TimerEvent: {}
+[25.361815] (-) TimerEvent: {}
+[25.462661] (-) TimerEvent: {}
+[25.563472] (-) TimerEvent: {}
+[25.664290] (-) TimerEvent: {}
+[25.765054] (-) TimerEvent: {}
+[25.865845] (-) TimerEvent: {}
+[25.966600] (-) TimerEvent: {}
+[26.067340] (-) TimerEvent: {}
+[26.168103] (-) TimerEvent: {}
+[26.268848] (-) TimerEvent: {}
+[26.369526] (-) TimerEvent: {}
+[26.470178] (-) TimerEvent: {}
+[26.570910] (-) TimerEvent: {}
+[26.671619] (-) TimerEvent: {}
+[26.772313] (-) TimerEvent: {}
+[26.873021] (-) TimerEvent: {}
+[26.973776] (-) TimerEvent: {}
+[27.074601] (-) TimerEvent: {}
+[27.093273] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[27.107625] (realsense2_camera_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[27.108333] (realsense2_camera_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[27.109124] (realsense2_camera_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[27.109590] (realsense2_camera_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[27.110016] (realsense2_camera_msgs) StderrLine: {'line': b'\n'}
+[27.110428] (realsense2_camera_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[27.110967] (realsense2_camera_msgs) StderrLine: {'line': b'  /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[27.111475] (realsense2_camera_msgs) StderrLine: {'line': b'  /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[27.111964] (realsense2_camera_msgs) StderrLine: {'line': b'  CMakeLists.txt:39 (rosidl_generate_interfaces)\n'}
+[27.112422] (realsense2_camera_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[27.112876] (realsense2_camera_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[27.174785] (-) TimerEvent: {}
+[27.221552] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3.6 (found suitable version "3.6.9", minimum required is "3.6") \n'}
+[27.233989] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)\n'}
+[27.235745] (realsense2_camera_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[27.236327] (realsense2_camera_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[27.236819] (realsense2_camera_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[27.237310] (realsense2_camera_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[27.237795] (realsense2_camera_msgs) StderrLine: {'line': b'\n'}
+[27.238272] (realsense2_camera_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[27.238863] (realsense2_camera_msgs) StderrLine: {'line': b'  /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[27.239345] (realsense2_camera_msgs) StderrLine: {'line': b'  /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[27.239783] (realsense2_camera_msgs) StderrLine: {'line': b'  /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[27.240228] (realsense2_camera_msgs) StderrLine: {'line': b'  CMakeLists.txt:39 (rosidl_generate_interfaces)\n'}
+[27.240676] (realsense2_camera_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[27.241134] (realsense2_camera_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[27.274939] (-) TimerEvent: {}
+[27.348172] (realsense2_camera_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[27.349031] (realsense2_camera_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[27.349504] (realsense2_camera_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[27.349975] (realsense2_camera_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[27.350412] (realsense2_camera_msgs) StderrLine: {'line': b'\n'}
+[27.350948] (realsense2_camera_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[27.351387] (realsense2_camera_msgs) StderrLine: {'line': b'  /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[27.351807] (realsense2_camera_msgs) StderrLine: {'line': b'  /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[27.352224] (realsense2_camera_msgs) StderrLine: {'line': b'  /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[27.352641] (realsense2_camera_msgs) StderrLine: {'line': b'  CMakeLists.txt:39 (rosidl_generate_interfaces)\n'}
+[27.353084] (realsense2_camera_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[27.353504] (realsense2_camera_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[27.371386] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[27.372226] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3.6\n'}
+[27.372748] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m\n'}
+[27.373244] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so\n'}
+[27.375062] (-) TimerEvent: {}
+[27.475739] (-) TimerEvent: {}
+[27.481113] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[27.575897] (-) TimerEvent: {}
+[27.676636] (-) TimerEvent: {}
+[27.777361] (-) TimerEvent: {}
+[27.878139] (-) TimerEvent: {}
+[27.978966] (-) TimerEvent: {}
+[28.079652] (-) TimerEvent: {}
+[28.180777] (-) TimerEvent: {}
+[28.281787] (-) TimerEvent: {}
+[28.382568] (-) TimerEvent: {}
+[28.483285] (-) TimerEvent: {}
+[28.581714] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Using numpy include directory: /usr/local/lib/python3.6/dist-packages/numpy/core/include\n'}
+[28.583403] (-) TimerEvent: {}
+[28.684115] (-) TimerEvent: {}
+[28.753815] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.7 (/opt/ros/humble/install/share/ament_cmake_flake8/cmake)\n'}
+[28.770712] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.7 (/opt/ros/humble/install/share/ament_cmake_pep257/cmake)\n'}
+[28.784307] (-) TimerEvent: {}
+[28.832308] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Configuring done (21.7s)\n'}
+[28.884485] (-) TimerEvent: {}
+[28.985264] (-) TimerEvent: {}
+[29.061794] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[29.076590] (realsense2_camera_msgs) StdoutLine: {'line': b'-- Build files have been written to: /root/Workspaces/rosgsthumble_ws/build/realsense2_camera_msgs\n'}
+[29.085426] (-) TimerEvent: {}
+[29.143440] (realsense2_camera_msgs) JobEnded: {'identifier': 'realsense2_camera_msgs', 'rc': 'SIGINT'}
+[29.158646] (diagnostic_common_diagnostics) JobSkipped: {'identifier': 'diagnostic_common_diagnostics'}
+[29.158934] (realsense2_camera) JobSkipped: {'identifier': 'realsense2_camera'}
+[29.159078] (realsense2_description) JobSkipped: {'identifier': 'realsense2_description'}
+[29.159213] (vision_opencv) JobSkipped: {'identifier': 'vision_opencv'}
+[29.159336] (diagnostics) JobSkipped: {'identifier': 'diagnostics'}
+[29.159456] (gst_pipeline) JobSkipped: {'identifier': 'gst_pipeline'}
+[29.159573] (webrtc_camera_node) JobSkipped: {'identifier': 'webrtc_camera_node'}
+[29.159689] (gst_pipeline_plugins) JobSkipped: {'identifier': 'gst_pipeline_plugins'}
+[29.159806] (-) EventReactorShutdown: {}

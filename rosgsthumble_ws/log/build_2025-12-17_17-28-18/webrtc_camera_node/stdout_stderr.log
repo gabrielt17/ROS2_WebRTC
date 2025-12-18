@@ -1,0 +1,23 @@
+[ 90%] Built target ixwebsocket
+[ 92%] [32mBuilding CXX object CMakeFiles/send_camera_node.dir/src/send_camera_node.cpp.o[0m
+[ 97%] Built target receive_camera_node
+[01m[K/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/send_camera_node.cpp:149:57:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+     "clockoverlay time-format="%S.%f" font-desc="Sans 50[01;35m[K"[m[K
+                                                         [01;35m[K^[m[K
+[01m[K/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/send_camera_node.cpp:149:57:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+[01m[K/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/send_camera_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/send_camera_node.cpp:149:33:[m[K [01;31m[Kerror: [m[K‘[01m[KS[m[K’ was not declared in this scope
+     "clockoverlay time-format="%[01;31m[KS[m[K.%f" font-desc="Sans 50"
+                                 [01;31m[K^[m[K
+[01m[K/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/send_camera_node.cpp:149:35:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K%[m[K’ token
+     "clockoverlay time-format="%S.[01;31m[K%[m[Kf" font-desc="Sans 50"
+                                   [01;31m[K^[m[K
+[01m[K/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/send_camera_node.cpp:149:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kf[m[K’ was not declared in this scope
+     "clockoverlay time-format="%S.%[01;31m[Kf[m[K" font-desc="Sans 50"
+                                    [01;31m[K^[m[K
+CMakeFiles/send_camera_node.dir/build.make:75: recipe for target 'CMakeFiles/send_camera_node.dir/src/send_camera_node.cpp.o' failed
+make[2]: *** [CMakeFiles/send_camera_node.dir/src/send_camera_node.cpp.o] Error 1
+CMakeFiles/Makefile2:173: recipe for target 'CMakeFiles/send_camera_node.dir/all' failed
+make[1]: *** [CMakeFiles/send_camera_node.dir/all] Error 2
+make: *** [all] Error 2
+Makefile:145: recipe for target 'all' failed

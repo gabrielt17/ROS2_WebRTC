@@ -1,1 +1,0 @@
-/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_core/gst_pipeline_pluginsConfig-version.cmake

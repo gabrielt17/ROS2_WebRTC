@@ -1,0 +1,20 @@
+[0.196s] Invoking command in '/root/Workspaces/rosgsthumble_ws/build/xacro': /usr/local/bin/cmake /root/Workspaces/rosgsthumble_ws/src/xacro -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/Workspaces/rosgsthumble_ws/install/xacro
+[0.590s] -- The C compiler identification is GNU 7.5.0
+[0.838s] -- The CXX compiler identification is GNU 7.5.0
+[0.940s] -- Detecting C compiler ABI info
+[1.247s] -- Detecting C compiler ABI info - done
+[1.302s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.304s] -- Detecting C compile features
+[1.306s] -- Detecting C compile features - done
+[1.370s] -- Detecting CXX compiler ABI info
+[1.686s] -- Detecting CXX compiler ABI info - done
+[1.747s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.750s] -- Detecting CXX compile features
+[1.753s] -- Detecting CXX compile features - done
+[1.775s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[7.431s] -- Found Python3: /usr/bin/python3.6 (found version "3.6.9") found components: Interpreter 
+[7.926s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.825s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[11.688s] -- Configuring done (11.3s)
+[11.713s] -- Generating done (0.0s)
+[11.719s] -- Build files have been written to: /root/Workspaces/rosgsthumble_ws/build/xacro

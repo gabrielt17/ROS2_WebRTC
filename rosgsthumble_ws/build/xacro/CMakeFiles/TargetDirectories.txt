@@ -11,3 +11,10 @@
 /root/Workspaces/rosgsthumble_ws/build/xacro/CMakeFiles/install.dir
 /root/Workspaces/rosgsthumble_ws/build/xacro/CMakeFiles/install/local.dir
 /root/Workspaces/rosgsthumble_ws/build/xacro/CMakeFiles/install/strip.dir
+/root/Workspaces/rosgsthumble_ws/build/xacro/test/CMakeFiles/test.dir
+/root/Workspaces/rosgsthumble_ws/build/xacro/test/CMakeFiles/edit_cache.dir
+/root/Workspaces/rosgsthumble_ws/build/xacro/test/CMakeFiles/rebuild_cache.dir
+/root/Workspaces/rosgsthumble_ws/build/xacro/test/CMakeFiles/list_install_components.dir
+/root/Workspaces/rosgsthumble_ws/build/xacro/test/CMakeFiles/install.dir
+/root/Workspaces/rosgsthumble_ws/build/xacro/test/CMakeFiles/install/local.dir
+/root/Workspaces/rosgsthumble_ws/build/xacro/test/CMakeFiles/install/strip.dir

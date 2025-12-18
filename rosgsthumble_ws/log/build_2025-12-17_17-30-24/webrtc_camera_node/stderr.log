@@ -1,0 +1,13 @@
+[01m[K/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/send_camera_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/send_camera_node.cpp:149:33:[m[K [01;31m[Kerror: [m[K‘[01m[KS[m[K’ was not declared in this scope
+     "clockoverlay time-format="%[01;31m[KS[m[K.%f" font-desc="Sans 50" ! "
+                                 [01;31m[K^[m[K
+[01m[K/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/send_camera_node.cpp:149:35:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K%[m[K’ token
+     "clockoverlay time-format="%S.[01;31m[K%[m[Kf" font-desc="Sans 50" ! "
+                                   [01;31m[K^[m[K
+[01m[K/root/Workspaces/rosgsthumble_ws/src/webrtc_camera_node/src/send_camera_node.cpp:149:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kf[m[K’ was not declared in this scope
+     "clockoverlay time-format="%S.%[01;31m[Kf[m[K" font-desc="Sans 50" ! "
+                                    [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/send_camera_node.dir/src/send_camera_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/send_camera_node.dir/all] Error 2
+make: *** [all] Error 2
