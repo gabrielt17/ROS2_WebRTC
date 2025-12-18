@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins
+CMAKE_SOURCE_DIR = /root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins
+CMAKE_BINARY_DIR = /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins /root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins /root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins /root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins /root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

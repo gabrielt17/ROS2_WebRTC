@@ -1,1 +1,1 @@
-/root/Workspaces/rosgsthumble_ws/build/gst_msgs/rosidl_typesupport_introspection_c/gst_msgs/srv/detail/seek__rosidl_typesupport_introspection_c.h
+/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_msgs/rosidl_typesupport_introspection_c/gst_msgs/srv/detail/seek__rosidl_typesupport_introspection_c.h

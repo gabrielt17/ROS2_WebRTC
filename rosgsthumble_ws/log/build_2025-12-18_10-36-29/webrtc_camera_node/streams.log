@@ -1,0 +1,169 @@
+[0.012s] Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ROS2_WEBRTC/rosgsthumble_ws/src/webrtc_camera_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node
+[0.066s] -- The C compiler identification is GNU 11.4.0
+[0.115s] -- The CXX compiler identification is GNU 11.4.0
+[0.127s] -- Detecting C compiler ABI info
+[0.186s] -- Detecting C compiler ABI info - done
+[0.191s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.192s] -- Detecting C compile features
+[0.192s] -- Detecting C compile features - done
+[0.196s] -- Detecting CXX compiler ABI info
+[0.266s] -- Detecting CXX compiler ABI info - done
+[0.271s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.272s] -- Detecting CXX compile features
+[0.272s] -- Detecting CXX compile features - done
+[0.280s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.284s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.502s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.591s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.712s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.717s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.733s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.750s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.778s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.836s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.841s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.972s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.007s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.059s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.073s] -- Looking for pthread.h
+[1.149s] -- Looking for pthread.h - found
+[1.149s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.214s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.215s] -- Found Threads: TRUE  
+[1.297s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.357s] -- Found gst_bridge: 0.0.0 (/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/cmake)
+[1.379s] -- Checking for modules 'gstreamer-1.0;gstreamer-webrtc-1.0;gstreamer-app-1.0;gstreamer-video-1.0;gstreamer-sdp-1.0;glib-2.0'
+[1.480s] --   Found gstreamer-1.0, version 1.20.3
+[1.489s] --   Found gstreamer-webrtc-1.0, version 1.20.3
+[1.499s] --   Found gstreamer-app-1.0, version 1.20.1
+[1.508s] --   Found gstreamer-video-1.0, version 1.20.1
+[1.518s] --   Found gstreamer-sdp-1.0, version 1.20.1
+[1.526s] --   Found glib-2.0, version 2.72.4
+[18.784s] -- Using the multi-header code from /root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/nlohmann_json-src/include/
+[22.328s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[22.558s] -- Configuring done
+[22.716s] -- Generating done
+[22.729s] -- Build files have been written to: /root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node
+[22.772s] Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node' returned '0': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ROS2_WEBRTC/rosgsthumble_ws/src/webrtc_camera_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node
+[22.773s] Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node -- -j12 -l12
+[22.962s] [  4%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXCancellationRequest.cpp.o[0m
+[22.963s] [  7%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXGetFreePort.cpp.o[0m
+[22.968s] [  9%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXBench.cpp.o[0m
+[22.968s] [ 14%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXHttpClient.cpp.o[0m
+[22.968s] [ 12%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXExponentialBackoff.cpp.o[0m
+[22.968s] [ 12%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXConnectionState.cpp.o[0m
+[22.977s] [ 17%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXDNSLookup.cpp.o[0m
+[22.977s] [ 19%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXHttp.cpp.o[0m
+[22.977s] [ 21%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXNetSystem.cpp.o[0m
+[24.144s] [ 26%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXGzipCodec.cpp.o[0m
+[24.145s] [ 29%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXHttpServer.cpp.o[0m
+[24.145s] [ 29%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterrupt.cpp.o[0m
+[24.565s] [ 31%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterruptFactory.cpp.o[0m
+[24.565s] [ 34%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterruptPipe.cpp.o[0m
+[24.566s] [ 36%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSelectInterruptEvent.cpp.o[0m
+[24.570s] [ 39%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSetThreadName.cpp.o[0m
+[24.573s] [ 41%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocket.cpp.o[0m
+[24.724s] [ 43%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketConnect.cpp.o[0m
+[24.983s] [ 46%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketFactory.cpp.o[0m
+[25.321s] [ 48%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketServer.cpp.o[0m
+[25.387s] [ 51%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXSocketTLSOptions.cpp.o[0m
+[25.469s] [ 53%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUdpSocket.cpp.o[0m
+[25.496s] [ 56%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXStrCaseCompare.cpp.o[0m
+[25.576s] [ 58%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUrlParser.cpp.o[0m
+[25.820s] [ 60%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUuid.cpp.o[0m
+[25.937s] [ 63%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXUserAgent.cpp.o[0m
+[26.147s] [ 65%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocket.cpp.o[0m
+[26.223s] [ 68%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketCloseConstants.cpp.o[0m
+[26.396s] [ 70%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketHandshake.cpp.o[0m
+[26.529s] [ 73%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketHttpHeaders.cpp.o[0m
+[26.559s] [ 75%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketPerMessageDeflate.cpp.o[0m
+[26.603s] [ 78%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketPerMessageDeflateCodec.cpp.o[0m
+[26.825s] [ 80%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketPerMessageDeflateOptions.cpp.o[0m
+[26.833s] [ 82%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketProxyServer.cpp.o[0m
+[27.097s] [ 85%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketServer.cpp.o[0m
+[27.240s] [ 87%] [32mBuilding CXX object _deps/ixwebsocket-build/CMakeFiles/ixwebsocket.dir/ixwebsocket/IXWebSocketTransport.cpp.o[0m
+[28.965s] [ 90%] [32m[1mLinking CXX static library libixwebsocket.a[0m
+[29.183s] [ 90%] Built target ixwebsocket
+[29.223s] [ 95%] [32mBuilding CXX object CMakeFiles/receive_camera_node.dir/src/receive_camera_node.cpp.o[0m
+[29.223s] [ 95%] [32mBuilding CXX object CMakeFiles/send_camera_node.dir/src/send_camera_node.cpp.o[0m
+[34.435s] [ 97%] [32m[1mLinking CXX executable send_camera_node[0m
+[34.523s] [100%] [32m[1mLinking CXX executable receive_camera_node[0m
+[34.800s] [100%] Built target send_camera_node
+[34.843s] [100%] Built target receive_camera_node
+[34.854s] Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node' returned '0': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node -- -j12 -l12
+[34.855s] Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node
+[34.862s] -- Install configuration: ""
+[34.863s] -- Execute custom install script
+[34.863s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/lib/cmake/ixwebsocket/ixwebsocket-config.cmake
+[34.872s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/lib/pkgconfig/ixwebsocket.pc
+[34.880s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/lib/webrtc_camera_node/send_camera_node
+[34.887s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/lib/webrtc_camera_node/receive_camera_node
+[34.895s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/ament_index/resource_index/package_run_dependencies/webrtc_camera_node
+[34.903s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/ament_index/resource_index/parent_prefix_path/webrtc_camera_node
+[34.910s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/environment/ament_prefix_path.sh
+[34.917s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/environment/ament_prefix_path.dsv
+[34.924s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/environment/path.sh
+[34.932s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/environment/path.dsv
+[34.940s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/local_setup.bash
+[34.948s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/local_setup.sh
+[34.956s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/local_setup.zsh
+[34.964s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/local_setup.dsv
+[34.971s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/package.dsv
+[34.978s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/ament_index/resource_index/packages/webrtc_camera_node
+[34.985s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/cmake/webrtc_camera_nodeConfig.cmake
+[34.993s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/cmake/webrtc_camera_nodeConfig-version.cmake
+[35.001s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/package.xml
+[35.009s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/lib/libixwebsocket.a
+[35.014s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXBase64.h
+[35.014s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXBench.h
+[35.015s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXCancellationRequest.h
+[35.015s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXConnectionState.h
+[35.015s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXDNSLookup.h
+[35.015s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXExponentialBackoff.h
+[35.015s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXGetFreePort.h
+[35.015s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXGzipCodec.h
+[35.015s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXHttp.h
+[35.015s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXHttpClient.h
+[35.015s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXHttpServer.h
+[35.015s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXNetSystem.h
+[35.016s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXProgressCallback.h
+[35.016s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSelectInterrupt.h
+[35.016s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSelectInterruptFactory.h
+[35.016s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSelectInterruptPipe.h
+[35.016s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSelectInterruptEvent.h
+[35.016s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSetThreadName.h
+[35.016s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSocket.h
+[35.016s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSocketConnect.h
+[35.016s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSocketFactory.h
+[35.017s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSocketServer.h
+[35.017s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXSocketTLSOptions.h
+[35.017s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXStrCaseCompare.h
+[35.017s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXUdpSocket.h
+[35.017s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXUniquePtr.h
+[35.017s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXUrlParser.h
+[35.017s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXUuid.h
+[35.017s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXUtf8Validator.h
+[35.017s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXUserAgent.h
+[35.017s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocket.h
+[35.017s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketCloseConstants.h
+[35.018s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketCloseInfo.h
+[35.018s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketErrorInfo.h
+[35.018s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketHandshake.h
+[35.018s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketHandshakeKeyGen.h
+[35.018s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketHttpHeaders.h
+[35.018s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketInitResult.h
+[35.018s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketMessage.h
+[35.018s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketMessageType.h
+[35.018s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketOpenInfo.h
+[35.019s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketPerMessageDeflate.h
+[35.019s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketPerMessageDeflateCodec.h
+[35.019s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketPerMessageDeflateOptions.h
+[35.019s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketProxyServer.h
+[35.019s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketSendData.h
+[35.019s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketSendInfo.h
+[35.019s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketServer.h
+[35.019s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketTransport.h
+[35.019s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/include/ixwebsocket/IXWebSocketVersion.h
+[35.020s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/lib/cmake/ixwebsocket/ixwebsocket-targets.cmake
+[35.020s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/lib/cmake/ixwebsocket/ixwebsocket-targets-noconfig.cmake
+[35.022s] Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node' returned '0': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node

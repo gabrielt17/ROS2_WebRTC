@@ -1,0 +1,150 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_install",
+			"ament_cmake_symlink_install_targets",
+			"install"
+		],
+		"files" : 
+		[
+			"/opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/install.cmake",
+			"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 284,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 297,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 4
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/ixwebsocket-build/libixwebsocket.a"
+			],
+			"targetId" : "ixwebsocket::@4972847dd4d1b2e798b2",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/ixwebsocket",
+			"paths" : 
+			[
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXBase64.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXBench.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXCancellationRequest.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXConnectionState.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXDNSLookup.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXExponentialBackoff.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXGetFreePort.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXGzipCodec.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXHttp.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXHttpClient.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXHttpServer.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXNetSystem.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXProgressCallback.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXSelectInterrupt.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXSelectInterruptFactory.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXSelectInterruptPipe.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXSelectInterruptEvent.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXSetThreadName.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXSocket.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXSocketConnect.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXSocketFactory.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXSocketServer.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXSocketTLSOptions.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXStrCaseCompare.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXUdpSocket.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXUniquePtr.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXUrlParser.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXUuid.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXUtf8Validator.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXUserAgent.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocket.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketCloseConstants.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketCloseInfo.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketErrorInfo.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketHandshake.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketHandshakeKeyGen.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketHttpHeaders.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketInitResult.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketMessage.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketMessageType.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketOpenInfo.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketPerMessageDeflate.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketPerMessageDeflateCodec.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketPerMessageDeflateOptions.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketProxyServer.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketSendData.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketSendInfo.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketServer.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketTransport.h",
+				"/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src/ixwebsocket/IXWebSocketVersion.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/ixwebsocket",
+			"exportName" : "ixwebsocket",
+			"exportTargets" : 
+			[
+				{
+					"id" : "ixwebsocket::@4972847dd4d1b2e798b2",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"_deps/ixwebsocket-build/CMakeFiles/Export/lib/cmake/ixwebsocket/ixwebsocket-targets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/ixwebsocket-build",
+		"source" : "/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/_deps/ixwebsocket-src"
+	}
+}

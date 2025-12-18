@@ -19,7 +19,7 @@ services:
       - /dev/snd
 
     volumes:
-      - /home/gabrielt/Documentos/Códigos/ROS2_WebRTC/rosgsthumble_ws:/root/Workspaces/rosgsthumble_ws
+      - ./rogsthumble_ws:/root/rogsthumble_ws:rw
       - /tmp/.X11-unix:/tmp/.X11-unix
       - /home/gabrielt/.Xauthority:/root/.Xauthority:ro
       - /run/user/1001:/run/user/1001:rw

@@ -1,0 +1,6 @@
+Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/cpp_campub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ROS2_WEBRTC/rosgsthumble_ws/src/cpp_campub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub
+Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/cpp_campub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ROS2_WEBRTC/rosgsthumble_ws/src/cpp_campub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub
+Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/cpp_campub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ROS2_WEBRTC/rosgsthumble_ws/build/cpp_campub -- -j12 -l12
+Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/cpp_campub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ROS2_WEBRTC/rosgsthumble_ws/build/cpp_campub -- -j12 -l12
+Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/cpp_campub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ROS2_WEBRTC/rosgsthumble_ws/build/cpp_campub
+Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/cpp_campub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ROS2_WEBRTC/rosgsthumble_ws/build/cpp_campub

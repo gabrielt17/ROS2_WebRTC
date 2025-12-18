@@ -1,1 +1,1 @@
-/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline/launch/example_rx.launch.py
+/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline/launch/example_rx.launch.py

@@ -1,1 +1,1 @@
-/root/Workspaces/rosgsthumble_ws/build/gst_msgs/ament_cmake_environment_hooks/pythonpath.sh
+/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_msgs/ament_cmake_environment_hooks/pythonpath.sh

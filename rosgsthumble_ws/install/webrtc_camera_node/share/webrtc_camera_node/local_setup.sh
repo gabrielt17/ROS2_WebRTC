@@ -1,1 +1,1 @@
-/root/Workspaces/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/local_setup.sh
+/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node/ament_cmake_environment_hooks/local_setup.sh

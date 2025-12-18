@@ -1,12 +1,12 @@
 {
   "package_name": "gst_msgs",
   "non_idl_tuples": [
-    "/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs:msg/FrameGate.msg",
-    "/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs:msg/WebrtcIce.msg",
-    "/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs:msg/BufferEvent.msg",
-    "/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs:msg/ClockObservation.msg",
-    "/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs:msg/MultifilesinkEvent.msg",
-    "/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs:msg/MetaMark.msg",
-    "/root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs:srv/Seek.srv"
+    "/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs:msg/FrameGate.msg",
+    "/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs:msg/WebrtcIce.msg",
+    "/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs:msg/BufferEvent.msg",
+    "/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs:msg/ClockObservation.msg",
+    "/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs:msg/MultifilesinkEvent.msg",
+    "/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs:msg/MetaMark.msg",
+    "/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs:srv/Seek.srv"
   ]
 }

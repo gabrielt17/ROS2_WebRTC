@@ -10,7 +10,7 @@ ARG USER_GID=${GID}
 # Instala pacotes adicionais (GStreamer, WebRTC, PipeWire, ferramentas)
 RUN apt-get update && apt-get install -y --no-install-recommends \
     # Utilitários de compilação e debug
-    git wget curl nano bash-completion build-essential cmake pkg-config gdb \
+    git wget curl nano bash-completion build-essential cmake pkg-config gdb chrony \
     cppcheck valgrind \
     \
     # Python + pip (removido python3-websockets do apt)
@@ -69,7 +69,12 @@ RUN echo "openssl_conf = openssl_init" > /etc/ssl/openssl_legacy.cnf && \
     echo "system_default = system_default_sect" >> /etc/ssl/openssl_legacy.cnf && \
     echo "[system_default_sect]" >> /etc/ssl/openssl_legacy.cnf && \
     echo "CipherString = DEFAULT:@SECLEVEL=0" >> /etc/ssl/openssl_legacy.cnf
-    
+
+RUN echo    "server 0.br.pool.ntp.org iburst \
+            server 1.br.pool.ntp.org iburst \
+            server 2.br.pool.ntp.org iburst \
+            server 3.br.pool.ntp.org iburst" >> tee -a /etc/chrony.conf
+
 # Define a variável de ambiente para usar essa config
 ENV OPENSSL_CONF=/etc/ssl/openssl_legacy.cnf
 

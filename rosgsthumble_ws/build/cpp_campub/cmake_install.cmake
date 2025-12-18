@@ -1,8 +1,8 @@
-# Install script for directory: /root/Workspaces/rosgsthumble_ws/src/cpp_campub
+# Install script for directory: /root/ROS2_WEBRTC/rosgsthumble_ws/src/cpp_campub
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/root/Workspaces/rosgsthumble_ws/install/cpp_campub")
+  set(CMAKE_INSTALL_PREFIX "/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/root/Workspaces/rosgsthumble_ws/build/cpp_campub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/root/ROS2_WEBRTC/rosgsthumble_ws/build/cpp_campub/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/root/Workspaces/rosgsthumble_ws/build/cpp_campub/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/root/ROS2_WEBRTC/rosgsthumble_ws/build/cpp_campub/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

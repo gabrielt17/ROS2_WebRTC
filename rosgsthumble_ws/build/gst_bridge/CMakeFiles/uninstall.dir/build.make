@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge
+CMAKE_SOURCE_DIR = /root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/Workspaces/rosgsthumble_ws/build/gst_bridge
+CMAKE_BINARY_DIR = /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /root/Workspaces/rosgsthumble_ws/build/gst_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge /root/Workspaces/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge /root/Workspaces/rosgsthumble_ws/build/gst_bridge /root/Workspaces/rosgsthumble_ws/build/gst_bridge /root/Workspaces/rosgsthumble_ws/build/gst_bridge/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge /root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

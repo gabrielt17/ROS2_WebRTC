@@ -1,0 +1,206 @@
+[0.026s] Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/audio_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs
+[0.785s] -- The C compiler identification is GNU 11.4.0
+[0.971s] -- The CXX compiler identification is GNU 11.4.0
+[0.984s] -- Detecting C compiler ABI info
+[1.082s] -- Detecting C compiler ABI info - done
+[1.087s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.087s] -- Detecting C compile features
+[1.088s] -- Detecting C compile features - done
+[1.091s] -- Detecting CXX compiler ABI info
+[1.163s] -- Detecting CXX compiler ABI info - done
+[1.169s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.169s] -- Detecting CXX compile features
+[1.169s] -- Detecting CXX compile features - done
+[1.180s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.304s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.367s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.414s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[1.492s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.502s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.515s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.533s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.556s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.596s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.639s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.925s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.301s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.417s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.435s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.438s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.469s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.469s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.469s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.469s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.485s] -- Found PythonExtra: .so  
+[2.536s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.588s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.591s] -- Added test 'lint_cmake' to check CMake code style
+[2.592s] -- Added test 'xmllint' to check XML markup files
+[2.595s] -- Configuring done
+[2.626s] -- Generating done
+[2.635s] -- Build files have been written to: /root/ROS2_WEBRTC/rosgsthumble_ws/build/audio_msgs
+[2.644s] Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/audio_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs
+[2.645s] Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/audio_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ROS2_WEBRTC/rosgsthumble_ws/build/audio_msgs -- -j12 -l12
+[2.679s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.687s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.694s] [  6%] Built target ament_cmake_python_symlink_audio_msgs
+[2.866s] running egg_info
+[2.866s] creating audio_msgs.egg-info
+[2.866s] writing audio_msgs.egg-info/PKG-INFO
+[2.867s] writing dependency_links to audio_msgs.egg-info/dependency_links.txt
+[2.867s] writing top-level names to audio_msgs.egg-info/top_level.txt
+[2.867s] writing manifest file 'audio_msgs.egg-info/SOURCES.txt'
+[2.869s] reading manifest file 'audio_msgs.egg-info/SOURCES.txt'
+[2.869s] writing manifest file 'audio_msgs.egg-info/SOURCES.txt'
+[2.893s] [  6%] Built target ament_cmake_python_build_audio_msgs_egg
+[3.547s] [  9%] [32mBuilding C object CMakeFiles/audio_msgs__rosidl_generator_c.dir/rosidl_generator_c/audio_msgs/msg/detail/audio__functions.c.o[0m
+[3.591s] [  9%] Built target audio_msgs__cpp
+[3.600s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.600s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.600s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.607s] [ 22%] [32m[1mLinking C shared library libaudio_msgs__rosidl_generator_c.so[0m
+[3.648s] [ 22%] Built target audio_msgs__rosidl_generator_c
+[3.660s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.660s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.660s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.885s] [ 35%] [32mBuilding CXX object CMakeFiles/audio_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/audio_msgs/msg/audio__type_support.cpp.o[0m
+[4.002s] [ 38%] [32mBuilding C object CMakeFiles/audio_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/audio_msgs/msg/detail/audio__type_support.c.o[0m
+[4.053s] [ 41%] [32mBuilding CXX object CMakeFiles/audio_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/audio_msgs/msg/detail/dds_fastrtps/audio__type_support.cpp.o[0m
+[4.080s] [ 45%] [32mBuilding CXX object CMakeFiles/audio_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/audio_msgs/msg/detail/audio__type_support.cpp.o[0m
+[4.083s] [ 48%] [32mBuilding CXX object CMakeFiles/audio_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/audio_msgs/msg/audio__type_support.cpp.o[0m
+[4.142s] [ 51%] [32m[1mLinking C shared library libaudio_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.167s] [ 54%] [32m[1mLinking CXX shared library libaudio_msgs__rosidl_typesupport_c.so[0m
+[4.192s] [ 58%] [32mBuilding CXX object CMakeFiles/audio_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/audio_msgs/msg/detail/audio__type_support_c.cpp.o[0m
+[4.224s] [ 58%] Built target audio_msgs__rosidl_typesupport_c
+[4.233s] [ 61%] [32m[1mLinking CXX shared library libaudio_msgs__rosidl_typesupport_cpp.so[0m
+[4.250s] [ 61%] Built target audio_msgs__rosidl_typesupport_introspection_c
+[4.350s] [ 61%] Built target audio_msgs__rosidl_typesupport_cpp
+[4.567s] [ 64%] [32m[1mLinking CXX shared library libaudio_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.606s] [ 67%] [32m[1mLinking CXX shared library libaudio_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.626s] [ 70%] [32m[1mLinking CXX shared library libaudio_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.702s] [ 70%] Built target audio_msgs__rosidl_typesupport_introspection_cpp
+[4.759s] [ 70%] Built target audio_msgs__rosidl_typesupport_fastrtps_cpp
+[4.759s] [ 70%] Built target audio_msgs__rosidl_typesupport_fastrtps_c
+[4.782s] [ 70%] Built target audio_msgs
+[4.812s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.761s] [ 74%] Built target audio_msgs__py
+[5.822s] [ 77%] [32mBuilding C object CMakeFiles/audio_msgs__rosidl_generator_py.dir/rosidl_generator_py/audio_msgs/msg/_audio_s.c.o[0m
+[6.059s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/audio_msgs/libaudio_msgs__rosidl_generator_py.so[0m
+[6.119s] [ 80%] Built target audio_msgs__rosidl_generator_py
+[6.144s] [ 83%] [32mBuilding C object CMakeFiles/audio_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/audio_msgs/_audio_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[6.146s] [ 87%] [32mBuilding C object CMakeFiles/audio_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/audio_msgs/_audio_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.151s] [ 90%] [32mBuilding C object CMakeFiles/audio_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/audio_msgs/_audio_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.245s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/audio_msgs/audio_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.256s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/audio_msgs/audio_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.262s] [100%] [32m[1mLinking C shared library rosidl_generator_py/audio_msgs/audio_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.281s] [100%] Built target audio_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.293s] [100%] Built target audio_msgs__rosidl_typesupport_c__pyext
+[6.298s] [100%] Built target audio_msgs__rosidl_typesupport_introspection_c__pyext
+[6.309s] Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/audio_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ROS2_WEBRTC/rosgsthumble_ws/build/audio_msgs -- -j12 -l12
+[6.317s] Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/audio_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ROS2_WEBRTC/rosgsthumble_ws/build/audio_msgs
+[6.323s] -- Install configuration: ""
+[6.323s] -- Execute custom install script
+[6.323s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/ament_index/resource_index/rosidl_interfaces/audio_msgs
+[6.332s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/audio.h
+[6.340s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__functions.h
+[6.347s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__struct.h
+[6.355s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__type_support.h
+[6.362s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.370s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/environment/library_path.sh
+[6.379s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/environment/library_path.dsv
+[6.387s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__rosidl_typesupport_fastrtps_c.h
+[6.394s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.402s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/audio.hpp
+[6.410s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__builder.hpp
+[6.417s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__struct.hpp
+[6.424s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__traits.hpp
+[6.433s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__type_support.hpp
+[6.441s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.449s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__rosidl_typesupport_fastrtps_cpp.hpp
+[6.457s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.464s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__rosidl_typesupport_introspection_c.h
+[6.472s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.480s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/include/audio_msgs/audio_msgs/msg/detail/audio__rosidl_typesupport_introspection_cpp.hpp
+[6.487s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/environment/pythonpath.sh
+[6.495s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/environment/pythonpath.dsv
+[6.503s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[6.510s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.517s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.525s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[6.533s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/__init__.py
+[6.542s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/_audio_msgs_s.ep.rosidl_typesupport_c.c
+[6.549s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/_audio_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.556s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/_audio_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.564s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/audio_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.571s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/audio_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.578s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/audio_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.586s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/libaudio_msgs__rosidl_generator_py.so
+[6.593s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/msg/__init__.py
+[6.600s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/msg/_audio.py
+[6.608s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/msg/_audio_s.c
+[6.624s] -- Up-to-date symlink: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/audio_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.625s] -- Up-to-date symlink: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/audio_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.625s] -- Up-to-date symlink: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/audio_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.625s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/msg/Audio.idl
+[6.634s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/msg/Audio.msg
+[6.641s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/ament_index/resource_index/package_run_dependencies/audio_msgs
+[6.649s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/ament_index/resource_index/parent_prefix_path/audio_msgs
+[6.657s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/environment/ament_prefix_path.sh
+[6.665s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/environment/ament_prefix_path.dsv
+[6.673s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/environment/path.sh
+[6.681s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/environment/path.dsv
+[6.689s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/local_setup.bash
+[6.696s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/local_setup.sh
+[6.704s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/local_setup.zsh
+[6.712s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/local_setup.dsv
+[6.720s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/package.dsv
+[6.727s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/ament_index/resource_index/packages/audio_msgs
+[6.735s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/rosidl_cmake-extras.cmake
+[6.743s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.750s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.758s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.765s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.772s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.780s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.787s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/audio_msgsConfig.cmake
+[6.794s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/audio_msgsConfig-version.cmake
+[6.801s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/package.xml
+[6.808s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_generator_c.so
+[6.808s] -- Set runtime path of "/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_generator_c.so" to ""
+[6.808s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_fastrtps_c.so
+[6.809s] -- Set runtime path of "/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[6.809s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.809s] -- Set runtime path of "/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.809s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_introspection_c.so
+[6.810s] -- Set runtime path of "/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_introspection_c.so" to ""
+[6.810s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_c.so
+[6.810s] -- Set runtime path of "/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_c.so" to ""
+[6.810s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_introspection_cpp.so
+[6.810s] -- Set runtime path of "/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[6.811s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_cpp.so
+[6.811s] -- Set runtime path of "/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_typesupport_cpp.so" to ""
+[6.839s] Listing '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs'...
+[6.839s] Compiling '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/__init__.py'...
+[6.839s] Listing '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/msg'...
+[6.839s] Compiling '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/msg/__init__.py'...
+[6.839s] Compiling '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages/audio_msgs/msg/_audio.py'...
+[6.844s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_generator_py.so
+[6.844s] -- Set runtime path of "/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib/libaudio_msgs__rosidl_generator_py.so" to ""
+[6.844s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_generator_cExport.cmake
+[6.844s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.844s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.845s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.845s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_generator_cppExport.cmake
+[6.845s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.845s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.845s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/audio_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.845s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/audio_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.846s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/audio_msgs__rosidl_typesupport_cExport.cmake
+[6.846s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/audio_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.846s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/audio_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.846s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/audio_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.846s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/audio_msgs__rosidl_typesupport_cppExport.cmake
+[6.846s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/audio_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.846s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_generator_pyExport.cmake
+[6.847s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake/export_audio_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.849s] Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/audio_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ROS2_WEBRTC/rosgsthumble_ws/build/audio_msgs

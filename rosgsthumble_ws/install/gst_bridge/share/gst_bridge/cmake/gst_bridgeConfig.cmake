@@ -1,1 +1,1 @@
-/root/Workspaces/rosgsthumble_ws/build/gst_bridge/ament_cmake_core/gst_bridgeConfig.cmake
+/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge/ament_cmake_core/gst_bridgeConfig.cmake

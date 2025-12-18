@@ -1,4 +1,4 @@
-prefix=/root/Workspaces/rosgsthumble_ws/install/webrtc_camera_node
+prefix=/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

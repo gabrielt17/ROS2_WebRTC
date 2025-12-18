@@ -1,0 +1,6 @@
+Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs
+Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs
+Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_msgs -- -j12 -l12
+Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_msgs -- -j12 -l12
+Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_msgs
+Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_msgs

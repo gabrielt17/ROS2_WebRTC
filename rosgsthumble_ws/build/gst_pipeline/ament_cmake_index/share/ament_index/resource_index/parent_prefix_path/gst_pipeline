@@ -1,1 +1,1 @@
-/root/Workspaces/rosgsthumble_ws/install/gst_bridge:/root/Workspaces/rosgsthumble_ws/install/gst_msgs:/root/Workspaces/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble
+/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble

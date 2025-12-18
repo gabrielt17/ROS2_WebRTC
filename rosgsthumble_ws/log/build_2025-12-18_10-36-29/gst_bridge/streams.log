@@ -1,0 +1,101 @@
+[0.008s] Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge
+[0.057s] -- The C compiler identification is GNU 11.4.0
+[0.101s] -- The CXX compiler identification is GNU 11.4.0
+[0.107s] -- Detecting C compiler ABI info
+[0.165s] -- Detecting C compiler ABI info - done
+[0.171s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.171s] -- Detecting C compile features
+[0.171s] -- Detecting C compile features - done
+[0.173s] -- Detecting CXX compiler ABI info
+[0.240s] -- Detecting CXX compiler ABI info - done
+[0.248s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.248s] -- Detecting CXX compile features
+[0.248s] -- Detecting CXX compile features - done
+[0.252s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.255s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.388s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.471s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.507s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.551s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.556s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.564s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.575s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.591s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.633s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.636s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.722s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.755s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.802s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.811s] -- Looking for pthread.h
+[0.875s] -- Looking for pthread.h - found
+[0.875s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.936s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.937s] -- Found Threads: TRUE  
+[0.980s] -- Checking for one of the modules 'gstreamer-1.0'
+[1.031s] -- Checking for one of the modules 'gstreamer-base-1.0'
+[1.079s] -- Checking for one of the modules 'gstreamer-app-1.0'
+[1.126s] -- Checking for one of the modules 'gstreamer-audio-1.0'
+[1.177s] -- Checking for one of the modules 'gstreamer-video-1.0'
+[1.330s] -- Found GLIB: /usr/include/glib-2.0;/usr/lib/x86_64-linux-gnu/glib-2.0/include (found version "2.72.4") 
+[1.330s] -- Found audio_msgs: 0.0.0 (/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/cmake)
+[1.345s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.508s] -- Found ament_cmake_clang_format: 0.12.14 (/opt/ros/humble/share/ament_cmake_clang_format/cmake)
+[1.568s] -- Configuring done
+[2.015s] -- Generating done
+[2.070s] -- Build files have been written to: /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge
+[2.099s] Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge' returned '0': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge
+[2.101s] Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge -- -j12 -l12
+[2.396s] [ 30%] [32mBuilding CXX object CMakeFiles/gst_bridge.dir/src/gst_bridge.cpp.o[0m
+[2.397s] [ 30%] [32mBuilding CXX object CMakeFiles/gst_bridge.dir/src/rosbasesrc.cpp.o[0m
+[2.397s] [ 30%] [32mBuilding CXX object CMakeFiles/gst_bridge.dir/src/rosbasesink.cpp.o[0m
+[2.397s] [ 30%] [32mBuilding CXX object CMakeFiles/gst_bridge.dir/src/rosbaseiface.cpp.o[0m
+[7.248s] [ 38%] [32m[1mLinking CXX shared library libgst_bridge.so[0m
+[7.974s] [ 38%] Built target gst_bridge
+[7.998s] [ 69%] [32mBuilding CXX object CMakeFiles/rosgstbridge.dir/src/rosimagesink.cpp.o[0m
+[7.999s] [ 69%] [32mBuilding CXX object CMakeFiles/rosgstbridge.dir/src/rosaudiosink.cpp.o[0m
+[7.999s] [ 69%] [32mBuilding CXX object CMakeFiles/rosgstbridge.dir/src/rosaudiosrc.cpp.o[0m
+[7.999s] [ 69%] [32mBuilding CXX object CMakeFiles/rosgstbridge.dir/src/rosgstbridgeplugin.cpp.o[0m
+[7.999s] [ 76%] [32mBuilding CXX object CMakeFiles/rosgstbridge.dir/src/rostextsrc.cpp.o[0m
+[7.999s] [ 84%] [32mBuilding CXX object CMakeFiles/rosgstbridge.dir/src/rostextsink.cpp.o[0m
+[8.000s] [ 92%] [32mBuilding CXX object CMakeFiles/rosgstbridge.dir/src/rosimagesrc.cpp.o[0m
+[21.232s] [100%] [32m[1mLinking CXX shared library librosgstbridge.so[0m
+[22.497s] [100%] Built target rosgstbridge
+[22.514s] Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge' returned '0': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge -- -j12 -l12
+[22.518s] Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge
+[22.523s] -- Install configuration: "RelWithDebInfo"
+[22.523s] -- Execute custom install script
+[22.523s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/environment/register_plugin.dsv
+[22.532s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/environment/library_path.sh
+[22.539s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/environment/library_path.dsv
+[22.549s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/include/gst_bridge/gst_bridge.h
+[22.557s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/include/gst_bridge/rosaudiosink.h
+[22.565s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/include/gst_bridge/rosaudiosrc.h
+[22.573s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/include/gst_bridge/rosbaseiface.h
+[22.582s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/include/gst_bridge/rosbasesink.h
+[22.589s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/include/gst_bridge/rosbasesrc.h
+[22.598s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/include/gst_bridge/rosimagesink.h
+[22.606s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/include/gst_bridge/rosimagesrc.h
+[22.614s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/include/gst_bridge/rostextsink.h
+[22.622s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/include/gst_bridge/rostextsrc.h
+[22.630s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib/gst_bridge/librosgstbridge.so
+[22.639s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/ament_index/resource_index/package_run_dependencies/gst_bridge
+[22.647s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/ament_index/resource_index/parent_prefix_path/gst_bridge
+[22.655s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/environment/ament_prefix_path.sh
+[22.662s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/environment/ament_prefix_path.dsv
+[22.669s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/environment/path.sh
+[22.677s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/environment/path.dsv
+[22.684s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/local_setup.bash
+[22.692s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/local_setup.sh
+[22.700s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/local_setup.zsh
+[22.708s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/local_setup.dsv
+[22.716s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/package.dsv
+[22.723s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/ament_index/resource_index/packages/gst_bridge
+[22.731s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.738s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+[22.745s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.753s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/cmake/gst_bridgeConfig.cmake
+[22.760s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/cmake/gst_bridgeConfig-version.cmake
+[22.767s] -- Symlinking: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/package.xml
+[22.775s] -- Installing: /root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib/libgst_bridge.so
+[22.778s] -- Set runtime path of "/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib/libgst_bridge.so" to ""
+[22.780s] Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge' returned '0': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge

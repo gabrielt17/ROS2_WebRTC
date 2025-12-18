@@ -1,0 +1,695 @@
+[0.515s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--parallel-workers', '12']
+[0.515s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f89a1ff39a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f89a213c9a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f89a213c9a0>>, mixin_verb=('build',))
+[0.759s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.760s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.761s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[0.761s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.761s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.761s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.761s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.761s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.761s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.762s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/ROS2_WEBRTC/rosgsthumble_ws'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.778s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_campub) by extensions ['ignore', 'ignore_ament_install']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_campub) by extension 'ignore'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_campub) by extension 'ignore_ament_install'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_campub) by extensions ['colcon_pkg']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_campub) by extension 'colcon_pkg'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_campub) by extensions ['colcon_meta']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_campub) by extension 'colcon_meta'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_campub) by extensions ['ros']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_campub) by extension 'ros'
+[0.782s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_campub' with type 'ros.ament_cmake' and name 'cpp_campub'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extension 'ignore'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extension 'ignore_ament_install'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extensions ['colcon_pkg']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extension 'colcon_pkg'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extensions ['colcon_meta']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extension 'colcon_meta'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extensions ['ros']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extension 'ros'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extensions ['cmake', 'python']
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extension 'cmake'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extension 'python'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extensions ['python_setup_py']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge) by extension 'python_setup_py'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extension 'ignore'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extension 'ignore_ament_install'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extensions ['colcon_pkg']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extension 'colcon_pkg'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extensions ['colcon_meta']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extension 'colcon_meta'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extensions ['ros']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/audio_msgs) by extension 'ros'
+[0.783s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros-gst-bridge/audio_msgs' with type 'ros.ament_cmake' and name 'audio_msgs'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extensions ['ignore', 'ignore_ament_install']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extension 'ignore'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extension 'ignore_ament_install'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extensions ['colcon_pkg']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extension 'colcon_pkg'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extensions ['colcon_meta']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extension 'colcon_meta'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extensions ['ros']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extension 'ros'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extensions ['cmake', 'python']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extension 'cmake'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extension 'python'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extensions ['python_setup_py']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-long) by extension 'python_setup_py'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extensions ['ignore', 'ignore_ament_install']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extension 'ignore'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extension 'ignore_ament_install'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extensions ['colcon_pkg']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extension 'colcon_pkg'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extensions ['colcon_meta']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extension 'colcon_meta'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extensions ['ros']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extension 'ros'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extensions ['cmake', 'python']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extension 'cmake'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extension 'python'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extensions ['python_setup_py']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/docker-short) by extension 'python_setup_py'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extension 'ignore'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extension 'ignore_ament_install'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extensions ['colcon_pkg']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extension 'colcon_pkg'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extensions ['colcon_meta']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extension 'colcon_meta'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extensions ['ros']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_bridge) by extension 'ros'
+[0.785s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros-gst-bridge/gst_bridge' with type 'ros.ament_cmake' and name 'gst_bridge'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extension 'ignore'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extension 'ignore_ament_install'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extensions ['colcon_pkg']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extension 'colcon_pkg'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extensions ['colcon_meta']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extension 'colcon_meta'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extensions ['ros']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_msgs) by extension 'ros'
+[0.786s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros-gst-bridge/gst_msgs' with type 'ros.ament_cmake' and name 'gst_msgs'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extensions ['ignore', 'ignore_ament_install']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extension 'ignore'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extension 'ignore_ament_install'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extensions ['colcon_pkg']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extension 'colcon_pkg'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extensions ['colcon_meta']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extension 'colcon_meta'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extensions ['ros']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline) by extension 'ros'
+[0.787s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros-gst-bridge/gst_pipeline' with type 'ros.ament_cmake' and name 'gst_pipeline'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extension 'ignore'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extension 'ignore_ament_install'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extensions ['colcon_pkg']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extension 'colcon_pkg'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extensions ['colcon_meta']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extension 'colcon_meta'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extensions ['ros']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins) by extension 'ros'
+[0.788s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros-gst-bridge/gst_pipeline_plugins' with type 'ros.ament_cmake' and name 'gst_pipeline_plugins'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins_webrtc) by extensions ['ignore', 'ignore_ament_install']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins_webrtc) by extension 'ignore'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins_webrtc) by extension 'ignore_ament_install'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins_webrtc) by extensions ['colcon_pkg']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins_webrtc) by extension 'colcon_pkg'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins_webrtc) by extensions ['colcon_meta']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins_webrtc) by extension 'colcon_meta'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins_webrtc) by extensions ['ros']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros-gst-bridge/gst_pipeline_plugins_webrtc) by extension 'ros'
+[0.789s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros-gst-bridge/gst_pipeline_plugins_webrtc' with type 'ros.ament_cmake' and name 'gst_pipeline_plugins_webrtc'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extension 'ignore_ament_install'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extensions ['colcon_pkg']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extension 'colcon_pkg'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extensions ['colcon_meta']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extension 'colcon_meta'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extensions ['ros']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/webrtc_camera_node) by extension 'ros'
+[0.790s] DEBUG:colcon.colcon_core.package_identification:Package 'src/webrtc_camera_node' with type 'ros.ament_cmake' and name 'webrtc_camera_node'
+[0.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.790s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'cmake_args' from command line to 'None'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'cmake_target' from command line to 'None'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'audio_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.840s] DEBUG:colcon.colcon_core.verb:Building package 'audio_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ROS2_WEBRTC/rosgsthumble_ws/build/audio_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs', 'merge_install': False, 'path': '/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'cpp_campub' build argument 'cmake_args' from command line to 'None'
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'cpp_campub' build argument 'cmake_target' from command line to 'None'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'cpp_campub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'cpp_campub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'cpp_campub' build argument 'cmake_clean_first' from command line to 'False'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'cpp_campub' build argument 'cmake_force_configure' from command line to 'False'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'cpp_campub' build argument 'ament_cmake_args' from command line to 'None'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'cpp_campub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'cpp_campub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.841s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_campub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ROS2_WEBRTC/rosgsthumble_ws/build/cpp_campub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub', 'merge_install': False, 'path': '/root/ROS2_WEBRTC/rosgsthumble_ws/src/cpp_campub', 'symlink_install': True, 'test_result_base': None}
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'cmake_args' from command line to 'None'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'cmake_target' from command line to 'None'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'gst_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.841s] DEBUG:colcon.colcon_core.verb:Building package 'gst_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs', 'merge_install': False, 'path': '/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'cmake_args' from command line to 'None'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'cmake_target' from command line to 'None'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'gst_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.842s] DEBUG:colcon.colcon_core.verb:Building package 'gst_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge', 'merge_install': False, 'path': '/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge', 'symlink_install': True, 'test_result_base': None}
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'cmake_args' from command line to 'None'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'cmake_target' from command line to 'None'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'cmake_clean_cache' from command line to 'False'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'cmake_clean_first' from command line to 'False'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'cmake_force_configure' from command line to 'False'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'ament_cmake_args' from command line to 'None'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'catkin_cmake_args' from command line to 'None'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.842s] DEBUG:colcon.colcon_core.verb:Building package 'gst_pipeline' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline', 'merge_install': False, 'path': '/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline', 'symlink_install': True, 'test_result_base': None}
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'cmake_args' from command line to 'None'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'cmake_target' from command line to 'None'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.842s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'webrtc_camera_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.843s] DEBUG:colcon.colcon_core.verb:Building package 'webrtc_camera_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node', 'merge_install': False, 'path': '/root/ROS2_WEBRTC/rosgsthumble_ws/src/webrtc_camera_node', 'symlink_install': True, 'test_result_base': None}
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'cmake_args' from command line to 'None'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'cmake_target' from command line to 'None'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.843s] DEBUG:colcon.colcon_core.verb:Building package 'gst_pipeline_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins', 'merge_install': False, 'path': '/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins', 'symlink_install': True, 'test_result_base': None}
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins_webrtc' build argument 'cmake_args' from command line to 'None'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins_webrtc' build argument 'cmake_target' from command line to 'None'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins_webrtc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins_webrtc' build argument 'cmake_clean_cache' from command line to 'False'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins_webrtc' build argument 'cmake_clean_first' from command line to 'False'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins_webrtc' build argument 'cmake_force_configure' from command line to 'False'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins_webrtc' build argument 'ament_cmake_args' from command line to 'None'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins_webrtc' build argument 'catkin_cmake_args' from command line to 'None'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'gst_pipeline_plugins_webrtc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.844s] DEBUG:colcon.colcon_core.verb:Building package 'gst_pipeline_plugins_webrtc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins_webrtc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc', 'merge_install': False, 'path': '/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc', 'symlink_install': True, 'test_result_base': None}
+[0.844s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.845s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.845s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs' with build type 'ament_cmake'
+[0.845s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs'
+[0.857s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.858s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.858s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.863s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs' with build type 'ament_cmake'
+[0.863s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs'
+[0.863s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.863s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.866s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ROS2_WEBRTC/rosgsthumble_ws/src/cpp_campub' with build type 'ament_cmake'
+[0.866s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ROS2_WEBRTC/rosgsthumble_ws/src/cpp_campub'
+[0.866s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.866s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/audio_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs
+[0.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs
+[0.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/cpp_campub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ROS2_WEBRTC/rosgsthumble_ws/src/cpp_campub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub
+[3.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/cpp_campub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ROS2_WEBRTC/rosgsthumble_ws/src/cpp_campub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub
+[3.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/cpp_campub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ROS2_WEBRTC/rosgsthumble_ws/build/cpp_campub -- -j12 -l12
+[3.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/audio_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs
+[3.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/audio_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ROS2_WEBRTC/rosgsthumble_ws/build/audio_msgs -- -j12 -l12
+[4.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs
+[4.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_msgs -- -j12 -l12
+[7.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/audio_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ROS2_WEBRTC/rosgsthumble_ws/build/audio_msgs -- -j12 -l12
+[7.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/audio_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ROS2_WEBRTC/rosgsthumble_ws/build/audio_msgs
+[7.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(audio_msgs)
+[7.694s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/audio_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ROS2_WEBRTC/rosgsthumble_ws/build/audio_msgs
+[7.719s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs' for CMake module files
+[7.719s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs' for CMake config files
+[7.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_msgs', 'cmake_prefix_path')
+[7.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/cmake_prefix_path.ps1'
+[7.721s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/cmake_prefix_path.dsv'
+[7.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/cmake_prefix_path.sh'
+[7.723s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib'
+[7.723s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_msgs', 'ld_library_path_lib')
+[7.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/ld_library_path_lib.ps1'
+[7.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/ld_library_path_lib.dsv'
+[7.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/ld_library_path_lib.sh'
+[7.724s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/bin'
+[7.724s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib/pkgconfig/audio_msgs.pc'
+[7.726s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib/python3.10/site-packages'
+[7.726s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/bin'
+[7.726s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/package.ps1'
+[7.727s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/package.dsv'
+[7.728s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/package.sh'
+[7.729s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/package.bash'
+[7.730s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/package.zsh'
+[7.730s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/colcon-core/packages/audio_msgs)
+[7.731s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(audio_msgs)
+[7.731s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs' for CMake module files
+[7.732s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs' for CMake config files
+[7.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_msgs', 'cmake_prefix_path')
+[7.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/cmake_prefix_path.ps1'
+[7.733s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/cmake_prefix_path.dsv'
+[7.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/cmake_prefix_path.sh'
+[7.733s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib'
+[7.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('audio_msgs', 'ld_library_path_lib')
+[7.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/ld_library_path_lib.ps1'
+[7.734s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/ld_library_path_lib.dsv'
+[7.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/hook/ld_library_path_lib.sh'
+[7.734s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/bin'
+[7.735s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib/pkgconfig/audio_msgs.pc'
+[7.735s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib/python3.10/site-packages'
+[7.735s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/bin'
+[7.735s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/package.ps1'
+[7.736s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/package.dsv'
+[7.736s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/package.sh'
+[7.736s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/package.bash'
+[7.737s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/audio_msgs/package.zsh'
+[7.737s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/share/colcon-core/packages/audio_msgs)
+[7.737s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge' with build type 'ament_cmake'
+[7.737s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge'
+[7.737s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.737s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge
+[8.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_msgs -- -j12 -l12
+[8.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_msgs
+[9.812s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gst_msgs)
+[9.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_msgs
+[9.813s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs' for CMake module files
+[9.814s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs' for CMake config files
+[9.814s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_msgs', 'cmake_prefix_path')
+[9.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/cmake_prefix_path.ps1'
+[9.815s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/cmake_prefix_path.dsv'
+[9.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/cmake_prefix_path.sh'
+[9.816s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/lib'
+[9.816s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_msgs', 'ld_library_path_lib')
+[9.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/ld_library_path_lib.ps1'
+[9.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/ld_library_path_lib.dsv'
+[9.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/ld_library_path_lib.sh'
+[9.817s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/bin'
+[9.817s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/lib/pkgconfig/gst_msgs.pc'
+[9.817s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/lib/python3.10/site-packages'
+[9.817s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/bin'
+[9.817s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/package.ps1'
+[9.818s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/package.dsv'
+[9.818s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/package.sh'
+[9.818s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/package.bash'
+[9.819s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/package.zsh'
+[9.819s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/share/colcon-core/packages/gst_msgs)
+[9.819s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gst_msgs)
+[9.819s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs' for CMake module files
+[9.820s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs' for CMake config files
+[9.821s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_msgs', 'cmake_prefix_path')
+[9.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/cmake_prefix_path.ps1'
+[9.829s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/cmake_prefix_path.dsv'
+[9.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/cmake_prefix_path.sh'
+[9.830s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/lib'
+[9.830s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_msgs', 'ld_library_path_lib')
+[9.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/ld_library_path_lib.ps1'
+[9.830s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/ld_library_path_lib.dsv'
+[9.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/hook/ld_library_path_lib.sh'
+[9.831s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/bin'
+[9.831s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/lib/pkgconfig/gst_msgs.pc'
+[9.831s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/lib/python3.10/site-packages'
+[9.831s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/bin'
+[9.832s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/package.ps1'
+[9.833s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/package.dsv'
+[9.834s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/package.sh'
+[9.835s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/package.bash'
+[9.835s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/share/gst_msgs/package.zsh'
+[9.836s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/share/colcon-core/packages/gst_msgs)
+[9.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge' returned '0': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_bridge -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge
+[9.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge -- -j12 -l12
+[10.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/cpp_campub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ROS2_WEBRTC/rosgsthumble_ws/build/cpp_campub -- -j12 -l12
+[10.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/cpp_campub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ROS2_WEBRTC/rosgsthumble_ws/build/cpp_campub
+[10.901s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_campub)
+[10.901s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub' for CMake module files
+[10.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/cpp_campub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/ROS2_WEBRTC/rosgsthumble_ws/build/cpp_campub
+[10.902s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub' for CMake config files
+[10.902s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_campub', 'cmake_prefix_path')
+[10.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/hook/cmake_prefix_path.ps1'
+[10.903s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/hook/cmake_prefix_path.dsv'
+[10.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/hook/cmake_prefix_path.sh'
+[10.904s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/lib'
+[10.904s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/bin'
+[10.904s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/lib/pkgconfig/cpp_campub.pc'
+[10.904s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/lib/python3.10/site-packages'
+[10.904s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/bin'
+[10.904s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/package.ps1'
+[10.905s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/package.dsv'
+[10.905s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/package.sh'
+[10.905s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/package.bash'
+[10.906s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/package.zsh'
+[10.906s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/share/colcon-core/packages/cpp_campub)
+[10.906s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_campub)
+[10.907s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub' for CMake module files
+[10.907s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub' for CMake config files
+[10.907s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_campub', 'cmake_prefix_path')
+[10.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/hook/cmake_prefix_path.ps1'
+[10.908s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/hook/cmake_prefix_path.dsv'
+[10.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/hook/cmake_prefix_path.sh'
+[10.909s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/lib'
+[10.909s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/bin'
+[10.909s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/lib/pkgconfig/cpp_campub.pc'
+[10.909s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/lib/python3.10/site-packages'
+[10.909s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/bin'
+[10.909s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/package.ps1'
+[10.910s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/package.dsv'
+[10.910s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/package.sh'
+[10.910s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/package.bash'
+[10.911s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/share/cpp_campub/package.zsh'
+[10.911s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ROS2_WEBRTC/rosgsthumble_ws/install/cpp_campub/share/colcon-core/packages/cpp_campub)
+[30.252s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge' returned '0': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge -- -j12 -l12
+[30.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge
+[30.517s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gst_bridge)
+[30.518s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge' for CMake module files
+[30.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge' returned '0': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_bridge
+[30.518s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge' for CMake config files
+[30.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_bridge', 'cmake_prefix_path')
+[30.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/hook/cmake_prefix_path.ps1'
+[30.519s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/hook/cmake_prefix_path.dsv'
+[30.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/hook/cmake_prefix_path.sh'
+[30.520s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib'
+[30.520s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_bridge', 'ld_library_path_lib')
+[30.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/hook/ld_library_path_lib.ps1'
+[30.521s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/hook/ld_library_path_lib.dsv'
+[30.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/hook/ld_library_path_lib.sh'
+[30.521s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/bin'
+[30.521s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib/pkgconfig/gst_bridge.pc'
+[30.522s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib/python3.10/site-packages'
+[30.522s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/bin'
+[30.522s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/package.ps1'
+[30.528s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/package.dsv'
+[30.529s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/package.sh'
+[30.529s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/package.bash'
+[30.530s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/package.zsh'
+[30.530s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/colcon-core/packages/gst_bridge)
+[30.531s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gst_bridge)
+[30.531s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge' for CMake module files
+[30.531s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge' for CMake config files
+[30.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_bridge', 'cmake_prefix_path')
+[30.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/hook/cmake_prefix_path.ps1'
+[30.532s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/hook/cmake_prefix_path.dsv'
+[30.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/hook/cmake_prefix_path.sh'
+[30.533s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib'
+[30.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_bridge', 'ld_library_path_lib')
+[30.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/hook/ld_library_path_lib.ps1'
+[30.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/hook/ld_library_path_lib.dsv'
+[30.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/hook/ld_library_path_lib.sh'
+[30.534s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/bin'
+[30.534s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib/pkgconfig/gst_bridge.pc'
+[30.534s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib/python3.10/site-packages'
+[30.534s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/bin'
+[30.534s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/package.ps1'
+[30.535s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/package.dsv'
+[30.535s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/package.sh'
+[30.536s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/package.bash'
+[30.536s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/gst_bridge/package.zsh'
+[30.536s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/share/colcon-core/packages/gst_bridge)
+[30.536s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline' with build type 'ament_cmake'
+[30.537s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline'
+[30.537s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[30.537s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[30.542s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ROS2_WEBRTC/rosgsthumble_ws/src/webrtc_camera_node' with build type 'ament_cmake'
+[30.542s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ROS2_WEBRTC/rosgsthumble_ws/src/webrtc_camera_node'
+[30.543s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[30.543s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[30.555s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ROS2_WEBRTC/rosgsthumble_ws/src/webrtc_camera_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node
+[30.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/local/lib/python3.10/dist-packages:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline
+[32.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline' returned '0': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/local/lib/python3.10/dist-packages:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline
+[32.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/local/lib/python3.10/dist-packages:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline -- -j12 -l12
+[46.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline' returned '0': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/local/lib/python3.10/dist-packages:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline -- -j12 -l12
+[46.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/local/lib/python3.10/dist-packages:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline
+[46.459s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gst_pipeline)
+[46.459s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline' for CMake module files
+[46.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline' returned '0': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/local/lib/python3.10/dist-packages:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline
+[46.460s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline' for CMake config files
+[46.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_pipeline', 'cmake_prefix_path')
+[46.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/hook/cmake_prefix_path.ps1'
+[46.460s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/hook/cmake_prefix_path.dsv'
+[46.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/hook/cmake_prefix_path.sh'
+[46.461s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/lib'
+[46.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_pipeline', 'ld_library_path_lib')
+[46.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/hook/ld_library_path_lib.ps1'
+[46.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/hook/ld_library_path_lib.dsv'
+[46.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/hook/ld_library_path_lib.sh'
+[46.462s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/bin'
+[46.462s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/lib/pkgconfig/gst_pipeline.pc'
+[46.462s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/lib/python3.10/site-packages'
+[46.463s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/bin'
+[46.463s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/package.ps1'
+[46.463s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/package.dsv'
+[46.464s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/package.sh'
+[46.464s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/package.bash'
+[46.464s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/package.zsh'
+[46.465s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/share/colcon-core/packages/gst_pipeline)
+[46.465s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gst_pipeline)
+[46.465s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline' for CMake module files
+[46.466s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline' for CMake config files
+[46.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_pipeline', 'cmake_prefix_path')
+[46.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/hook/cmake_prefix_path.ps1'
+[46.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/hook/cmake_prefix_path.dsv'
+[46.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/hook/cmake_prefix_path.sh'
+[46.720s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/lib'
+[46.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_pipeline', 'ld_library_path_lib')
+[46.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/hook/ld_library_path_lib.ps1'
+[46.720s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/hook/ld_library_path_lib.dsv'
+[46.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/hook/ld_library_path_lib.sh'
+[46.721s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/bin'
+[46.721s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/lib/pkgconfig/gst_pipeline.pc'
+[46.721s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/lib/python3.10/site-packages'
+[46.722s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/bin'
+[46.722s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/package.ps1'
+[46.722s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/package.dsv'
+[46.723s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/package.sh'
+[46.723s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/package.bash'
+[46.723s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/share/gst_pipeline/package.zsh'
+[46.724s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/share/colcon-core/packages/gst_pipeline)
+[46.724s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins' with build type 'ament_cmake'
+[46.724s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins'
+[46.724s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[46.725s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[46.728s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc' with build type 'ament_cmake'
+[46.728s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc'
+[46.728s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[46.728s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[46.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/local/lib/python3.10/dist-packages:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins
+[46.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins_webrtc': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/local/lib/python3.10/dist-packages:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc
+[50.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins' returned '0': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/local/lib/python3.10/dist-packages:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins
+[50.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/local/lib/python3.10/dist-packages:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins -- -j12 -l12
+[50.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins_webrtc' returned '0': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/local/lib/python3.10/dist-packages:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/gst_pipeline_plugins_webrtc -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc
+[50.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins_webrtc': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/local/lib/python3.10/dist-packages:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins_webrtc -- -j12 -l12
+[53.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node' returned '0': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /root/ROS2_WEBRTC/rosgsthumble_ws/src/webrtc_camera_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node
+[53.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node -- -j12 -l12
+[64.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins' returned '0': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/local/lib/python3.10/dist-packages:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins -- -j12 -l12
+[64.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/local/lib/python3.10/dist-packages:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins
+[64.835s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gst_pipeline_plugins)
+[64.836s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins' for CMake module files
+[64.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins' returned '0': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/local/lib/python3.10/dist-packages:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins
+[64.837s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins' for CMake config files
+[64.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_pipeline_plugins', 'cmake_prefix_path')
+[64.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/hook/cmake_prefix_path.ps1'
+[64.841s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/hook/cmake_prefix_path.dsv'
+[64.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/hook/cmake_prefix_path.sh'
+[64.844s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/lib'
+[64.844s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_pipeline_plugins', 'ld_library_path_lib')
+[64.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/hook/ld_library_path_lib.ps1'
+[64.845s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/hook/ld_library_path_lib.dsv'
+[64.845s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/hook/ld_library_path_lib.sh'
+[64.846s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/bin'
+[64.846s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/lib/pkgconfig/gst_pipeline_plugins.pc'
+[64.846s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/lib/python3.10/site-packages'
+[64.847s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/bin'
+[64.847s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/package.ps1'
+[64.851s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/package.dsv'
+[64.851s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/package.sh'
+[64.852s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/package.bash'
+[64.853s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/package.zsh'
+[64.853s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/share/colcon-core/packages/gst_pipeline_plugins)
+[64.854s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gst_pipeline_plugins)
+[64.854s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins' for CMake module files
+[64.855s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins' for CMake config files
+[64.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_pipeline_plugins', 'cmake_prefix_path')
+[64.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/hook/cmake_prefix_path.ps1'
+[64.867s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/hook/cmake_prefix_path.dsv'
+[64.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/hook/cmake_prefix_path.sh'
+[64.877s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/lib'
+[64.877s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_pipeline_plugins', 'ld_library_path_lib')
+[64.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/hook/ld_library_path_lib.ps1'
+[64.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/hook/ld_library_path_lib.dsv'
+[64.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/hook/ld_library_path_lib.sh'
+[64.879s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/bin'
+[64.879s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/lib/pkgconfig/gst_pipeline_plugins.pc'
+[64.879s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/lib/python3.10/site-packages'
+[64.879s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/bin'
+[64.880s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/package.ps1'
+[64.880s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/package.dsv'
+[64.880s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/package.sh'
+[64.881s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/package.bash'
+[64.881s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/share/gst_pipeline_plugins/package.zsh'
+[64.881s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins/share/colcon-core/packages/gst_pipeline_plugins)
+[65.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins_webrtc' returned '0': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/local/lib/python3.10/dist-packages:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins_webrtc -- -j12 -l12
+[65.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins_webrtc': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/local/lib/python3.10/dist-packages:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins_webrtc
+[65.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node' returned '0': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node -- -j12 -l12
+[65.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node
+[65.563s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(webrtc_camera_node)
+[65.564s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node' for CMake module files
+[65.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node' returned '0': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ROS2_WEBRTC/rosgsthumble_ws/build/webrtc_camera_node
+[65.564s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node' for CMake config files
+[65.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('webrtc_camera_node', 'cmake_prefix_path')
+[65.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/hook/cmake_prefix_path.ps1'
+[65.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/hook/cmake_prefix_path.dsv'
+[65.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/hook/cmake_prefix_path.sh'
+[65.566s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/lib'
+[65.566s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/bin'
+[65.566s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/lib/pkgconfig/webrtc_camera_node.pc'
+[65.566s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/lib/python3.10/site-packages'
+[65.567s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/bin'
+[65.567s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/package.ps1'
+[65.567s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/package.dsv'
+[65.568s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/package.sh'
+[65.568s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/package.bash'
+[65.568s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/package.zsh'
+[65.568s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/colcon-core/packages/webrtc_camera_node)
+[65.569s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(webrtc_camera_node)
+[65.569s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node' for CMake module files
+[65.569s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node' for CMake config files
+[65.570s] Level 1:colcon.colcon_core.shell:create_environment_hook('webrtc_camera_node', 'cmake_prefix_path')
+[65.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/hook/cmake_prefix_path.ps1'
+[65.570s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/hook/cmake_prefix_path.dsv'
+[65.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/hook/cmake_prefix_path.sh'
+[65.571s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/lib'
+[65.571s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/bin'
+[65.571s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/lib/pkgconfig/webrtc_camera_node.pc'
+[65.571s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/lib/python3.10/site-packages'
+[65.571s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/bin'
+[65.571s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/package.ps1'
+[65.572s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/package.dsv'
+[65.572s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/package.sh'
+[65.572s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/package.bash'
+[65.573s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/webrtc_camera_node/package.zsh'
+[65.573s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ROS2_WEBRTC/rosgsthumble_ws/install/webrtc_camera_node/share/colcon-core/packages/webrtc_camera_node)
+[65.594s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gst_pipeline_plugins_webrtc)
+[65.594s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc' for CMake module files
+[65.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins_webrtc' returned '0': AMENT_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_bridge/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/lib:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_msgs/local/lib/python3.10/dist-packages:/root/ROS2_WEBRTC/rosgsthumble_ws/install/audio_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins_webrtc
+[65.595s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc' for CMake config files
+[65.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_pipeline_plugins_webrtc', 'cmake_prefix_path')
+[65.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/hook/cmake_prefix_path.ps1'
+[65.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/hook/cmake_prefix_path.dsv'
+[65.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/hook/cmake_prefix_path.sh'
+[65.596s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/lib'
+[65.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_pipeline_plugins_webrtc', 'ld_library_path_lib')
+[65.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/hook/ld_library_path_lib.ps1'
+[65.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/hook/ld_library_path_lib.dsv'
+[65.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/hook/ld_library_path_lib.sh'
+[65.598s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/bin'
+[65.598s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/lib/pkgconfig/gst_pipeline_plugins_webrtc.pc'
+[65.598s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/lib/python3.10/site-packages'
+[65.598s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/bin'
+[65.598s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/package.ps1'
+[65.599s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/package.dsv'
+[65.599s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/package.sh'
+[65.600s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/package.bash'
+[65.600s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/package.zsh'
+[65.600s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/share/colcon-core/packages/gst_pipeline_plugins_webrtc)
+[65.601s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gst_pipeline_plugins_webrtc)
+[65.601s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc' for CMake module files
+[65.601s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc' for CMake config files
+[65.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_pipeline_plugins_webrtc', 'cmake_prefix_path')
+[65.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/hook/cmake_prefix_path.ps1'
+[65.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/hook/cmake_prefix_path.dsv'
+[65.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/hook/cmake_prefix_path.sh'
+[65.602s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/lib'
+[65.603s] Level 1:colcon.colcon_core.shell:create_environment_hook('gst_pipeline_plugins_webrtc', 'ld_library_path_lib')
+[65.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/hook/ld_library_path_lib.ps1'
+[65.603s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/hook/ld_library_path_lib.dsv'
+[65.603s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/hook/ld_library_path_lib.sh'
+[65.604s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/bin'
+[65.604s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/lib/pkgconfig/gst_pipeline_plugins_webrtc.pc'
+[65.604s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/lib/python3.10/site-packages'
+[65.604s] Level 1:colcon.colcon_core.environment:checking '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/bin'
+[65.604s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/package.ps1'
+[65.605s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/package.dsv'
+[65.605s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/package.sh'
+[65.606s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/package.bash'
+[65.606s] INFO:colcon.colcon_core.shell:Creating package script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/share/gst_pipeline_plugins_webrtc/package.zsh'
+[65.607s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/ROS2_WEBRTC/rosgsthumble_ws/install/gst_pipeline_plugins_webrtc/share/colcon-core/packages/gst_pipeline_plugins_webrtc)
+[65.607s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[65.607s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[65.608s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[65.608s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[65.673s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[65.674s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[65.674s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[65.674s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[65.751s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[65.751s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[65.752s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/local_setup.ps1'
+[65.764s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ROS2_WEBRTC/rosgsthumble_ws/install/_local_setup_util_ps1.py'
+[65.766s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/setup.ps1'
+[65.768s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/local_setup.sh'
+[65.769s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/ROS2_WEBRTC/rosgsthumble_ws/install/_local_setup_util_sh.py'
+[65.769s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/setup.sh'
+[65.770s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/local_setup.bash'
+[65.771s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/setup.bash'
+[65.783s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/local_setup.zsh'
+[65.784s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/ROS2_WEBRTC/rosgsthumble_ws/install/setup.zsh'

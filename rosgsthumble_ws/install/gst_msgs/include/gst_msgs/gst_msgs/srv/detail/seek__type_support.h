@@ -1,1 +1,1 @@
-/root/Workspaces/rosgsthumble_ws/build/gst_msgs/rosidl_generator_c/gst_msgs/srv/detail/seek__type_support.h
+/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_msgs/rosidl_generator_c/gst_msgs/srv/detail/seek__type_support.h

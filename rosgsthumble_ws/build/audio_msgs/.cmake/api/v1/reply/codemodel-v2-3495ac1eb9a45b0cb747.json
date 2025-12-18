@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6350dc3f19fa56c3e4c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "audio_msgs__py",
+					"jsonFile" : "directory-audio_msgs__py-3296e7785acfe4034131.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/root/ROS2_WEBRTC/rosgsthumble_ws/build/audio_msgs/audio_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "audio_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_audio_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_audio_msgs_egg-c54f9e9c7737f77c2d3d.json",
+					"name" : "ament_cmake_python_build_audio_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_audio_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_audio_msgs-10efee24a7433626dc5a.json",
+					"name" : "ament_cmake_python_symlink_audio_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_msgs-18f156fc6afe219ffb88.json",
+					"name" : "audio_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_msgs__cpp-7e5affdb78e98078ffeb.json",
+					"name" : "audio_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "audio_msgs__py::@a85a8bcd97eae20f4c68",
+					"jsonFile" : "target-audio_msgs__py-1c75aaa8fceefe7ece34.json",
+					"name" : "audio_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_msgs__rosidl_generator_c-f846736b13d729922c64.json",
+					"name" : "audio_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_msgs__rosidl_generator_py-01295b81b95a7c0163cd.json",
+					"name" : "audio_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_msgs__rosidl_typesupport_c-b217195bbc0cc9c07d3d.json",
+					"name" : "audio_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_msgs__rosidl_typesupport_c__pyext-a013c34372f750ba948e.json",
+					"name" : "audio_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_msgs__rosidl_typesupport_cpp-995faa3f2c974ca29e3b.json",
+					"name" : "audio_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_msgs__rosidl_typesupport_fastrtps_c-102e355c804664f73d81.json",
+					"name" : "audio_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_msgs__rosidl_typesupport_fastrtps_c__pyext-393d366a13050e441f37.json",
+					"name" : "audio_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_msgs__rosidl_typesupport_fastrtps_cpp-75a2f5e54b17d64519eb.json",
+					"name" : "audio_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_msgs__rosidl_typesupport_introspection_c-9fc4fc6e47b3067f32cf.json",
+					"name" : "audio_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_msgs__rosidl_typesupport_introspection_c__pyext-4214d903c68bdb97ae98.json",
+					"name" : "audio_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_msgs__rosidl_typesupport_introspection_cpp-e0d46b11b2df42ba4920.json",
+					"name" : "audio_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "audio_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-audio_msgs_uninstall-ea7cb59b68058b927a97.json",
+					"name" : "audio_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-24fe2986132353f37c5a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/root/ROS2_WEBRTC/rosgsthumble_ws/build/audio_msgs",
+		"source" : "/root/ROS2_WEBRTC/rosgsthumble_ws/src/ros-gst-bridge/audio_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/root/Workspaces/rosgsthumble_ws/src/cpp_campub/src/camera_publisher.cpp" "CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o" "gcc" "CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o.d"
+  "/root/ROS2_WEBRTC/rosgsthumble_ws/src/cpp_campub/src/camera_publisher.cpp" "CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o" "gcc" "CMakeFiles/camera_publisher.dir/src/camera_publisher.cpp.o.d"
   )
 
 # Targets to which this target links.

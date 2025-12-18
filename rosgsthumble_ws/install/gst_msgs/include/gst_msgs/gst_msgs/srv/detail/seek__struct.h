@@ -1,1 +1,1 @@
-/root/Workspaces/rosgsthumble_ws/build/gst_msgs/rosidl_generator_c/gst_msgs/srv/detail/seek__struct.h
+/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_msgs/rosidl_generator_c/gst_msgs/srv/detail/seek__struct.h

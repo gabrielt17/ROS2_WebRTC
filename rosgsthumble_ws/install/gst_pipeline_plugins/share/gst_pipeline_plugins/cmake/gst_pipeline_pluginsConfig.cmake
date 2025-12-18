@@ -1,1 +1,1 @@
-/root/Workspaces/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_core/gst_pipeline_pluginsConfig.cmake
+/root/ROS2_WEBRTC/rosgsthumble_ws/build/gst_pipeline_plugins/ament_cmake_core/gst_pipeline_pluginsConfig.cmake
